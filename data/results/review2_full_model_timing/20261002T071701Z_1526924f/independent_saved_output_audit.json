@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "jsonl_rows": 48600,
+  "unique_case_method_repeat_coverage": true,
+  "npz_jsonl_probabilities_and_times_exact": true,
+  "independent_risk_and_quantiles_match": true,
+  "maximum_expanded_brier_formula_error": 2.220446049250313e-16,
+  "maximum_native_compiled_hgb_probability_difference": 7.771561172376096e-16,
+  "script_has_not_changed": true
+}

@@ -1,0 +1,4 @@
+| Source | Task | Computed representation | Fitting/development | Frozen evaluation |
+|---|---|---|---|---|
+| Hydraulic | Four valve-condition classes |14 channels;28 blocks;238 features |907/223 cycles |435 previously held-out cycles, grouped by operating-segment proxies |
+| Smartphone HAR | Six activity classes |9 channels;18 blocks;153 features |17/4 official training subjects per system |2,947 windows from nine official test subjects |

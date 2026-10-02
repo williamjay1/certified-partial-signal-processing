@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the source datasets when using the code or research outputs."
+type: software
+title: "Certified partial signal processing for activity recognition and condition monitoring: code and research outputs"
+version: 1.0.0
+authors:
+  - family-names: "Zhang"
+    given-names: "Junjie"
+    orcid: "https://orcid.org/0009-0004-8821-4018"
+    affiliation: "Shanghai Academy of Global Governance & Area Studies, Shanghai International Studies University, Shanghai 201620, China; School of Economics and Finance, Shanghai International Studies University, Shanghai 201620, China"
+    email: "junjiezhang2024@shisu.edu.cn"
+repository-code: "https://github.com/williamjay1/certified-partial-signal-processing"
+url: "https://github.com/williamjay1/certified-partial-signal-processing"
+license: MIT
+keywords:
+  - certified partial processing
+  - activity recognition
+  - condition monitoring
+  - Brier loss
+  - minimax prediction
+abstract: "Code and recorded research outputs for a method that preserves the probabilities of a frozen complete predictor within a pointwise relative half-Brier tolerance while omitting executable signal processing. Licensing differs between original software, generated results, upstream alignment fields, and vendored plotting resources; see DATA_LICENSES.md."

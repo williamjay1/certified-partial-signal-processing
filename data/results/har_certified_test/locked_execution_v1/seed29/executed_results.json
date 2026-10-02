@@ -1,0 +1,1769 @@
+{
+  "seed": 29,
+  "phase": "INDEPENDENT_OFFICIAL_TEST_WITH_PRIOR_DEVELOPMENT_SELECTION",
+  "temperature": 3.0,
+  "model_candidate": "hgb_i150_l15",
+  "order": [
+    0,
+    2,
+    6,
+    13,
+    12,
+    5,
+    17,
+    1,
+    7,
+    15,
+    8,
+    4,
+    11,
+    16,
+    9,
+    14,
+    10,
+    3
+  ],
+  "checkpoints": [
+    12,
+    16,
+    18
+  ],
+  "full2947_reference": {
+    "half_brier": 0.07779741674579174,
+    "accuracy": 0.9032914828639295,
+    "class_counts": [
+      496,
+      471,
+      420,
+      491,
+      532,
+      537
+    ],
+    "class_risk": [
+      0.05218652944051504,
+      0.11412767809481865,
+      0.09297045186582294,
+      0.13520790339972055,
+      0.0761283344189139,
+      0.0068815417149397035
+    ]
+  },
+  "full2947_outcomes": [
+    {
+      "name": "tight_minimax",
+      "delta": 0.0,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07779741674579174,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05218652944051504,
+        0.11412767809481865,
+        0.09297045186582294,
+        0.13520790339972055,
+        0.0761283344189139,
+        0.0068815417149397035
+      ],
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.01,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07918515430588331,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.052645326497213804,
+        0.11412767809481865,
+        0.09472904636648631,
+        0.1368581100273906,
+        0.0785872912987188,
+        0.008753186118936862
+      ],
+      "mean_block_count": 17.110960298608756,
+      "full_fallback_rate": 0.5554801493043773,
+      "mean_reference_loss_excess": 0.0013877375600915736,
+      "maximum_every_label_excess": 0.009711366221495599,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.025,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.08425861875357465,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.058672105853270616,
+        0.11780101050769544,
+        0.09827103247898475,
+        0.1390954339556384,
+        0.08278581215382629,
+        0.018831965056257154
+      ],
+      "mean_block_count": 15.77129284017645,
+      "full_fallback_rate": 0.3647777400746522,
+      "mean_reference_loss_excess": 0.006461202007782908,
+      "maximum_every_label_excess": 0.024674277449286408,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.05,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.09136958292737049,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.06528599654053627,
+        0.12428248724180761,
+        0.10827237485925374,
+        0.1449124647852637,
+        0.09527083344554467,
+        0.02055261465266779
+      ],
+      "mean_block_count": 14.582287071598236,
+      "full_fallback_rate": 0.18900576857821513,
+      "mean_reference_loss_excess": 0.013572166181578733,
+      "maximum_every_label_excess": 0.048889231380714104,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 764
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.1,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.10152941044730615,
+      "accuracy": 0.9026128266033254,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.09132696841915015,
+        0.1430343818247974,
+        0.11895950461278562,
+        0.1432621480319939,
+        0.10255601421653131,
+        0.021741706198434883
+      ],
+      "mean_block_count": 13.704784526637258,
+      "full_fallback_rate": 0.030539531727180182,
+      "mean_reference_loss_excess": 0.023731993701514405,
+      "maximum_every_label_excess": 0.0993614330822975,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 16,
+      "every_label_delta025_violations": 1556
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.0,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07779741674579174,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05218652944051504,
+        0.11412767809481865,
+        0.09297045186582294,
+        0.13520790339972055,
+        0.0761283344189139,
+        0.0068815417149397035
+      ],
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.01,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07918735422795066,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05259641222379449,
+        0.11412767809481865,
+        0.0947172576255058,
+        0.13686729999964364,
+        0.07861895181747865,
+        0.008779890492873067
+      ],
+      "mean_block_count": 17.12521208008144,
+      "full_fallback_rate": 0.5626060400407193,
+      "mean_reference_loss_excess": 0.0013899374821589097,
+      "maximum_every_label_excess": 0.009762538183984981,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.025,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.08405397657893306,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05846369468052721,
+        0.11754581836831138,
+        0.0980687664668618,
+        0.1384137900096753,
+        0.08251882261192248,
+        0.019171190921274252
+      ],
+      "mean_block_count": 15.839837122497455,
+      "full_fallback_rate": 0.37393959959280626,
+      "mean_reference_loss_excess": 0.006256559833141309,
+      "maximum_every_label_excess": 0.024524689456012494,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.05,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.09133285758822669,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.06496600353170857,
+        0.12398282427911005,
+        0.1081724164429106,
+        0.14535038756175012,
+        0.09515800933857088,
+        0.020699007743676393
+      ],
+      "mean_block_count": 14.656260604004071,
+      "full_fallback_rate": 0.21377672209026127,
+      "mean_reference_loss_excess": 0.013535440842434918,
+      "maximum_every_label_excess": 0.0472276016727321,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 776
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.1,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.10125876902166416,
+      "accuracy": 0.9026128266033254,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.08741009694325516,
+        0.14240778281230226,
+        0.11958139842192049,
+        0.14421378386955863,
+        0.10341574555563068,
+        0.02221561762688996
+      ],
+      "mean_block_count": 13.831693247370207,
+      "full_fallback_rate": 0.04377332880895826,
+      "mean_reference_loss_excess": 0.023461352275872403,
+      "maximum_every_label_excess": 0.09833977596471177,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 14,
+      "every_label_delta025_violations": 1486
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.0,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07779741674579174,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05218652944051504,
+        0.11412767809481865,
+        0.09297045186582294,
+        0.13520790339972055,
+        0.0761283344189139,
+        0.0068815417149397035
+      ],
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.01,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07780356324780476,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05218652944051504,
+        0.11412767809481865,
+        0.09297045186582294,
+        0.13520790339972055,
+        0.0761283344189139,
+        0.006915273077011088
+      ],
+      "mean_block_count": 17.976925687139463,
+      "full_fallback_rate": 0.9884628435697319,
+      "mean_reference_loss_excess": 6.146502013007622e-06,
+      "maximum_every_label_excess": 0.000804252140413797,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.025,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07805059959885065,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05218652944051504,
+        0.11412767809481865,
+        0.09318298926071487,
+        0.13562678738146797,
+        0.07614533992386473,
+        0.0077049033507648685
+      ],
+      "mean_block_count": 17.518154054971156,
+      "full_fallback_rate": 0.7590770274855786,
+      "mean_reference_loss_excess": 0.00025318285305889286,
+      "maximum_every_label_excess": 0.007238464907098868,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.05,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07862140520678969,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05253098415612959,
+        0.11422579715647671,
+        0.09383729774627053,
+        0.1357778912851536,
+        0.07779957133813364,
+        0.008144470979399023
+      ],
+      "mean_block_count": 16.914828639294196,
+      "full_fallback_rate": 0.49202578893790294,
+      "mean_reference_loss_excess": 0.0008239884609979384,
+      "maximum_every_label_excess": 0.02624632715734293,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 1
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.1,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.08344005914621337,
+      "accuracy": 0.9022734984730234,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.06018928271406118,
+        0.11836807762071302,
+        0.0965004820454897,
+        0.13924108299883997,
+        0.08353692502129438,
+        0.012948579507441141
+      ],
+      "mean_block_count": 14.916185951815406,
+      "full_fallback_rate": 0.165931455717679,
+      "mean_reference_loss_excess": 0.005642642400421624,
+      "maximum_every_label_excess": 0.06565808131307144,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 15,
+      "every_label_delta025_violations": 131
+    },
+    {
+      "name": "native_full",
+      "delta": null,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07779741674579177,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05218652944051504,
+        0.11412767809481866,
+        0.09297045186582294,
+        0.13520790339972055,
+        0.07612833441891391,
+        0.006881541714939706
+      ],
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "mean_reference_loss_excess": 7.949000956766476e-18,
+      "maximum_every_label_excess": 1.0269562977782698e-15,
+      "maximum_certificate_violation_signed": 1.0269562977782698e-15,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "compiled_full",
+      "delta": null,
+      "canonical": true,
+      "kind": "main",
+      "cases": 2947,
+      "half_brier": 0.07779741674579174,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.05218652944051504,
+        0.11412767809481865,
+        0.09297045186582294,
+        0.13520790339972055,
+        0.0761283344189139,
+        0.0068815417149397035
+      ],
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "uniform_A_tight_minimax",
+      "delta": 0.025,
+      "canonical": false,
+      "kind": "uniform_schedule",
+      "cases": 2947,
+      "half_brier": 0.08425861875357465,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.058672105853270616,
+        0.11780101050769544,
+        0.09827103247898475,
+        0.1390954339556384,
+        0.08278581215382629,
+        0.018831965056257154
+      ],
+      "mean_block_count": 15.77129284017645,
+      "full_fallback_rate": 0.3647777400746522,
+      "mean_reference_loss_excess": 0.006461202007782908,
+      "maximum_every_label_excess": 0.024674277449286408,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "score_separation_argmax",
+      "delta": null,
+      "canonical": false,
+      "kind": "stopping_control",
+      "cases": 2947,
+      "half_brier": 0.11537874370931878,
+      "accuracy": 0.9032914828639295,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.1260837903770804,
+        0.17416363754173614,
+        0.12851105025562548,
+        0.1508015826890633,
+        0.10481016910887317,
+        0.021741706198434883
+      ],
+      "mean_block_count": 13.039701391245334,
+      "full_fallback_rate": 0.05564981336952833,
+      "mean_reference_loss_excess": 0.037581326963527034,
+      "maximum_every_label_excess": 0.16926869499393138,
+      "maximum_certificate_violation_signed": null,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 1835
+    },
+    {
+      "name": "fixed_prefix_mean_completion",
+      "delta": null,
+      "canonical": false,
+      "kind": "stopping_control",
+      "cases": 2947,
+      "half_brier": 0.08638294517155834,
+      "accuracy": 0.8948082796063793,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.06177188328794887,
+        0.15169680636513844,
+        0.09596816268824766,
+        0.12125860070926049,
+        0.08971690462015477,
+        0.00914058654850343
+      ],
+      "mean_block_count": 12.0,
+      "full_fallback_rate": 0.0,
+      "mean_reference_loss_excess": 0.008585528425766603,
+      "maximum_every_label_excess": 0.3525085502018327,
+      "maximum_certificate_violation_signed": null,
+      "reference_class_disagreements": 63,
+      "every_label_delta025_violations": 729
+    },
+    {
+      "name": "entropy_mean_completion",
+      "delta": null,
+      "canonical": false,
+      "kind": "stopping_control",
+      "cases": 2947,
+      "half_brier": 0.08638294517155834,
+      "accuracy": 0.8948082796063793,
+      "class_counts": [
+        496,
+        471,
+        420,
+        491,
+        532,
+        537
+      ],
+      "class_risk": [
+        0.06177188328794887,
+        0.15169680636513844,
+        0.09596816268824766,
+        0.12125860070926049,
+        0.08971690462015477,
+        0.00914058654850343
+      ],
+      "mean_block_count": 12.0,
+      "full_fallback_rate": 0.0,
+      "mean_reference_loss_excess": 0.008585528425766603,
+      "maximum_every_label_excess": 0.3525085502018327,
+      "maximum_certificate_violation_signed": null,
+      "reference_class_disagreements": 63,
+      "every_label_delta025_violations": 729
+    }
+  ],
+  "timing_cohort900_reference": {
+    "half_brier": 0.08399602341014845,
+    "accuracy": 0.8955555555555555,
+    "class_counts": [
+      148,
+      157,
+      130,
+      152,
+      147,
+      166
+    ],
+    "class_risk": [
+      0.06832059221691526,
+      0.10851351902941209,
+      0.07659493560999264,
+      0.16251046071766556,
+      0.08594660040410317,
+      0.006959451901355821
+    ]
+  },
+  "timing_cohort900_outcomes": [
+    {
+      "name": "tight_minimax",
+      "delta": 0.0,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08399602341014845,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06832059221691526,
+        0.10851351902941209,
+        0.07659493560999264,
+        0.16251046071766556,
+        0.08594660040410317,
+        0.006959451901355821
+      ],
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.01,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.0851670029811746,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06848856479863243,
+        0.10851351902941209,
+        0.0785450784374061,
+        0.16299624831153517,
+        0.08863878083748215,
+        0.008802300493468881
+      ],
+      "mean_reference_loss_excess": 0.001170979571026163,
+      "maximum_every_label_excess": 0.009569440480609814,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.025,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.09030949934749122,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.07437341915872989,
+        0.11257360510044884,
+        0.08239663911430203,
+        0.16597622072566007,
+        0.09202381641362184,
+        0.01885408270191328
+      ],
+      "mean_reference_loss_excess": 0.0063134759373427805,
+      "maximum_every_label_excess": 0.024556863113453953,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.05,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.0968121587672318,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.08081444400318875,
+        0.11924686984956778,
+        0.09201579013256592,
+        0.1684914627486082,
+        0.10502715987467275,
+        0.020704211175033904
+      ],
+      "mean_reference_loss_excess": 0.012816135357083359,
+      "maximum_every_label_excess": 0.0453978648828105,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 225
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.1,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.10758191115540117,
+      "accuracy": 0.8933333333333333,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.10732354195430911,
+        0.13949677089971982,
+        0.1037835931078011,
+        0.16714337424993408,
+        0.11210885391478966,
+        0.022055308939090867
+      ],
+      "mean_reference_loss_excess": 0.02358588774525272,
+      "maximum_every_label_excess": 0.09895764390100559,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 8,
+      "every_label_delta025_violations": 483
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.0,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08399602341014845,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06832059221691526,
+        0.10851351902941209,
+        0.07659493560999264,
+        0.16251046071766556,
+        0.08594660040410317,
+        0.006959451901355821
+      ],
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.01,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08516242497324353,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06849195854114579,
+        0.10851351902941209,
+        0.07859672239121564,
+        0.16301462313576542,
+        0.08850122987710705,
+        0.008838992197486665
+      ],
+      "mean_reference_loss_excess": 0.001166401563095083,
+      "maximum_every_label_excess": 0.009762538183984981,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.025,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08999449556285993,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.07409366120967234,
+        0.11232093414510158,
+        0.08220680645880535,
+        0.16495844978141116,
+        0.09148538621187156,
+        0.01919202715179022
+      ],
+      "mean_reference_loss_excess": 0.0059984721527114974,
+      "maximum_every_label_excess": 0.024388243575881652,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.05,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.0965242248725038,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.08036551086156105,
+        0.11848569314648144,
+        0.09173083924099606,
+        0.1683329132594078,
+        0.10489002459758225,
+        0.020753056753859744
+      ],
+      "mean_reference_loss_excess": 0.012528201462355348,
+      "maximum_every_label_excess": 0.04677376875281991,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 225
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.1,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.10668399636360476,
+      "accuracy": 0.8944444444444445,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.10072177449473169,
+        0.13836161197967714,
+        0.10392591586159497,
+        0.16807164240828365,
+        0.11283710852050881,
+        0.022540285305020655
+      ],
+      "mean_reference_loss_excess": 0.02268797295345632,
+      "maximum_every_label_excess": 0.09833977596471177,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 7,
+      "every_label_delta025_violations": 450
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.0,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08399602341014845,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06832059221691526,
+        0.10851351902941209,
+        0.07659493560999264,
+        0.16251046071766556,
+        0.08594660040410317,
+        0.006959451901355821
+      ],
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.01,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08400431487753328,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06832059221691526,
+        0.10851351902941209,
+        0.07659493560999264,
+        0.16251046071766556,
+        0.08594660040410317,
+        0.007004405640189257
+      ],
+      "mean_reference_loss_excess": 8.291467384833822e-06,
+      "maximum_every_label_excess": 0.000804252140413797,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.025,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08426507414645447,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06832059221691526,
+        0.10851351902941209,
+        0.07688882722600758,
+        0.16297285885314808,
+        0.08596070194546282,
+        0.007752116415935779
+      ],
+      "mean_reference_loss_excess": 0.0002690507363060277,
+      "maximum_every_label_excess": 0.003144679944881504,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.05,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.0846793471310546,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06854797355628732,
+        0.1085461472260332,
+        0.0775130267638652,
+        0.16226519702880057,
+        0.08789860579404633,
+        0.008207642998351881
+      ],
+      "mean_reference_loss_excess": 0.0006833237209061423,
+      "maximum_every_label_excess": 0.02624632715734293,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 1
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.1,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08953238107079049,
+      "accuracy": 0.8944444444444445,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.07683115318918127,
+        0.11301224404632612,
+        0.08044668079242422,
+        0.16485935244392197,
+        0.09374036784698232,
+        0.01306437246049241
+      ],
+      "mean_reference_loss_excess": 0.005536357660642065,
+      "maximum_every_label_excess": 0.06158502615629052,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 7,
+      "every_label_delta025_violations": 40
+    },
+    {
+      "name": "native_full",
+      "delta": null,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08399602341014845,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06832059221691528,
+        0.10851351902941209,
+        0.07659493560999268,
+        0.16251046071766556,
+        0.0859466004041032,
+        0.0069594519013558235
+      ],
+      "mean_reference_loss_excess": 6.1679056923619804e-18,
+      "maximum_every_label_excess": 1.0269562977782698e-15,
+      "maximum_certificate_violation_signed": 1.0269562977782698e-15,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "compiled_full",
+      "delta": null,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "half_brier": 0.08399602341014845,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.06832059221691526,
+        0.10851351902941209,
+        0.07659493560999264,
+        0.16251046071766556,
+        0.08594660040410317,
+        0.006959451901355821
+      ],
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "uniform_A_tight_minimax",
+      "delta": 0.025,
+      "canonical": false,
+      "kind": "uniform_schedule",
+      "cases": 900,
+      "half_brier": 0.09030949934749122,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.07437341915872989,
+        0.11257360510044884,
+        0.08239663911430203,
+        0.16597622072566007,
+        0.09202381641362184,
+        0.01885408270191328
+      ],
+      "mean_reference_loss_excess": 0.0063134759373427805,
+      "maximum_every_label_excess": 0.024556863113453953,
+      "maximum_certificate_violation_signed": 0.0,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 0
+    },
+    {
+      "name": "score_separation_argmax",
+      "delta": null,
+      "canonical": false,
+      "kind": "stopping_control",
+      "cases": 900,
+      "half_brier": 0.11930676031283609,
+      "accuracy": 0.8955555555555555,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.1352454399868704,
+        0.16678524184010418,
+        0.11343482508077163,
+        0.171613745960301,
+        0.11347944397444996,
+        0.022055308939090867
+      ],
+      "mean_reference_loss_excess": 0.03531073690268765,
+      "maximum_every_label_excess": 0.16926869499393138,
+      "maximum_certificate_violation_signed": null,
+      "reference_class_disagreements": 0,
+      "every_label_delta025_violations": 550
+    },
+    {
+      "name": "fixed_prefix_mean_completion",
+      "delta": null,
+      "canonical": false,
+      "kind": "stopping_control",
+      "cases": 900,
+      "half_brier": 0.09329441431618342,
+      "accuracy": 0.8844444444444445,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.08048778435178695,
+        0.14576945318952622,
+        0.08095581237649875,
+        0.1467250352786503,
+        0.1005913732343191,
+        0.009358938632532404
+      ],
+      "mean_reference_loss_excess": 0.009298390906034959,
+      "maximum_every_label_excess": 0.3525085502018327,
+      "maximum_certificate_violation_signed": null,
+      "reference_class_disagreements": 21,
+      "every_label_delta025_violations": 237
+    },
+    {
+      "name": "entropy_mean_completion",
+      "delta": null,
+      "canonical": false,
+      "kind": "stopping_control",
+      "cases": 900,
+      "half_brier": 0.09329441431618342,
+      "accuracy": 0.8844444444444445,
+      "class_counts": [
+        148,
+        157,
+        130,
+        152,
+        147,
+        166
+      ],
+      "class_risk": [
+        0.08048778435178695,
+        0.14576945318952622,
+        0.08095581237649875,
+        0.1467250352786503,
+        0.1005913732343191,
+        0.009358938632532404
+      ],
+      "mean_reference_loss_excess": 0.009298390906034959,
+      "maximum_every_label_excess": 0.3525085502018327,
+      "maximum_certificate_violation_signed": null,
+      "reference_class_disagreements": 21,
+      "every_label_delta025_violations": 237
+    }
+  ],
+  "timing_results": [
+    {
+      "name": "tight_minimax",
+      "delta": 0.0,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.226293111111111,
+        "median": 1.10445,
+        "p95": 1.9359449999999987,
+        "p99": 2.4461109999999997
+      },
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -0.16595592823045457
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.01,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.132713185185185,
+        "median": 1.0303499999999999,
+        "p95": 1.8314149999999998,
+        "p99": 2.2915359999999994
+      },
+      "mean_block_count": 17.153333333333332,
+      "full_fallback_rate": 0.5766666666666667,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -0.07698040646646254
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.025,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.0236038148148148,
+        "median": 0.9410499999999999,
+        "p95": 1.7063049999999993,
+        "p99": 2.187747999999997
+      },
+      "mean_block_count": 15.777777777777779,
+      "full_fallback_rate": 0.38222222222222224,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.026760465969457692
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.05,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 0.9355794074074075,
+        "median": 0.868,
+        "p95": 1.5944499999999997,
+        "p99": 2.0924199999999997
+      },
+      "mean_block_count": 14.666666666666666,
+      "full_fallback_rate": 0.20222222222222222,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.11045381686225253
+    },
+    {
+      "name": "tight_minimax",
+      "delta": 0.1,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 0.8698328888888889,
+        "median": 0.8118000000000001,
+        "p95": 1.4461249999999999,
+        "p99": 1.8954109999999973
+      },
+      "mean_block_count": 13.742222222222223,
+      "full_fallback_rate": 0.03111111111111111,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.17296541570644963
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.0,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.2141843333333333,
+        "median": 1.10405,
+        "p95": 1.9029699999999992,
+        "p99": 2.3591699999999984
+      },
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -0.15444293748973936
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.01,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1236242592592594,
+        "median": 1.02265,
+        "p95": 1.7750649999999997,
+        "p99": 2.324304
+      },
+      "mean_block_count": 17.16,
+      "full_fallback_rate": 0.58,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -0.0683386820952161
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.025,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.0325304444444443,
+        "median": 0.9473,
+        "p95": 1.7348349999999997,
+        "p99": 2.2503969999999955
+      },
+      "mean_block_count": 15.864444444444445,
+      "full_fallback_rate": 0.39222222222222225,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.018273052445333948
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.05,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 0.9461240740740741,
+        "median": 0.86995,
+        "p95": 1.6324349999999999,
+        "p99": 2.1212479999999987
+      },
+      "mean_block_count": 14.748888888888889,
+      "full_fallback_rate": 0.23222222222222222,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.1004279784229628
+    },
+    {
+      "name": "coordinate_minimax",
+      "delta": 0.1,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 0.8689816666666667,
+        "median": 0.8056,
+        "p95": 1.4422249999999999,
+        "p99": 1.8783529999999988
+      },
+      "mean_block_count": 13.895555555555555,
+      "full_fallback_rate": 0.04777777777777778,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.17377475532293185
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.0,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.2698654444444444,
+        "median": 1.11135,
+        "p95": 1.9713449999999992,
+        "p99": 2.477480999999991
+      },
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -0.20738437620632388
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.01,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.2207268518518517,
+        "median": 1.0934499999999998,
+        "p95": 1.947604999999999,
+        "p99": 2.460603
+      },
+      "mean_block_count": 17.973333333333333,
+      "full_fallback_rate": 0.9866666666666667,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -0.16066354509415803
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.025,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.159516777777778,
+        "median": 1.0484499999999999,
+        "p95": 1.8356599999999996,
+        "p99": 2.3422309999999995
+      },
+      "mean_block_count": 17.497777777777777,
+      "full_fallback_rate": 0.7488888888888889,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -0.10246518445146746
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.05,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1090332222222221,
+        "median": 1.0086499999999998,
+        "p95": 1.8121349999999998,
+        "p99": 2.2594229999999995
+      },
+      "mean_block_count": 16.942222222222224,
+      "full_fallback_rate": 0.5066666666666667,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -0.05446556646061129
+    },
+    {
+      "name": "tight_midpoint",
+      "delta": 0.1,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 0.9610582592592591,
+        "median": 0.891,
+        "p95": 1.6173549999999992,
+        "p99": 2.0471299999999992
+      },
+      "mean_block_count": 14.94,
+      "full_fallback_rate": 0.17444444444444446,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.08622859852578557
+    },
+    {
+      "name": "native_full",
+      "delta": null,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 6.771019629629628,
+        "median": 6.4143,
+        "p95": 9.25225,
+        "p99": 10.511946999999983
+      },
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -5.437865797173287
+    },
+    {
+      "name": "compiled_full",
+      "delta": null,
+      "canonical": true,
+      "kind": "main",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.051749111111111,
+        "median": 0.9155,
+        "p95": 1.6004099999999999,
+        "p99": 2.0978169999999996
+      },
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.0
+    },
+    {
+      "name": "uniform_A_tight_minimax",
+      "delta": 0.025,
+      "canonical": false,
+      "kind": "uniform_schedule",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1968353703703705,
+        "median": 1.0995499999999998,
+        "p95": 2.002644999999997,
+        "p99": 2.5131409999999965
+      },
+      "mean_block_count": 15.777777777777779,
+      "full_fallback_rate": 0.38222222222222224,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -0.137947593895263
+    },
+    {
+      "name": "score_separation_argmax",
+      "delta": null,
+      "canonical": false,
+      "kind": "stopping_control",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 0.83385,
+        "median": 0.7566,
+        "p95": 1.3874199999999999,
+        "p99": 1.7679259999999877
+      },
+      "mean_block_count": 13.12888888888889,
+      "full_fallback_rate": 0.06222222222222222,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.20717784194836486
+    },
+    {
+      "name": "fixed_prefix_mean_completion",
+      "delta": null,
+      "canonical": false,
+      "kind": "stopping_control",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 0.7252726666666666,
+        "median": 0.6518999999999999,
+        "p95": 1.148499999999999,
+        "p99": 1.475969999999996
+      },
+      "mean_block_count": 12.0,
+      "full_fallback_rate": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.3104128551147919
+    },
+    {
+      "name": "entropy_mean_completion",
+      "delta": null,
+      "canonical": false,
+      "kind": "stopping_control",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 0.724509111111111,
+        "median": 0.64725,
+        "p95": 1.161005,
+        "p99": 1.4409689999999937
+      },
+      "mean_block_count": 12.0,
+      "full_fallback_rate": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.31113884151923854
+    }
+  ],
+  "conformance": {
+    "status": "PASS_NUMERICAL_NOT_FORMAL_MACHINE_PROOF",
+    "cases": 24,
+    "prefix_checks": 766,
+    "max_interval_violation_signed": -2.3362041468022454e-13,
+    "max_every_label_violation_signed": 0.0,
+    "raw_vs_cache_probability_max_difference": 0.0
+  },
+  "native_compiled_max_difference": 7.771561172376096e-16,
+  "full_outcomes_selected_cache_only_untimed": true,
+  "all_complete_timers_real_raw": true,
+  "primary_risk_and_time_same900_cohort": true
+}

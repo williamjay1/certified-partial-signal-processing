@@ -1,0 +1,9 @@
+{
+  "processor": "AMD Ryzen 9 8945HS w/ Radeon 780M Graphics",
+  "physical_cores": 8,
+  "logical_processors": 16,
+  "source": "Get-CimInstance Win32_Processor",
+  "measured_execution": "CPU only, torch and numerical thread pools limited to one thread; no process affinity, isolated host or fixed CPU frequency was imposed",
+  "gpu_evaluation": "none",
+  "interpretation": "Host-specific timing observations; no energy, monetary cost or hardware-independent throughput claim"
+}

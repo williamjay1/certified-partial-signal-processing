@@ -1,0 +1,131 @@
+{
+  "status": "PASS_SAVED_NUMERICAL_REPLAY",
+  "models_fitted": 0,
+  "predictions_rerun": 0,
+  "timing_rerun": 0,
+  "summary_comparison_executed": true,
+  "HAR_systems": [
+    {
+      "seed": 17,
+      "timed_windows": 900,
+      "raw_calls_per_method": 2700,
+      "partial_ms": 1.016753851851852,
+      "faster_full_ms": 1.122237259259259,
+      "faster_full_backend": "compiled_full",
+      "time_reduction": 0.09399385605592192,
+      "half_brier": 0.0665245123344125,
+      "reference_half_brier": 0.06373610268193186,
+      "risk_excess": 0.0027884096524806528,
+      "maximum_every_label_excess": 0.024664553064926875,
+      "maximum_certificate_violation_signed": 0.0,
+      "latency_quantiles": {
+        "tight_minimax": {
+          "p50_ms": 0.9142,
+          "p95_ms": 1.8191199999999998,
+          "p99_ms": 2.3418019999999973,
+          "max_ms": 4.533
+        },
+        "native_full": {
+          "p50_ms": 6.4801,
+          "p95_ms": 9.797409999999998,
+          "p99_ms": 11.104566999999996,
+          "max_ms": 12.6307
+        },
+        "compiled_full": {
+          "p50_ms": 0.9822500000000001,
+          "p95_ms": 1.9083299999999999,
+          "p99_ms": 2.3202079999999996,
+          "max_ms": 5.204
+        }
+      }
+    },
+    {
+      "seed": 29,
+      "timed_windows": 900,
+      "raw_calls_per_method": 2700,
+      "partial_ms": 1.0236038148148148,
+      "faster_full_ms": 1.051749111111111,
+      "faster_full_backend": "compiled_full",
+      "time_reduction": 0.026760465969457692,
+      "half_brier": 0.09030949934749122,
+      "reference_half_brier": 0.08399602341014845,
+      "risk_excess": 0.0063134759373427805,
+      "maximum_every_label_excess": 0.024556863113453953,
+      "maximum_certificate_violation_signed": 0.0,
+      "latency_quantiles": {
+        "tight_minimax": {
+          "p50_ms": 0.9410499999999999,
+          "p95_ms": 1.7063049999999993,
+          "p99_ms": 2.187747999999997,
+          "max_ms": 3.8475
+        },
+        "native_full": {
+          "p50_ms": 6.4143,
+          "p95_ms": 9.25225,
+          "p99_ms": 10.511946999999983,
+          "max_ms": 11.926
+        },
+        "compiled_full": {
+          "p50_ms": 0.9155,
+          "p95_ms": 1.6004099999999999,
+          "p99_ms": 2.0978169999999996,
+          "max_ms": 72.1447
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "timed_windows": 900,
+      "raw_calls_per_method": 2700,
+      "partial_ms": 0.9636095185185186,
+      "faster_full_ms": 1.0660465555555556,
+      "faster_full_backend": "compiled_full",
+      "time_reduction": 0.09609058488412203,
+      "half_brier": 0.054615214696510844,
+      "reference_half_brier": 0.05150170401873552,
+      "risk_excess": 0.003113510677775316,
+      "maximum_every_label_excess": 0.02468708159651012,
+      "maximum_certificate_violation_signed": 0.0,
+      "latency_quantiles": {
+        "tight_minimax": {
+          "p50_ms": 0.86985,
+          "p95_ms": 1.6877449999999998,
+          "p99_ms": 2.276309999999995,
+          "max_ms": 5.9052
+        },
+        "native_full": {
+          "p50_ms": 4.8645499999999995,
+          "p95_ms": 7.417619999999992,
+          "p99_ms": 8.644539,
+          "max_ms": 13.9838
+        },
+        "compiled_full": {
+          "p50_ms": 0.9309499999999999,
+          "p95_ms": 1.7704299999999993,
+          "p99_ms": 2.225131999999999,
+          "max_ms": 5.0948
+        }
+      }
+    }
+  ],
+  "HAR_pooled": {
+    "partial_ms": 1.0013223950617285,
+    "faster_full_ms": 1.0800109753086418,
+    "time_reduction": 0.0728590561076714,
+    "half_brier": 0.07048307545947152,
+    "reference_half_brier": 0.06641127670360528,
+    "risk_excess": 0.004071798755866246
+  },
+  "Hydraulic": {
+    "cycles": 435,
+    "proxy_segments": 48,
+    "partial_ms": 2.1395572413793102,
+    "compiled_full_ms": 2.8604591570881226,
+    "time_reduction": 0.25202314597726083,
+    "half_brier": 0.12943032997351075,
+    "reference_half_brier": 0.12647306870674924,
+    "risk_excess": 0.002957261266761533,
+    "maximum_every_label_excess": 0.024909060193918253
+  },
+  "inference_limit": "Saved complete times are machine-specific observations; replay does not rerun or guarantee latency."
+}

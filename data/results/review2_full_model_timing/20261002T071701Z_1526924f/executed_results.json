@@ -1,0 +1,535 @@
+{
+  "phase": "POST_TEST_DESCRIPTIVE_COMPLETE_MODEL_TIMING",
+  "status": "COMPLETE",
+  "post_test_descriptive": true,
+  "model_fits": 0,
+  "rows": 48600,
+  "elapsed_seconds": 330.7965725999966,
+  "per_model": [
+    {
+      "seed": 17,
+      "family": "HGB",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 6.496526407407407,
+        "median": 6.1353,
+        "p95": 9.432614999999998,
+        "p99": 10.65011799999999
+      },
+      "half_brier": 0.06373610268193186,
+      "accuracy": 0.9066666666666666,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 17,
+      "family": "RF",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 14.773042296296298,
+        "median": 13.4698,
+        "p95": 22.766339999999996,
+        "p99": 26.257886999999997
+      },
+      "half_brier": 0.0798287975806722,
+      "accuracy": 0.8944444444444445,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 17,
+      "family": "ET",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 15.087721592592592,
+        "median": 13.79535,
+        "p95": 23.149375,
+        "p99": 26.54694
+      },
+      "half_brier": 0.07349421902079639,
+      "accuracy": 0.9,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 17,
+      "family": "LR",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.2927387407407407,
+        "median": 1.20045,
+        "p95": 2.0273449999999995,
+        "p99": 2.340718999999997
+      },
+      "half_brier": 0.07527289293578968,
+      "accuracy": 0.8977777777777778,
+      "maximum_prior_probability_difference": 1.3113021850585938e-06,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 17,
+      "family": "SVC",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.6253637407407409,
+        "median": 1.5066,
+        "p95": 2.5342949999999993,
+        "p99": 2.975924999999997
+      },
+      "half_brier": 0.05468816795182706,
+      "accuracy": 0.9266666666666666,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 17,
+      "family": "HGB_compiled",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1710527407407407,
+        "median": 1.0717500000000002,
+        "p95": 1.8310349999999997,
+        "p99": 2.1814859999999956
+      },
+      "half_brier": 0.06373610268193186,
+      "accuracy": 0.9066666666666666,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 29,
+      "family": "HGB",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 6.524434370370372,
+        "median": 6.15225,
+        "p95": 9.661619999999996,
+        "p99": 10.676556
+      },
+      "half_brier": 0.08399602341014845,
+      "accuracy": 0.8955555555555555,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 29,
+      "family": "RF",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 14.833986925925926,
+        "median": 13.473299999999998,
+        "p95": 22.860424999999992,
+        "p99": 26.512375
+      },
+      "half_brier": 0.08578100998835197,
+      "accuracy": 0.88,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 29,
+      "family": "ET",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 15.225532185185186,
+        "median": 13.828700000000001,
+        "p95": 23.665919999999993,
+        "p99": 26.874507999999988
+      },
+      "half_brier": 0.0804596598189915,
+      "accuracy": 0.9,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 29,
+      "family": "LR",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.3002588888888889,
+        "median": 1.1967500000000002,
+        "p95": 2.0160399999999976,
+        "p99": 2.3777439999999967
+      },
+      "half_brier": 0.1026061434651094,
+      "accuracy": 0.8722222222222222,
+      "maximum_prior_probability_difference": 9.834766387939453e-07,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 29,
+      "family": "SVC",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.6129247037037036,
+        "median": 1.4921,
+        "p95": 2.46474,
+        "p99": 2.871954999999999
+      },
+      "half_brier": 0.06826478793835075,
+      "accuracy": 0.9122222222222223,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 29,
+      "family": "HGB_compiled",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1618604444444445,
+        "median": 1.0652,
+        "p95": 1.8447999999999996,
+        "p99": 2.2011019999999974
+      },
+      "half_brier": 0.08399602341014845,
+      "accuracy": 0.8955555555555555,
+      "maximum_prior_probability_difference": 7.771561172376096e-16,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 43,
+      "family": "HGB",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 4.787026,
+        "median": 4.52405,
+        "p95": 7.011934999999999,
+        "p99": 8.020732999999998
+      },
+      "half_brier": 0.05150170401873552,
+      "accuracy": 0.9311111111111111,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 43,
+      "family": "RF",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 14.789536444444444,
+        "median": 13.459800000000001,
+        "p95": 23.20203,
+        "p99": 26.403208999999997
+      },
+      "half_brier": 0.06153001368349597,
+      "accuracy": 0.9211111111111111,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 43,
+      "family": "ET",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 15.153517814814817,
+        "median": 13.82065,
+        "p95": 23.348834999999998,
+        "p99": 26.845211999999986
+      },
+      "half_brier": 0.06532906189696144,
+      "accuracy": 0.9222222222222223,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 43,
+      "family": "LR",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.292326,
+        "median": 1.1917,
+        "p95": 2.0239399999999996,
+        "p99": 2.363789999999993
+      },
+      "half_brier": 0.06036696541642954,
+      "accuracy": 0.92,
+      "maximum_prior_probability_difference": 1.0728836059570312e-06,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 43,
+      "family": "SVC",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.6388282592592593,
+        "median": 1.50015,
+        "p95": 2.56804,
+        "p99": 3.047840999999999
+      },
+      "half_brier": 0.04670564420867398,
+      "accuracy": 0.9377777777777778,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    },
+    {
+      "seed": 43,
+      "family": "HGB_compiled",
+      "cases": 900,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1157318518518518,
+        "median": 1.0166,
+        "p95": 1.744325,
+        "p99": 2.0711179999999993
+      },
+      "half_brier": 0.05150170401873552,
+      "accuracy": 0.9311111111111111,
+      "maximum_prior_probability_difference": 0.0,
+      "class_disagreements": 0
+    }
+  ],
+  "pooled": [
+    {
+      "family": "HGB",
+      "systems": 3,
+      "shared_cases_per_system": 900,
+      "timed_observations": 8100,
+      "complete_ms": {
+        "mean": 5.935995592592592,
+        "median": 5.6362000000000005,
+        "p95": 9.005494999999996,
+        "p99": 10.461700000000004
+      },
+      "half_brier": 0.06641127670360528,
+      "accuracy": 0.9111111111111111,
+      "systems_not_independent_cohorts": true
+    },
+    {
+      "family": "RF",
+      "systems": 3,
+      "shared_cases_per_system": 900,
+      "timed_observations": 8100,
+      "complete_ms": {
+        "mean": 14.798855222222222,
+        "median": 13.46615,
+        "p95": 22.953084999999994,
+        "p99": 26.324272000000004
+      },
+      "half_brier": 0.07571327375084004,
+      "accuracy": 0.8985185185185185,
+      "systems_not_independent_cohorts": true
+    },
+    {
+      "family": "ET",
+      "systems": 3,
+      "shared_cases_per_system": 900,
+      "timed_observations": 8100,
+      "complete_ms": {
+        "mean": 15.155590530864199,
+        "median": 13.812650000000001,
+        "p95": 23.34847,
+        "p99": 26.783967
+      },
+      "half_brier": 0.07309431357891644,
+      "accuracy": 0.9074074074074074,
+      "systems_not_independent_cohorts": true
+    },
+    {
+      "family": "LR",
+      "systems": 3,
+      "shared_cases_per_system": 900,
+      "timed_observations": 8100,
+      "complete_ms": {
+        "mean": 1.29510787654321,
+        "median": 1.1961499999999998,
+        "p95": 2.024415,
+        "p99": 2.360212
+      },
+      "half_brier": 0.07941533393910953,
+      "accuracy": 0.8966666666666666,
+      "systems_not_independent_cohorts": true
+    },
+    {
+      "family": "SVC",
+      "systems": 3,
+      "shared_cases_per_system": 900,
+      "timed_observations": 8100,
+      "complete_ms": {
+        "mean": 1.6257055679012347,
+        "median": 1.4989,
+        "p95": 2.5199199999999995,
+        "p99": 2.975855000000001
+      },
+      "half_brier": 0.05655286669961727,
+      "accuracy": 0.9255555555555556,
+      "systems_not_independent_cohorts": true
+    },
+    {
+      "family": "HGB_compiled",
+      "systems": 3,
+      "shared_cases_per_system": 900,
+      "timed_observations": 8100,
+      "complete_ms": {
+        "mean": 1.1495483456790123,
+        "median": 1.0493000000000001,
+        "p95": 1.8025449999999994,
+        "p99": 2.1514050000000005
+      },
+      "half_brier": 0.06641127670360528,
+      "accuracy": 0.9111111111111111,
+      "systems_not_independent_cohorts": true
+    }
+  ],
+  "formal_full_timings_unchanged": [
+    {
+      "seed": 17,
+      "name": "native_full",
+      "complete_ms": {
+        "mean": 6.927670888888889,
+        "median": 6.4801,
+        "p95": 9.797409999999998,
+        "p99": 11.104566999999996
+      },
+      "source": "UNCHANGED_FORMAL_MAIN_MEASUREMENT"
+    },
+    {
+      "seed": 17,
+      "name": "compiled_full",
+      "complete_ms": {
+        "mean": 1.122237259259259,
+        "median": 0.9822500000000001,
+        "p95": 1.9083299999999999,
+        "p99": 2.3202079999999996
+      },
+      "source": "UNCHANGED_FORMAL_MAIN_MEASUREMENT"
+    },
+    {
+      "seed": 29,
+      "name": "native_full",
+      "complete_ms": {
+        "mean": 6.771019629629628,
+        "median": 6.4143,
+        "p95": 9.25225,
+        "p99": 10.511946999999983
+      },
+      "source": "UNCHANGED_FORMAL_MAIN_MEASUREMENT"
+    },
+    {
+      "seed": 29,
+      "name": "compiled_full",
+      "complete_ms": {
+        "mean": 1.051749111111111,
+        "median": 0.9155,
+        "p95": 1.6004099999999999,
+        "p99": 2.0978169999999996
+      },
+      "source": "UNCHANGED_FORMAL_MAIN_MEASUREMENT"
+    },
+    {
+      "seed": 43,
+      "name": "native_full",
+      "complete_ms": {
+        "mean": 5.185758629629629,
+        "median": 4.8645499999999995,
+        "p95": 7.417619999999992,
+        "p99": 8.644539
+      },
+      "source": "UNCHANGED_FORMAL_MAIN_MEASUREMENT"
+    },
+    {
+      "seed": 43,
+      "name": "compiled_full",
+      "complete_ms": {
+        "mean": 1.0660465555555556,
+        "median": 0.9309499999999999,
+        "p95": 1.7704299999999993,
+        "p99": 2.225131999999999
+      },
+      "source": "UNCHANGED_FORMAL_MAIN_MEASUREMENT"
+    }
+  ],
+  "threads": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "probability_checks": {
+    "maximum_errors": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.3113021850585938e-06,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        9.834766387939453e-07,
+        0.0,
+        7.771561172376096e-16
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0728836059570312e-06,
+        0.0,
+        0.0
+      ]
+    ],
+    "all_repeated_outputs_identical": true,
+    "cached_feature_values_exact": true,
+    "reference_class_disagreements": 0
+  },
+  "main_results_replaced": false,
+  "primary_timing_not_rerun": true,
+  "outputs": {
+    "outcomes.npz": {
+      "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\review2_full_model_timing\\20261002T071701Z_1526924f\\outcomes.npz",
+      "sha256": "1cde16bc8fcf6243c5807089c11da87d2439712501ef6efa9176b6fa1e677413"
+    },
+    "case_results.jsonl": {
+      "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\review2_full_model_timing\\20261002T071701Z_1526924f\\case_results.jsonl",
+      "sha256": "13d9d6ba7a36ebb38cba9359c6208145b66146ad3e6f2c1ed0d86e2fa3f87320"
+    },
+    "protocol_before_diagnostic.json": {
+      "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\review2_full_model_timing\\20261002T071701Z_1526924f\\protocol_before_diagnostic.json",
+      "sha256": "a793a1b45db63a73aa85ec8a455a5598a677ea3b94a9aa7e031630b389831d89"
+    }
+  }
+}

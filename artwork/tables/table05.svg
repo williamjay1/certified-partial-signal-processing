@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="185.05pt" viewBox="0 0 518.740157 185.05" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-02T17:29:25.946980</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 185.05 
+L 518.740157 185.05 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 11.338583 30.8 
+L 507.401575 30.8 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 11.338583 61.7 
+L 507.401575 61.7 
+" style="fill: none; stroke: #181818; stroke-width: 0.5"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 11.338583 147.5 
+L 507.401575 147.5 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="11.338583" y="17.137773" transform="rotate(-0 11.338583 17.137773)">Table 5 | Primary HAR comparison at half-Brier tolerance 0.025</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="43.045552" transform="rotate(-0 14.838583 43.045552)">System</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(71.223243 43.091489)">Complete full</text>
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(87.155899 52.049233)">time, ms</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="183.586614" y="43.18063" transform="rotate(-0 183.586614 43.18063)">Partial time, ms</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="248.783465" y="43.698521" transform="rotate(-0 248.783465 43.698521)">Time reduction</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="359.334646" y="43.739536" transform="rotate(-0 359.334646 43.739536)">Partial / full half-Brier</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="430.200787" y="43.737896" transform="rotate(-0 430.200787 43.737896)">Mean blocks of 18</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="43.741177" transform="rotate(-0 503.901575 43.741177)">Full fallback</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="74.649927" transform="rotate(-0 14.838583 74.649927)">17</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="115.555118" y="74.60563" transform="rotate(-0 115.555118 74.60563)">1.122237</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="183.586614" y="74.607271" transform="rotate(-0 183.586614 74.607271)">1.016754</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="248.783465" y="74.589771" transform="rotate(-0 248.783465 74.589771)">9.40%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="359.334646" y="74.637896" transform="rotate(-0 359.334646 74.637896)">0.066525 / 0.063736</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="430.200787" y="74.607271" transform="rotate(-0 430.200787 74.607271)">14.5089</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="74.589771" transform="rotate(-0 503.901575 74.589771)">19.89%</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="96.057271" transform="rotate(-0 14.838583 96.057271)">29</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="115.555118" y="96.057271" transform="rotate(-0 115.555118 96.057271)">1.051749</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="183.586614" y="96.05563" transform="rotate(-0 183.586614 96.05563)">1.023604</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="248.783465" y="96.039771" transform="rotate(-0 248.783465 96.039771)">2.68%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="359.334646" y="96.087896" transform="rotate(-0 359.334646 96.087896)">0.090309 / 0.083996</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="430.200787" y="96.057271" transform="rotate(-0 430.200787 96.057271)">15.7778</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="96.039771" transform="rotate(-0 503.901575 96.039771)">38.22%</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="117.50563" transform="rotate(-0 14.838583 117.50563)">43</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="115.555118" y="117.507271" transform="rotate(-0 115.555118 117.507271)">1.066047</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="183.586614" y="117.50563" transform="rotate(-0 183.586614 117.50563)">0.963610</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="248.783465" y="117.489771" transform="rotate(-0 248.783465 117.489771)">9.61%</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="359.334646" y="117.539536" transform="rotate(-0 359.334646 117.539536)">0.054615 / 0.051502</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="430.200787" y="117.507271" transform="rotate(-0 430.200787 117.507271)">14.6711</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="117.489771" transform="rotate(-0 503.901575 117.489771)">17.33%</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="138.948521" transform="rotate(-0 14.838583 138.948521)">Mean</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="115.555118" y="138.95563" transform="rotate(-0 115.555118 138.95563)">1.080011</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="183.586614" y="138.957271" transform="rotate(-0 183.586614 138.957271)">1.001322</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="248.783465" y="138.931567" transform="rotate(-0 248.783465 138.931567)">7.29%</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="359.334646" y="138.987896" transform="rotate(-0 359.334646 138.987896)">0.070483 / 0.066411</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="430.200787" y="138.95563" transform="rotate(-0 430.200787 138.95563)">14.9859</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="138.931567" transform="rotate(-0 503.901575 138.931567)">25.15%</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 6.5px; font-family: 'Arial'; fill: #181818" transform="translate(11.338583 162.299441)">Same 900 windows per system. Complete time includes feature processing, enclosure, certification, control and exact fallback. Mean is the equal-system pooled</text>
+    <text style="font-size: 6.5px; font-family: 'Arial'; fill: #181818" transform="translate(11.338583 170.534573)">summary; blocks and fallback refer to partial processing.</text>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,59 @@
+{
+  "status": "PASS_WINDOWS_PUBLIC_CODE_VALIDATION",
+  "core_tests": {
+    "executed": true,
+    "tests": 16,
+    "passed": 16,
+    "cwd": "validation/empty_cwd",
+    "log": "validation/kernel_test_log.txt"
+  },
+  "saved_replay": {
+    "executed": true,
+    "summary_comparison": true,
+    "file": "validation/saved_replay.json",
+    "models_loaded": 0,
+    "fits": 0,
+    "predictions_rerun": 0,
+    "timing_rerun": 0
+  },
+  "bootstrap": {
+    "executed": true,
+    "repetitions": 10000,
+    "seed": 7302026,
+    "analysis_JSON_deep_equal": true,
+    "exact_array_matches": 7,
+    "exact_array_elements": 1060009,
+    "record": "validation/bootstrap_equality.json"
+  },
+  "model_conformance": {
+    "executed": true,
+    "deployment_models": 4,
+    "synthetic_probes_per_model": 8,
+    "certificate_checks": 1968,
+    "max_native_probability_disagreement": 3.608224830031759e-16,
+    "real_dataset_cases_evaluated": 0,
+    "fits": 0,
+    "latencies_measured": 0,
+    "file": "validation/model_conformance.json"
+  },
+  "data_read_isolation": {
+    "executed": true,
+    "scientific_artifact_reads": 11,
+    "reads_from_original_scientific_data_roots": 0,
+    "record": "validation/data_read_isolation.json"
+  },
+  "source_identity": {
+    "adapted_modules": 5,
+    "numerical_ASTs_equal": 5,
+    "frozen_Python_sources_byte_identical": 39,
+    "record": "config/code_changes.json"
+  },
+  "not_executed": [
+    "clean package installation",
+    "Linux/macOS execution",
+    "full relocated raw preparation/training/prediction/timing pipeline",
+    "new upstream archive download"
+  ],
+  "manifest_validation": "Root release manifest is checked separately after publication packaging",
+  "environment": "Windows, Python 3.12.14, existing installed dependencies reused; package data reads isolated from original project files"
+}

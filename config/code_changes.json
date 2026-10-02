@@ -1,0 +1,308 @@
+{
+  "scope": "Public copies only; no original source/model/result or frozen pretest lock modified",
+  "adapters": [
+    {
+      "public_path": "asc_certified/certificate_kernel.py",
+      "source_family": "current",
+      "source_relative_path": "scripts/certificate_kernel.py",
+      "original_sha256": "88a3f49cb38121ebec596da40a64d2fcad701b4ba5193611f58b7ecc7fe80f0a",
+      "public_sha256": "03c47fe58e0f16603b3c60125f1ebf11e4a51c779476c82fa799f5243ead9c1e",
+      "adaptation": "Replace only private ROOT, NumPy/Numba dependency path insertion and cache setup with explicit public work-root configuration; all numerical function/class ASTs unchanged.",
+      "numerical_AST_sha256": "35336597efeb0953cfc258005602d5e80979ecf89cfb0191c0aad1bb5002f6c2",
+      "numerical_AST_identity_verified": true,
+      "definitions": null
+    },
+    {
+      "public_path": "asc_certified/leaf_mask_kernel.py",
+      "source_family": "current",
+      "source_relative_path": "research/leaf_mask_kernel.py",
+      "original_sha256": "f2303717eae8bb1a270e4feeb5f686389f26c12bfe20476356d3c0a3a7e3bb04",
+      "public_sha256": "045d8495cc32a5b38a81f9348f884ba64dc56986f3a151c1eb87d1ebbb2c6118",
+      "adaptation": "Replace only private ROOT, NumPy/Numba dependency path insertion and cache setup with explicit public work-root configuration; all numerical function/class ASTs unchanged.",
+      "numerical_AST_sha256": "d83d131af927438b81a9de6d150fd347c183c4ca3a23451481bc3c699bff4792",
+      "numerical_AST_identity_verified": true,
+      "definitions": null
+    },
+    {
+      "public_path": "asc_certified/saved_bootstrap.py",
+      "source_family": "current",
+      "source_relative_path": "scripts/analyze_heldout.py",
+      "original_sha256": "50df918e938eaf674cbee88ace73d798e49f5804f8a11f988647107d4906b615",
+      "public_sha256": "074f6d2386296dde364617a68d6f191b7c87f5756485c2a6e96d3a556521b1ff",
+      "adaptation": "Remove only original NumPy installation search path; original 10,000-sample nine-shared-subject analysis functions and constants retained.",
+      "numerical_AST_sha256": "4110bae3f36d51ddec5ba6e412a8bda471d43cb8526a268d7de820adaac23c8b",
+      "numerical_AST_identity_verified": true,
+      "definitions": null
+    },
+    {
+      "public_path": "asc_certified/har_features.py",
+      "source_family": "current",
+      "source_relative_path": "research/prepare_har_training.py",
+      "original_sha256": "0c9bf126c0d5ded65a5ed69176265f4156d5469d7091838a320fbf4b34a3468a",
+      "public_sha256": "68b344a883432cadc7c40cb2d74552cafc0912d235a9669931f6388065e0b9b2",
+      "adaptation": "Keep original raw training ZIP reader, HARBlocks, constants and subject split operator; omit stateful original prepare/main driver and private dependency paths.",
+      "numerical_AST_sha256": "acfbda0d74c31c64777148510f8e93ee42096f2e6f55e14087f118a3aca1f5e9",
+      "numerical_AST_identity_verified": true,
+      "definitions": [
+        "digest",
+        "normalized_member",
+        "find_member",
+        "training_archive",
+        "load_training_signals",
+        "HARBlocks",
+        "whole_subject_splits"
+      ]
+    },
+    {
+      "public_path": "asc_certified/hydraulic_features.py",
+      "source_family": "compute",
+      "source_relative_path": "scripts/raw_compute.py",
+      "original_sha256": "07077eeba181d779d639d26ae6f5ef56d8d71b4b6e4c6d04b0788e5c295b1478",
+      "public_sha256": "50a5617554b60a83e6a0a753a1f540851334662d782bc343b2fee05dd11079f8",
+      "adaptation": "Extract unchanged constants and RawBlocks operator, excluding legacy planner/Torch and stateful preparation/training code.",
+      "numerical_AST_sha256": "a80524cd38c5499264e403abd9a7fbd85494382e3a3c60342d57d4631202fe0e",
+      "numerical_AST_identity_verified": true,
+      "definitions": [
+        "RawBlocks"
+      ]
+    }
+  ],
+  "frozen_code_files": [
+    {
+      "relative_path": "frozen/compute/research/predictor_repair_diagnostic.py",
+      "bytes": 11585,
+      "sha256": "3acb3f2bf189df1f1f68f8ea2f6ed50f54c441f5643ad6dbd6ea7089ad931bdb",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/compute/scripts/raw_compute.py",
+      "bytes": 22047,
+      "sha256": "07077eeba181d779d639d26ae6f5ef56d8d71b4b6e4c6d04b0788e5c295b1478",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/research/control_design.py",
+      "bytes": 9760,
+      "sha256": "4e64f3176b663fdedafdc5b50ff046e2d7f0de1ae502094e21d76ee750d5b0f9",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/research/create_test_lock.py",
+      "bytes": 6755,
+      "sha256": "323ee76518cb969c4f28bdbfc3f92268628d8f830b782490bfc87c11b524217a",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/research/download_har.py",
+      "bytes": 3379,
+      "sha256": "cba731ffff8d7021e9e710c3c742627fa0285dca97227ac9822accd7ae68f019",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/research/leaf_mask_kernel.py",
+      "bytes": 5529,
+      "sha256": "f2303717eae8bb1a270e4feeb5f686389f26c12bfe20476356d3c0a3a7e3bb04",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/research/prepare_har_test.py",
+      "bytes": 12036,
+      "sha256": "a58fe686e2bc430090d344514c3bc3f4a9f3626aa93f7d9a5db2a3c30c5a6c01",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/research/prepare_har_training.py",
+      "bytes": 15512,
+      "sha256": "0c9bf126c0d5ded65a5ed69176265f4156d5469d7091838a320fbf4b34a3468a",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/research/verify_leaf_masks.py",
+      "bytes": 4129,
+      "sha256": "1e4247d511260562c19a18ac614258e2c23bad1d708f4eef59ce50bc4c1b7830",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/results/har_reference_test/locked_metric_repair_v1/verify_saved_reference.py",
+      "bytes": 8355,
+      "sha256": "dc93c2d1ef635d61d4704608cb6146d46b17a91a6d9c5107110b4c87f04ad988",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/results/har_stopping_controls_development/frozen_controls_C_v1/verify_saved_results.py",
+      "bytes": 9885,
+      "sha256": "ba4240fd4acd16248836196f82ba8aa6e42e2725dd41705d4723dabe32eeb71a",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/analyze_heldout.py",
+      "bytes": 10162,
+      "sha256": "50df918e938eaf674cbee88ace73d798e49f5804f8a11f988647107d4906b615",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/certificate_kernel.py",
+      "bytes": 11214,
+      "sha256": "88a3f49cb38121ebec596da40a64d2fcad701b4ba5193611f58b7ecc7fe80f0a",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/certificate_kernel_v1.py",
+      "bytes": 9512,
+      "sha256": "d1dd8a6dd4ae1b271379f547ed6b8f5d6550b9ff44d9fb6c975b14ea61b67bad",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/certificate_kernel_v2.py",
+      "bytes": 11214,
+      "sha256": "88a3f49cb38121ebec596da40a64d2fcad701b4ba5193611f58b7ecc7fe80f0a",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/har_certified_test.py",
+      "bytes": 23838,
+      "sha256": "05fadf72effb818b560c3a2cdeee89970abdb32a107b62af07a7c8b3d5189226",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/har_checkpoint_development.py",
+      "bytes": 12915,
+      "sha256": "21b30cdc61ea834a3f6e2a1469e472a57d3400ad4204d2415adc117525d604e4",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/har_development_benchmark.py",
+      "bytes": 24506,
+      "sha256": "b04be8facc8938d62e7c0330e9998f78aa620c5f2b9c5199dac0fc243cd67c3a",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/har_development_benchmark_executed_corrected.py",
+      "bytes": 23021,
+      "sha256": "c445b613155fc6cc4fef7687f1d00e674c2b6bf009b8062c07da21447d450e0a",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/har_development_benchmark_initial_conformance_failure.py",
+      "bytes": 21061,
+      "sha256": "6a9d3dd3f771d02444dd2e07ce5f5ec8b2fa34ed2a82d5a46c26fec4e07a8c14",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/har_model_selection.py",
+      "bytes": 24997,
+      "sha256": "78397b03e43db6a982e94c86d4f04b327f1ef31e9185d3af428c3041f5263a34",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/har_reference_test.py",
+      "bytes": 20560,
+      "sha256": "a9a3c2bb2669486d1ced765228fa9af3c073d06997324e2cef12e561b518f18e",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/har_reference_test_metric_repair.py",
+      "bytes": 22032,
+      "sha256": "30101b5fd21b0ec405e78a3f1da9d1db808ef8deb1c972e0a524fbc6a93f13aa",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/har_stopping_controls.py",
+      "bytes": 27853,
+      "sha256": "9678d965b35c92a6b1245186730e6c1f34defa2f5cdc1169bf11164971ea0b21",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/hydraulic_certified_test.py",
+      "bytes": 29118,
+      "sha256": "02059b67b69fb80ea36c080da251d52f0d2f7718c4e414b95579c3224794d6db",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/profile_fitting_components.py",
+      "bytes": 3541,
+      "sha256": "a0f390bdfdb72991252876f446124c1bf860d7c202f1708553eea61dde7dcaac",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/review2_calibrated_control.py",
+      "bytes": 5111,
+      "sha256": "f59db6bdc5ee3f7b2687a33a9aef4f6e8ac8a87484851c6a906010bed6c42444",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/review2_figures.py",
+      "bytes": 10008,
+      "sha256": "6d304e66400bbd381d6f25108712cfc1b8def9d8cf2241a3293482e202bae1b3",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/review2_full_model_timing.py",
+      "bytes": 17441,
+      "sha256": "a040b7a7e64f2d240c4b61095c262de74e1da5befa5d9032cadbca3be371bf44",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/review2_latency_analysis.py",
+      "bytes": 24506,
+      "sha256": "038c18a4facb1992d751f01c9ffc8b7a4d90735c189e3e19933dfc6bd4e840aa",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/review2_order_sensitivity.py",
+      "bytes": 14189,
+      "sha256": "b3e8fa04075540afdcf9dc9a749af13015d7c89d93818e78a61645668a0a4ebe",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/review2_package.py",
+      "bytes": 19541,
+      "sha256": "0b2cae352c1165121a3c1f2c86389bb1f8c0377a91f3a9e46474fb5a7b8be651",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/run_hydraulic_prototype.py",
+      "bytes": 22607,
+      "sha256": "6b2dbed297a9e6faeea9de8487eb2a950ec1fe578c82a06125b31d002b986ed0",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/run_hydraulic_prototype_v1.py",
+      "bytes": 16231,
+      "sha256": "33a4dd5dbd5323d22dddf43ef705f8c06de7e2a683dfe2f77dd0f467bfc075c3",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/run_hydraulic_prototype_v2.py",
+      "bytes": 20020,
+      "sha256": "794a0c127ef39fbdb1bfc2f1b1f45046c6921de28070c64f80a16bb1a92c7397",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/run_hydraulic_prototype_v3_failed.py",
+      "bytes": 21606,
+      "sha256": "32135b9feced498691770a965849262abedf1637240726906c5f1a427e025096",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/run_leaf_mask_pilot.py",
+      "bytes": 12879,
+      "sha256": "1a88b780da9a58fef0f92f498cca5fd73db9c3e81f5755b568aac205e392051b",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/current/scripts/write_prototype_report.py",
+      "bytes": 10515,
+      "sha256": "198382c0e9e3cefbbffe674555a81a236a5d4ca732c9a049c08cb56a9c74ffe2",
+      "frozen_original_code": true
+    },
+    {
+      "relative_path": "frozen/legacy/scripts/methods.py",
+      "bytes": 21189,
+      "sha256": "14725feda12c6b211074946af8980b49c752b8e4c4be3c9ebf5de575ae3cc8f7",
+      "frozen_original_code": true
+    }
+  ],
+  "frozen_code_file_count": 39,
+  "full_frozen_pipeline_status": "Preserved original Windows driver; no full relocated raw-to-timing run asserted"
+}

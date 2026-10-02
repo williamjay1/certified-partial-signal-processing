@@ -1,0 +1,41 @@
+{
+  "scope": "Only four deployed HGB references, not all quality-comparison families",
+  "models": [
+    {
+      "name": "HAR HGB 17",
+      "data_relative_path": "checkpoints/har_models/20261002T052208Z_75415f24/seed17__hgb_i150_l15.joblib",
+      "sha256": "50e9fbc2cf390d9fcd7ccf2aeca077859580cfc597b54d4921b69f6b74db5555",
+      "temperature": 2.0,
+      "bundle": true,
+      "blocks": 18,
+      "probe_seed": 17
+    },
+    {
+      "name": "HAR HGB 29",
+      "data_relative_path": "checkpoints/har_models/20261002T052208Z_75415f24/seed29__hgb_i150_l15.joblib",
+      "sha256": "8f38a7b0fcd578c0c4d4a90973e3dbee279fddf831098f10c9a4ac80178ff064",
+      "temperature": 3.0,
+      "bundle": true,
+      "blocks": 18,
+      "probe_seed": 29
+    },
+    {
+      "name": "HAR HGB 43",
+      "data_relative_path": "checkpoints/har_models/20261002T052208Z_75415f24/seed43__hgb_i100_l15.joblib",
+      "sha256": "5c9d89634a45abd57122005e22bfb951b9e0f052d40390f9bc36c8e0feb04699",
+      "temperature": 2.0,
+      "bundle": true,
+      "blocks": 18,
+      "probe_seed": 43
+    },
+    {
+      "name": "Hydraulic HGB 17",
+      "data_relative_path": "checkpoints/compute/full_hgb_seed17.joblib",
+      "sha256": "3a1aadd8996eb131b1d6fc391925f3a15c99cbf4f77583046ee0b51f492b23fd",
+      "temperature": 1.0,
+      "bundle": false,
+      "blocks": 28,
+      "probe_seed": 117
+    }
+  ]
+}

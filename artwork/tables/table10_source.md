@@ -1,0 +1,6 @@
+| Hydraulic procedure at tolerance 0.025 | Complete time, ms | Reduction against compiled full | Half-Brier | Mean blocks | Full fallback |
+|---|---:|---:|---:|---:|---:|
+| Compiled full | 2.860459 | — | 0.126473 | 28.0000 | — |
+| Simplex-aware minimax | 2.139557 | 25.20% | 0.129430 | 19.0069 | 19.77% |
+| Coordinate minimax | 2.070535 | 27.62% | 0.129353 | 19.0345 | 19.77% |
+| Midpoint with tight certificate | 2.642566 | 7.62% | 0.126445 | 23.4299 | 35.40% |

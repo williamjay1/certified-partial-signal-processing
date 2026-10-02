@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-10-02T06:01:42.261005+00:00",
+  "phase": "TRAIN_ONLY_STOPPING_CONTROL_DEVELOPMENT",
+  "test_accessed": false,
+  "new_fits": 0,
+  "plan_sha256": "cd8fe32d848cad33b639257bd1d45ec56244c51238ef44cc53c36ac17f79e44f",
+  "script_sha256": "9678d965b35c92a6b1245186730e6c1f34defa2f5cdc1169bf11164971ea0b21",
+  "selected_hgb_sha256": "cc6e4115a2acb7dde5e8a7136510cd1df827586569646b60530ed5f5b51689eb",
+  "selected_schedule_sha256": "71ab6c427e787b40799b66db9d353000a6ce545dc8cacd4d2b66063e221abc0b",
+  "pipeline_sha256": "b04be8facc8938d62e7c0330e9998f78aa620c5f2b9c5199dac0fc243cd67c3a",
+  "checkpoint_pipeline_sha256": "21b30cdc61ea834a3f6e2a1469e472a57d3400ad4204d2415adc117525d604e4",
+  "control_design_sha256": "4e64f3176b663fdedafdc5b50ff046e2d7f0de1ae502094e21d76ee750d5b0f9",
+  "certificate_kernel_sha256": "88a3f49cb38121ebec596da40a64d2fcad701b4ba5193611f58b7ecc7fe80f0a",
+  "leaf_kernel_sha256": "f2303717eae8bb1a270e4feeb5f686389f26c12bfe20476356d3c0a3a7e3bb04",
+  "train_cache_sha256": "a23c485d48a8eca5f2f37648abe0400eebf535837998892b2ab93ab252c1756c",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "checkpoints": [
+    12,
+    16,
+    18
+  ],
+  "prefix_candidates": [
+    12,
+    16,
+    18
+  ],
+  "entropy_candidates": [
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "primary_delta": 0.025,
+  "methods": [
+    "score_separation_argmax",
+    "fixed_prefix_mean_completion",
+    "entropy_mean_completion",
+    "tight_minimax",
+    "native_full",
+    "compiled_full"
+  ],
+  "control_selection": "observed-label dev sample mean loss excess <= .025, minimum mean sum original fit block costs; tie risk then setting ID",
+  "development_labels_used_for_selection": true,
+  "test_labels_used_for_selection": false,
+  "runtime_used_for_control_selection": false,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "d_free_gib": 125.04631423950195
+}

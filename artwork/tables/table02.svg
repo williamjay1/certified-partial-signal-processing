@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="142.825pt" viewBox="0 0 518.740157 142.825" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-02T17:29:21.344635</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 142.825 
+L 518.740157 142.825 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 11.338583 30.8 
+L 507.401575 30.8 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 11.338583 52.25 
+L 507.401575 52.25 
+" style="fill: none; stroke: #181818; stroke-width: 0.5"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 11.338583 114.05 
+L 507.401575 114.05 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="11.338583" y="17.137773" transform="rotate(-0 11.338583 17.137773)">Table 2 | Signal-processing workloads and frozen evaluation cohorts</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="43.737896" transform="rotate(-0 14.838583 43.737896)">Source</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="71.531496" y="43.698521" transform="rotate(-0 71.531496 43.698521)">Task</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="156.570866" y="43.091489" transform="rotate(-0 156.570866 43.091489)">Computed representation</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="289.799213" y="43.045552" transform="rotate(-0 289.799213 43.045552)">Fitting/development</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="380.507874" y="43.698521" transform="rotate(-0 380.507874 43.698521)">Frozen evaluation</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="69.177896" transform="rotate(-0 14.838583 69.177896)">Hydraulic</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(71.531496 65.148521)">Four valve-condition</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(71.531496 74.017124)">classes</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="156.570866" y="69.461724" transform="rotate(-0 156.570866 69.461724)">14 channels; 28 blocks; 238 features</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="289.799213" y="69.220552" transform="rotate(-0 289.799213 69.220552)">907 / 223 cycles</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(380.507874 64.463286)">435 previously held-out cycles, grouped</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(380.507874 73.321499)">by operating-segment proxies</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 95.436567)">Smartphone</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 104.95814)">HAR</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="71.531496" y="100.120552" transform="rotate(-0 71.531496 100.120552)">Six activity classes</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="156.570866" y="100.361724" transform="rotate(-0 156.570866 100.361724)">9 channels; 18 blocks; 153 features</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(289.799213 95.395552)">17 / 4 official training</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(289.799213 104.221499)">subjects per system</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(380.507874 95.636724)">2,947 windows from nine official test</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(380.507874 104.221499)">subjects</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.5px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="11.338583" y="128.849441" transform="rotate(-0 11.338583 128.849441)">HAR uses the official subject split. Hydraulic grouping uses operating-segment proxies, not documented independent runs.</text>
+   </g>
+  </g>
+ </g>
+</svg>

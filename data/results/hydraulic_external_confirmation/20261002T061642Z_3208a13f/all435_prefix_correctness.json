@@ -1,0 +1,9 @@
+{
+  "status": "PASS_NUMERICAL_CHECKS_NOT_FORMAL_FLOATING_POINT_PROOF",
+  "all_external_cases_checked": 435,
+  "variant_count": 3,
+  "prefix_stage_checks": 9135,
+  "probability_interval_violation_signed": -2.000418602467191e-13,
+  "score_interval_violation_signed": -2.887414266017352e-12,
+  "every_label_certificate_violation_signed": 0.0
+}

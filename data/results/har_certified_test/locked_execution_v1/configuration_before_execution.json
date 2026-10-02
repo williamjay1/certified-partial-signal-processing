@@ -1,0 +1,86 @@
+{
+  "phase": "FROZEN_OFFICIAL_HELD_OUT_SUBJECT_TEST",
+  "new_fits": 0,
+  "test_lock_sha256": "b5efeccb191b682c415e6395960213ecd586806df61517b30685565b7098f284",
+  "test_cache_sha256": "86af2498279f90db9a1a52891dfcb214b1bf98a85cbf4b4eb9317c294a7d3093",
+  "test_preparation_manifest_sha256": "a20ef5ffdb820b4eb18c955eaccb983b190e614dc8d35c24e74943eb676cf1be",
+  "scripts_frozen_before_access": true,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "deltas": [
+    0.0,
+    0.01,
+    0.025,
+    0.05,
+    0.1
+  ],
+  "primary_delta": 0.025,
+  "selected_schedule": "C",
+  "checkpoints": [
+    12,
+    16,
+    18
+  ],
+  "main_specifications": 17,
+  "auxiliary_uniform_A": true,
+  "randomized_timing_specifications": 21,
+  "additional_stopping_controls": [
+    "score_separation_argmax",
+    "fixed_prefix_mean_completion",
+    "entropy_mean_completion"
+  ],
+  "stopping_control_state_sha256": "cff68cd1f3a165b5e8f7317b29d96ec603f0185ba5a4617955dd244c7536f6fb",
+  "full_outcome_cases": 2947,
+  "main_risk_time_same_cohort_cases": 900,
+  "timing_cohort_seed": 7302026,
+  "timing_max_windows_per_subject": 100,
+  "timing_repetitions": 3,
+  "official_test_subjects": [
+    2,
+    4,
+    9,
+    10,
+    12,
+    13,
+    18,
+    20,
+    24
+  ],
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "D_free_bytes": 133877551104,
+  "timer_start": "Released raw window in host memory; all selected block extraction/scaling/inference/certification/fallback included",
+  "timer_exclusions": "Acquisition, UCI prefilter/window processing, archive/cache load, reference validation, serialization and separate profiles",
+  "no_test_model_order_tolerance_schedule_selection": true
+}

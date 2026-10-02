@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "Nature Figure Rendered Collision Audit\npdf: D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\figures\\figure1_workflow.pdf\npages: 1\nvisible text boxes: 24\nstroke paths: 25\n\n\nsummary: 0 fail, 0 warn, 16 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n",
+  "stderr": ""
+}

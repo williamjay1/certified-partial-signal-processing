@@ -1,0 +1,16 @@
+{
+  "phase": "POST_EXECUTION_PUBLIC_API_GUARDS_ONLY",
+  "development_execution_completed_before_change": true,
+  "no_new_fit_or_benchmark": true,
+  "executed_source_sha256": "c445b613155fc6cc4fef7687f1d00e674c2b6bf009b8062c07da21447d450e0a",
+  "guarded_source_sha256": "b04be8facc8938d62e7c0330e9998f78aa620c5f2b9c5199dac0fc243cd67c3a",
+  "guards": [
+    "integer unique exact model-used block coverage",
+    "block bounds and block-map count",
+    "positive integer batch size",
+    "finite positive temperature",
+    "native and observer feature dimension",
+    "observer scaler dimension"
+  ],
+  "existing_order_costs_outputs_unchanged": true
+}

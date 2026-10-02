@@ -1,0 +1,26 @@
+[
+  {
+    "script": "nature_figures.py",
+    "original_sha256": "aa987841ac2b6dc1c5ff7d5dc77f07927041c84aa7cf446da07a0607f44236bd",
+    "public_sha256": "da5c1624819fe1d85a9f576c004645987f02888c185104cf0be0de21c43ca586",
+    "changes": "Root/input/output paths adapted, and three text labels harmonized to the audited final manuscript artwork: Class score bounds, Unseen subject, Upper tail calls (%). Plotting data transforms, dimensions, fonts and scientific selections retained."
+  },
+  {
+    "script": "nature_workflow.py",
+    "original_sha256": "7e08cd00d21d1c8af2ccf0ae8df7c5cab720f0ae7c06a214ad7485efa4c8cea9",
+    "public_sha256": "b077a8b98ddd090c3103e66975716011c10810544008abb98b0d411c4866c9fc",
+    "changes": "Root/input/output paths adapted, and three text labels harmonized to the audited final manuscript artwork: Class score bounds, Unseen subject, Upper tail calls (%). Plotting data transforms, dimensions, fonts and scientific selections retained."
+  },
+  {
+    "script": "nature_tables.py",
+    "original_sha256": "1ab023ad6732b4088f841e4f5baebb8510ca6a650000aa75172ad7a4e3e8dc78",
+    "public_sha256": "30c095ccfdded5f637d154fc774990ad92c175fcbdb3485e02d35978fec2cc58",
+    "changes": "Only root/input/output paths adapted; plotting design, data transforms, dimensions, fonts, source QA and scientific array selections retained."
+  },
+  {
+    "script": "nature_artwork_delivery.py",
+    "original_sha256": "d924e38d71a07b3c8e02870e6ebe8756628a69e597e85de34ed5651178e1c7e6",
+    "public_sha256": "48e377678387f1a108ebf900f1cc7cbded25acbefab698b11d4b0671fce71673",
+    "changes": "Only root/input/output paths adapted; plotting design, data transforms, dimensions, fonts, source QA and scientific array selections retained."
+  }
+]

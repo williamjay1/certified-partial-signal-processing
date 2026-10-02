@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "fitting_cases": 24,
+  "tested_prefixes": 672,
+  "maximum_discrepancies": {
+    "logit": 0.0,
+    "native_probability": 0.0,
+    "interval_enclosure": 0.0,
+    "certificate_excess": 0.0
+  },
+  "labels_or_nonfitting_partitions_used": 0,
+  "principle": "Candidate masks enforce exactly known path split constraints; opposite-subtree masks leave outside leaves unchanged.",
+  "scope": "Numerical correctness development check, no timing or new fitting."
+}

@@ -1,0 +1,16 @@
+{
+  "name": "diagnostic_component_stack",
+  "data": "component_profile_case_results.csv",
+  "x": "seed/method",
+  "components": [
+    "state_setup_ms",
+    "feature_ms",
+    "leaf_enclosure_ms",
+    "probability_interval_ms",
+    "output_certificate_ms",
+    "control_ms",
+    "exact_fallback_ms",
+    "unassigned_instrumentation_residual_ms"
+  ],
+  "note": "Instrumented post-test sample,36 windows/four per subject; different timer from main formal900. Residual shown separately."
+}

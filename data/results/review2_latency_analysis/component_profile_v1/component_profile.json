@@ -1,0 +1,369 @@
+{
+  "stage": "POST_TEST_SMALL_SAMPLE_COMPONENT_DIAGNOSTIC",
+  "primary_results_replaced": false,
+  "configuration": {
+    "stage": "POST_TEST_INSTRUMENTED_COMPONENT_PROFILE_NOT_MAIN_BENCHMARK",
+    "primary_delta": 0.025,
+    "profile_cases": [
+      122,
+      170,
+      226,
+      284,
+      346,
+      467,
+      582,
+      593,
+      703,
+      808,
+      813,
+      824,
+      1102,
+      1132,
+      1142,
+      1195,
+      1282,
+      1326,
+      1367,
+      1432,
+      1646,
+      1707,
+      1719,
+      1838,
+      1889,
+      1983,
+      2017,
+      2191,
+      2318,
+      2340,
+      2381,
+      2430,
+      2621,
+      2629,
+      2635,
+      2782
+    ],
+    "case_subjects": [
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4,
+      9,
+      9,
+      9,
+      9,
+      10,
+      10,
+      10,
+      10,
+      12,
+      12,
+      12,
+      12,
+      13,
+      13,
+      13,
+      13,
+      18,
+      18,
+      18,
+      18,
+      20,
+      20,
+      20,
+      20,
+      24,
+      24,
+      24,
+      24
+    ],
+    "selection_seed": 9302026,
+    "selection_uses": "Original same900 case IDs and subjects only; four random cases per subject, before reading profile outcomes",
+    "repetitions": 3,
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "frozen_root_lock_sha256": "b5efeccb191b682c415e6395960213ecd586806df61517b30685565b7098f284",
+    "analysis_sha256": "3719541928c2a2351991e256554433edd09815d07087bf43d296330b26de46a9",
+    "script_sha256": "038c18a4facb1992d751f01c9ffc8b7a4d90735c189e3e19933dfc6bd4e840aa",
+    "separate_dispatch_note": "Splitting the original joint compiled stage introduces extra Python/Numba dispatch and clock/bookkeeping costs; profile is descriptive and is never substituted for formal time.",
+    "exact_fallback_semantics": "Frozen compiled exact full prediction, same outputs as the formal pipeline",
+    "D_free_bytes_before_compute": 132885168128
+  },
+  "aggregate": [
+    {
+      "seed": 17,
+      "method": "instrumented_tight_primary",
+      "raw_profile_calls": 108,
+      "distinct_system_cases": 36,
+      "complete_ms": {
+        "n": 108,
+        "mean": 0.7684601851851851,
+        "median": 0.75305,
+        "p95": 1.0450899999999999,
+        "p99": 1.2262599999999997,
+        "minimum": 0.5362,
+        "maximum": 1.4286
+      },
+      "component_mean_ms": {
+        "state_setup_ms": 0.0031194444444444442,
+        "feature_ms": 0.6371064814814815,
+        "leaf_enclosure_ms": 0.09309074074074077,
+        "probability_interval_ms": 0.005577777777777778,
+        "output_certificate_ms": 0.011675000000000001,
+        "control_ms": 0.0017407407407407408,
+        "exact_fallback_ms": 0.011614814814814814,
+        "unassigned_instrumentation_residual_ms": 0.004535185185185187
+      },
+      "mean_blocks": 14.833333333333334,
+      "fallback_fraction": 0.25,
+      "mean_stages": 1.8333333333333333
+    },
+    {
+      "seed": 17,
+      "method": "instrumented_compiled_full",
+      "raw_profile_calls": 108,
+      "distinct_system_cases": 36,
+      "complete_ms": {
+        "n": 108,
+        "mean": 0.8253351851851851,
+        "median": 0.7579,
+        "p95": 1.1744299999999999,
+        "p99": 1.4370589999999992,
+        "minimum": 0.694,
+        "maximum": 1.592
+      },
+      "component_mean_ms": {
+        "state_setup_ms": 0.001575925925925926,
+        "feature_ms": 0.7644240740740741,
+        "leaf_enclosure_ms": 0.0,
+        "probability_interval_ms": 0.0,
+        "output_certificate_ms": 0.0,
+        "control_ms": 0.0009083333333333333,
+        "exact_fallback_ms": 0.056621296296296295,
+        "unassigned_instrumentation_residual_ms": 0.0018055555555555602
+      },
+      "mean_blocks": 18.0,
+      "fallback_fraction": 1.0,
+      "mean_stages": 0.0
+    },
+    {
+      "seed": 29,
+      "method": "instrumented_tight_primary",
+      "raw_profile_calls": 108,
+      "distinct_system_cases": 36,
+      "complete_ms": {
+        "n": 108,
+        "mean": 0.8907851851851852,
+        "median": 0.8915,
+        "p95": 1.1604499999999998,
+        "p99": 1.504401999999998,
+        "minimum": 0.5092,
+        "maximum": 2.0719
+      },
+      "component_mean_ms": {
+        "state_setup_ms": 0.0028972222222222225,
+        "feature_ms": 0.6888175925925926,
+        "leaf_enclosure_ms": 0.1388,
+        "probability_interval_ms": 0.008049999999999998,
+        "output_certificate_ms": 0.014403703703703705,
+        "control_ms": 0.002030555555555556,
+        "exact_fallback_ms": 0.03041388888888889,
+        "unassigned_instrumentation_residual_ms": 0.005372222222222234
+      },
+      "mean_blocks": 16.27777777777778,
+      "fallback_fraction": 0.4166666666666667,
+      "mean_stages": 2.2777777777777777
+    },
+    {
+      "seed": 29,
+      "method": "instrumented_compiled_full",
+      "raw_profile_calls": 108,
+      "distinct_system_cases": 36,
+      "complete_ms": {
+        "n": 108,
+        "mean": 0.8086611111111113,
+        "median": 0.77135,
+        "p95": 1.1009099999999998,
+        "p99": 1.2185449999999995,
+        "minimum": 0.6876,
+        "maximum": 1.4482
+      },
+      "component_mean_ms": {
+        "state_setup_ms": 0.0014824074074074073,
+        "feature_ms": 0.7381592592592594,
+        "leaf_enclosure_ms": 0.0,
+        "probability_interval_ms": 0.0,
+        "output_certificate_ms": 0.0,
+        "control_ms": 0.0008490740740740742,
+        "exact_fallback_ms": 0.06645740740740741,
+        "unassigned_instrumentation_residual_ms": 0.0017129629629629665
+      },
+      "mean_blocks": 18.0,
+      "fallback_fraction": 1.0,
+      "mean_stages": 0.0
+    },
+    {
+      "seed": 43,
+      "method": "instrumented_tight_primary",
+      "raw_profile_calls": 108,
+      "distinct_system_cases": 36,
+      "complete_ms": {
+        "n": 108,
+        "mean": 0.7840935185185186,
+        "median": 0.75915,
+        "p95": 1.1301999999999999,
+        "p99": 1.259361,
+        "minimum": 0.4992,
+        "maximum": 1.6418
+      },
+      "component_mean_ms": {
+        "state_setup_ms": 0.0031722222222222225,
+        "feature_ms": 0.6773157407407407,
+        "leaf_enclosure_ms": 0.07047129629629628,
+        "probability_interval_ms": 0.006999074074074074,
+        "output_certificate_ms": 0.01350462962962963,
+        "control_ms": 0.001946296296296296,
+        "exact_fallback_ms": 0.005932407407407408,
+        "unassigned_instrumentation_residual_ms": 0.00475185185185186
+      },
+      "mean_blocks": 15.055555555555555,
+      "fallback_fraction": 0.19444444444444445,
+      "mean_stages": 1.8611111111111112
+    },
+    {
+      "seed": 43,
+      "method": "instrumented_compiled_full",
+      "raw_profile_calls": 108,
+      "distinct_system_cases": 36,
+      "complete_ms": {
+        "n": 108,
+        "mean": 0.8460907407407406,
+        "median": 0.7746500000000001,
+        "p95": 1.2886149999999998,
+        "p99": 1.6217519999999999,
+        "minimum": 0.6747,
+        "maximum": 1.654
+      },
+      "component_mean_ms": {
+        "state_setup_ms": 0.0015694444444444445,
+        "feature_ms": 0.7971694444444446,
+        "leaf_enclosure_ms": 0.0,
+        "probability_interval_ms": 0.0,
+        "output_certificate_ms": 0.0,
+        "control_ms": 0.0009666666666666669,
+        "exact_fallback_ms": 0.04454722222222222,
+        "unassigned_instrumentation_residual_ms": 0.0018379629629629662
+      },
+      "mean_blocks": 18.0,
+      "fallback_fraction": 1.0,
+      "mean_stages": 0.0
+    },
+    {
+      "seed": null,
+      "method": "instrumented_tight_primary",
+      "raw_profile_calls": 324,
+      "distinct_system_cases": 108,
+      "complete_ms": {
+        "n": 324,
+        "mean": 0.8144462962962965,
+        "median": 0.7787,
+        "p95": 1.1329999999999996,
+        "p99": 1.390120999999997,
+        "minimum": 0.4992,
+        "maximum": 2.0719
+      },
+      "component_mean_ms": {
+        "state_setup_ms": 0.0030629629629629626,
+        "feature_ms": 0.6677466049382715,
+        "leaf_enclosure_ms": 0.10078734567901236,
+        "probability_interval_ms": 0.006875617283950617,
+        "output_certificate_ms": 0.013194444444444443,
+        "control_ms": 0.001905864197530864,
+        "exact_fallback_ms": 0.01598703703703704,
+        "unassigned_instrumentation_residual_ms": 0.004886419753086427
+      },
+      "mean_blocks": 15.38888888888889,
+      "fallback_fraction": 0.28703703703703703,
+      "mean_stages": 1.9907407407407407
+    },
+    {
+      "seed": null,
+      "method": "instrumented_compiled_full",
+      "raw_profile_calls": 324,
+      "distinct_system_cases": 108,
+      "complete_ms": {
+        "n": 324,
+        "mean": 0.8266956790123456,
+        "median": 0.7677499999999999,
+        "p95": 1.1752699999999998,
+        "p99": 1.5716159999999988,
+        "minimum": 0.6747,
+        "maximum": 1.654
+      },
+      "component_mean_ms": {
+        "state_setup_ms": 0.0015425925925925926,
+        "feature_ms": 0.7665842592592592,
+        "leaf_enclosure_ms": 0.0,
+        "probability_interval_ms": 0.0,
+        "output_certificate_ms": 0.0,
+        "control_ms": 0.0009080246913580248,
+        "exact_fallback_ms": 0.05587530864197531,
+        "unassigned_instrumentation_residual_ms": 0.0017854938271604976
+      },
+      "mean_blocks": 18.0,
+      "fallback_fraction": 1.0,
+      "mean_stages": 0.0
+    }
+  ],
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "counter_empty_span_ms": {
+    "n": 1000,
+    "mean": 5.300000000000001e-05,
+    "median": 0.0001,
+    "p95": 0.0001,
+    "p99": 0.0001,
+    "minimum": 0.0,
+    "maximum": 0.0003
+  },
+  "limitations": [
+    "Separate Python/Numba dispatches and clock/bookkeeping are charged to instrumented_complete_ms; these times do not reproduce an uninstrumented kernel.",
+    "Component spans are nonoverlapping measured intervals; residual is the signed observed full-span minus their sum, never clipped or allocated by assumption.",
+    "Small outcome-free sample is descriptive; no causal ablation or hardware/energy claim.",
+    "Exact_fallback_ms is full prediction when all used features are known, not the cost of recomputing features."
+  ]
+}

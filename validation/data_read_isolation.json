@@ -1,0 +1,29 @@
+{
+  "status": "PASS_PUBLIC_DATA_READ_ISOLATION",
+  "cwd": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\validation\\empty_cwd",
+  "public_data_root": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\data",
+  "original_scientific_roots_reads_forbidden": true,
+  "observed_scientific_artifact_reads": [
+    "data/checkpoints/compute/full_hgb_seed17.joblib",
+    "data/checkpoints/har_models/20261002T052208Z_75415f24/seed17__hgb_i150_l15.joblib",
+    "data/checkpoints/har_models/20261002T052208Z_75415f24/seed29__hgb_i150_l15.joblib",
+    "data/checkpoints/har_models/20261002T052208Z_75415f24/seed43__hgb_i100_l15.joblib",
+    "data/results/har_certified_test/locked_execution_v1/seed17/timing_case_results.jsonl",
+    "data/results/har_certified_test/locked_execution_v1/seed17/timing_cohort_outcomes.npz",
+    "data/results/har_certified_test/locked_execution_v1/seed29/timing_case_results.jsonl",
+    "data/results/har_certified_test/locked_execution_v1/seed29/timing_cohort_outcomes.npz",
+    "data/results/har_certified_test/locked_execution_v1/seed43/timing_case_results.jsonl",
+    "data/results/har_certified_test/locked_execution_v1/seed43/timing_cohort_outcomes.npz",
+    "data/results/hydraulic_external_confirmation/20261002T061642Z_3208a13f/outcomes.npz"
+  ],
+  "scientific_artifacts_read": 11,
+  "replay_status": "PASS_SAVED_NUMERICAL_REPLAY",
+  "conformance_status": "PASS_FINITE_SYNTHETIC_MODEL_CONFORMANCE",
+  "runtime": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14",
+    "dependency_installation": "Existing installed Windows libraries were reused; clean installation not tested"
+  },
+  "new_fits": 0,
+  "new_empirical_times": 0
+}

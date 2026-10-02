@@ -1,0 +1,37 @@
+{
+  "title": "Certified partial signal processing for activity recognition and condition monitoring: code and research outputs",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>Code, recorded per-case outcomes and timing, frozen model artifacts, provenance, and reproducible numerical replay for certified partial signal processing. The study evaluates individual relative multiclass half-Brier fidelity to a frozen complete predictor on UCI smartphone activity recognition and hydraulic monitoring.</p><p>Junjie Zhang is the sole author. Original software is MIT licensed. Generated numerical research outputs and original figure artwork are CC BY 4.0; upstream source alignment fields and vendored material retain their separate terms as documented in DATA_LICENSES.md. Raw source signals and source feature caches are obtained from the cited upstream repositories and are not included. Full raw-to-timing execution on a different machine has not been established; demonstrated replay and numerical checks are documented.</p>",
+  "creators": [
+    {
+      "name": "Zhang, Junjie",
+      "orcid": "0009-0004-8821-4018",
+      "affiliation": "Shanghai Academy of Global Governance & Area Studies, Shanghai International Studies University, Shanghai 201620, China; School of Economics and Finance, Shanghai International Studies University, Shanghai 201620, China"
+    }
+  ],
+  "keywords": [
+    "certified partial processing",
+    "activity recognition",
+    "condition monitoring",
+    "Brier loss",
+    "tree ensembles",
+    "minimax prediction"
+  ],
+  "license": "mit",
+  "related_identifiers": [
+    {
+      "identifier": "10.24432/C54S4K",
+      "scheme": "doi",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.24432/C5CW21",
+      "scheme": "doi",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "This metadata describes the original software record; licenses for generated research outputs, upstream data fields, and third-party plotting resources are documented separately. The corresponding author is junjiezhang2024@shisu.edu.cn. No article DOI or repository DOI is supplied or implied."
+}

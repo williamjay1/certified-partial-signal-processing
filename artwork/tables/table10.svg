@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="176.275pt" viewBox="0 0 518.740157 176.275" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-02T17:29:33.440452</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 176.275 
+L 518.740157 176.275 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 11.338583 30.8 
+L 507.401575 30.8 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 11.338583 61.7 
+L 507.401575 61.7 
+" style="fill: none; stroke: #181818; stroke-width: 0.5"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 11.338583 147.5 
+L 507.401575 147.5 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="11.338583" y="17.137773" transform="rotate(-0 11.338583 17.137773)">Table 10 | Hydraulic confirmation at half-Brier tolerance 0.025</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="43.013286" transform="rotate(-0 14.838583 43.013286)">Hydraulic procedure at tolerance 0.025</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="226.106299" y="43.091489" transform="rotate(-0 226.106299 43.091489)">Complete time, ms</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(247.643992 43.002896)">Reduction against</text>
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(265.145086 51.960093)">compiled full</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="373.507874" y="43.741177" transform="rotate(-0 373.507874 43.741177)">Half-Brier</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="435.870079" y="43.698521" transform="rotate(-0 435.870079 43.698521)">Mean blocks</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="43.741177" transform="rotate(-0 503.901575 43.741177)">Full fallback</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="73.986567" transform="rotate(-0 14.838583 73.986567)">Compiled full</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="226.106299" y="74.607271" transform="rotate(-0 226.106299 74.607271)">2.860459</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="308.311024" y="73.947192" transform="rotate(-0 308.311024 73.947192)">—</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="373.507874" y="74.60563" transform="rotate(-0 373.507874 74.60563)">0.126473</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="435.870079" y="74.607271" transform="rotate(-0 435.870079 74.607271)">28.0000</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="73.947192" transform="rotate(-0 503.901575 73.947192)">—</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="95.436567" transform="rotate(-0 14.838583 95.436567)">Simplex-aware minimax</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="226.106299" y="96.05563" transform="rotate(-0 226.106299 96.05563)">2.139557</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="308.311024" y="96.039771" transform="rotate(-0 308.311024 96.039771)">25.20%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="373.507874" y="96.05563" transform="rotate(-0 373.507874 96.05563)">0.129430</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="435.870079" y="96.057271" transform="rotate(-0 435.870079 96.057271)">19.0069</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="96.039771" transform="rotate(-0 503.901575 96.039771)">19.77%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="117.539536" transform="rotate(-0 14.838583 117.539536)">Coordinate minimax</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="226.106299" y="117.50563" transform="rotate(-0 226.106299 117.50563)">2.070535</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="308.311024" y="117.489771" transform="rotate(-0 308.311024 117.489771)">27.62%</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="373.507874" y="117.50563" transform="rotate(-0 373.507874 117.50563)">0.129353</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="435.870079" y="117.50563" transform="rotate(-0 435.870079 117.50563)">19.0345</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="117.489771" transform="rotate(-0 503.901575 117.489771)">19.77%</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="138.295552" transform="rotate(-0 14.838583 138.295552)">Midpoint with tight certificate</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="226.106299" y="138.957271" transform="rotate(-0 226.106299 138.957271)">2.642566</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="308.311024" y="138.939771" transform="rotate(-0 308.311024 138.939771)">7.62%</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="373.507874" y="138.957271" transform="rotate(-0 373.507874 138.957271)">0.126445</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="435.870079" y="138.95563" transform="rotate(-0 435.870079 138.95563)">23.4299</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="138.939771" transform="rotate(-0 503.901575 138.939771)">35.40%</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.5px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="11.338583" y="162.299441" transform="rotate(-0 11.338583 162.299441)">435 frozen confirmation cycles; complete time includes all online work. Mean blocks are out of 28. The coordinate certificate is cheaper here despite its looser relaxation.</text>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,5143 @@
+{
+  "schema": "ASC-publication-tables-v1",
+  "source": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\data\\table_cells.md",
+  "source_sha256": "479491edf4dc88d2e6fdbf4778e4fd5251f2e1807deee1f33f395cf735f2c26d",
+  "script_sha256": "30c095ccfdded5f637d154fc774990ad92c175fcbdb3485e02d35978fec2cc58",
+  "format": "183-mm Nature-style three-rule tables; no vertical lines or colored fills",
+  "export_png_dpi": 1000,
+  "preview_png_dpi": 300,
+  "tables": [
+    {
+      "table": 1,
+      "title": "Related capabilities and the guarantee being evaluated",
+      "source_line_start": 6,
+      "source_line_end": 12,
+      "source_cells_sha256": "ae585adaceb536ce6619809e5feeddde2c315d3c51b9763d5e13fb67042053a0",
+      "body_rows": 5,
+      "columns": 3,
+      "width_mm": 183.0,
+      "height_mm": 86.42173611111112,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        30,
+        68,
+        77
+      ],
+      "row_heights_pt": [
+        30.900000000000002,
+        30.900000000000002,
+        40.35,
+        30.900000000000002,
+        30.900000000000002
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.6,
+        "text_objects": 20
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 31,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/DRQHUD+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/DOHAZF+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 86.4217361111111
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          3402
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table01.svg",
+          "sha256": "70c924572269abab3ccf215057acf5cba288f995c78095ce3c39715a062f0e5e"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table01.pdf",
+          "sha256": "7cfe1737dda954b9cada1af10b65cb5a0522b115cd06a5f06043c7cc8d6ed26a"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table01.png",
+          "sha256": "1cb084a781c320cc734769660893b28c595634093d3275cd1a89ddac1df3be5c"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table01_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Research line",
+          "display": "Research line",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            96.37795275590551,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "Main object addressed",
+          "display": "Main object addressed",
+          "cell_bounds_pt": [
+            96.37795275590551,
+            30.8,
+            289.13385826771656,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "Relation to the present method",
+          "display": "Relation to the present method",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            30.8,
+            507.40157480314963,
+            52.25
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "Active feature acquisition [12–16]",
+          "display": "Active feature acquisition\n[12–16]",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            52.25,
+            96.37795275590551,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "Predictive utility and observation cost under subset observations",
+          "display": "Predictive utility and observation cost under subset\nobservations",
+          "cell_bounds_pt": [
+            96.37795275590551,
+            52.25,
+            289.13385826771656,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "May supply a feature schedule; does not substitute for checking the stated relative-loss certificate",
+          "display": "May supply a feature schedule; does not substitute for checking the\nstated relative-loss certificate",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            52.25,
+            507.40157480314963,
+            83.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "Risk-controlled early exit [5]",
+          "display": "Risk-controlled early exit\n[5]",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            83.15,
+            96.37795275590551,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "Calibrated distributional risk or a final-model performance gap",
+          "display": "Calibrated distributional risk or a final-model performance\ngap",
+          "cell_bounds_pt": [
+            96.37795275590551,
+            83.15,
+            289.13385826771656,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "Establishes the relative Brier target; the quantifier here is individual input and every label",
+          "display": "Establishes the relative Brier target; the quantifier here is individual\ninput and every label",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            83.15,
+            507.40157480314963,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "Certified lazy boosted-tree inference [6]",
+          "display": "Certified lazy\nboosted-tree inference\n[6]",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            114.05000000000001,
+            96.37795275590551,
+            154.4
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "Preservation of the complete winning class",
+          "display": "Preservation of the complete winning class",
+          "cell_bounds_pt": [
+            96.37795275590551,
+            114.05000000000001,
+            289.13385826771656,
+            154.4
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "Supplies a distinct output criterion, tested by score separation",
+          "display": "Supplies a distinct output criterion, tested by score separation",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            114.05000000000001,
+            507.40157480314963,
+            154.4
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "Adversarial uncertainty certification [7]",
+          "display": "Adversarial uncertainty\ncertification [7]",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            154.4,
+            96.37795275590551,
+            185.3
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "Worst calibration quantities over a perturbation set",
+          "display": "Worst calibration quantities over a perturbation set",
+          "cell_bounds_pt": [
+            96.37795275590551,
+            154.4,
+            289.13385826771656,
+            185.3
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "Related certification tools with a different domain and loss object",
+          "display": "Related certification tools with a different domain and loss object",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            154.4,
+            507.40157480314963,
+            185.3
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "Present construction",
+          "display": "Present construction",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            185.3,
+            96.37795275590551,
+            216.20000000000002
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "Worst relative multiclass half-Brier loss over complete outputs consistent with observed blocks",
+          "display": "Worst relative multiclass half-Brier loss over complete\noutputs consistent with observed blocks",
+          "cell_bounds_pt": [
+            96.37795275590551,
+            185.3,
+            289.13385826771656,
+            216.20000000000002
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "original": "Constructs and certifies a probability vector, while charging its full processing cost",
+          "display": "Constructs and certifies a probability vector, while charging its full\nprocessing cost",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            185.3,
+            507.40157480314963,
+            216.20000000000002
+          ]
+        }
+      ]
+    },
+    {
+      "table": 2,
+      "title": "Signal-processing workloads and frozen evaluation cohorts",
+      "source_line_start": 17,
+      "source_line_end": 20,
+      "source_cells_sha256": "d6b5a144bb0042ba98fcd6fdd20f4b5d9c78216317e094167cd943ada8ad6fa9",
+      "body_rows": 2,
+      "columns": 5,
+      "width_mm": 183.0,
+      "height_mm": 50.38548611111111,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        20,
+        30,
+        47,
+        32,
+        46
+      ],
+      "row_heights_pt": [
+        30.900000000000002,
+        30.900000000000002
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.6,
+        "text_objects": 17
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 22,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/DQFOKY+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/FAJHMP+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 50.3854861111111
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          1983
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table02.svg",
+          "sha256": "29a4702b57e685ce5518601467557550e8d8c5531afcc2d0bb9984c7bdda2cb7"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table02.pdf",
+          "sha256": "8045422713c33f216757d1f8335804e88fbaa7c6bf3b5cd2364f06664720116e"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table02.png",
+          "sha256": "7cf0f6e4038ad6b137f63351d664d635c8faa432b7b1d11710fba3a329777a8a"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table02_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Source",
+          "display": "Source",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            68.03149606299213,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "Task",
+          "display": "Task",
+          "cell_bounds_pt": [
+            68.03149606299213,
+            30.8,
+            153.0708661417323,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "Computed representation",
+          "display": "Computed representation",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            30.8,
+            286.29921259842524,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "Fitting/development",
+          "display": "Fitting/development",
+          "cell_bounds_pt": [
+            286.29921259842524,
+            30.8,
+            377.0078740157481,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 4,
+          "original": "Frozen evaluation",
+          "display": "Frozen evaluation",
+          "cell_bounds_pt": [
+            377.0078740157481,
+            30.8,
+            507.4015748031497,
+            52.25
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "Hydraulic",
+          "display": "Hydraulic",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            52.25,
+            68.03149606299213,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "Four valve-condition classes",
+          "display": "Four valve-condition\nclasses",
+          "cell_bounds_pt": [
+            68.03149606299213,
+            52.25,
+            153.0708661417323,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "14 channels;28 blocks;238 features",
+          "display": "14 channels; 28 blocks; 238 features",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            52.25,
+            286.29921259842524,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "907/223 cycles",
+          "display": "907 / 223 cycles",
+          "cell_bounds_pt": [
+            286.29921259842524,
+            52.25,
+            377.0078740157481,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "original": "435 previously held-out cycles, grouped by operating-segment proxies",
+          "display": "435 previously held-out cycles, grouped\nby operating-segment proxies",
+          "cell_bounds_pt": [
+            377.0078740157481,
+            52.25,
+            507.4015748031497,
+            83.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "Smartphone HAR",
+          "display": "Smartphone\nHAR",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            83.15,
+            68.03149606299213,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "Six activity classes",
+          "display": "Six activity classes",
+          "cell_bounds_pt": [
+            68.03149606299213,
+            83.15,
+            153.0708661417323,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "9 channels;18 blocks;153 features",
+          "display": "9 channels; 18 blocks; 153 features",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            83.15,
+            286.29921259842524,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "17/4 official training subjects per system",
+          "display": "17 / 4 official training\nsubjects per system",
+          "cell_bounds_pt": [
+            286.29921259842524,
+            83.15,
+            377.0078740157481,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "original": "2,947 windows from nine official test subjects",
+          "display": "2,947 windows from nine official test\nsubjects",
+          "cell_bounds_pt": [
+            377.0078740157481,
+            83.15,
+            507.4015748031497,
+            114.05000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "table": 3,
+      "title": "Complete-model quality on the held-out HAR release",
+      "source_line_start": 25,
+      "source_line_end": 31,
+      "source_cells_sha256": "494627ea84e4efbc35e4e4120ebc0a6571107ddd329c7a674e9cf96e3aab24e1",
+      "body_rows": 5,
+      "columns": 5,
+      "width_mm": 183.0,
+      "height_mm": 69.75298611111111,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        43,
+        33,
+        33,
+        33,
+        33
+      ],
+      "row_heights_pt": [
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.6,
+        "text_objects": 32
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 35,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/UYZBWL+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/EHYIMY+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 69.7529861111111
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          2746
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table03.svg",
+          "sha256": "0729f46aa0230a455c3a26a480c54452b07fd4b797dd3427b9ca383e2ca78700"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table03.pdf",
+          "sha256": "ff27ac01d0c4722c9352356aade3659a6ca30af7127ef9ef2193925ecfbcde7a"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table03.png",
+          "sha256": "56350398744152382755b42d278f7f87c2aa08e240d436a68f0f6f26757cb008"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table03_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Complete family",
+          "display": "Complete family",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            133.22834645669292,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "System 17: half-Brier / accuracy",
+          "display": "System 17: half-Brier /\naccuracy",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            30.8,
+            226.77165354330708,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "System 29: half-Brier / accuracy",
+          "display": "System 29: half-Brier /\naccuracy",
+          "cell_bounds_pt": [
+            226.77165354330708,
+            30.8,
+            320.31496062992125,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "System 43: half-Brier / accuracy",
+          "display": "System 43: half-Brier /\naccuracy",
+          "cell_bounds_pt": [
+            320.31496062992125,
+            30.8,
+            413.8582677165354,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 4,
+          "original": "Mean half-Brier / accuracy",
+          "display": "Mean half-Brier / accuracy",
+          "cell_bounds_pt": [
+            413.8582677165354,
+            30.8,
+            507.4015748031496,
+            61.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "HGB, certified method's reference",
+          "display": "HGB, certified method's reference",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            61.7,
+            133.22834645669292,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "0.056736 / 91.79%",
+          "display": "0.056736 / 91.79%",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            61.7,
+            226.77165354330708,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "0.077797 / 90.33%",
+          "display": "0.077797 / 90.33%",
+          "cell_bounds_pt": [
+            226.77165354330708,
+            61.7,
+            320.31496062992125,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "0.049557 / 93.59%",
+          "display": "0.049557 / 93.59%",
+          "cell_bounds_pt": [
+            320.31496062992125,
+            61.7,
+            413.8582677165354,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "original": "0.061363 / 91.90%",
+          "display": "0.061363 / 91.90%",
+          "cell_bounds_pt": [
+            413.8582677165354,
+            61.7,
+            507.4015748031496,
+            83.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "Random forest",
+          "display": "Random forest",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            83.15,
+            133.22834645669292,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "0.071221 / 90.74%",
+          "display": "0.071221 / 90.74%",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            83.15,
+            226.77165354330708,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "0.079527 / 88.97%",
+          "display": "0.079527 / 88.97%",
+          "cell_bounds_pt": [
+            226.77165354330708,
+            83.15,
+            320.31496062992125,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "0.060011 / 92.37%",
+          "display": "0.060011 / 92.37%",
+          "cell_bounds_pt": [
+            320.31496062992125,
+            83.15,
+            413.8582677165354,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "original": "0.070253 / 90.69%",
+          "display": "0.070253 / 90.69%",
+          "cell_bounds_pt": [
+            413.8582677165354,
+            83.15,
+            507.4015748031496,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "Extra trees",
+          "display": "Extra trees",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            104.60000000000001,
+            133.22834645669292,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "0.068181 / 91.21%",
+          "display": "0.068181 / 91.21%",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            104.60000000000001,
+            226.77165354330708,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "0.076067 / 90.50%",
+          "display": "0.076067 / 90.50%",
+          "cell_bounds_pt": [
+            226.77165354330708,
+            104.60000000000001,
+            320.31496062992125,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "0.064143 / 92.09%",
+          "display": "0.064143 / 92.09%",
+          "cell_bounds_pt": [
+            320.31496062992125,
+            104.60000000000001,
+            413.8582677165354,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "original": "0.069464 / 91.27%",
+          "display": "0.069464 / 91.27%",
+          "cell_bounds_pt": [
+            413.8582677165354,
+            104.60000000000001,
+            507.4015748031496,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "Logistic regression",
+          "display": "Logistic regression",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            126.05000000000001,
+            133.22834645669292,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "0.069117 / 90.67%",
+          "display": "0.069117 / 90.67%",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            126.05000000000001,
+            226.77165354330708,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "0.094257 / 88.60%",
+          "display": "0.094257 / 88.60%",
+          "cell_bounds_pt": [
+            226.77165354330708,
+            126.05000000000001,
+            320.31496062992125,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "original": "0.056360 / 92.60%",
+          "display": "0.056360 / 92.60%",
+          "cell_bounds_pt": [
+            320.31496062992125,
+            126.05000000000001,
+            413.8582677165354,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "original": "0.073245 / 90.62%",
+          "display": "0.073245 / 90.62%",
+          "cell_bounds_pt": [
+            413.8582677165354,
+            126.05000000000001,
+            507.4015748031496,
+            147.5
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "RBF SVC",
+          "display": "RBF SVC",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            147.5,
+            133.22834645669292,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "0.050195 / 93.28%",
+          "display": "0.050195 / 93.28%",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            147.5,
+            226.77165354330708,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "original": "0.063627 / 91.86%",
+          "display": "0.063627 / 91.86%",
+          "cell_bounds_pt": [
+            226.77165354330708,
+            147.5,
+            320.31496062992125,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "original": "0.042154 / 94.67%",
+          "display": "0.042154 / 94.67%",
+          "cell_bounds_pt": [
+            320.31496062992125,
+            147.5,
+            413.8582677165354,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "original": "0.051992 / 93.27%",
+          "display": "0.051992 / 93.27%",
+          "cell_bounds_pt": [
+            413.8582677165354,
+            147.5,
+            507.4015748031496,
+            168.95
+          ]
+        }
+      ]
+    },
+    {
+      "table": 4,
+      "title": "Complete-model processing cost and same-cohort quality",
+      "source_line_start": 36,
+      "source_line_end": 43,
+      "source_cells_sha256": "212ba12208073676e848bfd0b8749ffc782fd5c57df34bf9c530e2b859036ec3",
+      "body_rows": 6,
+      "columns": 5,
+      "width_mm": 183.0,
+      "height_mm": 80.41569444444445,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        43,
+        38,
+        37,
+        29,
+        28
+      ],
+      "row_heights_pt": [
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.6,
+        "text_objects": 37
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 40,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/FKZMXI+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/CJPLNO+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 80.41569444444443
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          3165
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table04.svg",
+          "sha256": "c69216e59fbbf3fb21c7caa5bca4873aee0f85e52a72e26f6d29aaf2e5e864a2"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table04.pdf",
+          "sha256": "19af869dd9376864d2b4aa9225c637172a0356d9aba8a2859e4a8256a0132ca9"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table04.png",
+          "sha256": "309afbd10bea9cead5798606ff94be99a8e30d67d052af9849d36b71f3dd941b"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table04_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Complete implementation",
+          "display": "Complete implementation",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            133.22834645669292,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "Mean / median time, ms",
+          "display": "Mean / median time, ms",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            30.8,
+            240.9448818897638,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "P95 / P99, ms",
+          "display": "P95 / P99, ms",
+          "cell_bounds_pt": [
+            240.9448818897638,
+            30.8,
+            345.82677165354335,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "Same-cohort half-Brier",
+          "display": "Same-cohort\nhalf-Brier",
+          "cell_bounds_pt": [
+            345.82677165354335,
+            30.8,
+            428.0314960629922,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 4,
+          "original": "Same-cohort accuracy",
+          "display": "Same-cohort\naccuracy",
+          "cell_bounds_pt": [
+            428.0314960629922,
+            30.8,
+            507.40157480314963,
+            61.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "Native HGB",
+          "display": "Native HGB",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            61.7,
+            133.22834645669292,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "5.935996 / 5.636200",
+          "display": "5.935996 / 5.636200",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            61.7,
+            240.9448818897638,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "9.005495 / 10.461700",
+          "display": "9.005495 / 10.461700",
+          "cell_bounds_pt": [
+            240.9448818897638,
+            61.7,
+            345.82677165354335,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "0.066411",
+          "display": "0.066411",
+          "cell_bounds_pt": [
+            345.82677165354335,
+            61.7,
+            428.0314960629922,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "original": "91.11%",
+          "display": "91.11%",
+          "cell_bounds_pt": [
+            428.0314960629922,
+            61.7,
+            507.40157480314963,
+            83.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "Compiled HGB",
+          "display": "Compiled HGB",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            83.15,
+            133.22834645669292,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "1.149548 / 1.049300",
+          "display": "1.149548 / 1.049300",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            83.15,
+            240.9448818897638,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "1.802545 / 2.151405",
+          "display": "1.802545 / 2.151405",
+          "cell_bounds_pt": [
+            240.9448818897638,
+            83.15,
+            345.82677165354335,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "0.066411",
+          "display": "0.066411",
+          "cell_bounds_pt": [
+            345.82677165354335,
+            83.15,
+            428.0314960629922,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "original": "91.11%",
+          "display": "91.11%",
+          "cell_bounds_pt": [
+            428.0314960629922,
+            83.15,
+            507.40157480314963,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "Random forest",
+          "display": "Random forest",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            104.60000000000001,
+            133.22834645669292,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "14.798855 / 13.466150",
+          "display": "14.798855 / 13.466150",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            104.60000000000001,
+            240.9448818897638,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "22.953085 / 26.324272",
+          "display": "22.953085 / 26.324272",
+          "cell_bounds_pt": [
+            240.9448818897638,
+            104.60000000000001,
+            345.82677165354335,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "0.075713",
+          "display": "0.075713",
+          "cell_bounds_pt": [
+            345.82677165354335,
+            104.60000000000001,
+            428.0314960629922,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "original": "89.85%",
+          "display": "89.85%",
+          "cell_bounds_pt": [
+            428.0314960629922,
+            104.60000000000001,
+            507.40157480314963,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "Extra trees",
+          "display": "Extra trees",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            126.05000000000001,
+            133.22834645669292,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "15.155591 / 13.812650",
+          "display": "15.155591 / 13.812650",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            126.05000000000001,
+            240.9448818897638,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "23.348470 / 26.783967",
+          "display": "23.348470 / 26.783967",
+          "cell_bounds_pt": [
+            240.9448818897638,
+            126.05000000000001,
+            345.82677165354335,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "original": "0.073094",
+          "display": "0.073094",
+          "cell_bounds_pt": [
+            345.82677165354335,
+            126.05000000000001,
+            428.0314960629922,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "original": "90.74%",
+          "display": "90.74%",
+          "cell_bounds_pt": [
+            428.0314960629922,
+            126.05000000000001,
+            507.40157480314963,
+            147.5
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "Logistic regression",
+          "display": "Logistic regression",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            147.5,
+            133.22834645669292,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "1.295108 / 1.196150",
+          "display": "1.295108 / 1.196150",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            147.5,
+            240.9448818897638,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "original": "2.024415 / 2.360212",
+          "display": "2.024415 / 2.360212",
+          "cell_bounds_pt": [
+            240.9448818897638,
+            147.5,
+            345.82677165354335,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "original": "0.079415",
+          "display": "0.079415",
+          "cell_bounds_pt": [
+            345.82677165354335,
+            147.5,
+            428.0314960629922,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "original": "89.67%",
+          "display": "89.67%",
+          "cell_bounds_pt": [
+            428.0314960629922,
+            147.5,
+            507.40157480314963,
+            168.95
+          ]
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "original": "RBF SVC",
+          "display": "RBF SVC",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            168.95,
+            133.22834645669292,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "original": "1.625706 / 1.498900",
+          "display": "1.625706 / 1.498900",
+          "cell_bounds_pt": [
+            133.22834645669292,
+            168.95,
+            240.9448818897638,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "original": "2.519920 / 2.975855",
+          "display": "2.519920 / 2.975855",
+          "cell_bounds_pt": [
+            240.9448818897638,
+            168.95,
+            345.82677165354335,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "original": "0.056553",
+          "display": "0.056553",
+          "cell_bounds_pt": [
+            345.82677165354335,
+            168.95,
+            428.0314960629922,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "original": "92.56%",
+          "display": "92.56%",
+          "cell_bounds_pt": [
+            428.0314960629922,
+            168.95,
+            507.40157480314963,
+            190.39999999999998
+          ]
+        }
+      ]
+    },
+    {
+      "table": 5,
+      "title": "Primary HAR comparison at half-Brier tolerance 0.025",
+      "source_line_start": 48,
+      "source_line_end": 53,
+      "source_cells_sha256": "67086d28db9d8f60334f55429dd5b0dd5977058762ddfbd772ee3890c2b13e57",
+      "body_rows": 4,
+      "columns": 7,
+      "width_mm": 183.0,
+      "height_mm": 65.28152777777777,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        14,
+        24,
+        24,
+        23,
+        39,
+        25,
+        26
+      ],
+      "row_heights_pt": [
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.600000000000026,
+        "text_objects": 37
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 39,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/OVFTRH+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/GABSDZ+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 65.28152777777777
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          2570
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table05.svg",
+          "sha256": "edfb814b472c8c6d4c880bbb0275038d9621b4a230603174a6a62c37118af496"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table05.pdf",
+          "sha256": "df48ddeaef847e03e026dfba9f7fba73de9fdf0b83a9b7b3f20dea4a324c711f"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table05.png",
+          "sha256": "bb4d03ff927c5186245bbf6250a27fe04d8ae399e468ca4c3832142c6c0f405a"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table05_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "System",
+          "display": "System",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            51.023622047244096,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "Complete full time, ms",
+          "display": "Complete full\ntime, ms",
+          "cell_bounds_pt": [
+            51.023622047244096,
+            30.8,
+            119.05511811023624,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "Partial time, ms",
+          "display": "Partial time, ms",
+          "cell_bounds_pt": [
+            119.05511811023624,
+            30.8,
+            187.08661417322838,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "Time reduction",
+          "display": "Time reduction",
+          "cell_bounds_pt": [
+            187.08661417322838,
+            30.8,
+            252.28346456692918,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 4,
+          "original": "Partial / full half-Brier",
+          "display": "Partial / full half-Brier",
+          "cell_bounds_pt": [
+            252.28346456692918,
+            30.8,
+            362.8346456692914,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 5,
+          "original": "Mean blocks of 18",
+          "display": "Mean blocks of 18",
+          "cell_bounds_pt": [
+            362.8346456692914,
+            30.8,
+            433.70078740157487,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 6,
+          "original": "Full fallback",
+          "display": "Full fallback",
+          "cell_bounds_pt": [
+            433.70078740157487,
+            30.8,
+            507.4015748031497,
+            61.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "17",
+          "display": "17",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            61.7,
+            51.023622047244096,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "1.122237",
+          "display": "1.122237",
+          "cell_bounds_pt": [
+            51.023622047244096,
+            61.7,
+            119.05511811023624,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "1.016754",
+          "display": "1.016754",
+          "cell_bounds_pt": [
+            119.05511811023624,
+            61.7,
+            187.08661417322838,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "9.40%",
+          "display": "9.40%",
+          "cell_bounds_pt": [
+            187.08661417322838,
+            61.7,
+            252.28346456692918,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "original": "0.066525 / 0.063736",
+          "display": "0.066525 / 0.063736",
+          "cell_bounds_pt": [
+            252.28346456692918,
+            61.7,
+            362.8346456692914,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "original": "14.5089",
+          "display": "14.5089",
+          "cell_bounds_pt": [
+            362.8346456692914,
+            61.7,
+            433.70078740157487,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 6,
+          "original": "19.89%",
+          "display": "19.89%",
+          "cell_bounds_pt": [
+            433.70078740157487,
+            61.7,
+            507.4015748031497,
+            83.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "29",
+          "display": "29",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            83.15,
+            51.023622047244096,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "1.051749",
+          "display": "1.051749",
+          "cell_bounds_pt": [
+            51.023622047244096,
+            83.15,
+            119.05511811023624,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "1.023604",
+          "display": "1.023604",
+          "cell_bounds_pt": [
+            119.05511811023624,
+            83.15,
+            187.08661417322838,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "2.68%",
+          "display": "2.68%",
+          "cell_bounds_pt": [
+            187.08661417322838,
+            83.15,
+            252.28346456692918,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "original": "0.090309 / 0.083996",
+          "display": "0.090309 / 0.083996",
+          "cell_bounds_pt": [
+            252.28346456692918,
+            83.15,
+            362.8346456692914,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "original": "15.7778",
+          "display": "15.7778",
+          "cell_bounds_pt": [
+            362.8346456692914,
+            83.15,
+            433.70078740157487,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "original": "38.22%",
+          "display": "38.22%",
+          "cell_bounds_pt": [
+            433.70078740157487,
+            83.15,
+            507.4015748031497,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "43",
+          "display": "43",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            104.60000000000001,
+            51.023622047244096,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "1.066047",
+          "display": "1.066047",
+          "cell_bounds_pt": [
+            51.023622047244096,
+            104.60000000000001,
+            119.05511811023624,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "0.963610",
+          "display": "0.963610",
+          "cell_bounds_pt": [
+            119.05511811023624,
+            104.60000000000001,
+            187.08661417322838,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "9.61%",
+          "display": "9.61%",
+          "cell_bounds_pt": [
+            187.08661417322838,
+            104.60000000000001,
+            252.28346456692918,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "original": "0.054615 / 0.051502",
+          "display": "0.054615 / 0.051502",
+          "cell_bounds_pt": [
+            252.28346456692918,
+            104.60000000000001,
+            362.8346456692914,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "original": "14.6711",
+          "display": "14.6711",
+          "cell_bounds_pt": [
+            362.8346456692914,
+            104.60000000000001,
+            433.70078740157487,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "original": "17.33%",
+          "display": "17.33%",
+          "cell_bounds_pt": [
+            433.70078740157487,
+            104.60000000000001,
+            507.4015748031497,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "Mean",
+          "display": "Mean",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            126.05000000000001,
+            51.023622047244096,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "1.080011",
+          "display": "1.080011",
+          "cell_bounds_pt": [
+            51.023622047244096,
+            126.05000000000001,
+            119.05511811023624,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "1.001322",
+          "display": "1.001322",
+          "cell_bounds_pt": [
+            119.05511811023624,
+            126.05000000000001,
+            187.08661417322838,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "original": "7.29%",
+          "display": "7.29%",
+          "cell_bounds_pt": [
+            187.08661417322838,
+            126.05000000000001,
+            252.28346456692918,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "original": "0.070483 / 0.066411",
+          "display": "0.070483 / 0.066411",
+          "cell_bounds_pt": [
+            252.28346456692918,
+            126.05000000000001,
+            362.8346456692914,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "original": "14.9859",
+          "display": "14.9859",
+          "cell_bounds_pt": [
+            362.8346456692914,
+            126.05000000000001,
+            433.70078740157487,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "original": "25.15%",
+          "display": "25.15%",
+          "cell_bounds_pt": [
+            433.70078740157487,
+            126.05000000000001,
+            507.4015748031497,
+            147.5
+          ]
+        }
+      ]
+    },
+    {
+      "table": 6,
+      "title": "HAR stopping and output-construction controls",
+      "source_line_start": 58,
+      "source_line_end": 67,
+      "source_cells_sha256": "1e17c93468df2421a98ed17bf1bc5e4ebd5877ebbddbec28eaf7062a40841f75",
+      "body_rows": 8,
+      "columns": 6,
+      "width_mm": 183.0,
+      "height_mm": 95.54986111111111,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        49,
+        26,
+        21,
+        23,
+        28,
+        28
+      ],
+      "row_heights_pt": [
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.6,
+        "text_objects": 56
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 60,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/DBYHOT+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/BZWNWG+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 95.54986111111111
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          3761
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table06.svg",
+          "sha256": "0dc74943c1caab61c37d9c4f870d8e149c5bc34cadefe3a21eb0a1af8ce4314a"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table06.pdf",
+          "sha256": "80efc3a235e3f2365a9a7e2f2bfa8b64712bd54c64bc04d6f42dc806ebb9ca49"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table06.png",
+          "sha256": "5b2d05428fd7ae51ff095ef7a267e0a5b014d3017bc664eadebfc9bbccd8bc11"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table06_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Procedure",
+          "display": "Procedure",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            150.23622047244098,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "Complete mean time, ms",
+          "display": "Complete mean\ntime, ms",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            30.8,
+            223.9370078740158,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "Time reduction",
+          "display": "Time reduction",
+          "cell_bounds_pt": [
+            223.9370078740158,
+            30.8,
+            283.4645669291339,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "Half-Brier",
+          "display": "Half-Brier",
+          "cell_bounds_pt": [
+            283.4645669291339,
+            30.8,
+            348.6614173228347,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 4,
+          "original": "Observed-label mean increase",
+          "display": "Observed-label mean\nincrease",
+          "cell_bounds_pt": [
+            348.6614173228347,
+            30.8,
+            428.03149606299223,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 5,
+          "original": "Every-label exceedances / 2,700",
+          "display": "Every-label\nexceedances / 2,700",
+          "cell_bounds_pt": [
+            428.03149606299223,
+            30.8,
+            507.40157480314974,
+            61.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "Compiled full",
+          "display": "Compiled full",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            61.7,
+            150.23622047244098,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "1.080011",
+          "display": "1.080011",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            61.7,
+            223.9370078740158,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "—",
+          "display": "—",
+          "cell_bounds_pt": [
+            223.9370078740158,
+            61.7,
+            283.4645669291339,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "0.066411",
+          "display": "0.066411",
+          "cell_bounds_pt": [
+            283.4645669291339,
+            61.7,
+            348.6614173228347,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "original": "0",
+          "display": "0",
+          "cell_bounds_pt": [
+            348.6614173228347,
+            61.7,
+            428.03149606299223,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "original": "0",
+          "display": "0",
+          "cell_bounds_pt": [
+            428.03149606299223,
+            61.7,
+            507.40157480314974,
+            83.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "Simplex-aware minimax, 0.025",
+          "display": "Simplex-aware minimax, 0.025",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            83.15,
+            150.23622047244098,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "1.001322",
+          "display": "1.001322",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            83.15,
+            223.9370078740158,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "7.29%",
+          "display": "7.29%",
+          "cell_bounds_pt": [
+            223.9370078740158,
+            83.15,
+            283.4645669291339,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "0.070483",
+          "display": "0.070483",
+          "cell_bounds_pt": [
+            283.4645669291339,
+            83.15,
+            348.6614173228347,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "original": "0.004072",
+          "display": "0.004072",
+          "cell_bounds_pt": [
+            348.6614173228347,
+            83.15,
+            428.03149606299223,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "original": "0",
+          "display": "0",
+          "cell_bounds_pt": [
+            428.03149606299223,
+            83.15,
+            507.40157480314974,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "Coordinate minimax, 0.025",
+          "display": "Coordinate minimax, 0.025",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            104.60000000000001,
+            150.23622047244098,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "1.001969",
+          "display": "1.001969",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            104.60000000000001,
+            223.9370078740158,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "7.23%",
+          "display": "7.23%",
+          "cell_bounds_pt": [
+            223.9370078740158,
+            104.60000000000001,
+            283.4645669291339,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "0.070369",
+          "display": "0.070369",
+          "cell_bounds_pt": [
+            283.4645669291339,
+            104.60000000000001,
+            348.6614173228347,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "original": "0.003958",
+          "display": "0.003958",
+          "cell_bounds_pt": [
+            348.6614173228347,
+            104.60000000000001,
+            428.03149606299223,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "original": "0",
+          "display": "0",
+          "cell_bounds_pt": [
+            428.03149606299223,
+            104.60000000000001,
+            507.40157480314974,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "Midpoint with tight certificate, 0.025",
+          "display": "Midpoint with tight certificate, 0.025",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            126.05000000000001,
+            150.23622047244098,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "1.137513",
+          "display": "1.137513",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            126.05000000000001,
+            223.9370078740158,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "−5.32%",
+          "display": "−5.32%",
+          "cell_bounds_pt": [
+            223.9370078740158,
+            126.05000000000001,
+            283.4645669291339,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "original": "0.066579",
+          "display": "0.066579",
+          "cell_bounds_pt": [
+            283.4645669291339,
+            126.05000000000001,
+            348.6614173228347,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "original": "0.000168",
+          "display": "0.000168",
+          "cell_bounds_pt": [
+            348.6614173228347,
+            126.05000000000001,
+            428.03149606299223,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "original": "0",
+          "display": "0",
+          "cell_bounds_pt": [
+            428.03149606299223,
+            126.05000000000001,
+            507.40157480314974,
+            147.5
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "Minimax with uniform checkpoints, 0.025",
+          "display": "Minimax with uniform checkpoints, 0.025",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            147.5,
+            150.23622047244098,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "1.108992",
+          "display": "1.108992",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            147.5,
+            223.9370078740158,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "original": "−2.68%",
+          "display": "−2.68%",
+          "cell_bounds_pt": [
+            223.9370078740158,
+            147.5,
+            283.4645669291339,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "original": "0.072028",
+          "display": "0.072028",
+          "cell_bounds_pt": [
+            283.4645669291339,
+            147.5,
+            348.6614173228347,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "original": "0.005617",
+          "display": "0.005617",
+          "cell_bounds_pt": [
+            348.6614173228347,
+            147.5,
+            428.03149606299223,
+            168.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "original": "0",
+          "display": "0",
+          "cell_bounds_pt": [
+            428.03149606299223,
+            147.5,
+            507.40157480314974,
+            168.95
+          ]
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "original": "Score-separated class preservation",
+          "display": "Score-separated class preservation",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            168.95,
+            150.23622047244098,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "original": "0.862145",
+          "display": "0.862145",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            168.95,
+            223.9370078740158,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "original": "20.17%",
+          "display": "20.17%",
+          "cell_bounds_pt": [
+            223.9370078740158,
+            168.95,
+            283.4645669291339,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "original": "0.093246",
+          "display": "0.093246",
+          "cell_bounds_pt": [
+            283.4645669291339,
+            168.95,
+            348.6614173228347,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "original": "0.026834",
+          "display": "0.026834",
+          "cell_bounds_pt": [
+            348.6614173228347,
+            168.95,
+            428.03149606299223,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "original": "1,289",
+          "display": "1,289",
+          "cell_bounds_pt": [
+            428.03149606299223,
+            168.95,
+            507.40157480314974,
+            190.39999999999998
+          ]
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "original": "Fixed-prefix mean completion",
+          "display": "Fixed-prefix mean completion",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            190.39999999999998,
+            150.23622047244098,
+            211.84999999999997
+          ]
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "original": "0.775521",
+          "display": "0.775521",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            190.39999999999998,
+            223.9370078740158,
+            211.84999999999997
+          ]
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "original": "28.19%",
+          "display": "28.19%",
+          "cell_bounds_pt": [
+            223.9370078740158,
+            190.39999999999998,
+            283.4645669291339,
+            211.84999999999997
+          ]
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "original": "0.073406",
+          "display": "0.073406",
+          "cell_bounds_pt": [
+            283.4645669291339,
+            190.39999999999998,
+            348.6614173228347,
+            211.84999999999997
+          ]
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "original": "0.006995",
+          "display": "0.006995",
+          "cell_bounds_pt": [
+            348.6614173228347,
+            190.39999999999998,
+            428.03149606299223,
+            211.84999999999997
+          ]
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "original": "641",
+          "display": "641",
+          "cell_bounds_pt": [
+            428.03149606299223,
+            190.39999999999998,
+            507.40157480314974,
+            211.84999999999997
+          ]
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "original": "Entropy mean completion",
+          "display": "Entropy mean completion",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            211.84999999999997,
+            150.23622047244098,
+            233.29999999999995
+          ]
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "original": "0.768284",
+          "display": "0.768284",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            211.84999999999997,
+            223.9370078740158,
+            233.29999999999995
+          ]
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "original": "28.86%",
+          "display": "28.86%",
+          "cell_bounds_pt": [
+            223.9370078740158,
+            211.84999999999997,
+            283.4645669291339,
+            233.29999999999995
+          ]
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "original": "0.073406",
+          "display": "0.073406",
+          "cell_bounds_pt": [
+            283.4645669291339,
+            211.84999999999997,
+            348.6614173228347,
+            233.29999999999995
+          ]
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "original": "0.006995",
+          "display": "0.006995",
+          "cell_bounds_pt": [
+            348.6614173228347,
+            211.84999999999997,
+            428.03149606299223,
+            233.29999999999995
+          ]
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "original": "641",
+          "display": "641",
+          "cell_bounds_pt": [
+            428.03149606299223,
+            211.84999999999997,
+            507.40157480314974,
+            233.29999999999995
+          ]
+        }
+      ]
+    },
+    {
+      "table": 7,
+      "title": "Prescribed fidelity tolerance and measured complete time",
+      "source_line_start": 72,
+      "source_line_end": 78,
+      "source_cells_sha256": "62b63716be785b7b73f37324f010d275921d2f391b5d250579bd15f6f0cb9a43",
+      "body_rows": 5,
+      "columns": 7,
+      "width_mm": 183.0,
+      "height_mm": 79.19861111111112,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        20,
+        26,
+        20,
+        31.5,
+        26,
+        20,
+        31.5
+      ],
+      "row_heights_pt": [
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 3.9313964843749902,
+        "text_objects": 46
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 49,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/IPZKMI+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/DQWTNO+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 79.1986111111111
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          3118
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table07.svg",
+          "sha256": "219be6be977045ebf7327daf425e0203d151f4e043ba23266e7acb812037bd0c"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table07.pdf",
+          "sha256": "05052ae143c963dc50d9fd44dd94678b3c5f7a0c03afcd6a8a0dab4c6af64686"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table07.png",
+          "sha256": "2cb4fe4256151881cdfefa9425fbc4d998910dc1c17849e448f4f7936bbc9f1e"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table07_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Half-Brier tolerance",
+          "display": "Half-Brier\ntolerance",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            48.8,
+            68.03149606299213,
+            79.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "HAR complete time, ms",
+          "display": "Complete time, ms",
+          "cell_bounds_pt": [
+            68.03149606299213,
+            48.8,
+            141.73228346456693,
+            79.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "HAR reduction",
+          "display": "Reduction",
+          "cell_bounds_pt": [
+            141.73228346456693,
+            48.8,
+            198.42519685039372,
+            79.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "HAR same-cohort mean increase",
+          "display": "Same-cohort mean\nincrease",
+          "cell_bounds_pt": [
+            198.42519685039372,
+            48.8,
+            287.7165354330709,
+            79.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 4,
+          "original": "Hydraulic complete time, ms",
+          "display": "Complete time, ms",
+          "cell_bounds_pt": [
+            287.7165354330709,
+            48.8,
+            361.4173228346457,
+            79.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 5,
+          "original": "Hydraulic reduction",
+          "display": "Reduction",
+          "cell_bounds_pt": [
+            361.4173228346457,
+            48.8,
+            418.1102362204725,
+            79.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 6,
+          "original": "Hydraulic mean increase",
+          "display": "Mean increase",
+          "cell_bounds_pt": [
+            418.1102362204725,
+            48.8,
+            507.40157480314963,
+            79.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "0",
+          "display": "0",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            79.7,
+            68.03149606299213,
+            101.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "1.262918",
+          "display": "1.262918",
+          "cell_bounds_pt": [
+            68.03149606299213,
+            79.7,
+            141.73228346456693,
+            101.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "−16.94%",
+          "display": "−16.94%",
+          "cell_bounds_pt": [
+            141.73228346456693,
+            79.7,
+            198.42519685039372,
+            101.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "0",
+          "display": "0",
+          "cell_bounds_pt": [
+            198.42519685039372,
+            79.7,
+            287.7165354330709,
+            101.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "original": "3.108712",
+          "display": "3.108712",
+          "cell_bounds_pt": [
+            287.7165354330709,
+            79.7,
+            361.4173228346457,
+            101.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "original": "−8.68%",
+          "display": "−8.68%",
+          "cell_bounds_pt": [
+            361.4173228346457,
+            79.7,
+            418.1102362204725,
+            101.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 6,
+          "original": "0",
+          "display": "0",
+          "cell_bounds_pt": [
+            418.1102362204725,
+            79.7,
+            507.40157480314963,
+            101.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "0.01",
+          "display": "0.01",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            101.15,
+            68.03149606299213,
+            122.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "1.065939",
+          "display": "1.065939",
+          "cell_bounds_pt": [
+            68.03149606299213,
+            101.15,
+            141.73228346456693,
+            122.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "1.30%",
+          "display": "1.30%",
+          "cell_bounds_pt": [
+            141.73228346456693,
+            101.15,
+            198.42519685039372,
+            122.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "0.001226",
+          "display": "0.001226",
+          "cell_bounds_pt": [
+            198.42519685039372,
+            101.15,
+            287.7165354330709,
+            122.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "original": "2.261661",
+          "display": "2.261661",
+          "cell_bounds_pt": [
+            287.7165354330709,
+            101.15,
+            361.4173228346457,
+            122.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "original": "20.93%",
+          "display": "20.93%",
+          "cell_bounds_pt": [
+            361.4173228346457,
+            101.15,
+            418.1102362204725,
+            122.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "original": "0.000713",
+          "display": "0.000713",
+          "cell_bounds_pt": [
+            418.1102362204725,
+            101.15,
+            507.40157480314963,
+            122.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "0.025",
+          "display": "0.025",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            122.60000000000001,
+            68.03149606299213,
+            144.05
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "1.001322",
+          "display": "1.001322",
+          "cell_bounds_pt": [
+            68.03149606299213,
+            122.60000000000001,
+            141.73228346456693,
+            144.05
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "7.29%",
+          "display": "7.29%",
+          "cell_bounds_pt": [
+            141.73228346456693,
+            122.60000000000001,
+            198.42519685039372,
+            144.05
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "0.004072",
+          "display": "0.004072",
+          "cell_bounds_pt": [
+            198.42519685039372,
+            122.60000000000001,
+            287.7165354330709,
+            144.05
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "original": "2.139557",
+          "display": "2.139557",
+          "cell_bounds_pt": [
+            287.7165354330709,
+            122.60000000000001,
+            361.4173228346457,
+            144.05
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "original": "25.20%",
+          "display": "25.20%",
+          "cell_bounds_pt": [
+            361.4173228346457,
+            122.60000000000001,
+            418.1102362204725,
+            144.05
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "original": "0.002957",
+          "display": "0.002957",
+          "cell_bounds_pt": [
+            418.1102362204725,
+            122.60000000000001,
+            507.40157480314963,
+            144.05
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "0.05",
+          "display": "0.05",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            144.05,
+            68.03149606299213,
+            165.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "0.949258",
+          "display": "0.949258",
+          "cell_bounds_pt": [
+            68.03149606299213,
+            144.05,
+            141.73228346456693,
+            165.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "12.11%",
+          "display": "12.11%",
+          "cell_bounds_pt": [
+            141.73228346456693,
+            144.05,
+            198.42519685039372,
+            165.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "original": "0.008115",
+          "display": "0.008115",
+          "cell_bounds_pt": [
+            198.42519685039372,
+            144.05,
+            287.7165354330709,
+            165.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "original": "1.974194",
+          "display": "1.974194",
+          "cell_bounds_pt": [
+            287.7165354330709,
+            144.05,
+            361.4173228346457,
+            165.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "original": "30.98%",
+          "display": "30.98%",
+          "cell_bounds_pt": [
+            361.4173228346457,
+            144.05,
+            418.1102362204725,
+            165.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "original": "0.004959",
+          "display": "0.004959",
+          "cell_bounds_pt": [
+            418.1102362204725,
+            144.05,
+            507.40157480314963,
+            165.5
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "0.10",
+          "display": "0.10",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            165.5,
+            68.03149606299213,
+            186.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "0.886820",
+          "display": "0.886820",
+          "cell_bounds_pt": [
+            68.03149606299213,
+            165.5,
+            141.73228346456693,
+            186.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "original": "17.89%",
+          "display": "17.89%",
+          "cell_bounds_pt": [
+            141.73228346456693,
+            165.5,
+            198.42519685039372,
+            186.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "original": "0.016082",
+          "display": "0.016082",
+          "cell_bounds_pt": [
+            198.42519685039372,
+            165.5,
+            287.7165354330709,
+            186.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "original": "1.726200",
+          "display": "1.726200",
+          "cell_bounds_pt": [
+            287.7165354330709,
+            165.5,
+            361.4173228346457,
+            186.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "original": "39.65%",
+          "display": "39.65%",
+          "cell_bounds_pt": [
+            361.4173228346457,
+            165.5,
+            418.1102362204725,
+            186.95
+          ]
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "original": "0.013851",
+          "display": "0.013851",
+          "cell_bounds_pt": [
+            418.1102362204725,
+            165.5,
+            507.40157480314963,
+            186.95
+          ]
+        }
+      ]
+    },
+    {
+      "table": 8,
+      "title": "Complete and partial latency quantiles",
+      "source_line_start": 83,
+      "source_line_end": 88,
+      "source_cells_sha256": "e9ad602cd8af3a1f07c756ead55aa99d0ba658205bcb033a076a46815d1cdecd",
+      "body_rows": 4,
+      "columns": 4,
+      "width_mm": 183.0,
+      "height_mm": 61.94777777777778,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        49,
+        42,
+        42,
+        42
+      ],
+      "row_heights_pt": [
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.6,
+        "text_objects": 22
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 23,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/DXVDEI+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/DMALQV+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 61.947777777777766
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          2438
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table08.svg",
+          "sha256": "1d5e8df6270112b1399cc8f433c040356a9a94bf0b766a8208327eaee8c28bda"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table08.pdf",
+          "sha256": "c28e700a5a7e6fd207c43b403d251f76dee10074ea7e6d862ccafb81a05548ee"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table08.png",
+          "sha256": "1cee9b0ad8e7cbf488d23bd60a9b67016d72f414e02d3f15e0451c25f6dc1f5a"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table08_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Evaluation system",
+          "display": "Evaluation system",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            150.23622047244098,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "Full / partial P50, ms",
+          "display": "Full / partial P50, ms",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            30.8,
+            269.2913385826772,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "Full / partial P95, ms",
+          "display": "Full / partial P95, ms",
+          "cell_bounds_pt": [
+            269.2913385826772,
+            30.8,
+            388.3464566929134,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "Full / partial P99, ms",
+          "display": "Full / partial P99, ms",
+          "cell_bounds_pt": [
+            388.3464566929134,
+            30.8,
+            507.40157480314963,
+            52.25
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "HAR 17",
+          "display": "HAR 17",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            52.25,
+            150.23622047244098,
+            73.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "0.982250 / 0.914200",
+          "display": "0.982250 / 0.914200",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            52.25,
+            269.2913385826772,
+            73.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "1.908330 / 1.819120",
+          "display": "1.908330 / 1.819120",
+          "cell_bounds_pt": [
+            269.2913385826772,
+            52.25,
+            388.3464566929134,
+            73.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "2.320208 / 2.341802",
+          "display": "2.320208 / 2.341802",
+          "cell_bounds_pt": [
+            388.3464566929134,
+            52.25,
+            507.40157480314963,
+            73.7
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "HAR 29",
+          "display": "HAR 29",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            73.7,
+            150.23622047244098,
+            95.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "0.915500 / 0.941050",
+          "display": "0.915500 / 0.941050",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            73.7,
+            269.2913385826772,
+            95.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "1.600410 / 1.706305",
+          "display": "1.600410 / 1.706305",
+          "cell_bounds_pt": [
+            269.2913385826772,
+            73.7,
+            388.3464566929134,
+            95.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "2.097817 / 2.187748",
+          "display": "2.097817 / 2.187748",
+          "cell_bounds_pt": [
+            388.3464566929134,
+            73.7,
+            507.40157480314963,
+            95.15
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "HAR 43",
+          "display": "HAR 43",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            95.15,
+            150.23622047244098,
+            116.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "0.930950 / 0.869850",
+          "display": "0.930950 / 0.869850",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            95.15,
+            269.2913385826772,
+            116.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "1.770430 / 1.687745",
+          "display": "1.770430 / 1.687745",
+          "cell_bounds_pt": [
+            269.2913385826772,
+            95.15,
+            388.3464566929134,
+            116.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "2.225132 / 2.276310",
+          "display": "2.225132 / 2.276310",
+          "cell_bounds_pt": [
+            388.3464566929134,
+            95.15,
+            507.40157480314963,
+            116.60000000000001
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "Hydraulic confirmation",
+          "display": "Hydraulic confirmation",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            116.60000000000001,
+            150.23622047244098,
+            138.05
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "2.509400 / 1.943500",
+          "display": "2.509400 / 1.943500",
+          "cell_bounds_pt": [
+            150.23622047244098,
+            116.60000000000001,
+            269.2913385826772,
+            138.05
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "4.245220 / 3.986300",
+          "display": "4.245220 / 3.986300",
+          "cell_bounds_pt": [
+            269.2913385826772,
+            116.60000000000001,
+            388.3464566929134,
+            138.05
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "original": "4.843356 / 4.813808",
+          "display": "4.843356 / 4.813808",
+          "cell_bounds_pt": [
+            388.3464566929134,
+            116.60000000000001,
+            507.40157480314963,
+            138.05
+          ]
+        }
+      ]
+    },
+    {
+      "table": 9,
+      "title": "Primary HAR latency conditioned on processing outcome",
+      "source_line_start": 93,
+      "source_line_end": 97,
+      "source_cells_sha256": "b200d065305a355166e7a731a11183b77c6b8938ce783dd4300dbb8c3015e395",
+      "body_rows": 3,
+      "columns": 5,
+      "width_mm": 183.0,
+      "height_mm": 54.380694444444444,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        38,
+        27,
+        46,
+        39,
+        25
+      ],
+      "row_heights_pt": [
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.599999999999985,
+        "text_objects": 22
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 23,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/DYQAQP+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/GIBIJP+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 54.380694444444444
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          2140
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table09.svg",
+          "sha256": "bc93af1501ab77dd8abcd440a0530a8eae536e7536ed100cb747e137ebc84459"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table09.pdf",
+          "sha256": "8beb8260e269df999e111acf0d8eb13f2aae954e746469c3b7339a1f6449c112"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table09.png",
+          "sha256": "0cd84116c702f617cbb098965268a8cc00b87e67e44f916553528d3f29410d0e"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table09_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Processing outcome",
+          "display": "Processing outcome",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            119.05511811023624,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "System–windows",
+          "display": "System–windows",
+          "cell_bounds_pt": [
+            119.05511811023624,
+            30.8,
+            195.5905511811024,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "Partial / full mean, ms",
+          "display": "Partial / full mean, ms",
+          "cell_bounds_pt": [
+            195.5905511811024,
+            30.8,
+            325.984251968504,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "Partial-minus-full mean, ms",
+          "display": "Partial-minus-full mean, ms",
+          "cell_bounds_pt": [
+            325.984251968504,
+            30.8,
+            436.53543307086625,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 4,
+          "original": "Partial slower",
+          "display": "Partial slower",
+          "cell_bounds_pt": [
+            436.53543307086625,
+            30.8,
+            507.40157480314974,
+            52.25
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "Stop at 12 blocks",
+          "display": "Stop at 12 blocks",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            52.25,
+            119.05511811023624,
+            73.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "1,024",
+          "display": "1,024",
+          "cell_bounds_pt": [
+            119.05511811023624,
+            52.25,
+            195.5905511811024,
+            73.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "0.781742 / 1.077781",
+          "display": "0.781742 / 1.077781",
+          "cell_bounds_pt": [
+            195.5905511811024,
+            52.25,
+            325.984251968504,
+            73.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "−0.296039",
+          "display": "−0.296039",
+          "cell_bounds_pt": [
+            325.984251968504,
+            52.25,
+            436.53543307086625,
+            73.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "original": "4.10%",
+          "display": "4.10%",
+          "cell_bounds_pt": [
+            436.53543307086625,
+            52.25,
+            507.40157480314974,
+            73.7
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "Stop at 16 blocks",
+          "display": "Stop at 16 blocks",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            73.7,
+            119.05511811023624,
+            95.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "997",
+          "display": "997",
+          "cell_bounds_pt": [
+            119.05511811023624,
+            73.7,
+            195.5905511811024,
+            95.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "1.054817 / 1.072119",
+          "display": "1.054817 / 1.072119",
+          "cell_bounds_pt": [
+            195.5905511811024,
+            73.7,
+            325.984251968504,
+            95.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "−0.017302",
+          "display": "−0.017302",
+          "cell_bounds_pt": [
+            325.984251968504,
+            73.7,
+            436.53543307086625,
+            95.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "original": "45.34%",
+          "display": "45.34%",
+          "cell_bounds_pt": [
+            436.53543307086625,
+            73.7,
+            507.40157480314974,
+            95.15
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "18 blocks, exact fallback",
+          "display": "18 blocks, exact fallback",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            95.15,
+            119.05511811023624,
+            116.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "679",
+          "display": "679",
+          "cell_bounds_pt": [
+            119.05511811023624,
+            95.15,
+            195.5905511811024,
+            116.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "1.253923 / 1.094962",
+          "display": "1.253923 / 1.094962",
+          "cell_bounds_pt": [
+            195.5905511811024,
+            95.15,
+            325.984251968504,
+            116.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "+0.158962",
+          "display": "+0.158962",
+          "cell_bounds_pt": [
+            325.984251968504,
+            95.15,
+            436.53543307086625,
+            116.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "original": "84.09%",
+          "display": "84.09%",
+          "cell_bounds_pt": [
+            436.53543307086625,
+            95.15,
+            507.40157480314974,
+            116.60000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "table": 10,
+      "title": "Hydraulic confirmation at half-Brier tolerance 0.025",
+      "source_line_start": 102,
+      "source_line_end": 107,
+      "source_cells_sha256": "30f8f71976bc9f4f0abc2cef8a05d6ac182636e5defb202ec5e46dbaabe87194",
+      "body_rows": 4,
+      "columns": 6,
+      "width_mm": 183.0,
+      "height_mm": 62.18590277777778,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        50,
+        27,
+        29,
+        23,
+        22,
+        24
+      ],
+      "row_heights_pt": [
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.599999999999972,
+        "text_objects": 32
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 33,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/DAJQRK+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/CEFRNI+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 62.18590277777778
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          2448
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table10.svg",
+          "sha256": "b00810602bc621cdfe431337f86f1db27a30a93a6a706fc8d682fe6284fac59e"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table10.pdf",
+          "sha256": "d6ed45482d1207a59985440571b4216204398e85d951c47c4b0b81eb27f42632"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table10.png",
+          "sha256": "9311c537b43d94d3d1239804fea8f27a23a7d780d82995147b30288e9047256d"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table10_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Hydraulic procedure at tolerance 0.025",
+          "display": "Hydraulic procedure at tolerance 0.025",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            153.0708661417323,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "Complete time, ms",
+          "display": "Complete time, ms",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            30.8,
+            229.60629921259846,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "Reduction against compiled full",
+          "display": "Reduction against\ncompiled full",
+          "cell_bounds_pt": [
+            229.60629921259846,
+            30.8,
+            311.8110236220473,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "Half-Brier",
+          "display": "Half-Brier",
+          "cell_bounds_pt": [
+            311.8110236220473,
+            30.8,
+            377.0078740157481,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 4,
+          "original": "Mean blocks",
+          "display": "Mean blocks",
+          "cell_bounds_pt": [
+            377.0078740157481,
+            30.8,
+            439.3700787401575,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 5,
+          "original": "Full fallback",
+          "display": "Full fallback",
+          "cell_bounds_pt": [
+            439.3700787401575,
+            30.8,
+            507.40157480314963,
+            61.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "Compiled full",
+          "display": "Compiled full",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            61.7,
+            153.0708661417323,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "2.860459",
+          "display": "2.860459",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            61.7,
+            229.60629921259846,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "—",
+          "display": "—",
+          "cell_bounds_pt": [
+            229.60629921259846,
+            61.7,
+            311.8110236220473,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "0.126473",
+          "display": "0.126473",
+          "cell_bounds_pt": [
+            311.8110236220473,
+            61.7,
+            377.0078740157481,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "original": "28.0000",
+          "display": "28.0000",
+          "cell_bounds_pt": [
+            377.0078740157481,
+            61.7,
+            439.3700787401575,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "original": "—",
+          "display": "—",
+          "cell_bounds_pt": [
+            439.3700787401575,
+            61.7,
+            507.40157480314963,
+            83.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "Simplex-aware minimax",
+          "display": "Simplex-aware minimax",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            83.15,
+            153.0708661417323,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "2.139557",
+          "display": "2.139557",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            83.15,
+            229.60629921259846,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "25.20%",
+          "display": "25.20%",
+          "cell_bounds_pt": [
+            229.60629921259846,
+            83.15,
+            311.8110236220473,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "0.129430",
+          "display": "0.129430",
+          "cell_bounds_pt": [
+            311.8110236220473,
+            83.15,
+            377.0078740157481,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "original": "19.0069",
+          "display": "19.0069",
+          "cell_bounds_pt": [
+            377.0078740157481,
+            83.15,
+            439.3700787401575,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "original": "19.77%",
+          "display": "19.77%",
+          "cell_bounds_pt": [
+            439.3700787401575,
+            83.15,
+            507.40157480314963,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "Coordinate minimax",
+          "display": "Coordinate minimax",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            104.60000000000001,
+            153.0708661417323,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "2.070535",
+          "display": "2.070535",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            104.60000000000001,
+            229.60629921259846,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "27.62%",
+          "display": "27.62%",
+          "cell_bounds_pt": [
+            229.60629921259846,
+            104.60000000000001,
+            311.8110236220473,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "0.129353",
+          "display": "0.129353",
+          "cell_bounds_pt": [
+            311.8110236220473,
+            104.60000000000001,
+            377.0078740157481,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "original": "19.0345",
+          "display": "19.0345",
+          "cell_bounds_pt": [
+            377.0078740157481,
+            104.60000000000001,
+            439.3700787401575,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "original": "19.77%",
+          "display": "19.77%",
+          "cell_bounds_pt": [
+            439.3700787401575,
+            104.60000000000001,
+            507.40157480314963,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "Midpoint with tight certificate",
+          "display": "Midpoint with tight certificate",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            126.05000000000001,
+            153.0708661417323,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "2.642566",
+          "display": "2.642566",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            126.05000000000001,
+            229.60629921259846,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "7.62%",
+          "display": "7.62%",
+          "cell_bounds_pt": [
+            229.60629921259846,
+            126.05000000000001,
+            311.8110236220473,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "original": "0.126445",
+          "display": "0.126445",
+          "cell_bounds_pt": [
+            311.8110236220473,
+            126.05000000000001,
+            377.0078740157481,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "original": "23.4299",
+          "display": "23.4299",
+          "cell_bounds_pt": [
+            377.0078740157481,
+            126.05000000000001,
+            439.3700787401575,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "original": "35.40%",
+          "display": "35.40%",
+          "cell_bounds_pt": [
+            439.3700787401575,
+            126.05000000000001,
+            507.40157480314963,
+            147.5
+          ]
+        }
+      ]
+    },
+    {
+      "table": 11,
+      "title": "Development-only sensitivity to feature-block order",
+      "source_line_start": 112,
+      "source_line_end": 117,
+      "source_cells_sha256": "3abb54f2ddaabdb05ccf47209ef394e5ea3a9214eeada4fe9ca36dde39d2e8f4",
+      "body_rows": 4,
+      "columns": 5,
+      "width_mm": 183.0,
+      "height_mm": 65.28152777777777,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        50,
+        24,
+        24,
+        38.5,
+        38.5
+      ],
+      "row_heights_pt": [
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003,
+        21.450000000000003
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.600000000000026,
+        "text_objects": 27
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 30,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/BQJADO+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/CSKSTO+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 65.28152777777777
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          2570
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table11.svg",
+          "sha256": "8a844d838db27e46f853acc53de1a2e96dd2a83aefa8e9eaec6d6a5cd95ec144"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table11.pdf",
+          "sha256": "adc1f5c1014aaf366cb8624c2ff634380ba2f2c64b219abfe5497fd2df95d316"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table11.png",
+          "sha256": "c15d359f46bbce365588c783c120ba25f9958edfad1e3587ab20d2b1bd5cdf5f"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table11_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Order",
+          "display": "Order",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            153.0708661417323,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "Mean blocks of 18",
+          "display": "Mean blocks of 18",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            30.8,
+            221.10236220472444,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "Exact fallback",
+          "display": "Exact fallback",
+          "cell_bounds_pt": [
+            221.10236220472444,
+            30.8,
+            289.13385826771656,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 3,
+          "original": "First-12-block sum of interval widths",
+          "display": "First-12-block sum of interval\nwidths",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            30.8,
+            398.2677165354331,
+            61.7
+          ]
+        },
+        {
+          "row": "header",
+          "column": 4,
+          "original": "First-12-block diameter upper proxy",
+          "display": "First-12-block diameter upper\nproxy",
+          "cell_bounds_pt": [
+            398.2677165354331,
+            30.8,
+            507.4015748031497,
+            61.7
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "Locked gain/time",
+          "display": "Locked gain/time",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            61.7,
+            153.0708661417323,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "14.7179",
+          "display": "14.7179",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            61.7,
+            221.10236220472444,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "18.33%",
+          "display": "18.33%",
+          "cell_bounds_pt": [
+            221.10236220472444,
+            61.7,
+            289.13385826771656,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "original": "0.623226",
+          "display": "0.623226",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            61.7,
+            398.2677165354331,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "original": "0.340698",
+          "display": "0.340698",
+          "cell_bounds_pt": [
+            398.2677165354331,
+            61.7,
+            507.4015748031497,
+            83.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "Descending gain only",
+          "display": "Descending gain only",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            83.15,
+            153.0708661417323,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "14.5794",
+          "display": "14.5794",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            83.15,
+            221.10236220472444,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "14.59%",
+          "display": "14.59%",
+          "cell_bounds_pt": [
+            221.10236220472444,
+            83.15,
+            289.13385826771656,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "original": "0.594592",
+          "display": "0.594592",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            83.15,
+            398.2677165354331,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "original": "0.326628",
+          "display": "0.326628",
+          "cell_bounds_pt": [
+            398.2677165354331,
+            83.15,
+            507.4015748031497,
+            104.60000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "Reverse locked order",
+          "display": "Reverse locked order",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            104.60000000000001,
+            153.0708661417323,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "18.0000",
+          "display": "18.0000",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            104.60000000000001,
+            221.10236220472444,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "100.00%",
+          "display": "100.00%",
+          "cell_bounds_pt": [
+            221.10236220472444,
+            104.60000000000001,
+            289.13385826771656,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "original": "5.670742",
+          "display": "5.670742",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            104.60000000000001,
+            398.2677165354331,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "original": "1.414214",
+          "display": "1.414214",
+          "cell_bounds_pt": [
+            398.2677165354331,
+            104.60000000000001,
+            507.4015748031497,
+            126.05000000000001
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "One fixed random order per system",
+          "display": "One fixed random order per system",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            126.05000000000001,
+            153.0708661417323,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "17.1791",
+          "display": "17.1791",
+          "cell_bounds_pt": [
+            153.0708661417323,
+            126.05000000000001,
+            221.10236220472444,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "68.84%",
+          "display": "68.84%",
+          "cell_bounds_pt": [
+            221.10236220472444,
+            126.05000000000001,
+            289.13385826771656,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "original": "3.468061",
+          "display": "3.468061",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            126.05000000000001,
+            398.2677165354331,
+            147.5
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "original": "1.246648",
+          "display": "1.246648",
+          "cell_bounds_pt": [
+            398.2677165354331,
+            126.05000000000001,
+            507.4015748031497,
+            147.5
+          ]
+        }
+      ]
+    },
+    {
+      "table": 12,
+      "title": "Requirements for extending the partial enclosure",
+      "source_line_start": 122,
+      "source_line_end": 128,
+      "source_cells_sha256": "beb675cd7280efd1776cdfca9dd5b502619e044794981cc3f78eba9c07c6a4c5",
+      "body_rows": 5,
+      "columns": 3,
+      "width_mm": 183.0,
+      "height_mm": 89.75548611111111,
+      "body_font_pt": 7.0,
+      "minimum_font_pt": 6.5,
+      "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+      "column_width_mm": [
+        33,
+        65,
+        77
+      ],
+      "row_heights_pt": [
+        30.900000000000002,
+        30.900000000000002,
+        30.900000000000002,
+        40.35,
+        40.35
+      ],
+      "collision_checks": {
+        "text_text": "PASS",
+        "text_horizontal_rule": "PASS",
+        "cell_overflow": "PASS",
+        "canvas_clipping": "PASS",
+        "required_text_rule_clearance_pt": 1.5,
+        "measured_minimum_text_rule_clearance_pt": 5.6,
+        "text_objects": 20
+      },
+      "unchanged_body_content_except_display_whitespace": "PASS",
+      "svg_editable_text_count": 33,
+      "vector_verification": {
+        "svg_embedded_images": 0,
+        "pdf_embedded_images": 0,
+        "pdf_fonts": [
+          {
+            "base_font": "/HEDWGO+ArialMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          },
+          {
+            "base_font": "/SFAPYJ+Arial-BoldMT",
+            "subtype": "/Type0",
+            "descendant_subtype": "/CIDFontType2",
+            "TrueType_embedded": true
+          }
+        ],
+        "pdf_width_mm": 182.9999999999947,
+        "pdf_height_mm": 89.75548611111111
+      },
+      "raster": {
+        "pixels": [
+          7204,
+          3533
+        ],
+        "dpi_metadata": [
+          999.9979999999999,
+          999.9979999999999
+        ]
+      },
+      "outputs": {
+        "svg": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table12.svg",
+          "sha256": "7206133f5ba165ee6b14a969c8303379379e39e7e486b9dbe11c966f009c3dc5"
+        },
+        "pdf": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table12.pdf",
+          "sha256": "7ab3d8089b5846d0ebbe0c7ca8cb3501d352980ac0a1600247578980e26c8179"
+        },
+        "png": {
+          "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table12.png",
+          "sha256": "52051700bbbc04e5f829360e4bf5bb2eac909b454992faed68a4e43bc8b7d42a"
+        }
+      },
+      "preview": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\tables\\table12_preview.png",
+      "cells": [
+        {
+          "row": "header",
+          "column": 0,
+          "original": "Complete predictor",
+          "display": "Complete predictor",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            30.8,
+            104.88188976377953,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 1,
+          "original": "Route to a sound partial enclosure",
+          "display": "Route to a sound partial enclosure",
+          "cell_bounds_pt": [
+            104.88188976377953,
+            30.8,
+            289.13385826771656,
+            52.25
+          ]
+        },
+        {
+          "row": "header",
+          "column": 2,
+          "original": "Additional requirement",
+          "display": "Additional requirement",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            30.8,
+            507.40157480314963,
+            52.25
+          ]
+        },
+        {
+          "row": 0,
+          "column": 0,
+          "original": "Random forest / extra trees",
+          "display": "Random forest / extra trees",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            52.25,
+            104.88188976377953,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "original": "Bound each leaf's class-probability vector and average tree bounds",
+          "display": "Bound each leaf's class-probability vector and average\ntree bounds",
+          "cell_bounds_pt": [
+            104.88188976377953,
+            52.25,
+            289.13385826771656,
+            83.15
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "original": "Preserve probability averaging and the frozen temperature transformation; a boosted-logit sum is not equivalent",
+          "display": "Preserve probability averaging and the frozen temperature\ntransformation; a boosted-logit sum is not equivalent",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            52.25,
+            507.40157480314963,
+            83.15
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "original": "XGBoost / LightGBM multiclass trees",
+          "display": "XGBoost / LightGBM\nmulticlass trees",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            83.15,
+            104.88188976377953,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "original": "Sum reachable-leaf bounds for each class score, then bound the link",
+          "display": "Sum reachable-leaf bounds for each class score, then\nbound the link",
+          "cell_bounds_pt": [
+            104.88188976377953,
+            83.15,
+            289.13385826771656,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "original": "Validate intercepts, class/tree indexing, missing and categorical splits, and libraries' exact output semantics",
+          "display": "Validate intercepts, class/tree indexing, missing and categorical\nsplits, and libraries' exact output semantics",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            83.15,
+            507.40157480314963,
+            114.05000000000001
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "original": "Larger numerical trees",
+          "display": "Larger numerical trees",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            114.05000000000001,
+            104.88188976377953,
+            144.95000000000002
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "original": "Use multiple mask words or another candidate-leaf representation",
+          "display": "Use multiple mask words or another candidate-leaf\nrepresentation",
+          "cell_bounds_pt": [
+            104.88188976377953,
+            114.05000000000001,
+            289.13385826771656,
+            144.95000000000002
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "original": "Charge extra update and interval-extraction work; the one-word runtime does not transfer automatically",
+          "display": "Charge extra update and interval-extraction work; the one-word\nruntime does not transfer automatically",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            114.05000000000001,
+            507.40157480314963,
+            144.95000000000002
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "original": "RBF SVC",
+          "display": "RBF SVC",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            144.95000000000002,
+            104.88188976377953,
+            185.3
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "original": "Enclose kernels and decision values under partial features",
+          "display": "Enclose kernels and decision values under partial\nfeatures",
+          "cell_bounds_pt": [
+            104.88188976377953,
+            144.95000000000002,
+            289.13385826771656,
+            185.3
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "original": "Also enclose the fitted pairwise probabilities and multiclass coupling; the present softmax score formula cannot simply replace native SVC semantics",
+          "display": "Also enclose the fitted pairwise probabilities and multiclass coupling;\nthe present softmax score formula cannot simply replace native SVC\nsemantics",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            144.95000000000002,
+            507.40157480314963,
+            185.3
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "original": "Neural network",
+          "display": "Neural network",
+          "cell_bounds_pt": [
+            11.338582677165356,
+            185.3,
+            104.88188976377953,
+            225.65
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "original": "Propagate sound feature bounds to logits, then probabilities",
+          "display": "Propagate sound feature bounds to logits, then\nprobabilities",
+          "cell_bounds_pt": [
+            104.88188976377953,
+            185.3,
+            289.13385826771656,
+            225.65
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "original": "Justify bounds for uncomputed signal features and control relaxation cost; empirical training minima/maxima alone do not enclose unseen inputs",
+          "display": "Justify bounds for uncomputed signal features and control relaxation\ncost; empirical training minima/maxima alone do not enclose unseen\ninputs",
+          "cell_bounds_pt": [
+            289.13385826771656,
+            185.3,
+            507.40157480314963,
+            225.65
+          ]
+        }
+      ]
+    }
+  ]
+}

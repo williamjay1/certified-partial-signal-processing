@@ -1,0 +1,77 @@
+{
+  "competence": [
+    {
+      "seed": 17,
+      "frozen_hgb_half_brier": 0.056735686346252694,
+      "descriptive_lowest_test_risk_family": "SVC",
+      "descriptive_lowest_test_risk": 0.05019482420637841,
+      "hgb_excess_vs_descriptive_lowest": 0.00654086213987428,
+      "reference_replaced": false,
+      "paired_risk_differences": {
+        "RF": -0.014485036157357137,
+        "ET": -0.011445495304504507,
+        "LR": -0.012380874335620379,
+        "SVC": 0.0065408621398742855
+      }
+    },
+    {
+      "seed": 29,
+      "frozen_hgb_half_brier": 0.07779741674579176,
+      "descriptive_lowest_test_risk_family": "SVC",
+      "descriptive_lowest_test_risk": 0.06362698511960614,
+      "hgb_excess_vs_descriptive_lowest": 0.014170431626185614,
+      "reference_replaced": false,
+      "paired_risk_differences": {
+        "RF": -0.0017293219273591726,
+        "ET": 0.0017304565390749136,
+        "LR": -0.01646002540866106,
+        "SVC": 0.014170431626185614
+      }
+    },
+    {
+      "seed": 43,
+      "frozen_hgb_half_brier": 0.04955725303389034,
+      "descriptive_lowest_test_risk_family": "SVC",
+      "descriptive_lowest_test_risk": 0.042154142240100466,
+      "hgb_excess_vs_descriptive_lowest": 0.007403110793789872,
+      "reference_replaced": false,
+      "paired_risk_differences": {
+        "RF": -0.010453328524253498,
+        "ET": -0.014586055231975616,
+        "LR": -0.0068031242600148185,
+        "SVC": 0.007403110793789862
+      }
+    }
+  ],
+  "statement": "Complete predictor comparison only; none of these test outcomes changes the frozen reference.",
+  "seed_averaged_window_weighted_metrics": {
+    "HGB": {
+      "half_brier": 0.06136345204197826,
+      "accuracy": 0.9190136862345888,
+      "log_loss": 0.2630090574303113
+    },
+    "RF": {
+      "half_brier": 0.07025268091163485,
+      "accuracy": 0.9069109829204841,
+      "log_loss": 0.2545156193284031
+    },
+    "ET": {
+      "half_brier": 0.06946381670778,
+      "accuracy": 0.9126795611356182,
+      "log_loss": 0.2540386914229979
+    },
+    "LR": {
+      "half_brier": 0.07324479337674368,
+      "accuracy": 0.9062323266598801,
+      "log_loss": 0.29930815657523396
+    },
+    "SVC": {
+      "half_brier": 0.05199198385536167,
+      "accuracy": 0.9326999208234362,
+      "log_loss": 0.20438586765866387
+    }
+  },
+  "independent_subject_clusters": 9,
+  "seed_subject_pairs_are_not_independent": 27,
+  "inference": "Root will use common nine-subject weighted bootstrap; no bootstrap was run here."
+}

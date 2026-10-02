@@ -1,0 +1,8 @@
+{
+  "status": "PASS_NUMERICAL_NOT_FORMAL_MACHINE_PROOF",
+  "cases": 24,
+  "prefix_checks": 236,
+  "max_raw_cache_difference": 0.0,
+  "maximum_interval_violation_signed": -8.411388122166186e-06,
+  "maximum_every_label_certificate_violation_signed": -6.101369014298178e-06
+}

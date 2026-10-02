@@ -1,0 +1,511 @@
+{
+  "figure": "Figure 1",
+  "title": "Online processing and certificate-based stopping",
+  "created_utc": "2026-10-02T09:50:56.487687+00:00",
+  "archetype": "single-panel method schematic",
+  "claim": "Partial processing stops only after a valid relative-loss certificate; all online costs including exact fallback are charged.",
+  "inputs": "Resident signal window; frozen numerical model parameters",
+  "not_online_inputs": [
+    "True label",
+    "Precomputed complete prediction q"
+  ],
+  "width_mm": 183.0,
+  "height_mm": 98.0,
+  "font": "Arial",
+  "font_file": "C:\\Windows\\Fonts\\arial.ttf",
+  "text_size_pt": 7,
+  "raster_dpi": 1000,
+  "preview_dpi": 240,
+  "styles": [
+    {
+      "file": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\scripts\\vendor\\nature_design\\science.mplstyle",
+      "sha256": "b7ab81c1d1bc762f389a0c50c895a3f6346cbb1dfce53778d6f443a319aa9fa1"
+    },
+    {
+      "file": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\scripts\\vendor\\nature_design\\no-latex.mplstyle",
+      "sha256": "a2f7749add6d6e658891fa89eb51df2ab5758f35ab36be109495fae11ac0640b"
+    },
+    {
+      "file": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\scripts\\vendor\\nature_design\\nature.mplstyle",
+      "sha256": "1d39b7974b71da2b92349f7f95d2e17f94dc83b335a0e1c18dfab522b363b0e2"
+    }
+  ],
+  "style_source_commit": "b9b16959570bd2fbc9ff5118bacc423c3bddd592",
+  "qa_source_commit": "ee5aaa47060ed116d7ae2d2429761ae6ab07f9e0",
+  "source_script": {
+    "file": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\scripts\\nature_workflow.py",
+    "sha256": "b077a8b98ddd090c3103e66975716011c10810544008abb98b0d411c4866c9fc"
+  },
+  "files": [
+    {
+      "file": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\figures\\figure1_workflow.svg",
+      "sha256": "0a09aaff7a233b6590151270b06567c3d38a10f109cb7190d825b47413890cd1"
+    },
+    {
+      "file": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\figures\\figure1_workflow.pdf",
+      "sha256": "b01821f9bbe807d6881ff9b851ed0a361a12617ae6356c37908ec190c33bf0bb"
+    },
+    {
+      "file": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\figures\\figure1_workflow.png",
+      "sha256": "9800a34d253669799829ab7c6bae4f56dc0333506d9ecb4cc04c496b27bff1fe"
+    },
+    {
+      "file": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\figures\\figure1_workflow.tiff",
+      "sha256": "44d8354aa87bf4966da362d1a0959d3a98209d230de72fd834b0ff6f5389a32f"
+    }
+  ],
+  "alignment": {
+    "schema_version": 1,
+    "applicable": false,
+    "auditable": false,
+    "verdict": "NOT APPLICABLE",
+    "backend": "python-matplotlib",
+    "summary": {
+      "fail": 0,
+      "warn": 0,
+      "comparisons": 0,
+      "exemptions": 0
+    },
+    "tolerances": {
+      "alignment_pt": 1.5,
+      "gutter_pt": 1.5
+    },
+    "errors": [],
+    "findings": [],
+    "layout": {
+      "schema_version": 1,
+      "backend": "python-matplotlib",
+      "figure": {
+        "width_pt": 518.740157480315,
+        "height_pt": 277.7952755905512
+      },
+      "panels": [
+        {
+          "id": "a",
+          "bbox_pt": [
+            0.0,
+            0.0,
+            518.740157480315,
+            277.7952755905512
+          ]
+        }
+      ],
+      "row_groups": [],
+      "column_groups": [],
+      "boundary_groups": [],
+      "exemptions": []
+    }
+  },
+  "audits": {
+    "pdf_text": {
+      "exit_code": 0,
+      "stdout": "{\n  \"pdf\": \"D:\\\\MLWork\\\\ASC_CertifiedProcessing_20261002\\\\public_release\\\\artwork\\\\figures\\\\figure1_workflow.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.0,\n  \"text_run_count\": 24,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}\n",
+      "stderr": ""
+    },
+    "collision": {
+      "exit_code": 0,
+      "stdout": "Nature Figure Rendered Collision Audit\npdf: D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\figures\\figure1_workflow.pdf\npages: 1\nvisible text boxes: 24\nstroke paths: 25\n\n\nsummary: 0 fail, 0 warn, 16 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n",
+      "stderr": ""
+    },
+    "source": {
+      "exit_code": 0,
+      "stdout": "{\n  \"source\": \"D:\\\\MLWork\\\\ASC_CertifiedProcessing_20261002\\\\public_release\\\\scripts\\\\nature_workflow.py\",\n  \"backend\": \"python\",\n  \"profile\": \"ipd-baker\",\n  \"summary\": {\n    \"ready\": true,\n    \"strict\": false,\n    \"counts\": {\n      \"PASS\": 23,\n      \"WARN\": 3,\n      \"FAIL\": 0\n    }\n  },\n  \"findings\": [\n    {\n      \"check_id\": \"SOURCE-SYNTAX\",\n      \"level\": \"PASS\",\n      \"message\": \"Python source parses successfully\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-FAMILY\",\n      \"level\": \"PASS\",\n      \"message\": \"A publication-safe sans-serif family is configured\",\n      \"evidence\": [\n        \"Arial\",\n        \"Helvetica\",\n        \"sans-serif\"\n      ]\n    },\n    {\n      \"check_id\": \"FONT-SIZE\",\n      \"level\": \"PASS\",\n      \"message\": \"All detected text sizes are at least 5 pt (minimum 7 pt)\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-GLYPH-FLOOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No mathtext superscript/subscript expression detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LEGEND-LABEL-CASE\",\n      \"level\": \"PASS\",\n      \"message\": \"No auditable literal legend labels detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"COLOR-MAP\",\n      \"level\": \"PASS\",\n      \"message\": \"No rainbow/jet/hsv color mapping detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EDITABLE-TEXT\",\n      \"level\": \"PASS\",\n      \"message\": \"SVG and PDF editable-text settings are configured\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-VECTOR\",\n      \"level\": \"PASS\",\n      \"message\": \"Both SVG and PDF exports are present\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-RASTER\",\n      \"level\": \"PASS\",\n      \"message\": \"TIFF raster export is present\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"RASTER-DPI\",\n      \"level\": \"PASS\",\n      \"message\": \"A raster export of at least 600 dpi is configured\",\n      \"evidence\": [\n        \"1000\"\n      ]\n    },\n    {\n      \"check_id\": \"FINAL-WIDTH\",\n      \"level\": \"WARN\",\n      \"message\": \"No static final width detected; verify the target journal's current specification\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-SAMPLING\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence row-sampling operation detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-EXCLUSION\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence missing-data exclusion detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DEMO-DATA\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious simulated-data generator detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LOG-GUARD\",\n      \"level\": \"PASS\",\n      \"message\": \"No logarithmic transform or axis detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"INTERP-MONOTONIC\",\n      \"level\": \"PASS\",\n      \"message\": \"No NumPy interpolation requiring an increasing x-grid detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"UNCERTAINTY-ENCODING\",\n      \"level\": \"PASS\",\n      \"message\": \"No stochastic aggregate requiring a variability audit was inferred\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"ROTATION-ANCHOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No rotated Matplotlib text detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"ANNOTATION-WORKAROUND\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-risk hard-coded label height or opaque white text mask detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"PANEL-ALIGNMENT-GATE\",\n      \"level\": \"PASS\",\n      \"message\": \"Render-time panel-alignment gate is wired into the plotting source\",\n      \"evidence\": [\n        \"require_matplotlib_panel_alignment(\"\n      ]\n    },\n    {\n      \"check_id\": \"BACKEND-EXCLUSIVE\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious cross-backend plotting reference found for python\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-BACKEND\",\n      \"level\": \"PASS\",\n      \"message\": \"Python with an explicit Matplotlib import is configured for the IPD/Baker production profile\",\n      \"evidence\": [\n        \"line 23: import matplotlib\",\n        \"line 25: import matplotlib.pyplot\",\n        \"line 26: from matplotlib.patches import ...\",\n        \"line 27: from matplotlib.path import ...\",\n        \"line 28: from matplotlib import ...\"\n      ]\n    },\n    {\n      \"check_id\": \"IPD-NO-SEABORN\",\n      \"level\": \"PASS\",\n      \"message\": \"No Seaborn import detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-PHYSICAL-CANVAS\",\n      \"level\": \"PASS\",\n      \"message\": \"No bbox_inches='tight' export that would change the declared physical canvas was detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-PALETTE\",\n      \"level\": \"WARN\",\n      \"message\": \"Not all three IPD palette colors are explicitly present; confirm semantic color choices for this figure\",\n      \"evidence\": [\n        \"missing: #4b2e83, #4196b5, #b41f85\"\n      ]\n    },\n    {\n      \"check_id\": \"IPD-FONT-DEFAULT\",\n      \"level\": \"WARN\",\n      \"message\": \"No explicit 6 pt internal-text default was detected; confirm text sizing at final physical size\",\n      \"evidence\": []\n    }\n  ]\n}\n",
+      "stderr": ""
+    }
+  },
+  "text_extents": [
+    {
+      "text": "Resident input",
+      "bbox_mm": [
+        6.11,
+        75.51678993055556,
+        23.89,
+        78.48321006944445
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Signal window",
+      "bbox_mm": [
+        6.618,
+        68.81678993055556,
+        23.382,
+        71.78321006944445
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Acquisition\noutside timer",
+      "bbox_mm": [
+        7.507000000000001,
+        54.033579861111114,
+        22.493000000000002,
+        59.9664201388889
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Complete online processing",
+      "bbox_mm": [
+        40.0,
+        85.51678993055556,
+        74.798,
+        88.48321006944444
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Process next batch",
+      "bbox_mm": [
+        46.935,
+        76.51678993055555,
+        71.065,
+        79.48321006944444
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Statistics / FFT\nFrozen scaling",
+      "bbox_mm": [
+        50.364,
+        68.3335798611111,
+        67.636,
+        74.26642013888889
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Update enclosures",
+      "bbox_mm": [
+        91.316,
+        76.51678993055555,
+        114.684,
+        79.48321006944444
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Leaf masks\nClass score bounds",
+      "bbox_mm": [
+        91.443,
+        68.3335798611111,
+        114.557,
+        74.26642013888889
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Construct and certify",
+      "bbox_mm": [
+        138.046,
+        76.51678993055555,
+        163.954,
+        79.48321006944444
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Probability intervals\nMinimax p; dual bound B",
+      "bbox_mm": [
+        136.395,
+        68.3335798611111,
+        165.605,
+        74.26642013888889
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "B \u2264 \u03b4 ?",
+      "bbox_mm": [
+        146.809,
+        47.51678993055556,
+        155.191,
+        50.48321006944445
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Return p",
+      "bbox_mm": [
+        101.29299999999999,
+        47.51678993055556,
+        111.707,
+        50.48321006944445
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Yes",
+      "bbox_mm": [
+        126.827109375,
+        50.516789930555554,
+        131.172890625,
+        53.483210069444446
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Uncomputed\nblocks remain?",
+      "bbox_mm": [
+        142.237,
+        29.033579861111114,
+        159.763,
+        34.96642013888889
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "No",
+      "bbox_mm": [
+        158.34900000000002,
+        39.01678993055556,
+        161.651,
+        41.983210069444446
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Yes: continue",
+      "bbox_mm": [
+        88.98510937500001,
+        34.31678993055555,
+        105.014890625,
+        37.28321006944444
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Return exact q",
+      "bbox_mm": [
+        98.483,
+        16.516789930555554,
+        116.517,
+        19.483210069444446
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "No",
+      "bbox_mm": [
+        158.34900000000002,
+        20.516789930555554,
+        161.651,
+        23.483210069444446
+      ],
+      "size_pt": 7.0
+    },
+    {
+      "text": "Timer: state + signal operators + enclosures + certificate + control + exact fallback",
+      "bbox_mm": [
+        34.0,
+        2.016789930555556,
+        129.41271875,
+        4.983210069444445
+      ],
+      "size_pt": 7.0
+    }
+  ],
+  "boxes": [
+    {
+      "bbox_mm": [
+        2,
+        64,
+        28,
+        81
+      ],
+      "title": "Resident input",
+      "body": "Signal window"
+    },
+    {
+      "bbox_mm": [
+        40,
+        65,
+        78,
+        82
+      ],
+      "title": "Process next batch",
+      "body": "Statistics / FFT\nFrozen scaling"
+    },
+    {
+      "bbox_mm": [
+        87,
+        65,
+        119,
+        82
+      ],
+      "title": "Update enclosures",
+      "body": "Leaf masks\nClass score bounds"
+    },
+    {
+      "bbox_mm": [
+        128,
+        65,
+        174,
+        82
+      ],
+      "title": "Construct and certify",
+      "body": "Probability intervals\nMinimax p; dual bound B"
+    },
+    {
+      "bbox_mm": [
+        135,
+        43,
+        167,
+        55
+      ],
+      "title": "B \u2264 \u03b4 ?",
+      "body": null
+    },
+    {
+      "bbox_mm": [
+        90,
+        43,
+        123,
+        55
+      ],
+      "title": "Return p",
+      "body": null
+    },
+    {
+      "bbox_mm": [
+        133,
+        26,
+        169,
+        38
+      ],
+      "title": null,
+      "body": "Uncomputed\nblocks remain?"
+    },
+    {
+      "bbox_mm": [
+        91,
+        12,
+        124,
+        24
+      ],
+      "title": "Return exact q",
+      "body": null
+    }
+  ],
+  "arrow_routes": [
+    {
+      "points_mm": [
+        [
+          28.0,
+          72.5
+        ],
+        [
+          40.0,
+          72.5
+        ]
+      ],
+      "color": "#58595B"
+    },
+    {
+      "points_mm": [
+        [
+          78.0,
+          73.5
+        ],
+        [
+          87.0,
+          73.5
+        ]
+      ],
+      "color": "#0072B2"
+    },
+    {
+      "points_mm": [
+        [
+          119.0,
+          73.5
+        ],
+        [
+          128.0,
+          73.5
+        ]
+      ],
+      "color": "#0072B2"
+    },
+    {
+      "points_mm": [
+        [
+          151.0,
+          65.0
+        ],
+        [
+          151.0,
+          55.0
+        ]
+      ],
+      "color": "#0072B2"
+    },
+    {
+      "points_mm": [
+        [
+          135.0,
+          49.0
+        ],
+        [
+          123.0,
+          49.0
+        ]
+      ],
+      "color": "#009E73"
+    },
+    {
+      "points_mm": [
+        [
+          151.0,
+          43.0
+        ],
+        [
+          151.0,
+          38.0
+        ]
+      ],
+      "color": "#58595B"
+    },
+    {
+      "points_mm": [
+        [
+          133.0,
+          32.0
+        ],
+        [
+          58.0,
+          32.0
+        ],
+        [
+          58.0,
+          65.0
+        ]
+      ],
+      "color": "#0072B2"
+    },
+    {
+      "points_mm": [
+        [
+          151.0,
+          26.0
+        ],
+        [
+          151.0,
+          18.0
+        ],
+        [
+          124.0,
+          18.0
+        ]
+      ],
+      "color": "#58595B"
+    }
+  ],
+  "physical_print_check": false,
+  "source_validator_exemptions": {
+    "FINAL-WIDTH": "The actual SVG/PDF physical width is fixed at 183 mm; expression uses millimetres divided by 25.4.",
+    "IPD-PALETTE": "The user requested Nature style; use the official accessible palette rather than laboratory-specific colors.",
+    "IPD-FONT-DEFAULT": "Use 7 pt within the official 5\u20137 pt range; PDF glyph audit verifies final output."
+  },
+  "visual_inspection": "Rendered public preview inspected: text, boxes and routed arrows clear with no observed overlap; final raster pixels equal the previously inspected manuscript artwork; physical print not tested."
+}

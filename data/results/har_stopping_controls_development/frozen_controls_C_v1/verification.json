@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "official_test_accessed": false,
+  "new_model_fits": 0,
+  "state_sha256": "cff68cd1f3a165b5e8f7317b29d96ec603f0185ba5a4617955dd244c7536f6fb",
+  "stopping_script_sha256": "9678d965b35c92a6b1245186730e6c1f34defa2f5cdc1169bf11164971ea0b21",
+  "findings": [
+    {
+      "seed": 17,
+      "development_windows": 1454,
+      "candidate_settings": 14,
+      "selected_methods": 6,
+      "raw_timed_method_case_repetitions": 5400,
+      "reference_argmax_mismatches": 0,
+      "maximum_cache_vs_raw_probability_difference": 0.0,
+      "maximum_repeat_probability_difference": 0.0,
+      "pointwise_main_delta_violations": 0
+    },
+    {
+      "seed": 29,
+      "development_windows": 1507,
+      "candidate_settings": 14,
+      "selected_methods": 6,
+      "raw_timed_method_case_repetitions": 5400,
+      "reference_argmax_mismatches": 0,
+      "maximum_cache_vs_raw_probability_difference": 0.0,
+      "maximum_repeat_probability_difference": 0.0,
+      "pointwise_main_delta_violations": 0
+    },
+    {
+      "seed": 43,
+      "development_windows": 1389,
+      "candidate_settings": 14,
+      "selected_methods": 6,
+      "raw_timed_method_case_repetitions": 5400,
+      "reference_argmax_mismatches": 0,
+      "maximum_cache_vs_raw_probability_difference": 0.0,
+      "maximum_repeat_probability_difference": 0.0,
+      "pointwise_main_delta_violations": 0
+    }
+  ],
+  "scope": "Recomputed saved outcomes and timing aggregates; no rerun, fitting, or raw/test data access."
+}

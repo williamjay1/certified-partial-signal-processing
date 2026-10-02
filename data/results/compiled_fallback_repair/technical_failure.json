@@ -1,0 +1,8 @@
+{
+  "status": "TECHNICAL_IMPLEMENTATION_FAILURE_INTERRUPTED_NOT_VALID_V3",
+  "reason": "The new fallback_backend parameter was applied to the single-block path but the executed batch4 call site still invoked native predict_proba. Detected from first24 outputs and source grep.",
+  "terminated": "Ctrl-C, exit1, after all223 progress reported50/223. No complete223 output was saved for this failed attempt.",
+  "retained": ["prospective configuration", "first24 numerical checks", "first24 measured outputs", "reference conformance", "failed source snapshot scripts/run_hydraulic_prototype_v3_failed.py"],
+  "valid_evidence": "Not evidence for compiled-fallback speed. Numerical checks and partial timing provenance remain available.",
+  "authorized_repair": "Switch actual batch4 collapsed/full fallback call site to same-backend exact evaluator, with no model/order/checkpoint/tolerance change. Write corrected execution to a fresh directory, never overwrite this attempt."
+}

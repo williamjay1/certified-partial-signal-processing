@@ -1,0 +1,981 @@
+{
+  "status": "PASS_PROFILE_PREDICTION_SEMANTICS",
+  "checks": [
+    {
+      "seed": 17,
+      "case": 122,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 170,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 226,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 284,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 346,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 17,
+      "case": 467,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 17,
+      "case": 582,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 593,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 17,
+      "case": 703,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 808,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 17,
+      "case": 813,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 824,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1102,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 17,
+      "case": 1132,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 17,
+      "case": 1142,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1195,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 17,
+      "case": 1282,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1326,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 17,
+      "case": 1367,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1432,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1646,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1707,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1719,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1838,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1889,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 1983,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 2017,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 17,
+      "case": 2191,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 2318,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 2340,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 2381,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 2430,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 2621,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 2629,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 2635,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 17,
+      "case": 2782,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 122,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 170,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 226,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 284,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 346,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 467,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 582,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 593,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 703,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 808,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 813,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 824,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 1102,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 1132,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 1142,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 1195,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 1282,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 1326,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 1367,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 1432,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 1646,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 1707,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 1719,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 1838,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 1889,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 1983,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 2017,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 2191,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 2318,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 2340,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 2381,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 29,
+      "case": 2430,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 2621,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 2629,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 2635,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 29,
+      "case": 2782,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 122,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 170,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 226,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 284,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 346,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 43,
+      "case": 467,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 582,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 593,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 703,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 808,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 43,
+      "case": 813,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 824,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1102,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 43,
+      "case": 1132,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1142,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1195,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 43,
+      "case": 1282,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1326,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1367,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1432,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1646,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 43,
+      "case": 1707,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1719,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1838,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1889,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 1983,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 2017,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    },
+    {
+      "seed": 43,
+      "case": 2191,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 2318,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 2340,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 2381,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 2430,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 2621,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 2629,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 16,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 2635,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 12,
+      "fallback": false
+    },
+    {
+      "seed": 43,
+      "case": 2782,
+      "partial_probability_max_difference": 0.0,
+      "full_probability_max_difference": 0.0,
+      "certificate_difference": 0.0,
+      "blocks": 18,
+      "fallback": true
+    }
+  ],
+  "cases_per_system": 36,
+  "all_three_systems": true,
+  "no_new_fits": true,
+  "no_policy_change": true
+}

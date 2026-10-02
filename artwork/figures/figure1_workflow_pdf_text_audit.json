@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "{\n  \"pdf\": \"D:\\\\MLWork\\\\ASC_CertifiedProcessing_20261002\\\\public_release\\\\artwork\\\\figures\\\\figure1_workflow.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.0,\n  \"text_run_count\": 24,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}\n",
+  "stderr": ""
+}

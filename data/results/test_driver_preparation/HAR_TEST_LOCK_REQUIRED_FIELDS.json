@@ -1,0 +1,52 @@
+{
+  "selected_hgb_sha256": "cc6e4115a2acb7dde5e8a7136510cd1df827586569646b60530ed5f5b51689eb",
+  "train_cache_sha256": "a23c485d48a8eca5f2f37648abe0400eebf535837998892b2ab93ab252c1756c",
+  "har_compute_script_sha256": "b04be8facc8938d62e7c0330e9998f78aa620c5f2b9c5199dac0fc243cd67c3a",
+  "checkpoint_script_sha256": "21b30cdc61ea834a3f6e2a1469e472a57d3400ad4204d2415adc117525d604e4",
+  "selected_schedule_sha256": "71ab6c427e787b40799b66db9d353000a6ce545dc8cacd4d2b66063e221abc0b",
+  "certificate_kernel_sha256": "88a3f49cb38121ebec596da40a64d2fcad701b4ba5193611f58b7ecc7fe80f0a",
+  "leaf_helper_sha256": "f2303717eae8bb1a270e4feeb5f686389f26c12bfe20476356d3c0a3a7e3bb04",
+  "har_operator_sha256": "0c9bf126c0d5ded65a5ed69176265f4156d5469d7091838a320fbf4b34a3468a",
+  "certified_test_script_sha256": "05fadf72effb818b560c3a2cdeee89970abdb32a107b62af07a7c8b3d5189226",
+  "test_loader_sha256": "a58fe686e2bc430090d344514c3bc3f4a9f3626aa93f7d9a5db2a3c30c5a6c01",
+  "stopping_control_script_sha256": "9678d965b35c92a6b1245186730e6c1f34defa2f5cdc1169bf11164971ea0b21",
+  "stopping_control_state_sha256": "cff68cd1f3a165b5e8f7317b29d96ec603f0185ba5a4617955dd244c7536f6fb",
+  "control_design_sha256": "4e64f3176b663fdedafdc5b50ff046e2d7f0de1ae502094e21d76ee750d5b0f9",
+  "stage": "DRAFT_NOT_AUTHORIZED_FOR_TEST",
+  "har_method_frozen": false,
+  "official_test_access_authorized": false,
+  "frozen_order_sha256": {
+    "17": "c011715422f58fbfce51852f0af0ba16f4a3e4dc7527acc51a07f2025b5973b7",
+    "29": "e984f6e4802a13d45110c8cabdaef0a7510c7ad9f02a87fdb00ec065aead14fb",
+    "43": "295993ee2565d65de6b0099d1c65ef9be9bde3a11f7bd7a5567a4d3231c70e7b"
+  },
+  "checkpoints": [
+    12,
+    16,
+    18
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "deltas": [
+    0.0,
+    0.01,
+    0.025,
+    0.05,
+    0.1
+  ],
+  "primary_delta": 0.025,
+  "timing_cohort_seed": 7302026,
+  "timing_max_windows_per_subject": 100,
+  "timing_repetitions": 3,
+  "main_specifications": 17,
+  "uniform_A_primary_schedule_control": true,
+  "additional_stopping_controls": [
+    "score_separation_argmax",
+    "fixed_prefix_mean_completion",
+    "entropy_mean_completion"
+  ],
+  "source_sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031"
+}

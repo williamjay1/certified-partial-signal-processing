@@ -1,0 +1,92 @@
+{
+  "phase": "EXPLORATORY_REDESIGN_CLASSIFIER_FEASIBILITY",
+  "allowed_data": "907 predictor-fitting cases/76 proxy units;223 internal-validation cases/25 units ONLY",
+  "forbidden_evaluation": [
+    "gate_fit",
+    "gate_cal",
+    "gate_audit",
+    "old outer test",
+    "HAR"
+  ],
+  "free_D_bytes_before_fit": 149829308416,
+  "feature_scaling": "Existing predictor-fit-only standardization, unchanged",
+  "full_model": {
+    "class": "HistGradientBoostingClassifier",
+    "max_iter": 150,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "max_bins": 255,
+    "early_stopping": false,
+    "random_state": 17
+  },
+  "masked_model": {
+    "class": "HistGradientBoostingClassifier",
+    "max_iter": 100,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "max_bins": 255,
+    "early_stopping": false,
+    "random_state": 17,
+    "mask_copies_per_fit_row": 10,
+    "mask_definition": "One full and one EPS1-statistics-only copy; eight independent Bernoulli whole-block masks with per-copy density Uniform(0,1), seed17. Both observed-feature values and all28mask bits supplied."
+  },
+  "no_grid": true,
+  "model_count": 2,
+  "seed": 17,
+  "predeclared_outcome": "representation/partial-input classifier feasibility, not an old pilot pass or new confirmatory result",
+  "threads": 1,
+  "runtime_threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\ptenv\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\ptenv\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "script_sha256": "3acb3f2bf189df1f1f68f8ea2f6ed50f54c441f5643ad6dbd6ea7089ad931bdb",
+  "previous_selection_sha256": "c038cfc0eadbd75477dd3c4c53666c14b458097b85a2691c63a8161f825563a0",
+  "previous_pilot_summary_sha256": "3ca7414d1152ba12d0cfd6424b3da1e544352577cf0afb9bb48abde729073310",
+  "checkpoint_sha256": "1c3e343e9ba451958a07b639fb59b56daf081c1f5984da8af36ddd49c468af18"
+}

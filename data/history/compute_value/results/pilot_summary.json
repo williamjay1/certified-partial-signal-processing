@@ -1,0 +1,418 @@
+{
+  "primary_endpoint": "minimum mean full software time under locked empirical risk ceiling",
+  "risk_ceiling": 0.3389500622153282,
+  "n_unique_gate_cases": 500,
+  "n_audit_cycles": 100,
+  "n_audit_proxy_units": 13,
+  "training_seeds": [
+    17
+  ],
+  "timing_repetitions": 3,
+  "mean_time_unit": "milliseconds",
+  "expansion_allowed": false,
+  "criteria": {
+    "calibration_feasible": false,
+    "audit_risk_within_locked_ceiling": false,
+    "has_qualified_control": false,
+    "at_least_20_percent_full_time_saving": false,
+    "gate_cost_below_actual_avoided_planning": true,
+    "not_reproduced_by_fixed_cheap_or_risk_only": false
+  },
+  "decision": "STOP_NO_EXPANSION",
+  "fastest_qualified_control": null,
+  "mean_time_saving_against_fastest_qualified_control": null,
+  "mean_profile_gate_ms": 0.05610700000000001,
+  "mean_actually_avoided_planning_ms_per_case": 2.1994249999999997,
+  "global_mixture_audit_risk_minus_calibration_expected": 0.016945082724094396,
+  "global_mixture_audit_time_minus_calibration_expected_ms": -0.041818020216020546,
+  "gate_accounting_note": "Signed mean across every matched audit case: standalone deep action-computation component minus chosen once-policy action-computation component. Includes shallow/deep/student/cheap routes, with no clipping or case selection. Gate measured separately. Separate profile; descriptive accounting, not causal module-removal effect.",
+  "rows": [
+    {
+      "method": "skip",
+      "mean_risk": 0.36279141694307326,
+      "mean_full_ms": 0.2254346666666667,
+      "p50_full_ms": 0.20725,
+      "p95_full_ms": 0.30632000000000004,
+      "p99_full_ms": 0.48158499999999915,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.023841354727745068,
+      "planning_call_rate": 0.0,
+      "cheap_branch_fraction": 1.0,
+      "stop_fraction": 0.0,
+      "mean_blocks": 1.0,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.0,
+      "mean_profile_feature_ms": 0.12244900000000002,
+      "mean_profile_gate_ms": 0.0,
+      "mean_profile_action_ms": 0.0,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 0.0,
+        "2": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "method": "static",
+      "mean_risk": 0.35655648380517957,
+      "mean_full_ms": 0.850881,
+      "p50_full_ms": 0.79915,
+      "p95_full_ms": 1.0566250000000004,
+      "p99_full_ms": 1.849707999999996,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.017606421589851373,
+      "planning_call_rate": 0.0,
+      "cheap_branch_fraction": 1.0,
+      "stop_fraction": 0.0,
+      "mean_blocks": 12.0,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.05,
+      "mean_profile_feature_ms": 0.650373,
+      "mean_profile_gate_ms": 0.0,
+      "mean_profile_action_ms": 0.0,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 0.07666666666666666,
+        "2": 0.01,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "method": "student",
+      "mean_risk": 0.36457795679569244,
+      "mean_full_ms": 0.8157619999999999,
+      "p50_full_ms": 0.8419,
+      "p95_full_ms": 1.216275,
+      "p99_full_ms": 1.9683809999999953,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.02562789458036424,
+      "planning_call_rate": 0.0,
+      "cheap_branch_fraction": 1.0,
+      "stop_fraction": 0.19,
+      "mean_blocks": 9.91,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.04,
+      "mean_profile_feature_ms": 0.535006,
+      "mean_profile_gate_ms": 0.0,
+      "mean_profile_action_ms": 0.048118999999999995,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 0.13,
+        "2": 0.01,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "method": "shallow",
+      "mean_risk": 0.35976907253265383,
+      "mean_full_ms": 2.2036533333333335,
+      "p50_full_ms": 2.0429,
+      "p95_full_ms": 3.2855350000000008,
+      "p99_full_ms": 4.041641999999999,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.020819010317325637,
+      "planning_call_rate": 1.0,
+      "cheap_branch_fraction": 0.0,
+      "stop_fraction": 0.09,
+      "mean_blocks": 11.01,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.13,
+      "mean_profile_feature_ms": 0.689289,
+      "mean_profile_gate_ms": 0.0,
+      "mean_profile_action_ms": 1.195512,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 1.0,
+        "2": 0.5833333333333334,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "method": "deep",
+      "mean_risk": 0.37019643366336824,
+      "mean_full_ms": 3.5109586666666672,
+      "p50_full_ms": 3.38285,
+      "p95_full_ms": 4.97411,
+      "p99_full_ms": 5.702309999999999,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.031246371448040045,
+      "planning_call_rate": 1.0,
+      "cheap_branch_fraction": 0.0,
+      "stop_fraction": 0.37,
+      "mean_blocks": 7.93,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.16,
+      "mean_profile_feature_ms": 0.5658090000000001,
+      "mean_profile_gate_ms": 0.0,
+      "mean_profile_action_ms": 2.6253089999999997,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 1.0,
+        "2": 1.0,
+        "5": 0.04666666666666667,
+        "10": 0.0
+      }
+    },
+    {
+      "method": "once",
+      "mean_risk": 0.3624303114414215,
+      "mean_full_ms": 0.7861460000000001,
+      "p50_full_ms": 0.2841,
+      "p95_full_ms": 3.1757500000000007,
+      "p99_full_ms": 4.521186999999999,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.02348024922609332,
+      "planning_call_rate": 0.17,
+      "cheap_branch_fraction": 0.83,
+      "stop_fraction": 0.17,
+      "mean_blocks": 1.11,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.02,
+      "mean_profile_feature_ms": 0.150513,
+      "mean_profile_gate_ms": 0.05610700000000001,
+      "mean_profile_action_ms": 0.42588399999999993,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 0.17666666666666667,
+        "2": 0.17,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "method": "risk_only",
+      "mean_risk": 0.3624303114414215,
+      "mean_full_ms": 0.7751136666666667,
+      "p50_full_ms": 0.27585,
+      "p95_full_ms": 3.044055000000001,
+      "p99_full_ms": 3.8042509999999967,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.02348024922609332,
+      "planning_call_rate": 0.17,
+      "cheap_branch_fraction": 0.83,
+      "stop_fraction": 0.17,
+      "mean_blocks": 1.11,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.0,
+      "mean_profile_feature_ms": 0.14645,
+      "mean_profile_gate_ms": 0.052508999999999986,
+      "mean_profile_action_ms": 0.528164,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 0.19,
+        "2": 0.17333333333333334,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "method": "entropy",
+      "mean_risk": 0.35655648380517957,
+      "mean_full_ms": 0.9932656666666666,
+      "p50_full_ms": 0.92235,
+      "p95_full_ms": 1.2394900000000004,
+      "p99_full_ms": 2.4678029999999995,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.017606421589851373,
+      "planning_call_rate": 0.0,
+      "cheap_branch_fraction": 1.0,
+      "stop_fraction": 0.0,
+      "mean_blocks": 12.0,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.14,
+      "mean_profile_feature_ms": 0.7200509999999999,
+      "mean_profile_gate_ms": 0.11471300000000001,
+      "mean_profile_action_ms": 0.0,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 0.25333333333333335,
+        "2": 0.023333333333333334,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "method": "repeated",
+      "mean_risk": 0.35655648380517957,
+      "mean_full_ms": 1.355016,
+      "p50_full_ms": 1.2438,
+      "p95_full_ms": 1.8579350000000026,
+      "p99_full_ms": 3.005052999999998,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.017606421589851373,
+      "planning_call_rate": 0.0,
+      "cheap_branch_fraction": 1.0,
+      "stop_fraction": 0.0,
+      "mean_blocks": 12.0,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.17,
+      "mean_profile_feature_ms": 0.740199,
+      "mean_profile_gate_ms": 0.386136,
+      "mean_profile_action_ms": 0.0,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 1.0,
+        "2": 0.05,
+        "5": 0.0,
+        "10": 0.0
+      }
+    },
+    {
+      "method": "random_mix",
+      "mean_risk": 0.3558951449394226,
+      "mean_full_ms": 0.958294,
+      "p50_full_ms": 0.9245,
+      "p95_full_ms": 1.32929,
+      "p99_full_ms": 2.3421829999999995,
+      "qualified_locked_ceiling": false,
+      "risk_ceiling_violation": 0.016945082724094396,
+      "planning_call_rate": 0.0,
+      "cheap_branch_fraction": 1.0,
+      "stop_fraction": 0.0,
+      "mean_blocks": 11.23,
+      "estimated_feature_allowance_violation_rate": 0.0,
+      "profile_real_feature_allowance_violation_rate": 0.05,
+      "mean_profile_feature_ms": 0.6336839999999999,
+      "mean_profile_gate_ms": 0.049349,
+      "mean_profile_action_ms": 0.0,
+      "illegal_actions": 0,
+      "full_ms_exceedance": {
+        "1": 0.24666666666666667,
+        "2": 0.02,
+        "5": 0.0,
+        "10": 0.0
+      }
+    }
+  ],
+  "paired_diagnostic_intervals": [
+    {
+      "against": "skip",
+      "risk_difference_once_minus_control": -0.00036110550165176393,
+      "risk_difference_segment_ci": [
+        -0.001094259095914436,
+        0.0
+      ],
+      "time_difference_ms_once_minus_control": 0.5607113333333333,
+      "time_difference_segment_ci": [
+        0.0783352710932858,
+        1.0736376885620909
+      ]
+    },
+    {
+      "against": "static",
+      "risk_difference_once_minus_control": 0.005873827636241913,
+      "risk_difference_segment_ci": [
+        -0.03905683951704415,
+        0.050977570155777155
+      ],
+      "time_difference_ms_once_minus_control": -0.06473499999999997,
+      "time_difference_segment_ci": [
+        -0.5413324583333333,
+        0.4739805569289571
+      ]
+    },
+    {
+      "against": "student",
+      "risk_difference_once_minus_control": -0.002147645354270935,
+      "risk_difference_segment_ci": [
+        -0.03632118678868118,
+        0.027375941014379488
+      ],
+      "time_difference_ms_once_minus_control": -0.029615999999999962,
+      "time_difference_segment_ci": [
+        -0.6366089262484929,
+        0.631021778472222
+      ]
+    },
+    {
+      "against": "shallow",
+      "risk_difference_once_minus_control": 0.0026612389087677,
+      "risk_difference_segment_ci": [
+        -0.04268980433791876,
+        0.04738820480903481
+      ],
+      "time_difference_ms_once_minus_control": -1.4175073333333337,
+      "time_difference_segment_ci": [
+        -1.9074549264705878,
+        -0.8594970156250002
+      ]
+    },
+    {
+      "against": "deep",
+      "risk_difference_once_minus_control": -0.0077661222219467165,
+      "risk_difference_segment_ci": [
+        -0.03957106529663389,
+        0.01936716918939468
+      ],
+      "time_difference_ms_once_minus_control": -2.7248126666666668,
+      "time_difference_segment_ci": [
+        -3.365622796785382,
+        -2.026859241358346
+      ]
+    },
+    {
+      "against": "risk_only",
+      "risk_difference_once_minus_control": 0.0,
+      "risk_difference_segment_ci": [
+        0.0,
+        0.0
+      ],
+      "time_difference_ms_once_minus_control": 0.01103233333333334,
+      "time_difference_segment_ci": [
+        -0.02357271666666664,
+        0.05695622337802434
+      ]
+    },
+    {
+      "against": "entropy",
+      "risk_difference_once_minus_control": 0.005873827636241913,
+      "risk_difference_segment_ci": [
+        -0.03905683951704415,
+        0.050977570155777155
+      ],
+      "time_difference_ms_once_minus_control": -0.20711966666666665,
+      "time_difference_segment_ci": [
+        -0.6844200967353954,
+        0.3096404264705881
+      ]
+    },
+    {
+      "against": "repeated",
+      "risk_difference_once_minus_control": 0.005873827636241913,
+      "risk_difference_segment_ci": [
+        -0.03905683951704415,
+        0.050977570155777155
+      ],
+      "time_difference_ms_once_minus_control": -0.56887,
+      "time_difference_segment_ci": [
+        -1.0617894296929695,
+        -0.035496641156462984
+      ]
+    },
+    {
+      "against": "random_mix",
+      "risk_difference_once_minus_control": 0.006535166501998901,
+      "risk_difference_segment_ci": [
+        -0.038953335989444025,
+        0.05049677815613145
+      ],
+      "time_difference_ms_once_minus_control": -0.17214799999999997,
+      "time_difference_segment_ci": [
+        -0.6416499029126214,
+        0.33968481330598954
+      ]
+    }
+  ],
+  "limitations": [
+    "Single fitted seed and host",
+    "100 held-out development cycles, not original outer test",
+    "Contiguous condition segments are proxy clusters, not certified independent experiments",
+    "No HAR, unseen subject validation, or strong acquisition baseline expansion yet",
+    "Timing repetitions are not training seeds; intervals conditional on fitted system",
+    "Risk ceiling is empirical and calibration-fixed, not conformal or hard realtime guarantee"
+  ]
+}

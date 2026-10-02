@@ -1,0 +1,114 @@
+[
+  {
+    "certificate": 0.011960562847807554,
+    "blocks": 16,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 1.3729,
+      "joint_bound_certificate_ms": 0.1522,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 1.5493,
+    "fitting_position": 0
+  },
+  {
+    "certificate": 0.015452533645103683,
+    "blocks": 12,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 1.7870999999999997,
+      "joint_bound_certificate_ms": 0.20929999999999999,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 2.0248,
+    "fitting_position": 1
+  },
+  {
+    "certificate": 0.009378457830837239,
+    "blocks": 12,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 1.7525,
+      "joint_bound_certificate_ms": 0.2081,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 1.9932,
+    "fitting_position": 2
+  },
+  {
+    "certificate": 0.00913735702834545,
+    "blocks": 12,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 1.6295000000000002,
+      "joint_bound_certificate_ms": 0.17980000000000002,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 1.8377,
+    "fitting_position": 3
+  },
+  {
+    "certificate": 0.014542810364390646,
+    "blocks": 12,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 1.7202000000000002,
+      "joint_bound_certificate_ms": 0.19840000000000002,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 1.9488,
+    "fitting_position": 4
+  },
+  {
+    "certificate": 0.011446888233319907,
+    "blocks": 12,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 1.9657999999999998,
+      "joint_bound_certificate_ms": 0.20450000000000002,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 2.203,
+    "fitting_position": 5
+  },
+  {
+    "certificate": 0.006704692244650533,
+    "blocks": 12,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 2.2140000000000004,
+      "joint_bound_certificate_ms": 0.2414,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 2.495,
+    "fitting_position": 6
+  },
+  {
+    "certificate": 0.0052472228670562,
+    "blocks": 16,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 1.9158,
+      "joint_bound_certificate_ms": 0.21850000000000003,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 2.1663,
+    "fitting_position": 7
+  }
+]

@@ -1,0 +1,358 @@
+{
+  "phase": "EXPLORATORY_REDESIGN_CLASSIFIER_FEASIBILITY",
+  "execution_complete": true,
+  "new_models_fitted": 2,
+  "old_pilot_decision_unchanged": "STOP_NO_EXPANSION",
+  "prior_gate_risk_ceiling_unchanged": true,
+  "old_policy_or_checkpoint_modified": false,
+  "gate_or_outer_test_evaluated": false,
+  "predictor_fit": {
+    "n_cases": 907,
+    "n_units": 76,
+    "class_counts": [
+      150,
+      150,
+      150,
+      457
+    ],
+    "class_units": [
+      15,
+      15,
+      15,
+      31
+    ],
+    "unit_size_range": [
+      1,
+      210
+    ],
+    "max_absolute_standardized_feature": 28.842180252075195
+  },
+  "internal_val": {
+    "n_cases": 223,
+    "n_units": 25,
+    "class_counts": [
+      40,
+      40,
+      40,
+      103
+    ],
+    "class_units": [
+      4,
+      4,
+      4,
+      13
+    ],
+    "unit_size_range": [
+      1,
+      10
+    ],
+    "max_absolute_standardized_feature": 19.029752731323242
+  },
+  "group_intersection": 0,
+  "class_conditional_feature_diagnostics": [
+    {
+      "class": 0,
+      "fit_n": 150,
+      "val_n": 40,
+      "rms_class_mean_feature_shift": 0.33898305892944336,
+      "mean_abs_class_mean_feature_shift": 0.2541102468967438,
+      "val_cells_outside_fitting_class_range": 0.036449579831932775
+    },
+    {
+      "class": 1,
+      "fit_n": 150,
+      "val_n": 40,
+      "rms_class_mean_feature_shift": 0.3069602847099304,
+      "mean_abs_class_mean_feature_shift": 0.2425922155380249,
+      "val_cells_outside_fitting_class_range": 0.07930672268907563
+    },
+    {
+      "class": 2,
+      "fit_n": 150,
+      "val_n": 40,
+      "rms_class_mean_feature_shift": 0.3500177562236786,
+      "mean_abs_class_mean_feature_shift": 0.29990553855895996,
+      "val_cells_outside_fitting_class_range": 0.009558823529411765
+    },
+    {
+      "class": 3,
+      "fit_n": 457,
+      "val_n": 103,
+      "rms_class_mean_feature_shift": 0.3008875250816345,
+      "mean_abs_class_mean_feature_shift": 0.23941631615161896,
+      "val_cells_outside_fitting_class_range": 0.03198172472872644
+    }
+  ],
+  "fitting_code_inspection": {
+    "saved_stopping_epoch": 31,
+    "saved_best_validation_ce": 1.2805999517440796,
+    "reconstructed_checkpoint_validation_ce": 1.2805999517440796,
+    "ce_absolute_difference": 0.0,
+    "best_epoch_recorded": false,
+    "temperature": 1.25,
+    "code_findings": [
+      "Network is seeded before construction in the new raw-pilot wrapper.",
+      "Fixed validation masks are generated before training with densities .15/.35/.65/1.",
+      "A copied best validation-CE state_dict is restored before temperature calibration and serialization.",
+      "Training batches independently sample rows without replacement within each batch; they do not form a once-per-epoch permutation.",
+      "With stale>=15 the fit must still reach epoch31 before stopping; stop_epoch does not identify best_epoch.",
+      "No obvious best-checkpoint restoration bug found; original best epoch and training trajectory were not saved and cannot be inferred from the stopping count."
+    ]
+  },
+  "models": {
+    "frozen_masked_mlp": {
+      "fit": {
+        "full": {
+          "half_brier": 0.27230340242385864,
+          "accuracy": 0.6085997794928335,
+          "class_counts": [
+            150,
+            150,
+            150,
+            457
+          ],
+          "class_risk": [
+            0.42783117294311523,
+            0.47741445899009705,
+            0.42085400223731995,
+            0.10517339408397675
+          ],
+          "predicted_class_counts": [
+            78,
+            2,
+            147,
+            680
+          ]
+        },
+        "initial_EPS1": {
+          "half_brier": 0.35302725434303284,
+          "accuracy": 0.5016538037486218,
+          "class_counts": [
+            150,
+            150,
+            150,
+            457
+          ],
+          "class_risk": [
+            0.38473784923553467,
+            0.4003361463546753,
+            0.384068101644516,
+            0.31690236926078796
+          ],
+          "predicted_class_counts": [
+            0,
+            0,
+            20,
+            887
+          ]
+        }
+      },
+      "internal_val": {
+        "full": {
+          "half_brier": 0.33924660086631775,
+          "accuracy": 0.47085201793721976,
+          "class_counts": [
+            40,
+            40,
+            40,
+            103
+          ],
+          "class_risk": [
+            0.5079613924026489,
+            0.5143784284591675,
+            0.4097784161567688,
+            0.1783229112625122
+          ],
+          "predicted_class_counts": [
+            23,
+            0,
+            29,
+            171
+          ]
+        },
+        "initial_EPS1": {
+          "half_brier": 0.3560210168361664,
+          "accuracy": 0.4618834080717489,
+          "class_counts": [
+            40,
+            40,
+            40,
+            103
+          ],
+          "class_risk": [
+            0.38612884283065796,
+            0.39929866790771484,
+            0.3797706961631775,
+            0.31829848885536194
+          ],
+          "predicted_class_counts": [
+            0,
+            0,
+            0,
+            223
+          ]
+        }
+      }
+    },
+    "full_only_hgb": {
+      "fit": {
+        "full": {
+          "half_brier": 3.037474855639608e-06,
+          "accuracy": 1.0,
+          "class_counts": [
+            150,
+            150,
+            150,
+            457
+          ],
+          "class_risk": [
+            3.95281316395842e-06,
+            5.65210048582232e-06,
+            3.299206670660156e-06,
+            1.7929357680503057e-06
+          ],
+          "predicted_class_counts": [
+            150,
+            150,
+            150,
+            457
+          ]
+        }
+      },
+      "internal_val": {
+        "full": {
+          "half_brier": 0.10614755057165132,
+          "accuracy": 0.8654708520179372,
+          "class_counts": [
+            40,
+            40,
+            40,
+            103
+          ],
+          "class_risk": [
+            0.05348764712713788,
+            0.058921860031077654,
+            0.25234993762682206,
+            0.08816044646676448
+          ],
+          "predicted_class_counts": [
+            41,
+            54,
+            37,
+            91
+          ]
+        }
+      },
+      "fit_seconds": 5.761469199991552,
+      "iterations": 150,
+      "initial_input_not_evaluated": "This full-only predictor is not trained on masked inputs. Zero-filled initial-only prediction would be out of support and is not a fair partial-input baseline."
+    },
+    "joint_masked_hgb": {
+      "fit": {
+        "full": {
+          "half_brier": 1.9345675618963103e-07,
+          "accuracy": 1.0,
+          "class_counts": [
+            150,
+            150,
+            150,
+            457
+          ],
+          "class_risk": [
+            2.2754323797169463e-07,
+            4.1992202216789564e-07,
+            1.1362299871457242e-07,
+            1.3414012918133686e-07
+          ],
+          "predicted_class_counts": [
+            150,
+            150,
+            150,
+            457
+          ]
+        },
+        "initial_EPS1": {
+          "half_brier": 0.0076438534625794885,
+          "accuracy": 0.9988974641675854,
+          "class_counts": [
+            150,
+            150,
+            150,
+            457
+          ],
+          "class_risk": [
+            0.005397211444812831,
+            0.016137869195947296,
+            0.013799341057939387,
+            0.003572892419594461
+          ],
+          "predicted_class_counts": [
+            150,
+            149,
+            151,
+            457
+          ]
+        }
+      },
+      "internal_val": {
+        "full": {
+          "half_brier": 0.1429321969370637,
+          "accuracy": 0.8071748878923767,
+          "class_counts": [
+            40,
+            40,
+            40,
+            103
+          ],
+          "class_risk": [
+            0.11432152459264508,
+            0.09410894079339181,
+            0.3108849932135852,
+            0.10777923857262443
+          ],
+          "predicted_class_counts": [
+            32,
+            58,
+            39,
+            94
+          ]
+        },
+        "initial_EPS1": {
+          "half_brier": 0.3295518576874821,
+          "accuracy": 0.5201793721973094,
+          "class_counts": [
+            40,
+            40,
+            40,
+            103
+          ],
+          "class_risk": [
+            0.2757521908747296,
+            0.23727976618617608,
+            0.48456196652704264,
+            0.3260806535999085
+          ],
+          "predicted_class_counts": [
+            33,
+            69,
+            52,
+            69
+          ]
+        }
+      },
+      "fit_seconds": 15.811189700005343,
+      "iterations": 100,
+      "augmented_training_rows": 9070,
+      "original_training_cases": 907,
+      "input_dimensions": 266,
+      "augmentation_bytes": 9650480
+    }
+  },
+  "risk_differences": {
+    "full_hgb_minus_frozen_mlp_full_risk": -0.23309905029466643,
+    "joint_hgb_minus_frozen_mlp_full_risk": -0.19631440392925406,
+    "joint_hgb_minus_frozen_mlp_initial_risk": -0.026469159148684307
+  },
+  "total_seconds": 22.261929799977224,
+  "conclusion_boundary": "Fixed internal-validation model feasibility diagnostic. It can reveal represented signal and a plausible prediction-model repair; it does not independently validate planning/router utility, causally locate an optimization failure, reopen the old pilot or establish generalization."
+}

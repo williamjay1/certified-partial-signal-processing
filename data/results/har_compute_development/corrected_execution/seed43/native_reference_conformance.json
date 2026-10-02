@@ -1,0 +1,12 @@
+{
+  "native_vs_compiled_all_development_max_probability_difference": 0.0,
+  "reference_temperature": 2.0,
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

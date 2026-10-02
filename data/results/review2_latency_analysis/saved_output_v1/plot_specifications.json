@@ -1,0 +1,44 @@
+{
+  "figures": [
+    {
+      "name": "complete_latency_cdf",
+      "data": "empirical_cdf_quantiles.csv",
+      "x": "time_ms",
+      "y": "quantile",
+      "facet": "seed",
+      "color": "method",
+      "annotations": [
+        0.95,
+        0.99
+      ]
+    },
+    {
+      "name": "paired_latency_by_processing_outcome",
+      "data": "paired_case_data.csv",
+      "x": "blocks",
+      "y": "paired_increment_mean_ms",
+      "facet": "seed",
+      "color": "fallback",
+      "reference_line": 0
+    },
+    {
+      "name": "subject_fallback_and_paired_increment",
+      "data": "paired_case_data.csv",
+      "aggregate_by": [
+        "seed",
+        "subject"
+      ],
+      "x": "fallback fraction",
+      "y": "paired increment mean",
+      "note": "Descriptive association, not causal"
+    },
+    {
+      "name": "same_case_checkpoint_A_C",
+      "data": "checkpoint_A_C_case_data.csv",
+      "x": "A_blocks",
+      "y": "C_minus_A_ms",
+      "facet": "seed",
+      "reference_line": 0
+    }
+  ]
+}

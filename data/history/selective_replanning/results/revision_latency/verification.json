@@ -1,0 +1,65 @@
+{
+  "status": "pass",
+  "sources": [
+    {
+      "task": "hydraulic_valve",
+      "n": 128,
+      "probabilities_masks_budget_availability": "pass",
+      "registered_sampling_and_no_source_mutation": "pass",
+      "means_pair_contrasts_and_crossings": "pass",
+      "lower_envelope_1001_independent_grid_points": "pass"
+    },
+    {
+      "task": "breast_cancer",
+      "n": 114,
+      "probabilities_masks_budget_availability": "pass",
+      "registered_sampling_and_no_source_mutation": "pass",
+      "means_pair_contrasts_and_crossings": "pass",
+      "lower_envelope_1001_independent_grid_points": "pass"
+    },
+    {
+      "task": "spambase",
+      "n": 128,
+      "probabilities_masks_budget_availability": "pass",
+      "registered_sampling_and_no_source_mutation": "pass",
+      "means_pair_contrasts_and_crossings": "pass",
+      "lower_envelope_1001_independent_grid_points": "pass"
+    },
+    {
+      "task": "bank",
+      "n": 128,
+      "probabilities_masks_budget_availability": "pass",
+      "registered_sampling_and_no_source_mutation": "pass",
+      "means_pair_contrasts_and_crossings": "pass",
+      "lower_envelope_1001_independent_grid_points": "pass"
+    },
+    {
+      "task": "actg175_96w",
+      "n": 128,
+      "probabilities_masks_budget_availability": "pass",
+      "registered_sampling_and_no_source_mutation": "pass",
+      "means_pair_contrasts_and_crossings": "pass",
+      "lower_envelope_1001_independent_grid_points": "pass"
+    },
+    {
+      "task": "dry_bean",
+      "n": 128,
+      "probabilities_masks_budget_availability": "pass",
+      "registered_sampling_and_no_source_mutation": "pass",
+      "means_pair_contrasts_and_crossings": "pass",
+      "lower_envelope_1001_independent_grid_points": "pass"
+    },
+    {
+      "task": "letter_recognition",
+      "n": 128,
+      "probabilities_masks_budget_availability": "pass",
+      "registered_sampling_and_no_source_mutation": "pass",
+      "means_pair_contrasts_and_crossings": "pass",
+      "lower_envelope_1001_independent_grid_points": "pass"
+    }
+  ],
+  "no_fitting_or_threshold_changes": true,
+  "original_consistency_checks": "all five policies, seven sources, exact old rows/search aggregates",
+  "figure_visual_review": "Native pixel view of both three-source and seven-source figures; labels/legend/panels readable and no clipping",
+  "analysis_script_sha256": "b5265501e6b15a77524ad0bb2a14903b6af9b67572240799b5e19442d48f3a8d"
+}

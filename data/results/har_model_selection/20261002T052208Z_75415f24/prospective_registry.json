@@ -1,0 +1,558 @@
+{
+  "created_utc": "2026-10-02T05:22:08.918833+00:00",
+  "status": "prospective_not_fitted",
+  "expected_model_count": 24,
+  "cache": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\cache\\har_train_only__20261002T051217Z_533d2ce1.npz",
+  "cache_sha256": "a23c485d48a8eca5f2f37648abe0400eebf535837998892b2ab93ab252c1756c",
+  "preparation_manifest": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\datasets\\har_training_preparation_manifest__20261002T051217Z_533d2ce1.json",
+  "preparation_manifest_sha256": "04c6ce1847d109499859a27e553c0df524ff735d61a9278c6c5d71558fbb4133",
+  "plan": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\research\\HAR_MODEL_PLAN.md",
+  "plan_sha256": "62864462b647ba643db67fd544e155d7d96babe3315346df49456f675f5b956a",
+  "script_sha256": "78397b03e43db6a982e94c86d4f04b327f1ef31e9185d3af428c3041f5263a34",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "temperatures": [
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "primary_metric": "multiclass half-Brier",
+  "tie_tolerance": 1e-12,
+  "hgb_tie_rule": "min configured leaves cap, then lower iterations, then lower max_leaf_nodes",
+  "temperature_tie_rule": "closest to 1, then lower T",
+  "candidates": [
+    {
+      "seed": 17,
+      "candidate": "hgb_i100_l15",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 100,
+        "max_leaf_nodes": 15,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 17
+      }
+    },
+    {
+      "seed": 17,
+      "candidate": "hgb_i100_l31",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 100,
+        "max_leaf_nodes": 31,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 17
+      }
+    },
+    {
+      "seed": 17,
+      "candidate": "hgb_i150_l15",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 17
+      }
+    },
+    {
+      "seed": 17,
+      "candidate": "hgb_i150_l31",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 31,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 17
+      }
+    },
+    {
+      "seed": 17,
+      "candidate": "random_forest",
+      "family": "RF",
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 2,
+        "n_jobs": 1,
+        "random_state": 17
+      }
+    },
+    {
+      "seed": 17,
+      "candidate": "extra_trees",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 2,
+        "n_jobs": 1,
+        "random_state": 17
+      }
+    },
+    {
+      "seed": 17,
+      "candidate": "logistic",
+      "family": "LR",
+      "parameters": {
+        "C": 1.0,
+        "max_iter": 1000,
+        "solver": "lbfgs",
+        "random_state": 17
+      }
+    },
+    {
+      "seed": 17,
+      "candidate": "rbf_svc",
+      "family": "SVC",
+      "parameters": {
+        "C": 10.0,
+        "gamma": "scale",
+        "probability": true,
+        "random_state": 17
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "hgb_i100_l15",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 100,
+        "max_leaf_nodes": 15,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 29
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "hgb_i100_l31",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 100,
+        "max_leaf_nodes": 31,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 29
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "hgb_i150_l15",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 29
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "hgb_i150_l31",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 31,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 29
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "random_forest",
+      "family": "RF",
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 2,
+        "n_jobs": 1,
+        "random_state": 29
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "extra_trees",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 2,
+        "n_jobs": 1,
+        "random_state": 29
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "logistic",
+      "family": "LR",
+      "parameters": {
+        "C": 1.0,
+        "max_iter": 1000,
+        "solver": "lbfgs",
+        "random_state": 29
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "rbf_svc",
+      "family": "SVC",
+      "parameters": {
+        "C": 10.0,
+        "gamma": "scale",
+        "probability": true,
+        "random_state": 29
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "hgb_i100_l15",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 100,
+        "max_leaf_nodes": 15,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 43
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "hgb_i100_l31",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 100,
+        "max_leaf_nodes": 31,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 43
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "hgb_i150_l15",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 15,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 43
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "hgb_i150_l31",
+      "family": "HGB",
+      "parameters": {
+        "max_iter": 150,
+        "max_leaf_nodes": 31,
+        "learning_rate": 0.1,
+        "min_samples_leaf": 30,
+        "l2_regularization": 1.0,
+        "early_stopping": false,
+        "random_state": 43
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "random_forest",
+      "family": "RF",
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 2,
+        "n_jobs": 1,
+        "random_state": 43
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "extra_trees",
+      "family": "ET",
+      "parameters": {
+        "n_estimators": 400,
+        "min_samples_leaf": 2,
+        "n_jobs": 1,
+        "random_state": 43
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "logistic",
+      "family": "LR",
+      "parameters": {
+        "C": 1.0,
+        "max_iter": 1000,
+        "solver": "lbfgs",
+        "random_state": 43
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "rbf_svc",
+      "family": "SVC",
+      "parameters": {
+        "C": 10.0,
+        "gamma": "scale",
+        "probability": true,
+        "random_state": 43
+      }
+    }
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "threads": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    }
+  ],
+  "d_free_gib": 123.96403121948242,
+  "output_dir": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24",
+  "checkpoint_dir": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24",
+  "metadata": {
+    "cache_keys": [
+      "raw_train",
+      "features_train",
+      "labels_train",
+      "subjects",
+      "original_train_row",
+      "signal_names",
+      "feature_names",
+      "block_widths",
+      "block_offsets",
+      "group_index",
+      "sampling_hz",
+      "window_seconds",
+      "splits",
+      "fit_indices_seed17",
+      "development_indices_seed17",
+      "fit_subjects_seed17",
+      "development_subjects_seed17",
+      "fit_indices_seed29",
+      "development_indices_seed29",
+      "fit_subjects_seed29",
+      "development_subjects_seed29",
+      "fit_indices_seed43",
+      "development_indices_seed43",
+      "fit_subjects_seed43",
+      "development_subjects_seed43",
+      "scaler_center_seed17",
+      "scaler_scale_seed17",
+      "scaler_center_seed29",
+      "scaler_scale_seed29",
+      "scaler_center_seed43",
+      "scaler_scale_seed43"
+    ],
+    "x_shape": [
+      7352,
+      153
+    ],
+    "y_shape": [
+      7352
+    ],
+    "raw_array_loaded": false
+  },
+  "splits": {
+    "17": {
+      "fit_subjects": [
+        8,
+        11,
+        7,
+        6,
+        27,
+        23,
+        26,
+        16,
+        21,
+        15,
+        30,
+        14,
+        3,
+        1,
+        22,
+        25,
+        5
+      ],
+      "development_subjects": [
+        17,
+        28,
+        19,
+        29
+      ],
+      "fit_rows": 5898,
+      "development_rows": 1454,
+      "fit_class_counts": [
+        1006,
+        885,
+        807,
+        1017,
+        1079,
+        1104
+      ],
+      "development_class_counts": [
+        220,
+        188,
+        179,
+        269,
+        295,
+        303
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "29": {
+      "fit_subjects": [
+        1,
+        23,
+        29,
+        8,
+        3,
+        15,
+        19,
+        6,
+        14,
+        22,
+        26,
+        7,
+        17,
+        25,
+        11,
+        5,
+        21
+      ],
+      "development_subjects": [
+        16,
+        30,
+        28,
+        27
+      ],
+      "fit_rows": 5845,
+      "development_rows": 1507,
+      "fit_class_counts": [
+        999,
+        855,
+        787,
+        1013,
+        1078,
+        1113
+      ],
+      "development_class_counts": [
+        227,
+        218,
+        199,
+        273,
+        296,
+        294
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "43": {
+      "fit_subjects": [
+        8,
+        3,
+        21,
+        14,
+        30,
+        17,
+        28,
+        5,
+        22,
+        15,
+        11,
+        29,
+        19,
+        26,
+        27,
+        16,
+        23
+      ],
+      "development_subjects": [
+        7,
+        25,
+        1,
+        6
+      ],
+      "fit_rows": 5963,
+      "development_rows": 1389,
+      "fit_class_counts": [
+        943,
+        853,
+        784,
+        1071,
+        1137,
+        1175
+      ],
+      "development_class_counts": [
+        283,
+        220,
+        202,
+        215,
+        237,
+        232
+      ],
+      "saved_scaler_fit_only_verified": true
+    }
+  },
+  "test_data_accessed": false,
+  "source_zip_opened": false,
+  "fixed_full_feature_input": true,
+  "partial_processing_time_used_in_selection": false
+}

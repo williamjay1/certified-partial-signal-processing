@@ -1,0 +1,435 @@
+{
+  "status": "PASS_ARTWORK_PIXEL_TEXT_AND_SOURCE_EQUALITY",
+  "artworks": 18,
+  "pixel_identical": 18,
+  "method": "RGB and alpha differences checked separately; extracted PDF text and matched scientific source CSV/MD compared. Path-bearing QA records are not compared as data cells.",
+  "items": [
+    {
+      "path": "artwork/figures/figure1_workflow.png",
+      "dimensions": [
+        7204,
+        3858
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": []
+    },
+    {
+      "path": "artwork/figures/figure2_subject_variation.png",
+      "dimensions": [
+        7204,
+        3700
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "figure2_subject_variation_source.csv",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/figures/figure3_stopping_controls.png",
+      "dimensions": [
+        7204,
+        3858
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "figure3_stopping_controls_source.csv",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/figures/figure4_fidelity_time.png",
+      "dimensions": [
+        7204,
+        3503
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "figure4_fidelity_time_source.csv",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/figures/figure5_latency_tails.png",
+      "dimensions": [
+        7204,
+        5196
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "figure5_latency_tails_all_calls_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "figure5_latency_tails_source.csv",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/figures/figure6_component_cost.png",
+      "dimensions": [
+        7204,
+        4842
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "figure6_component_cost_source.csv",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table01.png",
+      "dimensions": [
+        7204,
+        3402
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table01_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table01_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table02.png",
+      "dimensions": [
+        7204,
+        1983
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table02_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table02_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table03.png",
+      "dimensions": [
+        7204,
+        2746
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table03_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table03_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table04.png",
+      "dimensions": [
+        7204,
+        3165
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table04_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table04_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table05.png",
+      "dimensions": [
+        7204,
+        2570
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table05_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table05_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table06.png",
+      "dimensions": [
+        7204,
+        3761
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table06_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table06_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table07.png",
+      "dimensions": [
+        7204,
+        3118
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table07_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table07_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table08.png",
+      "dimensions": [
+        7204,
+        2438
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table08_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table08_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table09.png",
+      "dimensions": [
+        7204,
+        2140
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table09_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table09_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table10.png",
+      "dimensions": [
+        7204,
+        2448
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table10_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table10_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table11.png",
+      "dimensions": [
+        7204,
+        2570
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table11_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table11_source.md",
+          "bytes_identical": true
+        }
+      ]
+    },
+    {
+      "path": "artwork/tables/table12.png",
+      "dimensions": [
+        7204,
+        3533
+      ],
+      "dpi": [
+        999.9979999999999,
+        999.9979999999999
+      ],
+      "bytes_identical": true,
+      "pixels_identical": true,
+      "difference_bbox": null,
+      "pdf_text_identical": true,
+      "source_data_comparison": [
+        {
+          "file": "table12_source.csv",
+          "bytes_identical": true
+        },
+        {
+          "file": "table12_source.md",
+          "bytes_identical": true
+        }
+      ]
+    }
+  ],
+  "physical_print_test": false,
+  "visual_inspection": "Public figure 1, 2, 5 previews inspected; no overlap observed. Text labels harmonized to audited manuscript artwork."
+}

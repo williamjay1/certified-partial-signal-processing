@@ -1,0 +1,124 @@
+{
+  "phase": "SINGLE_FACTOR_DEVELOPMENT_BACKEND_REPAIR",
+  "new_fits": 0,
+  "allowed_cases": {
+    "predictor_fit": 907,
+    "internal_validation": 223
+  },
+  "order": [
+    3,
+    15,
+    2,
+    14,
+    1,
+    0,
+    20,
+    18,
+    13,
+    12,
+    24,
+    17,
+    26,
+    19,
+    21,
+    6,
+    5,
+    11,
+    16,
+    23,
+    4,
+    9,
+    10,
+    8,
+    7,
+    25,
+    27,
+    22
+  ],
+  "checkpoints": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28
+  ],
+  "initial_input": "empty",
+  "deltas": [
+    0.0,
+    0.01,
+    0.025,
+    0.05,
+    0.1
+  ],
+  "variants": {
+    "tight_minimax": 0,
+    "coordinate_minimax": 1,
+    "tight_midpoint": 2
+  },
+  "reference": "same compiled exact frozen full HGB",
+  "backend": "uint64 reachable-leaf masks; cleared opposite subtrees for newly observed batch blocks",
+  "single_factor_changes": [
+    "reachable-leaf score-bound maintenance backend only"
+  ],
+  "single_thread_runtime": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\ptenv\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\ptenv\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "D_free_bytes_before_compute": 145439875072,
+  "tree_count": 600,
+  "node_count": 11724,
+  "model_sha256": "3a1aadd8996eb131b1d6fc391925f3a15c99cbf4f77583046ee0b51f492b23fd",
+  "kernel_sha256": "88a3f49cb38121ebec596da40a64d2fcad701b4ba5193611f58b7ecc7fe80f0a",
+  "leaf_helper_sha256": "f2303717eae8bb1a270e4feeb5f686389f26c12bfe20476356d3c0a3a7e3bb04",
+  "driver_sha256": "1a88b780da9a58fef0f92f498cca5fd73db9c3e81f5755b568aac205e392051b",
+  "parent_driver_sha256": "6b2dbed297a9e6faeea9de8487eb2a950ec1fe578c82a06125b31d002b986ed0",
+  "timing_coordination": "Only executed after HAR loader heavyparse/feature-cache construction completed; root/hydraulic_hooks notified.",
+  "old_outputs_read_only": true,
+  "native_and_compiled_full_controls": true,
+  "repetitions": 3,
+  "no_gate_no_old_test_no_HAR": true
+}

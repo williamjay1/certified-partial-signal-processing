@@ -1,0 +1,166 @@
+{
+  "stage": "POSTHOC_REPEAT_MEDIAN_SENSITIVITY_TRIGGERED_BY_OBSERVED_LARGE_TIMING_CALL",
+  "main_endpoint_replaced": false,
+  "case_removal": false,
+  "repeated_runs_removed": false,
+  "observations": "A compiled-full call of72.1447ms was observed in formal seed29. This diagnostic keeps every window/repetition and changes only the summary functional.",
+  "interpretation": "Mean of three-repeat medians is a different execution-time estimand. It suppresses isolated repetition jitter; it does not prove whether a call was scheduling noise or model work. Do not replace or relabel the primary all-call mean.",
+  "groups": [
+    {
+      "seed": 17,
+      "system_case_outputs": 900,
+      "mean_of_repeat_medians_partial_ms": 0.9790565555555557,
+      "mean_of_repeat_medians_full_ms": 1.0830228888888889,
+      "repeat_median_time_reduction": 0.09599643220836807,
+      "original_mean_partial_ms": 1.0167538518518517,
+      "original_mean_full_ms": 1.122237259259259,
+      "original_mean_time_reduction": 0.09399385605592214
+    },
+    {
+      "seed": 29,
+      "system_case_outputs": 900,
+      "mean_of_repeat_medians_partial_ms": 0.9891172222222221,
+      "mean_of_repeat_medians_full_ms": 0.9874653333333333,
+      "repeat_median_time_reduction": -0.0016728576013018692,
+      "original_mean_partial_ms": 1.023603814814815,
+      "original_mean_full_ms": 1.051749111111111,
+      "original_mean_time_reduction": 0.02676046596945747
+    },
+    {
+      "seed": 43,
+      "system_case_outputs": 900,
+      "mean_of_repeat_medians_partial_ms": 0.9294100000000001,
+      "mean_of_repeat_medians_full_ms": 1.0267557777777778,
+      "repeat_median_time_reduction": 0.09480908691691481,
+      "original_mean_partial_ms": 0.9636095185185185,
+      "original_mean_full_ms": 1.0660465555555556,
+      "original_mean_time_reduction": 0.09609058488412214
+    },
+    {
+      "seed": null,
+      "system_case_outputs": 2700,
+      "mean_of_repeat_medians_partial_ms": 0.9658612592592594,
+      "mean_of_repeat_medians_full_ms": 1.0324146666666667,
+      "repeat_median_time_reduction": 0.06446383372515119,
+      "original_mean_partial_ms": 1.0013223950617283,
+      "original_mean_full_ms": 1.080010975308642,
+      "original_mean_time_reduction": 0.07285905610767185
+    }
+  ],
+  "largest_calls_diagnostic": {
+    "partial_ms": [
+      {
+        "seed": "43",
+        "case": "2553",
+        "subject": "20",
+        "rep": "2",
+        "blocks": "16",
+        "fallback": "False",
+        "partial_ms": "5.9052",
+        "full_ms": "1.5595",
+        "paired_increment_ms": "4.3457"
+      },
+      {
+        "seed": "17",
+        "case": "897",
+        "subject": "9",
+        "rep": "1",
+        "blocks": "18",
+        "fallback": "True",
+        "partial_ms": "4.533",
+        "full_ms": "1.5888",
+        "paired_increment_ms": "2.9442000000000004"
+      },
+      {
+        "seed": "17",
+        "case": "289",
+        "subject": "2",
+        "rep": "0",
+        "blocks": "16",
+        "fallback": "False",
+        "partial_ms": "4.3026",
+        "full_ms": "1.7725",
+        "paired_increment_ms": "2.5301"
+      },
+      {
+        "seed": "43",
+        "case": "2542",
+        "subject": "20",
+        "rep": "0",
+        "blocks": "16",
+        "fallback": "False",
+        "partial_ms": "4.1551",
+        "full_ms": "1.3367",
+        "paired_increment_ms": "2.8184"
+      },
+      {
+        "seed": "43",
+        "case": "2918",
+        "subject": "24",
+        "rep": "1",
+        "blocks": "16",
+        "fallback": "False",
+        "partial_ms": "4.0745",
+        "full_ms": "2.0839",
+        "paired_increment_ms": "1.9905999999999997"
+      }
+    ],
+    "full_ms": [
+      {
+        "seed": "29",
+        "case": "119",
+        "subject": "2",
+        "rep": "2",
+        "blocks": "18",
+        "fallback": "True",
+        "partial_ms": "0.9839",
+        "full_ms": "72.1447",
+        "paired_increment_ms": "-71.1608"
+      },
+      {
+        "seed": "17",
+        "case": "1784",
+        "subject": "13",
+        "rep": "0",
+        "blocks": "16",
+        "fallback": "False",
+        "partial_ms": "1.1033",
+        "full_ms": "5.204",
+        "paired_increment_ms": "-4.1007"
+      },
+      {
+        "seed": "43",
+        "case": "2554",
+        "subject": "20",
+        "rep": "1",
+        "blocks": "12",
+        "fallback": "False",
+        "partial_ms": "1.231",
+        "full_ms": "5.0948",
+        "paired_increment_ms": "-3.8638000000000003"
+      },
+      {
+        "seed": "17",
+        "case": "290",
+        "subject": "2",
+        "rep": "2",
+        "blocks": "16",
+        "fallback": "False",
+        "partial_ms": "1.5041",
+        "full_ms": "4.7113",
+        "paired_increment_ms": "-3.2071999999999994"
+      },
+      {
+        "seed": "17",
+        "case": "870",
+        "subject": "9",
+        "rep": "1",
+        "blocks": "12",
+        "fallback": "False",
+        "partial_ms": "3.817",
+        "full_ms": "3.7585",
+        "paired_increment_ms": "0.058499999999999996"
+      }
+    ]
+  }
+}

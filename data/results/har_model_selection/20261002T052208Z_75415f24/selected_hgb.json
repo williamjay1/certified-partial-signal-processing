@@ -1,0 +1,113 @@
+{
+  "17": {
+    "seed": 17,
+    "candidate": "hgb_i150_l15",
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__hgb_i150_l15.joblib",
+    "model_sha256": "50e9fbc2cf390d9fcd7ccf2aeca077859580cfc597b54d4921b69f6b74db5555",
+    "chosen_temperature": 2.0,
+    "parameters": {
+      "max_iter": 150,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 17
+    },
+    "selected_metrics": {
+      "half_brier": 0.06398854814824108,
+      "accuracy": 0.9174690508940853,
+      "log_loss": 0.2649881377767129
+    },
+    "raw_metrics": {
+      "half_brier": 0.07097411083576911,
+      "accuracy": 0.9174690508940853,
+      "log_loss": 0.4069576728961086
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 150,
+      "classes": 6,
+      "trees": 900,
+      "nodes": 22304,
+      "leaves": 11602,
+      "max_depth": 11
+    },
+    "fit_seconds": 9.25568740000017,
+    "status": "development_selected_frozen_hgb"
+  },
+  "29": {
+    "seed": 29,
+    "candidate": "hgb_i150_l15",
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__hgb_i150_l15.joblib",
+    "model_sha256": "8f38a7b0fcd578c0c4d4a90973e3dbee279fddf831098f10c9a4ac80178ff064",
+    "chosen_temperature": 3.0,
+    "parameters": {
+      "max_iter": 150,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 29
+    },
+    "selected_metrics": {
+      "half_brier": 0.09305817690046907,
+      "accuracy": 0.8944923689449237,
+      "log_loss": 0.4204056297051942
+    },
+    "raw_metrics": {
+      "half_brier": 0.10023900498397999,
+      "accuracy": 0.8944923689449237,
+      "log_loss": 0.7446764494838993
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 150,
+      "classes": 6,
+      "trees": 900,
+      "nodes": 22358,
+      "leaves": 11629,
+      "max_depth": 12
+    },
+    "fit_seconds": 8.92922869999893,
+    "status": "development_selected_frozen_hgb"
+  },
+  "43": {
+    "seed": 43,
+    "candidate": "hgb_i100_l15",
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__hgb_i100_l15.joblib",
+    "model_sha256": "5c9d89634a45abd57122005e22bfb951b9e0f052d40390f9bc36c8e0feb04699",
+    "chosen_temperature": 2.0,
+    "parameters": {
+      "max_iter": 100,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 43
+    },
+    "selected_metrics": {
+      "half_brier": 0.07373094005692686,
+      "accuracy": 0.8927285817134629,
+      "log_loss": 0.28998342965404145
+    },
+    "raw_metrics": {
+      "half_brier": 0.08440339345977901,
+      "accuracy": 0.8927285817134629,
+      "log_loss": 0.3459898118299994
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 100,
+      "classes": 6,
+      "trees": 600,
+      "nodes": 14990,
+      "leaves": 7795,
+      "max_depth": 11
+    },
+    "fit_seconds": 6.758741300000111,
+    "status": "development_selected_frozen_hgb"
+  }
+}

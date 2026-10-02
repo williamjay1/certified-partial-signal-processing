@@ -1,0 +1,189 @@
+{
+  "successes": [
+    {
+      "seed": 17,
+      "family": "HGB",
+      "candidate": "hgb_i150_l15",
+      "temperature": 2.0,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.056735686346252694,
+      "accuracy": 0.9178825924669155,
+      "log_loss": 0.2183162601427784,
+      "prediction_seconds": 0.5400231000094209,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "family": "RF",
+      "candidate": "random_forest",
+      "temperature": 0.75,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.07122072250360983,
+      "accuracy": 0.9073634204275535,
+      "log_loss": 0.2515162022842284,
+      "prediction_seconds": 0.06793349998770282,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "family": "ET",
+      "candidate": "extra_trees",
+      "temperature": 0.75,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.0681811816507572,
+      "accuracy": 0.9121140142517815,
+      "log_loss": 0.2471691365842515,
+      "prediction_seconds": 0.14278809999814257,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "family": "SVC",
+      "candidate": "rbf_svc",
+      "temperature": 1.25,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.05019482420637841,
+      "accuracy": 0.9328130302002036,
+      "log_loss": 0.1975153889757562,
+      "prediction_seconds": 0.5055521000176668,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "family": "HGB",
+      "candidate": "hgb_i150_l15",
+      "temperature": 3.0,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.07779741674579176,
+      "accuracy": 0.9032914828639295,
+      "log_loss": 0.36343214062932155,
+      "prediction_seconds": 0.3127315000165254,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "family": "RF",
+      "candidate": "random_forest",
+      "temperature": 0.75,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.07952673867315092,
+      "accuracy": 0.8897183576518494,
+      "log_loss": 0.29218477641006807,
+      "prediction_seconds": 0.08544840000104159,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "family": "ET",
+      "candidate": "extra_trees",
+      "temperature": 0.75,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.07606696020671684,
+      "accuracy": 0.9049881235154394,
+      "log_loss": 0.2781636379460484,
+      "prediction_seconds": 0.12003749998984858,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "family": "SVC",
+      "candidate": "rbf_svc",
+      "temperature": 1.5,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.06362698511960614,
+      "accuracy": 0.9185612487275195,
+      "log_loss": 0.25720038374226756,
+      "prediction_seconds": 0.43664080000598915,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "family": "HGB",
+      "candidate": "hgb_i100_l15",
+      "temperature": 2.0,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.04955725303389034,
+      "accuracy": 0.9358669833729216,
+      "log_loss": 0.20727877151883403,
+      "prediction_seconds": 0.15860759999486618,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "family": "RF",
+      "candidate": "random_forest",
+      "temperature": 0.75,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.06001058155814383,
+      "accuracy": 0.9236511706820495,
+      "log_loss": 0.21984587929091304,
+      "prediction_seconds": 0.06729489998542704,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "family": "ET",
+      "candidate": "extra_trees",
+      "temperature": 0.75,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.06414330826586595,
+      "accuracy": 0.9209365456396336,
+      "log_loss": 0.23678329973869394,
+      "prediction_seconds": 0.09426999997231178,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "family": "SVC",
+      "candidate": "rbf_svc",
+      "temperature": 1.25,
+      "windows": 2947,
+      "subjects": 9,
+      "half_brier": 0.042154142240100466,
+      "accuracy": 0.9467254835425857,
+      "log_loss": 0.1584418302579679,
+      "prediction_seconds": 0.4746962000208441,
+      "warnings": []
+    }
+  ],
+  "failures": [
+    {
+      "seed": 17,
+      "family": "LR",
+      "candidate": "logistic",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error_message": "Case log-loss array does not reproduce sklearn log_loss",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\MLWork\\ASC_CertifiedProcessing_20261002\\scripts\\har_reference_test.py\", line 229, in evaluate\n    raise ValueError('Case log-loss array does not reproduce sklearn log_loss')\nValueError: Case log-loss array does not reproduce sklearn log_loss\n"
+    },
+    {
+      "seed": 29,
+      "family": "LR",
+      "candidate": "logistic",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error_message": "Case log-loss array does not reproduce sklearn log_loss",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\MLWork\\ASC_CertifiedProcessing_20261002\\scripts\\har_reference_test.py\", line 229, in evaluate\n    raise ValueError('Case log-loss array does not reproduce sklearn log_loss')\nValueError: Case log-loss array does not reproduce sklearn log_loss\n"
+    },
+    {
+      "seed": 43,
+      "family": "LR",
+      "candidate": "logistic",
+      "status": "failed",
+      "error_type": "ValueError",
+      "error_message": "Case log-loss array does not reproduce sklearn log_loss",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\MLWork\\ASC_CertifiedProcessing_20261002\\scripts\\har_reference_test.py\", line 229, in evaluate\n    raise ValueError('Case log-loss array does not reproduce sklearn log_loss')\nValueError: Case log-loss array does not reproduce sklearn log_loss\n"
+    }
+  ]
+}

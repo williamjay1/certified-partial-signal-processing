@@ -1,0 +1,123 @@
+{
+  "stage": "POSTHOC_DESCRIPTIVE_AGGREGATION_FROM_SAVED_ORDER_OUTCOMES",
+  "new_policy_executions": 0,
+  "independence_note": "12 system-subject combinations share some people across splits; no independence assumption",
+  "summaries": [
+    {
+      "order": "locked_gain_per_time",
+      "system_subject_combinations": 12,
+      "unique_subjects": [
+        1,
+        6,
+        7,
+        16,
+        17,
+        19,
+        25,
+        27,
+        28,
+        29,
+        30
+      ],
+      "equal_system_subject_mean_blocks": 14.713760032229382,
+      "equal_system_subject_mean_fallback_fraction": 0.18288698295660308,
+      "equal_system_subject_mean_realized_reference_loss_excess": 0.0028933250731245975,
+      "maximum_every_label_excess": 0.024880417317857173,
+      "mean_blocks_range": [
+        13.581151832460733,
+        15.868852459016393
+      ],
+      "fallback_fraction_range": [
+        0.03664921465968586,
+        0.4308093994778068
+      ]
+    },
+    {
+      "order": "gain_only",
+      "system_subject_combinations": 12,
+      "unique_subjects": [
+        1,
+        6,
+        7,
+        16,
+        17,
+        19,
+        25,
+        27,
+        28,
+        29,
+        30
+      ],
+      "equal_system_subject_mean_blocks": 14.578350368569852,
+      "equal_system_subject_mean_fallback_fraction": 0.1456272613792388,
+      "equal_system_subject_mean_realized_reference_loss_excess": 0.003287648912203636,
+      "maximum_every_label_excess": 0.02481603617135597,
+      "mean_blocks_range": [
+        13.329842931937172,
+        15.633879781420765
+      ],
+      "fallback_fraction_range": [
+        0.03664921465968586,
+        0.2591687041564792
+      ]
+    },
+    {
+      "order": "reverse_locked",
+      "system_subject_combinations": 12,
+      "unique_subjects": [
+        1,
+        6,
+        7,
+        16,
+        17,
+        19,
+        25,
+        27,
+        28,
+        29,
+        30
+      ],
+      "equal_system_subject_mean_blocks": 18.0,
+      "equal_system_subject_mean_fallback_fraction": 1.0,
+      "equal_system_subject_mean_realized_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "mean_blocks_range": [
+        18.0,
+        18.0
+      ],
+      "fallback_fraction_range": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "order": "fixed_random",
+      "system_subject_combinations": 12,
+      "unique_subjects": [
+        1,
+        6,
+        7,
+        16,
+        17,
+        19,
+        25,
+        27,
+        28,
+        29,
+        30
+      ],
+      "equal_system_subject_mean_blocks": 17.1757807491949,
+      "equal_system_subject_mean_fallback_fraction": 0.6870843631093074,
+      "equal_system_subject_mean_realized_reference_loss_excess": 0.0013507949159095721,
+      "maximum_every_label_excess": 0.024401656215162326,
+      "mean_blocks_range": [
+        16.26063829787234,
+        18.0
+      ],
+      "fallback_fraction_range": [
+        0.13031914893617022,
+        1.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "total_seconds": 69.78707920000306,
+  "decision": "STOP_NO_EXPANSION",
+  "training_complete": true,
+  "audit_complete": true,
+  "HAR_started": false,
+  "source_raw_unmodified": true,
+  "summary_sha256": "3ca7414d1152ba12d0cfd6424b3da1e544352577cf0afb9bb48abde729073310"
+}

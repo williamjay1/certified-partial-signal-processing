@@ -1,0 +1,3 @@
+# Observed study environment; cross-machine installation is not verified.
+# Python 3.12.14. No Torch, model deserialization or Numba required for replay.
+numpy==2.5.3

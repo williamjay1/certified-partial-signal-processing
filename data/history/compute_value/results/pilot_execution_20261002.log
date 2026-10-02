@@ -1,0 +1,31 @@
+PARSED_DEVELOPMENT PS1 (1770, 6000)
+PARSED_DEVELOPMENT PS2 (1770, 6000)
+PARSED_DEVELOPMENT PS3 (1770, 6000)
+PARSED_DEVELOPMENT PS4 (1770, 6000)
+PARSED_DEVELOPMENT PS5 (1770, 6000)
+PARSED_DEVELOPMENT PS6 (1770, 6000)
+PARSED_DEVELOPMENT EPS1 (1770, 6000)
+PARSED_DEVELOPMENT FS1 (1770, 600)
+PARSED_DEVELOPMENT FS2 (1770, 600)
+PARSED_DEVELOPMENT TS1 (1770, 60)
+PARSED_DEVELOPMENT TS2 (1770, 60)
+PARSED_DEVELOPMENT TS3 (1770, 60)
+PARSED_DEVELOPMENT TS4 (1770, 60)
+PARSED_DEVELOPMENT VS1 (1770, 60)
+STUDENT_FIT 200
+MEASURED gate_fit_branches 1 300 5
+MEASURED gate_fit_branches 2 300 5
+MEASURED gate_fit_branches 3 300 5
+COMPUTE_GATE_FIT (300, 45)
+REPEATED_GATE_FIT 900
+MEASURED calibration_candidates 1 100 30
+MEASURED calibration_candidates 2 100 30
+MEASURED calibration_candidates 3 100 30
+MEASURED calibration_frozen_global_mixture 1 100 1
+MEASURED calibration_frozen_global_mixture 2 100 1
+MEASURED calibration_frozen_global_mixture 3 100 1
+CALIBRATION_LOCK 0.3389500622153282 once_0 {'mode': 'once', 'lambda': 0} False
+MEASURED audit_frozen_policies 1 100 10
+MEASURED audit_frozen_policies 2 100 10
+MEASURED audit_frozen_policies 3 100 10
+PILOT_DECISION STOP_NO_EXPANSION {'calibration_feasible': False, 'audit_risk_within_locked_ceiling': False, 'has_qualified_control': False, 'at_least_20_percent_full_time_saving': False, 'gate_cost_below_actual_avoided_planning': True, 'not_reproduced_by_fixed_cheap_or_risk_only': False}

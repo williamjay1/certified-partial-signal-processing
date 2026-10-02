@@ -1,0 +1,337 @@
+{
+  "seed": 43,
+  "correctness": {
+    "status": "PASS_NUMERICAL_NOT_FORMAL_MACHINE_PROOF",
+    "cases": 24,
+    "prefix_checks": 236,
+    "max_raw_cache_difference": 0.0,
+    "maximum_interval_violation_signed": -8.411388122166186e-06,
+    "maximum_every_label_certificate_violation_signed": -6.101369014298178e-06
+  },
+  "timing_cohort_reference": {
+    "half_brier": 0.07357926250779495,
+    "accuracy": 0.9,
+    "class_counts": [
+      70,
+      49,
+      48,
+      38,
+      50,
+      45
+    ],
+    "class_risk": [
+      0.013001009903417599,
+      0.11284337312178053,
+      0.1272569776205512,
+      0.12574881234401175,
+      0.09362074283080803,
+      0.0014790186607266387
+    ]
+  },
+  "summaries": [
+    {
+      "name": "A_tight_minimax",
+      "schedule": "A",
+      "variant": 0,
+      "cases": 300,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1574659999999999,
+        "median": 1.0972,
+        "p95": 2.08537,
+        "p99": 2.4138319999999998
+      },
+      "half_brier": 0.07846314991890256,
+      "accuracy": 0.9,
+      "class_counts": [
+        70,
+        49,
+        48,
+        38,
+        50,
+        45
+      ],
+      "class_risk": [
+        0.017863692140628627,
+        0.11060101881555645,
+        0.12993145118290025,
+        0.12883869231442396,
+        0.0983973497973706,
+        0.01814642553930312
+      ],
+      "mean_block_count": 13.72,
+      "full_fallback_rate": 0.16,
+      "mean_reference_loss_excess": 0.004883887411107598,
+      "maximum_every_label_excess": 0.024107949770640014,
+      "maximum_certificate_violation_signed": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.05550082774739462
+    },
+    {
+      "name": "A_coordinate_minimax",
+      "schedule": "A",
+      "variant": 1,
+      "cases": 300,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1407437777777778,
+        "median": 1.1029,
+        "p95": 1.9902749999999998,
+        "p99": 2.5280629999999995
+      },
+      "half_brier": 0.07844027959454089,
+      "accuracy": 0.9,
+      "class_counts": [
+        70,
+        49,
+        48,
+        38,
+        50,
+        45
+      ],
+      "class_risk": [
+        0.017987118703280465,
+        0.11007919717189023,
+        0.13011566003161348,
+        0.12860367816608043,
+        0.09824563032923543,
+        0.018540709764883076
+      ],
+      "mean_block_count": 13.753333333333334,
+      "full_fallback_rate": 0.17666666666666667,
+      "mean_reference_loss_excess": 0.0048610170867459486,
+      "maximum_every_label_excess": 0.02463926717549314,
+      "maximum_certificate_violation_signed": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.06914626100168708
+    },
+    {
+      "name": "B_tight_minimax",
+      "schedule": "B",
+      "variant": 0,
+      "cases": 300,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1046032222222222,
+        "median": 1.04745,
+        "p95": 1.9310699999999998,
+        "p99": 2.2443519999999997
+      },
+      "half_brier": 0.07823261386598823,
+      "accuracy": 0.9,
+      "class_counts": [
+        70,
+        49,
+        48,
+        38,
+        50,
+        45
+      ],
+      "class_risk": [
+        0.017863692140628627,
+        0.11060101881555645,
+        0.12993145118290025,
+        0.12883869231442396,
+        0.0983973497973706,
+        0.016609518519874394
+      ],
+      "mean_block_count": 13.8,
+      "full_fallback_rate": 0.16,
+      "mean_reference_loss_excess": 0.004653351358193288,
+      "maximum_every_label_excess": 0.024107949770640014,
+      "maximum_certificate_violation_signed": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.09863717028711882
+    },
+    {
+      "name": "B_coordinate_minimax",
+      "schedule": "B",
+      "variant": 1,
+      "cases": 300,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1028753333333334,
+        "median": 1.04515,
+        "p95": 1.9410799999999995,
+        "p99": 2.5322359999999997
+      },
+      "half_brier": 0.0782036074750663,
+      "accuracy": 0.9,
+      "class_counts": [
+        70,
+        49,
+        48,
+        38,
+        50,
+        45
+      ],
+      "class_risk": [
+        0.017987118703280465,
+        0.11007919717189023,
+        0.13011566003161348,
+        0.12860367816608043,
+        0.09824563032923543,
+        0.016962895635052475
+      ],
+      "mean_block_count": 13.833333333333334,
+      "full_fallback_rate": 0.17666666666666667,
+      "mean_reference_loss_excess": 0.004624344967271359,
+      "maximum_every_label_excess": 0.02463926717549314,
+      "maximum_certificate_violation_signed": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.10004713794517517
+    },
+    {
+      "name": "C_tight_minimax",
+      "schedule": "C",
+      "variant": 0,
+      "cases": 300,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.1220144444444446,
+        "median": 1.0612,
+        "p95": 1.8919999999999997,
+        "p99": 2.132761
+      },
+      "half_brier": 0.07653234521797929,
+      "accuracy": 0.9,
+      "class_counts": [
+        70,
+        49,
+        48,
+        38,
+        50,
+        45
+      ],
+      "class_risk": [
+        0.017863692140628627,
+        0.11060101881555645,
+        0.12993145118290025,
+        0.12883869231442396,
+        0.0983973497973706,
+        0.005274394199814732
+      ],
+      "mean_block_count": 14.706666666666667,
+      "full_fallback_rate": 0.16,
+      "mean_reference_loss_excess": 0.0029530827101843403,
+      "maximum_every_label_excess": 0.024107949770640014,
+      "maximum_certificate_violation_signed": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.08442950891581691
+    },
+    {
+      "name": "C_coordinate_minimax",
+      "schedule": "C",
+      "variant": 1,
+      "cases": 300,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.123075111111111,
+        "median": 1.0413999999999999,
+        "p95": 1.936945,
+        "p99": 2.326091
+      },
+      "half_brier": 0.07646088777749187,
+      "accuracy": 0.9,
+      "class_counts": [
+        70,
+        49,
+        48,
+        38,
+        50,
+        45
+      ],
+      "class_risk": [
+        0.017987118703280465,
+        0.11007919717189023,
+        0.13011566003161348,
+        0.12860367816608043,
+        0.09824563032923543,
+        0.005344764317889621
+      ],
+      "mean_block_count": 14.74,
+      "full_fallback_rate": 0.17666666666666667,
+      "mean_reference_loss_excess": 0.0028816252696969302,
+      "maximum_every_label_excess": 0.02463926717549314,
+      "maximum_certificate_violation_signed": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.08356399857797348
+    },
+    {
+      "name": "native_full",
+      "schedule": null,
+      "variant": "native_full",
+      "cases": 300,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 5.719757333333334,
+        "median": 5.5678,
+        "p95": 7.730005,
+        "p99": 8.773938
+      },
+      "half_brier": 0.07357926250779495,
+      "accuracy": 0.9,
+      "class_counts": [
+        70,
+        49,
+        48,
+        38,
+        50,
+        45
+      ],
+      "class_risk": [
+        0.013001009903417599,
+        0.11284337312178053,
+        0.1272569776205512,
+        0.12574881234401175,
+        0.09362074283080803,
+        0.0014790186607266387
+      ],
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": -3.6673561614933865
+    },
+    {
+      "name": "compiled_full",
+      "schedule": null,
+      "variant": "compiled_full",
+      "cases": 300,
+      "repetitions": 3,
+      "complete_ms": {
+        "mean": 1.225481222222222,
+        "median": 1.20405,
+        "p95": 1.9407699999999997,
+        "p99": 2.298002
+      },
+      "half_brier": 0.07357926250779495,
+      "accuracy": 0.9,
+      "class_counts": [
+        70,
+        49,
+        48,
+        38,
+        50,
+        45
+      ],
+      "class_risk": [
+        0.013001009903417599,
+        0.11284337312178053,
+        0.1272569776205512,
+        0.12574881234401175,
+        0.09362074283080803,
+        0.0014790186607266387
+      ],
+      "mean_block_count": 18.0,
+      "full_fallback_rate": 1.0,
+      "mean_reference_loss_excess": 0.0,
+      "maximum_every_label_excess": 0.0,
+      "maximum_certificate_violation_signed": 0.0,
+      "faster_full_comparator": "compiled_full",
+      "complete_mean_time_reduction_vs_faster_full": 0.0
+    }
+  ]
+}

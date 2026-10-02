@@ -1,0 +1,46 @@
+{
+  "phase": "CHECKPOINT_ONLY_DEVELOPMENT_TUNING",
+  "test_accessed": false,
+  "new_fits": 0,
+  "schedules": {
+    "A": [
+      4,
+      8,
+      12,
+      16,
+      18
+    ],
+    "B": [
+      4,
+      12,
+      16,
+      18
+    ],
+    "C": [
+      12,
+      16,
+      18
+    ]
+  },
+  "primary_delta": 0.025,
+  "selection_rule": "Equal-seed mean complete time of tight minimax; tie A then B then C; coordinate excluded",
+  "repetitions": 3,
+  "cohort": "Prior frozen 300 development windows per seed unchanged",
+  "script_sha256": "21b30cdc61ea834a3f6e2a1469e472a57d3400ad4204d2415adc117525d604e4",
+  "shared_pipeline_sha256": "b04be8facc8938d62e7c0330e9998f78aa620c5f2b9c5199dac0fc243cd67c3a",
+  "selection_sha256": "cc6e4115a2acb7dde5e8a7136510cd1df827586569646b60530ed5f5b51689eb",
+  "train_cache_sha256": "a23c485d48a8eca5f2f37648abe0400eebf535837998892b2ab93ab252c1756c",
+  "source_development_sha256": "b183c5ed3b51b24ae6a92b2b6efac51129527547e0a760ff462b8396a5dfd336",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ]
+}

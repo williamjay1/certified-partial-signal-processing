@@ -1,0 +1,6 @@
+﻿Complete family,System 17: half-Brier / accuracy,System 29: half-Brier / accuracy,System 43: half-Brier / accuracy,Mean half-Brier / accuracy
+"HGB, certified method's reference",0.056736 / 91.79%,0.077797 / 90.33%,0.049557 / 93.59%,0.061363 / 91.90%
+Random forest,0.071221 / 90.74%,0.079527 / 88.97%,0.060011 / 92.37%,0.070253 / 90.69%
+Extra trees,0.068181 / 91.21%,0.076067 / 90.50%,0.064143 / 92.09%,0.069464 / 91.27%
+Logistic regression,0.069117 / 90.67%,0.094257 / 88.60%,0.056360 / 92.60%,0.073245 / 90.62%
+RBF SVC,0.050195 / 93.28%,0.063627 / 91.86%,0.042154 / 94.67%,0.051992 / 93.27%

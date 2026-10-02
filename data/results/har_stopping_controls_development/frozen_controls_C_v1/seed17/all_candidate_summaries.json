@@ -1,0 +1,1136 @@
+[
+  {
+    "setting_id": "prefix_12",
+    "family": "fixed_prefix",
+    "prefix_blocks": 12,
+    "half_brier": 0.06845715297940909,
+    "accuracy": 0.9078404401650619,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11737505711200474,
+      0.05376044324405369,
+      0.0021166893950237534,
+      0.2010315971005987,
+      0.030795635881871623,
+      0.00021823409443971049
+    ],
+    "log_loss": 0.26735909787100137,
+    "mean_reference_loss_excess": 0.0044686048311680104,
+    "mean_max_label_excess": 0.019455635375185937,
+    "maximum_every_label_excess": 0.41416098563036075,
+    "fraction_cases_every_label_excess_above_delta": 0.16643741403026135,
+    "fraction_cases_observed_label_excess_above_delta": 0.06946354883081156,
+    "mean_block_count": 12.0,
+    "full_fallback_rate": 0.0,
+    "mean_fit_priced_cost_ms": 0.9503000000000001,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03115894341442043,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.12559621918953817,
+        "mean_reference_loss_excess": -0.004892086280164534,
+        "mean_max_label_excess": 0.018675673884705604,
+        "maximum_every_label_excess": 0.22811346647023925,
+        "fraction_cases_every_label_excess_above_delta": 0.1793478260869565
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.08586566339678707,
+        "accuracy": 0.8611111111111112,
+        "log_loss": 0.27186576097979304,
+        "mean_reference_loss_excess": -0.004570042500030768,
+        "mean_max_label_excess": 0.015502260081221166,
+        "maximum_every_label_excess": 0.41416098563036075,
+        "fraction_cases_every_label_excess_above_delta": 0.1527777777777778
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.09877172848249337,
+        "accuracy": 0.8979057591623036,
+        "log_loss": 0.4605647107895989,
+        "mean_reference_loss_excess": -0.002159308879783455,
+        "mean_max_label_excess": 0.01173965677578946,
+        "maximum_every_label_excess": 0.25907070802988486,
+        "fraction_cases_every_label_excess_above_delta": 0.14659685863874344
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.05647607602441359,
+        "accuracy": 0.9186046511627907,
+        "log_loss": 0.19974804118701658,
+        "mean_reference_loss_excess": 0.03130148391775346,
+        "mean_max_label_excess": 0.03299559107080667,
+        "maximum_every_label_excess": 0.4127753235834878,
+        "fraction_cases_every_label_excess_above_delta": 0.18895348837209303
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "prefix_16",
+    "family": "fixed_prefix",
+    "prefix_blocks": 16,
+    "half_brier": 0.06613605715946426,
+    "accuracy": 0.9126547455295736,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.12673357562592338,
+      0.028863213182887933,
+      0.0013780193368343916,
+      0.20687457329979117,
+      0.023363730976642263,
+      0.00021759101230462333
+    ],
+    "log_loss": 0.2602106256144768,
+    "mean_reference_loss_excess": 0.0021475090112231814,
+    "mean_max_label_excess": 0.009079118495236196,
+    "maximum_every_label_excess": 0.24140022378110448,
+    "fraction_cases_every_label_excess_above_delta": 0.12379642365887207,
+    "fraction_cases_observed_label_excess_above_delta": 0.0577716643741403,
+    "mean_block_count": 16.0,
+    "full_fallback_rate": 0.0,
+    "mean_fit_priced_cost_ms": 1.2019000000000002,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.0317455413036611,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.12728397143720274,
+        "mean_reference_loss_excess": -0.0043054883909238745,
+        "mean_max_label_excess": 0.00929846959651861,
+        "maximum_every_label_excess": 0.12801064295571535,
+        "fraction_cases_every_label_excess_above_delta": 0.11956521739130435
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.09564150659861341,
+        "accuracy": 0.8555555555555555,
+        "log_loss": 0.29927376186782073,
+        "mean_reference_loss_excess": 0.005205800701795565,
+        "mean_max_label_excess": 0.008870925508874687,
+        "maximum_every_label_excess": 0.10713668824351047,
+        "fraction_cases_every_label_excess_above_delta": 0.15
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.09875554049673631,
+        "accuracy": 0.8979057591623036,
+        "log_loss": 0.46113506759947703,
+        "mean_reference_loss_excess": -0.002175496865540509,
+        "mean_max_label_excess": 0.006995011358728508,
+        "maximum_every_label_excess": 0.16944197300264274,
+        "fraction_cases_every_label_excess_above_delta": 0.112565445026178
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.03582531704901059,
+        "accuracy": 0.9447674418604651,
+        "log_loss": 0.13841162226495063,
+        "mean_reference_loss_excess": 0.010650724942350474,
+        "mean_max_label_excess": 0.011376668483504082,
+        "maximum_every_label_excess": 0.24140022378110448,
+        "fraction_cases_every_label_excess_above_delta": 0.11337209302325581
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "prefix_18",
+    "family": "fixed_prefix",
+    "prefix_blocks": 18,
+    "half_brier": 0.06398854814824106,
+    "accuracy": 0.9174690508940853,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11437412018852158,
+      0.028095417559437154,
+      0.0018595864236704072,
+      0.21676126214455874,
+      0.013007317367020524,
+      0.0003838282339908788
+    ],
+    "log_loss": 0.2649881377767129,
+    "mean_reference_loss_excess": 0.0,
+    "mean_max_label_excess": 0.0,
+    "maximum_every_label_excess": 0.0,
+    "fraction_cases_every_label_excess_above_delta": 0.0,
+    "fraction_cases_observed_label_excess_above_delta": 0.0,
+    "mean_block_count": 18.0,
+    "full_fallback_rate": 1.0,
+    "mean_fit_priced_cost_ms": 1.3497999999999999,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03605102969458497,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.1415017061753264,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.09043570589681783,
+        "accuracy": 0.8527777777777777,
+        "log_loss": 0.28147327212098305,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.10093103736227685,
+        "accuracy": 0.900523560209424,
+        "log_loss": 0.5112424192011656,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.025174592106660124,
+        "accuracy": 0.9651162790697675,
+        "log_loss": 0.10638122778029427,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.010",
+    "family": "entropy",
+    "entropy_threshold": 0.01,
+    "half_brier": 0.06398854814824106,
+    "accuracy": 0.9174690508940853,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11437412018852158,
+      0.028095417559437154,
+      0.0018595864236704072,
+      0.21676126214455874,
+      0.013007317367020524,
+      0.0003838282339908788
+    ],
+    "log_loss": 0.2649881377767129,
+    "mean_reference_loss_excess": 0.0,
+    "mean_max_label_excess": 0.0,
+    "maximum_every_label_excess": 0.0,
+    "fraction_cases_every_label_excess_above_delta": 0.0,
+    "fraction_cases_observed_label_excess_above_delta": 0.0,
+    "mean_block_count": 18.0,
+    "full_fallback_rate": 1.0,
+    "mean_fit_priced_cost_ms": 1.3497999999999999,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03605102969458497,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.1415017061753264,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.09043570589681783,
+        "accuracy": 0.8527777777777777,
+        "log_loss": 0.28147327212098305,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.10093103736227685,
+        "accuracy": 0.900523560209424,
+        "log_loss": 0.5112424192011656,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.025174592106660124,
+        "accuracy": 0.9651162790697675,
+        "log_loss": 0.10638122778029427,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.025",
+    "family": "entropy",
+    "entropy_threshold": 0.025,
+    "half_brier": 0.06398854814824106,
+    "accuracy": 0.9174690508940853,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11437412018852158,
+      0.028095417559437154,
+      0.0018595864236704072,
+      0.21676126214455874,
+      0.013007317367020524,
+      0.0003838282339908788
+    ],
+    "log_loss": 0.2649881377767129,
+    "mean_reference_loss_excess": 0.0,
+    "mean_max_label_excess": 0.0,
+    "maximum_every_label_excess": 0.0,
+    "fraction_cases_every_label_excess_above_delta": 0.0,
+    "fraction_cases_observed_label_excess_above_delta": 0.0,
+    "mean_block_count": 18.0,
+    "full_fallback_rate": 1.0,
+    "mean_fit_priced_cost_ms": 1.3497999999999999,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03605102969458497,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.1415017061753264,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.09043570589681783,
+        "accuracy": 0.8527777777777777,
+        "log_loss": 0.28147327212098305,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.10093103736227685,
+        "accuracy": 0.900523560209424,
+        "log_loss": 0.5112424192011656,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.025174592106660124,
+        "accuracy": 0.9651162790697675,
+        "log_loss": 0.10638122778029427,
+        "mean_reference_loss_excess": 0.0,
+        "mean_max_label_excess": 0.0,
+        "maximum_every_label_excess": 0.0,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.050",
+    "family": "entropy",
+    "entropy_threshold": 0.05,
+    "half_brier": 0.06398910207652088,
+    "accuracy": 0.9174690508940853,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11437706807725322,
+      0.02809598365035592,
+      0.001856614102973213,
+      0.21675614979150593,
+      0.013014830245495233,
+      0.00038297483574374353
+    ],
+    "log_loss": 0.2650638229961702,
+    "mean_reference_loss_excess": 5.539282798046553e-07,
+    "mean_max_label_excess": 0.0002144998493542418,
+    "maximum_every_label_excess": 0.011411755403036756,
+    "fraction_cases_every_label_excess_above_delta": 0.0,
+    "fraction_cases_observed_label_excess_above_delta": 0.0,
+    "mean_block_count": 17.012379642365886,
+    "full_fallback_rate": 0.7950481430536451,
+    "mean_fit_priced_cost_ms": 1.2831492434662999,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.036050920687103256,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.14151284910205006,
+        "mean_reference_loss_excess": -1.0900748171899716e-07,
+        "mean_max_label_excess": 0.0002795128708489013,
+        "maximum_every_label_excess": 0.011411755403036756,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.09043824050029067,
+        "accuracy": 0.8527777777777777,
+        "log_loss": 0.28172399779167673,
+        "mean_reference_loss_excess": 2.5346034728121777e-06,
+        "mean_max_label_excess": 0.0001427297551154706,
+        "maximum_every_label_excess": 0.005069420319883601,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.1009333410007173,
+        "accuracy": 0.900523560209424,
+        "log_loss": 0.51145868268173,
+        "mean_reference_loss_excess": 2.303638440455718e-06,
+        "mean_max_label_excess": 0.00010542153673659491,
+        "maximum_every_label_excess": 0.008743784837758076,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.025171839430316062,
+        "accuracy": 0.9651162790697675,
+        "log_loss": 0.1061866691205016,
+        "mean_reference_loss_excess": -2.7526763440636876e-06,
+        "mean_max_label_excess": 0.0003411869349236141,
+        "maximum_every_label_excess": 0.007348031133108416,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.100",
+    "family": "entropy",
+    "entropy_threshold": 0.1,
+    "half_brier": 0.06382301289452116,
+    "accuracy": 0.9174690508940853,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11440887057398481,
+      0.027907449714363156,
+      0.001886871902340571,
+      0.21588799089695276,
+      0.013122543976373508,
+      0.00032785010306077706
+    ],
+    "log_loss": 0.2595887892224854,
+    "mean_reference_loss_excess": -0.00016553525371989855,
+    "mean_max_label_excess": 0.0018176046710750835,
+    "maximum_every_label_excess": 0.11420694885660115,
+    "fraction_cases_every_label_excess_above_delta": 0.0171939477303989,
+    "fraction_cases_observed_label_excess_above_delta": 0.0,
+    "mean_block_count": 14.40990371389271,
+    "full_fallback_rate": 0.3741403026134801,
+    "mean_fit_priced_cost_ms": 1.1101514442916096,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03606758141146968,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.143064421367398,
+        "mean_reference_loss_excess": 1.6551716884701878e-05,
+        "mean_max_label_excess": 0.001490640326477713,
+        "maximum_every_label_excess": 0.06837575280491305,
+        "fraction_cases_every_label_excess_above_delta": 0.016304347826086956
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.09042583807517614,
+        "accuracy": 0.8527777777777777,
+        "log_loss": 0.28248056110831704,
+        "mean_reference_loss_excess": -9.867821641709431e-06,
+        "mean_max_label_excess": 0.001248873310269079,
+        "maximum_every_label_excess": 0.11225731615537525,
+        "fraction_cases_every_label_excess_above_delta": 0.008333333333333333
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.1002850014355799,
+        "accuracy": 0.900523560209424,
+        "log_loss": 0.487781926527957,
+        "mean_reference_loss_excess": -0.0006460359266969141,
+        "mean_max_label_excess": 0.0032728522143380605,
+        "maximum_every_label_excess": 0.11420694885660115,
+        "fraction_cases_every_label_excess_above_delta": 0.041884816753926704
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.025184937598133766,
+        "accuracy": 0.9651162790697675,
+        "log_loss": 0.10688573992330688,
+        "mean_reference_loss_excess": 1.0345491473644832e-05,
+        "mean_max_label_excess": 0.0011465628314690863,
+        "maximum_every_label_excess": 0.02048519432868131,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.150",
+    "family": "entropy",
+    "entropy_threshold": 0.15,
+    "half_brier": 0.06357773506232188,
+    "accuracy": 0.9174690508940853,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.1144525068822326,
+      0.027868640808017736,
+      0.0019186557026799347,
+      0.21450645153663558,
+      0.013258884847008824,
+      0.00021823409443971049
+    ],
+    "log_loss": 0.2540103379375707,
+    "mean_reference_loss_excess": -0.0004108130859191877,
+    "mean_max_label_excess": 0.003321665390629311,
+    "maximum_every_label_excess": 0.11420694885660115,
+    "fraction_cases_every_label_excess_above_delta": 0.04126547455295736,
+    "fraction_cases_observed_label_excess_above_delta": 0.0,
+    "mean_block_count": 13.606602475928474,
+    "full_fallback_rate": 0.24621733149931224,
+    "mean_fit_priced_cost_ms": 1.0567966987620359,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03605405776069382,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.14386417790262485,
+        "mean_reference_loss_excess": 3.028066108852418e-06,
+        "mean_max_label_excess": 0.0034569148840439532,
+        "maximum_every_label_excess": 0.11020197782981377,
+        "fraction_cases_every_label_excess_above_delta": 0.043478260869565216
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.09044933205026259,
+        "accuracy": 0.8527777777777777,
+        "log_loss": 0.2833526599421036,
+        "mean_reference_loss_excess": 1.3626153444771003e-05,
+        "mean_max_label_excess": 0.0017464113434675977,
+        "maximum_every_label_excess": 0.11225731615537525,
+        "fraction_cases_every_label_excess_above_delta": 0.016666666666666666
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.0993047531821719,
+        "accuracy": 0.900523560209424,
+        "log_loss": 0.4641681988060804,
+        "mean_reference_loss_excess": -0.0016262841801049318,
+        "mean_max_label_excess": 0.006293897441160041,
+        "maximum_every_label_excess": 0.11420694885660115,
+        "fraction_cases_every_label_excess_above_delta": 0.09947643979057591
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.025226622880803753,
+        "accuracy": 0.9651162790697675,
+        "log_loss": 0.10776105921506346,
+        "mean_reference_loss_excess": 5.203077414363299e-05,
+        "mean_max_label_excess": 0.00152494155370748,
+        "maximum_every_label_excess": 0.021397241847605105,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.200",
+    "family": "entropy",
+    "entropy_threshold": 0.2,
+    "half_brier": 0.06353311373919354,
+    "accuracy": 0.9174690508940853,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11463890318440739,
+      0.027711746579149123,
+      0.0019769384609565756,
+      0.21405788792478048,
+      0.013373598482865632,
+      0.00021823409443971049
+    ],
+    "log_loss": 0.2535994836861771,
+    "mean_reference_loss_excess": -0.0004554344090475186,
+    "mean_max_label_excess": 0.003988048172347447,
+    "maximum_every_label_excess": 0.1561199809416708,
+    "fraction_cases_every_label_excess_above_delta": 0.048143053645116916,
+    "fraction_cases_observed_label_excess_above_delta": 0.0,
+    "mean_block_count": 13.299862448418157,
+    "full_fallback_rate": 0.19876203576341128,
+    "mean_fit_priced_cost_ms": 1.0364539889958735,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03594714480986787,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.14250732714124098,
+        "mean_reference_loss_excess": -0.00010388488471710457,
+        "mean_max_label_excess": 0.004360493389633045,
+        "maximum_every_label_excess": 0.13443080044001457,
+        "fraction_cases_every_label_excess_above_delta": 0.057065217391304345
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.09052338726756118,
+        "accuracy": 0.8527777777777777,
+        "log_loss": 0.28412009931000914,
+        "mean_reference_loss_excess": 8.768137074333382e-05,
+        "mean_max_label_excess": 0.0020906115372223834,
+        "maximum_every_label_excess": 0.11225731615537525,
+        "fraction_cases_every_label_excess_above_delta": 0.019444444444444445
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.09909423814611666,
+        "accuracy": 0.900523560209424,
+        "log_loss": 0.4622961407271209,
+        "mean_reference_loss_excess": -0.0018367992161601727,
+        "mean_max_label_excess": 0.007561620418093765,
+        "maximum_every_label_excess": 0.1561199809416708,
+        "fraction_cases_every_label_excess_above_delta": 0.1099476439790576
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.025308661914585674,
+        "accuracy": 0.9651162790697675,
+        "log_loss": 0.10875171913477111,
+        "mean_reference_loss_excess": 0.0001340698079255471,
+        "mean_max_label_excess": 0.001606980587489395,
+        "maximum_every_label_excess": 0.021397241847605105,
+        "fraction_cases_every_label_excess_above_delta": 0.0
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.300",
+    "family": "entropy",
+    "entropy_threshold": 0.3,
+    "half_brier": 0.06385715477040246,
+    "accuracy": 0.9174690508940853,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11627082546147563,
+      0.03021873218452022,
+      0.0016625222517952555,
+      0.21261566780091481,
+      0.013661927904468065,
+      0.00021823409443971049
+    ],
+    "log_loss": 0.25542131320326567,
+    "mean_reference_loss_excess": -0.0001313933778386054,
+    "mean_max_label_excess": 0.0062933805688092335,
+    "maximum_every_label_excess": 0.4127753235834878,
+    "fraction_cases_every_label_excess_above_delta": 0.06602475928473177,
+    "fraction_cases_observed_label_excess_above_delta": 0.002751031636863824,
+    "mean_block_count": 12.91334250343879,
+    "full_fallback_rate": 0.1279229711141678,
+    "mean_fit_priced_cost_ms": 1.0105763411279232,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03520845874930973,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.13934057961945576,
+        "mean_reference_loss_excess": -0.0008425709452752412,
+        "mean_max_label_excess": 0.008291707265027605,
+        "maximum_every_label_excess": 0.22186940882519193,
+        "fraction_cases_every_label_excess_above_delta": 0.09510869565217392
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.09110560802142946,
+        "accuracy": 0.8527777777777777,
+        "log_loss": 0.28710926552306665,
+        "mean_reference_loss_excess": 0.0006699021246116077,
+        "mean_max_label_excess": 0.004319175167374424,
+        "maximum_every_label_excess": 0.214492981165463,
+        "fraction_cases_every_label_excess_above_delta": 0.041666666666666664
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.09884899077115536,
+        "accuracy": 0.900523560209424,
+        "log_loss": 0.4608499263533353,
+        "mean_reference_loss_excess": -0.002082046591121458,
+        "mean_max_label_excess": 0.008745244461703466,
+        "maximum_every_label_excess": 0.22967091048817767,
+        "fraction_cases_every_label_excess_above_delta": 0.11780104712041885
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.027131560622451333,
+        "accuracy": 0.9651162790697675,
+        "log_loss": 0.11831758326253061,
+        "mean_reference_loss_excess": 0.0019569685157912052,
+        "mean_max_label_excess": 0.003498955316549274,
+        "maximum_every_label_excess": 0.4127753235834878,
+        "fraction_cases_every_label_excess_above_delta": 0.0029069767441860465
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.400",
+    "family": "entropy",
+    "entropy_threshold": 0.4,
+    "half_brier": 0.06398538455868626,
+    "accuracy": 0.9174690508940853,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11514468089339128,
+      0.030824406832689756,
+      0.001782657298267738,
+      0.2101880940926405,
+      0.016888518540042714,
+      0.00021823409443971049
+    ],
+    "log_loss": 0.25554959137271416,
+    "mean_reference_loss_excess": -3.1635895548258407e-06,
+    "mean_max_label_excess": 0.009247090417484576,
+    "maximum_every_label_excess": 0.41416098563036075,
+    "fraction_cases_every_label_excess_above_delta": 0.0921595598349381,
+    "fraction_cases_observed_label_excess_above_delta": 0.0171939477303989,
+    "mean_block_count": 12.56946354883081,
+    "full_fallback_rate": 0.07565337001375516,
+    "mean_fit_priced_cost_ms": 0.9877911966987621,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03400338756477473,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.13415815433848416,
+        "mean_reference_loss_excess": -0.002047642129810243,
+        "mean_max_label_excess": 0.011591192340638623,
+        "maximum_every_label_excess": 0.22811346647023925,
+        "fraction_cases_every_label_excess_above_delta": 0.11956521739130435
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.08929574956950946,
+        "accuracy": 0.8555555555555555,
+        "log_loss": 0.2799569910630679,
+        "mean_reference_loss_excess": -0.0011399563273083696,
+        "mean_max_label_excess": 0.007889317054651663,
+        "maximum_every_label_excess": 0.41416098563036075,
+        "fraction_cases_every_label_excess_above_delta": 0.07777777777777778
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.09866648551147632,
+        "accuracy": 0.900523560209424,
+        "log_loss": 0.4602571441038488,
+        "mean_reference_loss_excess": -0.0022645518508005082,
+        "mean_max_label_excess": 0.009724873159191938,
+        "maximum_every_label_excess": 0.22967091048817767,
+        "fraction_cases_every_label_excess_above_delta": 0.1256544502617801
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.031059404692108553,
+        "accuracy": 0.9622093023255814,
+        "log_loss": 0.13254697450287642,
+        "mean_reference_loss_excess": 0.00588481258544843,
+        "mean_max_label_excess": 0.007629811044132676,
+        "maximum_every_label_excess": 0.4127753235834878,
+        "fraction_cases_every_label_excess_above_delta": 0.040697674418604654
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.500",
+    "family": "entropy",
+    "entropy_threshold": 0.5,
+    "half_brier": 0.06643449178753984,
+    "accuracy": 0.9133425034387895,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11697734834297445,
+      0.038196370881797684,
+      0.0021166893950237534,
+      0.206497821956939,
+      0.026057255115625393,
+      0.00021823409443971049
+    ],
+    "log_loss": 0.26186576817761825,
+    "mean_reference_loss_excess": 0.002445943639298753,
+    "mean_max_label_excess": 0.015416424139197443,
+    "maximum_every_label_excess": 0.41416098563036075,
+    "fraction_cases_every_label_excess_above_delta": 0.14442916093535077,
+    "fraction_cases_observed_label_excess_above_delta": 0.055020632737276476,
+    "mean_block_count": 12.171939477303988,
+    "full_fallback_rate": 0.018569463548830812,
+    "mean_fit_priced_cost_ms": 0.9615253782668503,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.034192634197983726,
+        "accuracy": 0.9483695652173914,
+        "log_loss": 0.13271153881105988,
+        "mean_reference_loss_excess": -0.0018583954966012429,
+        "mean_max_label_excess": 0.015737941402980935,
+        "maximum_every_label_excess": 0.22811346647023925,
+        "fraction_cases_every_label_excess_above_delta": 0.16032608695652173
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.08681280361996128,
+        "accuracy": 0.8611111111111112,
+        "log_loss": 0.2736744054827532,
+        "mean_reference_loss_excess": -0.0036229022768565493,
+        "mean_max_label_excess": 0.014699165149323977,
+        "maximum_every_label_excess": 0.41416098563036075,
+        "fraction_cases_every_label_excess_above_delta": 0.14722222222222223
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.09869154085760821,
+        "accuracy": 0.8979057591623036,
+        "log_loss": 0.4602755421752066,
+        "mean_reference_loss_excess": -0.002239496504668614,
+        "mean_max_label_excess": 0.01138592112289986,
+        "maximum_every_label_excess": 0.25907070802988486,
+        "fraction_cases_every_label_excess_above_delta": 0.14136125654450263
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.04377931326579214,
+        "accuracy": 0.9476744186046512,
+        "log_loss": 0.1673457487298454,
+        "mean_reference_loss_excess": 0.018604721159132018,
+        "mean_max_label_excess": 0.020298828312185224,
+        "maximum_every_label_excess": 0.4127753235834878,
+        "fraction_cases_every_label_excess_above_delta": 0.12790697674418605
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_0.700",
+    "family": "entropy",
+    "entropy_threshold": 0.7,
+    "half_brier": 0.0683927463724742,
+    "accuracy": 0.9078404401650619,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11737505711200474,
+      0.05326231980531263,
+      0.0021166893950237534,
+      0.2010315971005987,
+      0.030795635881871623,
+      0.00021823409443971049
+    ],
+    "log_loss": 0.2671652354763243,
+    "mean_reference_loss_excess": 0.004404198224233128,
+    "mean_max_label_excess": 0.019391228768251056,
+    "maximum_every_label_excess": 0.41416098563036075,
+    "fraction_cases_every_label_excess_above_delta": 0.1657496561210454,
+    "fraction_cases_observed_label_excess_above_delta": 0.0687757909215956,
+    "mean_block_count": 12.004126547455297,
+    "full_fallback_rate": 0.000687757909215956,
+    "mean_fit_priced_cost_ms": 0.950574759284732,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03115894341442043,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.12559621918953817,
+        "mean_reference_loss_excess": -0.004892086280164534,
+        "mean_max_label_excess": 0.018675673884705604,
+        "maximum_every_label_excess": 0.22811346647023925,
+        "fraction_cases_every_label_excess_above_delta": 0.1793478260869565
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.08586566339678707,
+        "accuracy": 0.8611111111111112,
+        "log_loss": 0.27186576097979304,
+        "mean_reference_loss_excess": -0.004570042500030768,
+        "mean_max_label_excess": 0.015502260081221166,
+        "maximum_every_label_excess": 0.41416098563036075,
+        "fraction_cases_every_label_excess_above_delta": 0.1527777777777778
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.09877172848249337,
+        "accuracy": 0.8979057591623036,
+        "log_loss": 0.4605647107895989,
+        "mean_reference_loss_excess": -0.002159308879783455,
+        "mean_max_label_excess": 0.01173965677578946,
+        "maximum_every_label_excess": 0.25907070802988486,
+        "fraction_cases_every_label_excess_above_delta": 0.14659685863874344
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.05620384577300859,
+        "accuracy": 0.9186046511627907,
+        "log_loss": 0.19892863443742242,
+        "mean_reference_loss_excess": 0.031029253666348473,
+        "mean_max_label_excess": 0.03272336081940168,
+        "maximum_every_label_excess": 0.4127753235834878,
+        "fraction_cases_every_label_excess_above_delta": 0.18604651162790697
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  },
+  {
+    "setting_id": "entropy_1.000",
+    "family": "entropy",
+    "entropy_threshold": 1.0,
+    "half_brier": 0.06845715297940909,
+    "accuracy": 0.9078404401650619,
+    "class_counts": [
+      220,
+      188,
+      179,
+      269,
+      295,
+      303
+    ],
+    "class_risk": [
+      0.11737505711200474,
+      0.05376044324405369,
+      0.0021166893950237534,
+      0.2010315971005987,
+      0.030795635881871623,
+      0.00021823409443971049
+    ],
+    "log_loss": 0.26735909787100137,
+    "mean_reference_loss_excess": 0.0044686048311680104,
+    "mean_max_label_excess": 0.019455635375185937,
+    "maximum_every_label_excess": 0.41416098563036075,
+    "fraction_cases_every_label_excess_above_delta": 0.16643741403026135,
+    "fraction_cases_observed_label_excess_above_delta": 0.06946354883081156,
+    "mean_block_count": 12.0,
+    "full_fallback_rate": 0.0,
+    "mean_fit_priced_cost_ms": 0.9503000000000001,
+    "violation_numerical_tolerance": 2e-12,
+    "subject_outcomes": [
+      {
+        "subject": 17,
+        "windows": 368,
+        "half_brier": 0.03115894341442043,
+        "accuracy": 0.9538043478260869,
+        "log_loss": 0.12559621918953817,
+        "mean_reference_loss_excess": -0.004892086280164534,
+        "mean_max_label_excess": 0.018675673884705604,
+        "maximum_every_label_excess": 0.22811346647023925,
+        "fraction_cases_every_label_excess_above_delta": 0.1793478260869565
+      },
+      {
+        "subject": 19,
+        "windows": 360,
+        "half_brier": 0.08586566339678707,
+        "accuracy": 0.8611111111111112,
+        "log_loss": 0.27186576097979304,
+        "mean_reference_loss_excess": -0.004570042500030768,
+        "mean_max_label_excess": 0.015502260081221166,
+        "maximum_every_label_excess": 0.41416098563036075,
+        "fraction_cases_every_label_excess_above_delta": 0.1527777777777778
+      },
+      {
+        "subject": 28,
+        "windows": 382,
+        "half_brier": 0.09877172848249337,
+        "accuracy": 0.8979057591623036,
+        "log_loss": 0.4605647107895989,
+        "mean_reference_loss_excess": -0.002159308879783455,
+        "mean_max_label_excess": 0.01173965677578946,
+        "maximum_every_label_excess": 0.25907070802988486,
+        "fraction_cases_every_label_excess_above_delta": 0.14659685863874344
+      },
+      {
+        "subject": 29,
+        "windows": 344,
+        "half_brier": 0.05647607602441359,
+        "accuracy": 0.9186046511627907,
+        "log_loss": 0.19974804118701658,
+        "mean_reference_loss_excess": 0.03130148391775346,
+        "mean_max_label_excess": 0.03299559107080667,
+        "maximum_every_label_excess": 0.4127753235834878,
+        "fraction_cases_every_label_excess_above_delta": 0.18895348837209303
+      }
+    ],
+    "eligible": true,
+    "criterion": "observed-label development sample mean relative half-Brier <= .025"
+  }
+]

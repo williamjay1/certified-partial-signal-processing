@@ -1,0 +1,383 @@
+{
+  "locked_before_audit": true,
+  "primary_endpoint": "minimum mean full software time under locked empirical risk ceiling",
+  "risk_ceiling": 0.3389500622153282,
+  "static_calibration_risk": 0.3369500622153282,
+  "absolute_tolerance": 0.002,
+  "compute_lambda_grid": [
+    0,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1
+  ],
+  "entropy_threshold_grid": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1,
+    "Infinity"
+  ],
+  "entropy_threshold_units": "fractions of maximum entropy log(4); actual cutoff=grid value times log(4)",
+  "selected_once_name": "once_0",
+  "selected_once": {
+    "mode": "once",
+    "lambda": 0
+  },
+  "calibration_once_feasible": false,
+  "calibration_entropy_feasible": true,
+  "calibration_repeated_feasible": true,
+  "frozen_configs": {
+    "skip": {
+      "mode": "skip"
+    },
+    "static": {
+      "mode": "static"
+    },
+    "student": {
+      "mode": "student"
+    },
+    "shallow": {
+      "mode": "shallow"
+    },
+    "deep": {
+      "mode": "deep"
+    },
+    "once": {
+      "mode": "once",
+      "lambda": 0
+    },
+    "risk_only": {
+      "mode": "risk_only"
+    },
+    "entropy": {
+      "mode": "entropy",
+      "threshold": "Infinity"
+    },
+    "repeated": {
+      "mode": "repeated",
+      "threshold": 0.1203381105605547
+    },
+    "random_mix": {
+      "mode": "random_mix"
+    }
+  },
+  "random_mix_branch_proportions": [
+    0.09543361953949338,
+    0.9045663804605066,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "candidate_rows": [
+    {
+      "method": "skip",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.278786666666667,
+      "qualified": false,
+      "config": {
+        "mode": "skip"
+      }
+    },
+    {
+      "method": "static",
+      "risk": 0.3369500622153282,
+      "full_ms": 1.0762133333333337,
+      "qualified": true,
+      "config": {
+        "mode": "static"
+      }
+    },
+    {
+      "method": "student",
+      "risk": 0.34448297441005704,
+      "full_ms": 0.9948379999999993,
+      "qualified": false,
+      "config": {
+        "mode": "student"
+      }
+    },
+    {
+      "method": "shallow",
+      "risk": 0.3348777484893799,
+      "full_ms": 2.780199666666668,
+      "qualified": true,
+      "config": {
+        "mode": "shallow"
+      }
+    },
+    {
+      "method": "deep",
+      "risk": 0.3433816114068031,
+      "full_ms": 4.035835666666667,
+      "qualified": false,
+      "config": {
+        "mode": "deep"
+      }
+    },
+    {
+      "method": "risk_only",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.39742733333333363,
+      "qualified": false,
+      "config": {
+        "mode": "risk_only"
+      }
+    },
+    {
+      "method": "once_0",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.4073233333333334,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 0
+      }
+    },
+    {
+      "method": "once_1",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.3766143333333335,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 0.0001
+      }
+    },
+    {
+      "method": "once_2",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.3533750000000001,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 0.0003
+      }
+    },
+    {
+      "method": "once_3",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.3666519999999999,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 0.001
+      }
+    },
+    {
+      "method": "once_4",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.3907059999999999,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 0.003
+      }
+    },
+    {
+      "method": "once_5",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.3762680000000001,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 0.01
+      }
+    },
+    {
+      "method": "once_6",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.37161933333333325,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 0.03
+      }
+    },
+    {
+      "method": "once_7",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.3645140000000001,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 0.1
+      }
+    },
+    {
+      "method": "once_8",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.34615533333333315,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 0.3
+      }
+    },
+    {
+      "method": "once_9",
+      "risk": 0.3579070374369621,
+      "full_ms": 0.3623589999999999,
+      "qualified": false,
+      "config": {
+        "mode": "once",
+        "lambda": 1
+      }
+    },
+    {
+      "method": "entropy_0",
+      "risk": 0.3433816114068031,
+      "full_ms": 4.186109999999999,
+      "qualified": false,
+      "config": {
+        "mode": "entropy",
+        "threshold": 0
+      }
+    },
+    {
+      "method": "entropy_1",
+      "risk": 0.3433816114068031,
+      "full_ms": 4.165847666666665,
+      "qualified": false,
+      "config": {
+        "mode": "entropy",
+        "threshold": 0.25
+      }
+    },
+    {
+      "method": "entropy_2",
+      "risk": 0.3433816114068031,
+      "full_ms": 4.307909333333333,
+      "qualified": false,
+      "config": {
+        "mode": "entropy",
+        "threshold": 0.5
+      }
+    },
+    {
+      "method": "entropy_3",
+      "risk": 0.3433816114068031,
+      "full_ms": 4.200844999999998,
+      "qualified": false,
+      "config": {
+        "mode": "entropy",
+        "threshold": 0.75
+      }
+    },
+    {
+      "method": "entropy_4",
+      "risk": 0.3369500622153282,
+      "full_ms": 1.2671066666666675,
+      "qualified": true,
+      "config": {
+        "mode": "entropy",
+        "threshold": 1
+      }
+    },
+    {
+      "method": "entropy_5",
+      "risk": 0.3369500622153282,
+      "full_ms": 1.2118736666666665,
+      "qualified": true,
+      "config": {
+        "mode": "entropy",
+        "threshold": "Infinity"
+      }
+    },
+    {
+      "method": "repeated_0",
+      "risk": 0.3433816114068031,
+      "full_ms": 4.166185333333335,
+      "qualified": false,
+      "config": {
+        "mode": "repeated",
+        "threshold": "-Infinity"
+      }
+    },
+    {
+      "method": "repeated_1",
+      "risk": 0.3433816114068031,
+      "full_ms": 4.034308999999996,
+      "qualified": false,
+      "config": {
+        "mode": "repeated",
+        "threshold": -0.03450965490263298
+      }
+    },
+    {
+      "method": "repeated_2",
+      "risk": 0.3445100665092468,
+      "full_ms": 3.526261666666666,
+      "qualified": false,
+      "config": {
+        "mode": "repeated",
+        "threshold": -0.00552069304957944
+      }
+    },
+    {
+      "method": "repeated_3",
+      "risk": 0.3445100665092468,
+      "full_ms": 3.3724893333333323,
+      "qualified": false,
+      "config": {
+        "mode": "repeated",
+        "threshold": 0.0
+      }
+    },
+    {
+      "method": "repeated_4",
+      "risk": 0.3445100665092468,
+      "full_ms": 3.301991666666668,
+      "qualified": false,
+      "config": {
+        "mode": "repeated",
+        "threshold": 0.0003235261173723164
+      }
+    },
+    {
+      "method": "repeated_5",
+      "risk": 0.3461636158823967,
+      "full_ms": 2.8967390000000006,
+      "qualified": false,
+      "config": {
+        "mode": "repeated",
+        "threshold": 0.04049941651529389
+      }
+    },
+    {
+      "method": "repeated_6",
+      "risk": 0.3369500622153282,
+      "full_ms": 1.5727180000000014,
+      "qualified": true,
+      "config": {
+        "mode": "repeated",
+        "threshold": 0.1203381105605547
+      }
+    },
+    {
+      "method": "repeated_7",
+      "risk": 0.3369500622153282,
+      "full_ms": 1.6742910000000002,
+      "qualified": true,
+      "config": {
+        "mode": "repeated",
+        "threshold": "Infinity"
+      }
+    }
+  ],
+  "random_mix_expected_counterfactual_risk": 0.3389500622153282,
+  "random_mix_expected_counterfactual_time_without_rng_ms": 1.0001120202160205,
+  "random_mix_direct_calibration_risk": 0.33814003884792326,
+  "random_mix_direct_calibration_time_ms": 0.9639606666666667,
+  "random_mix_calibration_risk_minus_expectation": -0.0008100233674049329,
+  "random_mix_calibration_time_minus_expectation_ms": -0.03615135354935384,
+  "random_mix_rule": "Optimal global fixed single/two-branch mixture under cal risk ceiling; case-keyed seed frozen without reroll; actual measured method controls primary",
+  "audit_metrics_opened": false,
+  "failed_calibration_rule": "minimum-risk candidate as diagnostic only; expansion fails"
+}

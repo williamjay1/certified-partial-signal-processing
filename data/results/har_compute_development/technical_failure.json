@@ -1,0 +1,12 @@
+{
+  "status": "TECHNICAL_NATIVE_CONFORMANCE_FAILURE_BEFORE_DEVELOPMENT_BENCHMARK",
+  "exit_code": 1,
+  "call_site": "har_development_benchmark.py initial line264 native-versus-compiled reference assertion",
+  "reason": "FrozenForest baseline np.asarray aliased loaded model._baseline_prediction. Inplace temperature division unintentionally changed native comparator baseline, so its subsequent raw/T evaluation scaled baseline twice.",
+  "preserved": ["execution_configuration.json", "seed17 fit40x3 block pricing", "seed17 frozen order and timing cohort", "scripts/har_development_benchmark_initial_conformance_failure.py"],
+  "checkpoint_files_modified": false,
+  "first24_or300_complete_time_results_saved": false,
+  "development_predictive_outcomes_saved": false,
+  "authorized_fix": "Copy deployment baseline before division. Keep prior seed17 prices/order/cohort, other seeds receive their first fixed fit-only pricing. New execution saved to corrected_execution without replacing this attempt.",
+  "not_model_or_tolerance_selection": true
+}

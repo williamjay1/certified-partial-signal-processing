@@ -1,0 +1,32 @@
+{
+  "source_url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+  "download_url": "https://archive.ics.uci.edu/static/public/240/human%2Bactivity%2Brecognition%2Busing%2Bsmartphones.zip",
+  "path": "F:\\AcademicData\\ASC_CertifiedProcessing\\raw\\uci_har_240__20261002T051056Z_9247235203.zip",
+  "downloaded_utc": "20261002T051056Z",
+  "bytes": 61005872,
+  "sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+  "license": "CC BY 4.0 per official UCI page",
+  "data_doi": "10.24432/C54S4K",
+  "disk_free_bytes_before": {
+    "D:\\": 142316544000,
+    "E:\\": 162937008128,
+    "F:\\": 3631783342080
+  },
+  "response_headers": {},
+  "archive_members": [
+    {
+      "name": "UCI HAR Dataset.names",
+      "uncompressed_bytes": 6304,
+      "compressed_bytes": 6304
+    },
+    {
+      "name": "UCI HAR Dataset.zip",
+      "uncompressed_bytes": 60999314,
+      "compressed_bytes": 60999314
+    }
+  ],
+  "outcome_or_test_signal_files_parsed": 0,
+  "status": "downloaded_and_zip_metadata_checked",
+  "test_member_payloads_opened": 0,
+  "crc_policy": "CRC checked only for members later opened by train-only loader"
+}

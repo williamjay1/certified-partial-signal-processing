@@ -1,0 +1,3080 @@
+[
+  {
+    "seed": 17,
+    "candidate": "hgb_i100_l15",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 100,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 17
+    },
+    "started_utc": "2026-10-02T05:22:09.045595+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        11,
+        7,
+        6,
+        27,
+        23,
+        26,
+        16,
+        21,
+        15,
+        30,
+        14,
+        3,
+        1,
+        22,
+        25,
+        5
+      ],
+      "development_subjects": [
+        17,
+        28,
+        19,
+        29
+      ],
+      "fit_rows": 5898,
+      "development_rows": 1454,
+      "fit_class_counts": [
+        1006,
+        885,
+        807,
+        1017,
+        1079,
+        1104
+      ],
+      "development_class_counts": [
+        220,
+        188,
+        179,
+        269,
+        295,
+        303
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 7.340545899991412,
+    "development_probability_seconds": 0.10761410000850447,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:22:16.582642+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.07449504903268528,
+        "accuracy": 0.9160935350756534,
+        "log_loss": 0.49643691279894037
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.07160395802393867,
+        "accuracy": 0.9160935350756534,
+        "log_loss": 0.3842275981616505
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.06908219073957488,
+        "accuracy": 0.9160935350756534,
+        "log_loss": 0.321929089604319
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.0670111160447738,
+        "accuracy": 0.9160935350756534,
+        "log_loss": 0.28684412584022445
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.06461563799707568,
+        "accuracy": 0.9160935350756534,
+        "log_loss": 0.2664335767199473
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.07147284650676833,
+        "accuracy": 0.9160935350756534,
+        "log_loss": 0.34052712253437145
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.06461563799707568,
+      "accuracy": 0.9160935350756534,
+      "log_loss": 0.2664335767199473
+    },
+    "raw_metrics": {
+      "half_brier": 0.07160395802393867,
+      "accuracy": 0.9160935350756534,
+      "log_loss": 0.3842275981616505
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 100,
+      "classes": 6,
+      "trees": 600,
+      "nodes": 14860,
+      "leaves": 7730,
+      "max_depth": 11
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__hgb_i100_l15.joblib",
+    "model_sha256": "47518cec74bd2580c42e8890b4ba59756cff46caab5500a8674e6a98c4d0870d",
+    "model_bytes": 534627,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed17__hgb_i100_l15__development.npz"
+  },
+  {
+    "seed": 17,
+    "candidate": "hgb_i100_l31",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 17
+    },
+    "started_utc": "2026-10-02T05:22:16.689238+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        11,
+        7,
+        6,
+        27,
+        23,
+        26,
+        16,
+        21,
+        15,
+        30,
+        14,
+        3,
+        1,
+        22,
+        25,
+        5
+      ],
+      "development_subjects": [
+        17,
+        28,
+        19,
+        29
+      ],
+      "fit_rows": 5898,
+      "development_rows": 1454,
+      "fit_class_counts": [
+        1006,
+        885,
+        807,
+        1017,
+        1079,
+        1104
+      ],
+      "development_class_counts": [
+        220,
+        188,
+        179,
+        269,
+        295,
+        303
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 8.07920790000935,
+    "development_probability_seconds": 0.15197510001598857,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:22:25.074212+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.07565012913732273,
+        "accuracy": 0.9167812929848693,
+        "log_loss": 0.5472460711840142
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.07309701937848785,
+        "accuracy": 0.9167812929848693,
+        "log_loss": 0.42138688941055663
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.07079248671623893,
+        "accuracy": 0.9167812929848693,
+        "log_loss": 0.350763515902072
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.0688355546675003,
+        "accuracy": 0.9167812929848693,
+        "log_loss": 0.31004813102418277
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.06645515969833048,
+        "accuracy": 0.9167812929848693,
+        "log_loss": 0.28252318824850287
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.07294538012536263,
+        "accuracy": 0.9167812929848693,
+        "log_loss": 0.349822776522467
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.06645515969833048,
+      "accuracy": 0.9167812929848693,
+      "log_loss": 0.28252318824850287
+    },
+    "raw_metrics": {
+      "half_brier": 0.07309701937848785,
+      "accuracy": 0.9167812929848693,
+      "log_loss": 0.42138688941055663
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 100,
+      "classes": 6,
+      "trees": 600,
+      "nodes": 24196,
+      "leaves": 12398,
+      "max_depth": 14
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__hgb_i100_l31.joblib",
+    "model_sha256": "140ebc32203fb800b65fdaf504b99438ea74deefa3553f9a845bf7b7d8a496fd",
+    "model_bytes": 742992,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed17__hgb_i100_l31__development.npz"
+  },
+  {
+    "seed": 17,
+    "candidate": "hgb_i150_l15",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 150,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 17
+    },
+    "started_utc": "2026-10-02T05:22:25.186533+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        11,
+        7,
+        6,
+        27,
+        23,
+        26,
+        16,
+        21,
+        15,
+        30,
+        14,
+        3,
+        1,
+        22,
+        25,
+        5
+      ],
+      "development_subjects": [
+        17,
+        28,
+        19,
+        29
+      ],
+      "fit_rows": 5898,
+      "development_rows": 1454,
+      "fit_class_counts": [
+        1006,
+        885,
+        807,
+        1017,
+        1079,
+        1104
+      ],
+      "development_class_counts": [
+        220,
+        188,
+        179,
+        269,
+        295,
+        303
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 9.25568740000017,
+    "development_probability_seconds": 0.16206870001042262,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:22:34.838179+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.07359132162653806,
+        "accuracy": 0.9174690508940853,
+        "log_loss": 0.5285409965799377
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.07097411083576911,
+        "accuracy": 0.9174690508940853,
+        "log_loss": 0.4069576728961086
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.06862864931123155,
+        "accuracy": 0.9174690508940853,
+        "log_loss": 0.33809034762763995
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.06663604142790601,
+        "accuracy": 0.9174690508940853,
+        "log_loss": 0.2972664624089393
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.06398854814824108,
+        "accuracy": 0.9174690508940853,
+        "log_loss": 0.2649881377767129
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.06754034258229598,
+        "accuracy": 0.9174690508940853,
+        "log_loss": 0.31396329940600964
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.06398854814824108,
+      "accuracy": 0.9174690508940853,
+      "log_loss": 0.2649881377767129
+    },
+    "raw_metrics": {
+      "half_brier": 0.07097411083576911,
+      "accuracy": 0.9174690508940853,
+      "log_loss": 0.4069576728961086
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 150,
+      "classes": 6,
+      "trees": 900,
+      "nodes": 22304,
+      "leaves": 11602,
+      "max_depth": 11
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__hgb_i150_l15.joblib",
+    "model_sha256": "50e9fbc2cf390d9fcd7ccf2aeca077859580cfc597b54d4921b69f6b74db5555",
+    "model_bytes": 717397,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed17__hgb_i150_l15__development.npz"
+  },
+  {
+    "seed": 17,
+    "candidate": "hgb_i150_l31",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 150,
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 17
+    },
+    "started_utc": "2026-10-02T05:22:35.044531+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        11,
+        7,
+        6,
+        27,
+        23,
+        26,
+        16,
+        21,
+        15,
+        30,
+        14,
+        3,
+        1,
+        22,
+        25,
+        5
+      ],
+      "development_subjects": [
+        17,
+        28,
+        19,
+        29
+      ],
+      "fit_rows": 5898,
+      "development_rows": 1454,
+      "fit_class_counts": [
+        1006,
+        885,
+        807,
+        1017,
+        1079,
+        1104
+      ],
+      "development_class_counts": [
+        220,
+        188,
+        179,
+        269,
+        295,
+        303
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 14.374271799984854,
+    "development_probability_seconds": 0.31414289999520406,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:22:50.136305+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.07483446091264846,
+        "accuracy": 0.9202200825309491,
+        "log_loss": 0.5829179782332526
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.07254442919219269,
+        "accuracy": 0.9202200825309491,
+        "log_loss": 0.4468516656006562
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.07041329420841581,
+        "accuracy": 0.9202200825309491,
+        "log_loss": 0.36919742445006143
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.06853485793896223,
+        "accuracy": 0.9202200825309491,
+        "log_loss": 0.3225123683971035
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.06593277047859081,
+        "accuracy": 0.9202200825309491,
+        "log_loss": 0.2831116412447136
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.0693717324092877,
+        "accuracy": 0.9202200825309491,
+        "log_loss": 0.32610562618956235
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.06593277047859081,
+      "accuracy": 0.9202200825309491,
+      "log_loss": 0.2831116412447136
+    },
+    "raw_metrics": {
+      "half_brier": 0.07254442919219269,
+      "accuracy": 0.9202200825309491,
+      "log_loss": 0.4468516656006562
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 150,
+      "classes": 6,
+      "trees": 900,
+      "nodes": 36942,
+      "leaves": 18921,
+      "max_depth": 16
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__hgb_i150_l31.joblib",
+    "model_sha256": "f68c8f76451703a4c54d3bb382678ef8a00cc3cd80eeb61e39e9314869181cbf",
+    "model_bytes": 1046813,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed17__hgb_i150_l31__development.npz"
+  },
+  {
+    "seed": 17,
+    "candidate": "random_forest",
+    "family": "RF",
+    "parameters": {
+      "n_estimators": 400,
+      "min_samples_leaf": 2,
+      "n_jobs": 1,
+      "random_state": 17
+    },
+    "started_utc": "2026-10-02T05:22:50.349502+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        11,
+        7,
+        6,
+        27,
+        23,
+        26,
+        16,
+        21,
+        15,
+        30,
+        14,
+        3,
+        1,
+        22,
+        25,
+        5
+      ],
+      "development_subjects": [
+        17,
+        28,
+        19,
+        29
+      ],
+      "fit_rows": 5898,
+      "development_rows": 1454,
+      "fit_class_counts": [
+        1006,
+        885,
+        807,
+        1017,
+        1079,
+        1104
+      ],
+      "development_class_counts": [
+        220,
+        188,
+        179,
+        269,
+        295,
+        303
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 13.222325700015062,
+    "development_probability_seconds": 0.060232600022573024,
+    "completed_utc": "2026-10-02T05:23:03.660446+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.07877368512497519,
+        "accuracy": 0.9044016506189821,
+        "log_loss": 0.3877123092569968
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.0795056134782057,
+        "accuracy": 0.9044016506189821,
+        "log_loss": 0.3592359091514991
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.08266363180918007,
+        "accuracy": 0.9044016506189821,
+        "log_loss": 0.35048753827709006
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.0873524029494685,
+        "accuracy": 0.9044016506189821,
+        "log_loss": 0.35717487747916055
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.09895289409231378,
+        "accuracy": 0.9044016506189821,
+        "log_loss": 0.38867712731349624
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.12284470075901499,
+        "accuracy": 0.9044016506189821,
+        "log_loss": 0.46154816071265425
+      }
+    ],
+    "chosen_temperature": 0.75,
+    "selected_metrics": {
+      "half_brier": 0.07877368512497519,
+      "accuracy": 0.9044016506189821,
+      "log_loss": 0.3877123092569968
+    },
+    "raw_metrics": {
+      "half_brier": 0.07950561347820578,
+      "accuracy": 0.9044016506189821,
+      "log_loss": 0.36130589126182094
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "trees": 400,
+      "nodes": 127290,
+      "leaves": 63845,
+      "max_depth": 22
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__random_forest.joblib",
+    "model_sha256": "96d2ef54770e5658f5a02c7216698c6e0cbb617c9d9c6ada143f23f462721fd1",
+    "model_bytes": 3241117,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed17__random_forest__development.npz"
+  },
+  {
+    "seed": 17,
+    "candidate": "extra_trees",
+    "family": "ET",
+    "parameters": {
+      "n_estimators": 400,
+      "min_samples_leaf": 2,
+      "n_jobs": 1,
+      "random_state": 17
+    },
+    "started_utc": "2026-10-02T05:23:04.044566+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        11,
+        7,
+        6,
+        27,
+        23,
+        26,
+        16,
+        21,
+        15,
+        30,
+        14,
+        3,
+        1,
+        22,
+        25,
+        5
+      ],
+      "development_subjects": [
+        17,
+        28,
+        19,
+        29
+      ],
+      "fit_rows": 5898,
+      "development_rows": 1454,
+      "fit_class_counts": [
+        1006,
+        885,
+        807,
+        1017,
+        1079,
+        1104
+      ],
+      "development_class_counts": [
+        220,
+        188,
+        179,
+        269,
+        295,
+        303
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 4.530406199977733,
+    "development_probability_seconds": 0.0787271999870427,
+    "completed_utc": "2026-10-02T05:23:08.666216+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.0774704041962216,
+        "accuracy": 0.9030261348005502,
+        "log_loss": 0.3112463422891072
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.08150484791110103,
+        "accuracy": 0.9030261348005502,
+        "log_loss": 0.3100109622204816
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.0876383782227475,
+        "accuracy": 0.9030261348005502,
+        "log_loss": 0.3283125118464907
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.09493347157458251,
+        "accuracy": 0.9030261348005502,
+        "log_loss": 0.35460136543763404
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.1107590866135055,
+        "accuracy": 0.9030261348005502,
+        "log_loss": 0.4132974488846786
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.1403126223525114,
+        "accuracy": 0.9030261348005502,
+        "log_loss": 0.5181385989063977
+      }
+    ],
+    "chosen_temperature": 0.75,
+    "selected_metrics": {
+      "half_brier": 0.0774704041962216,
+      "accuracy": 0.9030261348005502,
+      "log_loss": 0.3112463422891072
+    },
+    "raw_metrics": {
+      "half_brier": 0.08150484791110106,
+      "accuracy": 0.9030261348005502,
+      "log_loss": 0.3100109622204785
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "trees": 400,
+      "nodes": 376742,
+      "leaves": 188571,
+      "max_depth": 32
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__extra_trees.joblib",
+    "model_sha256": "819cf0624277ceddaf1b3a530ea4532edbaa8a2d15ef63501d2d375f3765b733",
+    "model_bytes": 8218341,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed17__extra_trees__development.npz"
+  },
+  {
+    "seed": 17,
+    "candidate": "logistic",
+    "family": "LR",
+    "parameters": {
+      "C": 1.0,
+      "max_iter": 1000,
+      "solver": "lbfgs",
+      "random_state": 17
+    },
+    "started_utc": "2026-10-02T05:23:09.251264+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        11,
+        7,
+        6,
+        27,
+        23,
+        26,
+        16,
+        21,
+        15,
+        30,
+        14,
+        3,
+        1,
+        22,
+        25,
+        5
+      ],
+      "development_subjects": [
+        17,
+        28,
+        19,
+        29
+      ],
+      "fit_rows": 5898,
+      "development_rows": 1454,
+      "fit_class_counts": [
+        1006,
+        885,
+        807,
+        1017,
+        1079,
+        1104
+      ],
+      "development_class_counts": [
+        220,
+        188,
+        179,
+        269,
+        295,
+        303
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 0.30767899999045767,
+    "development_probability_seconds": 0.0010596000065561384,
+    "completed_utc": "2026-10-02T05:23:09.575071+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.0675480782346541,
+        "accuracy": 0.9154057771664375,
+        "log_loss": 0.3277243971824646
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.06483730902142512,
+        "accuracy": 0.9154057771664375,
+        "log_loss": 0.2686007022857666
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.0631322976243754,
+        "accuracy": 0.9154057771664375,
+        "log_loss": 0.239449605345726
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.062261352706470895,
+        "accuracy": 0.9154057771664375,
+        "log_loss": 0.2258584201335907
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.06257665941505676,
+        "accuracy": 0.9154057771664375,
+        "log_loss": 0.22340995073318481
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.06944808270884467,
+        "accuracy": 0.9154057771664375,
+        "log_loss": 0.2640092968940735
+      }
+    ],
+    "chosen_temperature": 1.5,
+    "selected_metrics": {
+      "half_brier": 0.062261352706470895,
+      "accuracy": 0.9154057771664375,
+      "log_loss": 0.2258584201335907
+    },
+    "raw_metrics": {
+      "half_brier": 0.06483730892954268,
+      "accuracy": 0.9154057771664375,
+      "log_loss": 0.2686007022857666
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "coefficient_shape": [
+        6,
+        153
+      ],
+      "iterations": [
+        110
+      ]
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__logistic.joblib",
+    "model_sha256": "e0fbca3591cb1203ebec3a9837857827e51af94dedfb34467859097d4758a1d6",
+    "model_bytes": 17911,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed17__logistic__development.npz"
+  },
+  {
+    "seed": 17,
+    "candidate": "rbf_svc",
+    "family": "SVC",
+    "parameters": {
+      "C": 10.0,
+      "gamma": "scale",
+      "probability": true,
+      "random_state": 17
+    },
+    "started_utc": "2026-10-02T05:23:09.600726+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        11,
+        7,
+        6,
+        27,
+        23,
+        26,
+        16,
+        21,
+        15,
+        30,
+        14,
+        3,
+        1,
+        22,
+        25,
+        5
+      ],
+      "development_subjects": [
+        17,
+        28,
+        19,
+        29
+      ],
+      "fit_rows": 5898,
+      "development_rows": 1454,
+      "fit_class_counts": [
+        1006,
+        885,
+        807,
+        1017,
+        1079,
+        1104
+      ],
+      "development_class_counts": [
+        220,
+        188,
+        179,
+        269,
+        295,
+        303
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [
+      {
+        "category": "FutureWarning",
+        "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+      }
+    ],
+    "fit_seconds": 3.138509199983673,
+    "development_probability_seconds": 0.26682370001799427,
+    "completed_utc": "2026-10-02T05:23:13.022724+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.06050410801231838,
+        "accuracy": 0.9264099037138928,
+        "log_loss": 0.3199597686539953
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.05935563283810579,
+        "accuracy": 0.9264099037138928,
+        "log_loss": 0.2680447828452816
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.059324248811001276,
+        "accuracy": 0.9264099037138928,
+        "log_loss": 0.24831101414333295
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.060308337897260755,
+        "accuracy": 0.9264099037138928,
+        "log_loss": 0.2472725664325167
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.06554412190393637,
+        "accuracy": 0.9264099037138928,
+        "log_loss": 0.27993176091103683
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.08991304841367352,
+        "accuracy": 0.9264099037138928,
+        "log_loss": 0.41309951108036613
+      }
+    ],
+    "chosen_temperature": 1.25,
+    "selected_metrics": {
+      "half_brier": 0.059324248811001276,
+      "accuracy": 0.9264099037138928,
+      "log_loss": 0.24831101414333295
+    },
+    "raw_metrics": {
+      "half_brier": 0.05935563283810579,
+      "accuracy": 0.9264099037138928,
+      "log_loss": 0.2680447828452816
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "support_vectors": 1571,
+      "support_per_class": [
+        230,
+        343,
+        313,
+        286,
+        249,
+        150
+      ],
+      "internal_probability_calibration": "LIBSVM fitting-data-only five-fold CV, not subject-grouped"
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__rbf_svc.joblib",
+    "model_sha256": "d07a30fb02e47cb718ff6bb1fd1c9ab0df641568305074058edef22bfa17dc5d",
+    "model_bytes": 1118088,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed17__rbf_svc__development.npz"
+  },
+  {
+    "seed": 29,
+    "candidate": "hgb_i100_l15",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 100,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 29
+    },
+    "started_utc": "2026-10-02T05:23:13.129248+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        1,
+        23,
+        29,
+        8,
+        3,
+        15,
+        19,
+        6,
+        14,
+        22,
+        26,
+        7,
+        17,
+        25,
+        11,
+        5,
+        21
+      ],
+      "development_subjects": [
+        16,
+        30,
+        28,
+        27
+      ],
+      "fit_rows": 5845,
+      "development_rows": 1507,
+      "fit_class_counts": [
+        999,
+        855,
+        787,
+        1013,
+        1078,
+        1113
+      ],
+      "development_class_counts": [
+        227,
+        218,
+        199,
+        273,
+        296,
+        294
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 6.256645599991316,
+    "development_probability_seconds": 0.0859784999920521,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:23:19.565308+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.10157533928402707,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.9265459035759529
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.10040474678663633,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.7025310493342164
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.09901497170585177,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.5726169089314208
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.09736008842195641,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.49244121248186384
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.09392480913556246,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.41666419132639226
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.09551208921797812,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.439318248742866
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.09392480913556246,
+      "accuracy": 0.8925016589250165,
+      "log_loss": 0.41666419132639226
+    },
+    "raw_metrics": {
+      "half_brier": 0.10040474678663633,
+      "accuracy": 0.8925016589250165,
+      "log_loss": 0.7025310493342164
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 100,
+      "classes": 6,
+      "trees": 600,
+      "nodes": 14912,
+      "leaves": 7756,
+      "max_depth": 12
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__hgb_i100_l15.joblib",
+    "model_sha256": "8ded190fe07ce11718d978a29d822c3c4c83fd5ad920e3cbcd8fd230d0bd0918",
+    "model_bytes": 532584,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed29__hgb_i100_l15__development.npz"
+  },
+  {
+    "seed": 29,
+    "candidate": "hgb_i100_l31",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 29
+    },
+    "started_utc": "2026-10-02T05:23:19.693339+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        1,
+        23,
+        29,
+        8,
+        3,
+        15,
+        19,
+        6,
+        14,
+        22,
+        26,
+        7,
+        17,
+        25,
+        11,
+        5,
+        21
+      ],
+      "development_subjects": [
+        16,
+        30,
+        28,
+        27
+      ],
+      "fit_rows": 5845,
+      "development_rows": 1507,
+      "fit_class_counts": [
+        999,
+        855,
+        787,
+        1013,
+        1078,
+        1113
+      ],
+      "development_class_counts": [
+        227,
+        218,
+        199,
+        273,
+        296,
+        294
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 8.24450549998437,
+    "development_probability_seconds": 0.16240329999709502,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:23:28.273040+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.10514421043208627,
+        "accuracy": 0.8898473788984738,
+        "log_loss": 0.9865347931477911
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.103488806904158,
+        "accuracy": 0.8898473788984738,
+        "log_loss": 0.7472917289900535
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.10183879465529463,
+        "accuracy": 0.8898473788984738,
+        "log_loss": 0.6081633007186903
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.10009018898392634,
+        "accuracy": 0.8898473788984738,
+        "log_loss": 0.5218106253435351
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.09670543086878022,
+        "accuracy": 0.8898473788984738,
+        "log_loss": 0.438381494183614
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.09846627345183442,
+        "accuracy": 0.8898473788984738,
+        "log_loss": 0.45385973284788655
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.09670543086878022,
+      "accuracy": 0.8898473788984738,
+      "log_loss": 0.438381494183614
+    },
+    "raw_metrics": {
+      "half_brier": 0.103488806904158,
+      "accuracy": 0.8898473788984738,
+      "log_loss": 0.7472917289900535
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 100,
+      "classes": 6,
+      "trees": 600,
+      "nodes": 23718,
+      "leaves": 12159,
+      "max_depth": 15
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__hgb_i100_l31.joblib",
+    "model_sha256": "bf6dd9dea3b0c3e8997a64d9ca800ff529bb41b2232a8d75e174e0c178673578",
+    "model_bytes": 724163,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed29__hgb_i100_l31__development.npz"
+  },
+  {
+    "seed": 29,
+    "candidate": "hgb_i150_l15",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 150,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 29
+    },
+    "started_utc": "2026-10-02T05:23:28.423654+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        1,
+        23,
+        29,
+        8,
+        3,
+        15,
+        19,
+        6,
+        14,
+        22,
+        26,
+        7,
+        17,
+        25,
+        11,
+        5,
+        21
+      ],
+      "development_subjects": [
+        16,
+        30,
+        28,
+        27
+      ],
+      "fit_rows": 5845,
+      "development_rows": 1507,
+      "fit_class_counts": [
+        999,
+        855,
+        787,
+        1013,
+        1078,
+        1113
+      ],
+      "development_class_counts": [
+        227,
+        218,
+        199,
+        273,
+        296,
+        294
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 8.92922869999893,
+    "development_probability_seconds": 0.1301926000160165,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:23:37.756795+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.10128002525175743,
+        "accuracy": 0.8944923689449237,
+        "log_loss": 0.9840390769998814
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.10023900498397999,
+        "accuracy": 0.8944923689449237,
+        "log_loss": 0.7446764494838993
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.09898502236939909,
+        "accuracy": 0.8944923689449237,
+        "log_loss": 0.604638104030814
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.09747954256414791,
+        "accuracy": 0.8944923689449237,
+        "log_loss": 0.5163344345274127
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.09414506596109086,
+        "accuracy": 0.8944923689449237,
+        "log_loss": 0.42564714620217736
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.09305817690046907,
+        "accuracy": 0.8944923689449237,
+        "log_loss": 0.4204056297051942
+      }
+    ],
+    "chosen_temperature": 3.0,
+    "selected_metrics": {
+      "half_brier": 0.09305817690046907,
+      "accuracy": 0.8944923689449237,
+      "log_loss": 0.4204056297051942
+    },
+    "raw_metrics": {
+      "half_brier": 0.10023900498397999,
+      "accuracy": 0.8944923689449237,
+      "log_loss": 0.7446764494838993
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 150,
+      "classes": 6,
+      "trees": 900,
+      "nodes": 22358,
+      "leaves": 11629,
+      "max_depth": 12
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__hgb_i150_l15.joblib",
+    "model_sha256": "8f38a7b0fcd578c0c4d4a90973e3dbee279fddf831098f10c9a4ac80178ff064",
+    "model_bytes": 714409,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed29__hgb_i150_l15__development.npz"
+  },
+  {
+    "seed": 29,
+    "candidate": "hgb_i150_l31",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 150,
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 29
+    },
+    "started_utc": "2026-10-02T05:23:37.948834+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        1,
+        23,
+        29,
+        8,
+        3,
+        15,
+        19,
+        6,
+        14,
+        22,
+        26,
+        7,
+        17,
+        25,
+        11,
+        5,
+        21
+      ],
+      "development_subjects": [
+        16,
+        30,
+        28,
+        27
+      ],
+      "fit_rows": 5845,
+      "development_rows": 1507,
+      "fit_class_counts": [
+        999,
+        855,
+        787,
+        1013,
+        1078,
+        1113
+      ],
+      "development_class_counts": [
+        227,
+        218,
+        199,
+        273,
+        296,
+        294
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 12.995978799997829,
+    "development_probability_seconds": 0.2965410999895539,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:23:51.557907+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.1041071511118481,
+        "accuracy": 0.8911745189117452,
+        "log_loss": 1.0376079291596352
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.10264188214846447,
+        "accuracy": 0.8911745189117452,
+        "log_loss": 0.7846908787937423
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.10116254545156154,
+        "accuracy": 0.8911745189117452,
+        "log_loss": 0.6364605856520479
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.09957489387663834,
+        "accuracy": 0.8911745189117452,
+        "log_loss": 0.5426858057146611
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.09629324675851528,
+        "accuracy": 0.8911745189117452,
+        "log_loss": 0.44532811128019245
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.09552307203924326,
+        "accuracy": 0.8911745189117452,
+        "log_loss": 0.4342805019998007
+      }
+    ],
+    "chosen_temperature": 3.0,
+    "selected_metrics": {
+      "half_brier": 0.09552307203924326,
+      "accuracy": 0.8911745189117452,
+      "log_loss": 0.4342805019998007
+    },
+    "raw_metrics": {
+      "half_brier": 0.10264188214846447,
+      "accuracy": 0.8911745189117452,
+      "log_loss": 0.7846908787937423
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 150,
+      "classes": 6,
+      "trees": 900,
+      "nodes": 36470,
+      "leaves": 18685,
+      "max_depth": 15
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__hgb_i150_l31.joblib",
+    "model_sha256": "b6bcb17a94551852f7f293616db2b80282ac8d3a89f514a4ee4e21013f563a9a",
+    "model_bytes": 1023149,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed29__hgb_i150_l31__development.npz"
+  },
+  {
+    "seed": 29,
+    "candidate": "random_forest",
+    "family": "RF",
+    "parameters": {
+      "n_estimators": 400,
+      "min_samples_leaf": 2,
+      "n_jobs": 1,
+      "random_state": 29
+    },
+    "started_utc": "2026-10-02T05:23:51.768998+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        1,
+        23,
+        29,
+        8,
+        3,
+        15,
+        19,
+        6,
+        14,
+        22,
+        26,
+        7,
+        17,
+        25,
+        11,
+        5,
+        21
+      ],
+      "development_subjects": [
+        16,
+        30,
+        28,
+        27
+      ],
+      "fit_rows": 5845,
+      "development_rows": 1507,
+      "fit_class_counts": [
+        999,
+        855,
+        787,
+        1013,
+        1078,
+        1113
+      ],
+      "development_class_counts": [
+        227,
+        218,
+        199,
+        273,
+        296,
+        294
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 12.899477800005116,
+    "development_probability_seconds": 0.05998319998616353,
+    "completed_utc": "2026-10-02T05:24:04.756104+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.0927956679895019,
+        "accuracy": 0.8918380889183809,
+        "log_loss": 0.4731676291492784
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.0955055944479061,
+        "accuracy": 0.8918380889183809,
+        "log_loss": 0.42146297512963893
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.09986827352982391,
+        "accuracy": 0.8918380889183809,
+        "log_loss": 0.4065430173577093
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.10547616314416429,
+        "accuracy": 0.8918380889183809,
+        "log_loss": 0.4123121119166362
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.11874204526300695,
+        "accuracy": 0.8918380889183809,
+        "log_loss": 0.4490121331331511
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.14535429393848195,
+        "accuracy": 0.8918380889183809,
+        "log_loss": 0.5379893357373889
+      }
+    ],
+    "chosen_temperature": 0.75,
+    "selected_metrics": {
+      "half_brier": 0.0927956679895019,
+      "accuracy": 0.8918380889183809,
+      "log_loss": 0.4731676291492784
+    },
+    "raw_metrics": {
+      "half_brier": 0.09550559444790628,
+      "accuracy": 0.8918380889183809,
+      "log_loss": 0.42246156636666754
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "trees": 400,
+      "nodes": 120676,
+      "leaves": 60538,
+      "max_depth": 23
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__random_forest.joblib",
+    "model_sha256": "3d65e945e2fc0150eb39edf996448b586289660c7fd83d82764aed0101f9fdaa",
+    "model_bytes": 3079400,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed29__random_forest__development.npz"
+  },
+  {
+    "seed": 29,
+    "candidate": "extra_trees",
+    "family": "ET",
+    "parameters": {
+      "n_estimators": 400,
+      "min_samples_leaf": 2,
+      "n_jobs": 1,
+      "random_state": 29
+    },
+    "started_utc": "2026-10-02T05:24:05.067936+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        1,
+        23,
+        29,
+        8,
+        3,
+        15,
+        19,
+        6,
+        14,
+        22,
+        26,
+        7,
+        17,
+        25,
+        11,
+        5,
+        21
+      ],
+      "development_subjects": [
+        16,
+        30,
+        28,
+        27
+      ],
+      "fit_rows": 5845,
+      "development_rows": 1507,
+      "fit_class_counts": [
+        999,
+        855,
+        787,
+        1013,
+        1078,
+        1113
+      ],
+      "development_class_counts": [
+        227,
+        218,
+        199,
+        273,
+        296,
+        294
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 4.7091745999932755,
+    "development_probability_seconds": 0.1041675999877043,
+    "completed_utc": "2026-10-02T05:24:09.909550+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.09055171043435481,
+        "accuracy": 0.9084273390842734,
+        "log_loss": 0.37641216101435526
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.0961842434399342,
+        "accuracy": 0.9084273390842734,
+        "log_loss": 0.3679490715596634
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.1036340337467195,
+        "accuracy": 0.9084273390842734,
+        "log_loss": 0.38718878560744363
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.11236494793792205,
+        "accuracy": 0.9084273390842734,
+        "log_loss": 0.4179629766853603
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.1312515878166282,
+        "accuracy": 0.9084273390842734,
+        "log_loss": 0.4886495063452422
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.16564382299617175,
+        "accuracy": 0.9084273390842734,
+        "log_loss": 0.614701375661523
+      }
+    ],
+    "chosen_temperature": 0.75,
+    "selected_metrics": {
+      "half_brier": 0.09055171043435481,
+      "accuracy": 0.9084273390842734,
+      "log_loss": 0.37641216101435526
+    },
+    "raw_metrics": {
+      "half_brier": 0.09618424343993431,
+      "accuracy": 0.9084273390842734,
+      "log_loss": 0.36794907155966083
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "trees": 400,
+      "nodes": 365588,
+      "leaves": 182994,
+      "max_depth": 33
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__extra_trees.joblib",
+    "model_sha256": "3cadc0ed3c5329797c00d3989c07aa0b09906bae5bac542683b7c072ceca80aa",
+    "model_bytes": 8027489,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed29__extra_trees__development.npz"
+  },
+  {
+    "seed": 29,
+    "candidate": "logistic",
+    "family": "LR",
+    "parameters": {
+      "C": 1.0,
+      "max_iter": 1000,
+      "solver": "lbfgs",
+      "random_state": 29
+    },
+    "started_utc": "2026-10-02T05:24:10.630838+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        1,
+        23,
+        29,
+        8,
+        3,
+        15,
+        19,
+        6,
+        14,
+        22,
+        26,
+        7,
+        17,
+        25,
+        11,
+        5,
+        21
+      ],
+      "development_subjects": [
+        16,
+        30,
+        28,
+        27
+      ],
+      "fit_rows": 5845,
+      "development_rows": 1507,
+      "fit_class_counts": [
+        999,
+        855,
+        787,
+        1013,
+        1078,
+        1113
+      ],
+      "development_class_counts": [
+        227,
+        218,
+        199,
+        273,
+        296,
+        294
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 0.42338029999518767,
+    "development_probability_seconds": 0.0015184999792836607,
+    "completed_utc": "2026-10-02T05:24:11.079877+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.13209552040041397,
+        "accuracy": 0.8579960185799602,
+        "log_loss": 0.9975799918174744
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.12900376681042544,
+        "accuracy": 0.8579960185799602,
+        "log_loss": 0.7680885195732117
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.12624338402929647,
+        "accuracy": 0.8579960185799602,
+        "log_loss": 0.6361756324768066
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.12379796658328425,
+        "accuracy": 0.8579960185799602,
+        "log_loss": 0.554009735584259
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.1199383340688731,
+        "accuracy": 0.8579960185799602,
+        "log_loss": 0.4664880931377411
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.11735130251907396,
+        "accuracy": 0.8579960185799602,
+        "log_loss": 0.4273776113986969
+      }
+    ],
+    "chosen_temperature": 3.0,
+    "selected_metrics": {
+      "half_brier": 0.11735130251907396,
+      "accuracy": 0.8579960185799602,
+      "log_loss": 0.4273776113986969
+    },
+    "raw_metrics": {
+      "half_brier": 0.12900376691131477,
+      "accuracy": 0.8579960185799602,
+      "log_loss": 0.7680885195732117
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "coefficient_shape": [
+        6,
+        153
+      ],
+      "iterations": [
+        104
+      ]
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__logistic.joblib",
+    "model_sha256": "9e018133a35e19b32a9bb38c6002131e1743e6eaed49c0f1e43c33b8fefdb321",
+    "model_bytes": 17927,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed29__logistic__development.npz"
+  },
+  {
+    "seed": 29,
+    "candidate": "rbf_svc",
+    "family": "SVC",
+    "parameters": {
+      "C": 10.0,
+      "gamma": "scale",
+      "probability": true,
+      "random_state": 29
+    },
+    "started_utc": "2026-10-02T05:24:11.108561+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        1,
+        23,
+        29,
+        8,
+        3,
+        15,
+        19,
+        6,
+        14,
+        22,
+        26,
+        7,
+        17,
+        25,
+        11,
+        5,
+        21
+      ],
+      "development_subjects": [
+        16,
+        30,
+        28,
+        27
+      ],
+      "fit_rows": 5845,
+      "development_rows": 1507,
+      "fit_class_counts": [
+        999,
+        855,
+        787,
+        1013,
+        1078,
+        1113
+      ],
+      "development_class_counts": [
+        227,
+        218,
+        199,
+        273,
+        296,
+        294
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [
+      {
+        "category": "FutureWarning",
+        "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+      }
+    ],
+    "fit_seconds": 4.254782600008184,
+    "development_probability_seconds": 0.3175766000058502,
+    "completed_utc": "2026-10-02T05:24:15.703760+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.0943371573936485,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.6113068983575998
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.09112982869295562,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.48372286756053523
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.08895739951665887,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.4179221368289452
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.08773073022335351,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.38575183775354743
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.08859134918723323,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.37906987928625135
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.10577093139318085,
+        "accuracy": 0.8925016589250165,
+        "log_loss": 0.47323023389788693
+      }
+    ],
+    "chosen_temperature": 1.5,
+    "selected_metrics": {
+      "half_brier": 0.08773073022335351,
+      "accuracy": 0.8925016589250165,
+      "log_loss": 0.38575183775354743
+    },
+    "raw_metrics": {
+      "half_brier": 0.09112982869295559,
+      "accuracy": 0.8925016589250165,
+      "log_loss": 0.4837228675605353
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "support_vectors": 1473,
+      "support_per_class": [
+        241,
+        331,
+        309,
+        238,
+        211,
+        143
+      ],
+      "internal_probability_calibration": "LIBSVM fitting-data-only five-fold CV, not subject-grouped"
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__rbf_svc.joblib",
+    "model_sha256": "169fab91d973ca72449761e2b4e3b0fc363ebd2c151a92ffef53620df5fdde35",
+    "model_bytes": 1051801,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed29__rbf_svc__development.npz"
+  },
+  {
+    "seed": 43,
+    "candidate": "hgb_i100_l15",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 100,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 43
+    },
+    "started_utc": "2026-10-02T05:24:15.809339+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        3,
+        21,
+        14,
+        30,
+        17,
+        28,
+        5,
+        22,
+        15,
+        11,
+        29,
+        19,
+        26,
+        27,
+        16,
+        23
+      ],
+      "development_subjects": [
+        7,
+        25,
+        1,
+        6
+      ],
+      "fit_rows": 5963,
+      "development_rows": 1389,
+      "fit_class_counts": [
+        943,
+        853,
+        784,
+        1071,
+        1137,
+        1175
+      ],
+      "development_class_counts": [
+        283,
+        220,
+        202,
+        215,
+        237,
+        232
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 6.758741300000111,
+    "development_probability_seconds": 0.09292960001039319,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:24:22.748010+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.08965876930977981,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.4302738741653581
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.08440339345977901,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.3459898118299994
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.08003697177392342,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.30377809662544286
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.0767419712572258,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.2848808301529181
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.07373094005692686,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.28998342965404145
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.08424460811386876,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.39490173977230036
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.07373094005692686,
+      "accuracy": 0.8927285817134629,
+      "log_loss": 0.28998342965404145
+    },
+    "raw_metrics": {
+      "half_brier": 0.08440339345977901,
+      "accuracy": 0.8927285817134629,
+      "log_loss": 0.3459898118299994
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 100,
+      "classes": 6,
+      "trees": 600,
+      "nodes": 14990,
+      "leaves": 7795,
+      "max_depth": 11
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__hgb_i100_l15.joblib",
+    "model_sha256": "5c9d89634a45abd57122005e22bfb951b9e0f052d40390f9bc36c8e0feb04699",
+    "model_bytes": 535144,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed43__hgb_i100_l15__development.npz"
+  },
+  {
+    "seed": 43,
+    "candidate": "hgb_i100_l31",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 43
+    },
+    "started_utc": "2026-10-02T05:24:22.874858+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        3,
+        21,
+        14,
+        30,
+        17,
+        28,
+        5,
+        22,
+        15,
+        11,
+        29,
+        19,
+        26,
+        27,
+        16,
+        23
+      ],
+      "development_subjects": [
+        7,
+        25,
+        1,
+        6
+      ],
+      "fit_rows": 5963,
+      "development_rows": 1389,
+      "fit_class_counts": [
+        943,
+        853,
+        784,
+        1071,
+        1137,
+        1175
+      ],
+      "development_class_counts": [
+        283,
+        220,
+        202,
+        215,
+        237,
+        232
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 9.719861499994295,
+    "development_probability_seconds": 0.19286680000368506,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:24:33.057119+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.09104366240320352,
+        "accuracy": 0.8956083513318934,
+        "log_loss": 0.45620565980973327
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.08614322794699619,
+        "accuracy": 0.8956083513318934,
+        "log_loss": 0.3649299248098782
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.0819884653571881,
+        "accuracy": 0.8956083513318934,
+        "log_loss": 0.31873889390040466
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.07879836523311162,
+        "accuracy": 0.8956083513318934,
+        "log_loss": 0.2974516875206692
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.07583774063373899,
+        "accuracy": 0.8956083513318934,
+        "log_loss": 0.30024299094224427
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.08641694388766398,
+        "accuracy": 0.8956083513318934,
+        "log_loss": 0.40411046058003
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.07583774063373899,
+      "accuracy": 0.8956083513318934,
+      "log_loss": 0.30024299094224427
+    },
+    "raw_metrics": {
+      "half_brier": 0.08614322794699619,
+      "accuracy": 0.8956083513318934,
+      "log_loss": 0.3649299248098782
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 100,
+      "classes": 6,
+      "trees": 600,
+      "nodes": 24168,
+      "leaves": 12384,
+      "max_depth": 13
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__hgb_i100_l31.joblib",
+    "model_sha256": "7df5747fd75b224593502f0208b36d489ef75c0a8a8b44380533bdab750d60cf",
+    "model_bytes": 739821,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed43__hgb_i100_l31__development.npz"
+  },
+  {
+    "seed": 43,
+    "candidate": "hgb_i150_l15",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 150,
+      "max_leaf_nodes": 15,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 43
+    },
+    "started_utc": "2026-10-02T05:24:33.233757+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        3,
+        21,
+        14,
+        30,
+        17,
+        28,
+        5,
+        22,
+        15,
+        11,
+        29,
+        19,
+        26,
+        27,
+        16,
+        23
+      ],
+      "development_subjects": [
+        7,
+        25,
+        1,
+        6
+      ],
+      "fit_rows": 5963,
+      "development_rows": 1389,
+      "fit_class_counts": [
+        943,
+        853,
+        784,
+        1071,
+        1137,
+        1175
+      ],
+      "development_class_counts": [
+        283,
+        220,
+        202,
+        215,
+        237,
+        232
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 11.095297399995616,
+    "development_probability_seconds": 0.2153284999949392,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:24:44.847123+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.09112054411780926,
+        "accuracy": 0.8920086393088553,
+        "log_loss": 0.4602961711833038
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.08610683657253093,
+        "accuracy": 0.8920086393088553,
+        "log_loss": 0.3661117843030835
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.0817539825263513,
+        "accuracy": 0.8920086393088553,
+        "log_loss": 0.31680435850836314
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.07827225840399489,
+        "accuracy": 0.8920086393088553,
+        "log_loss": 0.2917469519608599
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.07429014611398976,
+        "accuracy": 0.8920086393088553,
+        "log_loss": 0.28478999518262366
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.0803216960925771,
+        "accuracy": 0.8920086393088553,
+        "log_loss": 0.36692307742602287
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.07429014611398976,
+      "accuracy": 0.8920086393088553,
+      "log_loss": 0.28478999518262366
+    },
+    "raw_metrics": {
+      "half_brier": 0.08610683657253093,
+      "accuracy": 0.8920086393088553,
+      "log_loss": 0.3661117843030835
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 150,
+      "classes": 6,
+      "trees": 900,
+      "nodes": 22508,
+      "leaves": 11704,
+      "max_depth": 11
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__hgb_i150_l15.joblib",
+    "model_sha256": "b951274edabaeab2e1ae96ade0f4b6afe5a26bfe29360d4d480c212769a860cc",
+    "model_bytes": 718849,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed43__hgb_i150_l15__development.npz"
+  },
+  {
+    "seed": 43,
+    "candidate": "hgb_i150_l31",
+    "family": "HGB",
+    "parameters": {
+      "max_iter": 150,
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.1,
+      "min_samples_leaf": 30,
+      "l2_regularization": 1.0,
+      "early_stopping": false,
+      "random_state": 43
+    },
+    "started_utc": "2026-10-02T05:24:45.045024+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        3,
+        21,
+        14,
+        30,
+        17,
+        28,
+        5,
+        22,
+        15,
+        11,
+        29,
+        19,
+        26,
+        27,
+        16,
+        23
+      ],
+      "development_subjects": [
+        7,
+        25,
+        1,
+        6
+      ],
+      "fit_rows": 5963,
+      "development_rows": 1389,
+      "fit_class_counts": [
+        943,
+        853,
+        784,
+        1071,
+        1137,
+        1175
+      ],
+      "development_class_counts": [
+        283,
+        220,
+        202,
+        215,
+        237,
+        232
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 14.050655400002142,
+    "development_probability_seconds": 0.28519279998727143,
+    "hgb_raw_logits_native_probability_max_abs_error": 0.0,
+    "completed_utc": "2026-10-02T05:24:59.663549+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.09237001745308515,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.48766962567045247
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.08773152134476742,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.38637309512530216
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.08363511390404707,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.33300726810445963
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.08031614013860826,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.30551715683667086
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.0764983287660833,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.29631264732465185
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.08280596859948702,
+        "accuracy": 0.8927285817134629,
+        "log_loss": 0.37802709318321875
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.0764983287660833,
+      "accuracy": 0.8927285817134629,
+      "log_loss": 0.29631264732465185
+    },
+    "raw_metrics": {
+      "half_brier": 0.08773152134476742,
+      "accuracy": 0.8927285817134629,
+      "log_loss": 0.38637309512530216
+    },
+    "model_shape": {
+      "n_features": 153,
+      "iterations": 150,
+      "classes": 6,
+      "trees": 900,
+      "nodes": 36648,
+      "leaves": 18774,
+      "max_depth": 16
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__hgb_i150_l31.joblib",
+    "model_sha256": "7478ee418318f11bc65a7d5ab5f7550f3c625adc2ba0a34714fd247f77ffacb0",
+    "model_bytes": 1038929,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed43__hgb_i150_l31__development.npz"
+  },
+  {
+    "seed": 43,
+    "candidate": "random_forest",
+    "family": "RF",
+    "parameters": {
+      "n_estimators": 400,
+      "min_samples_leaf": 2,
+      "n_jobs": 1,
+      "random_state": 43
+    },
+    "started_utc": "2026-10-02T05:24:59.877797+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        3,
+        21,
+        14,
+        30,
+        17,
+        28,
+        5,
+        22,
+        15,
+        11,
+        29,
+        19,
+        26,
+        27,
+        16,
+        23
+      ],
+      "development_subjects": [
+        7,
+        25,
+        1,
+        6
+      ],
+      "fit_rows": 5963,
+      "development_rows": 1389,
+      "fit_class_counts": [
+        943,
+        853,
+        784,
+        1071,
+        1137,
+        1175
+      ],
+      "development_class_counts": [
+        283,
+        220,
+        202,
+        215,
+        237,
+        232
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 17.249330899998313,
+    "development_probability_seconds": 0.07969109999248758,
+    "completed_utc": "2026-10-02T05:25:17.230824+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.07408675405270641,
+        "accuracy": 0.8977681785457163,
+        "log_loss": 0.2726300128911305
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.07939151465574582,
+        "accuracy": 0.8977681785457163,
+        "log_loss": 0.2976347467056909
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.0875305089690917,
+        "accuracy": 0.8977681785457163,
+        "log_loss": 0.3350710982574875
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.09705328284630475,
+        "accuracy": 0.8977681785457163,
+        "log_loss": 0.3762588494606446
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.11701433212174377,
+        "accuracy": 0.8977681785457163,
+        "log_loss": 0.4564435311767421
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.15210108616779683,
+        "accuracy": 0.8977681785457163,
+        "log_loss": 0.5853145177024178
+      }
+    ],
+    "chosen_temperature": 0.75,
+    "selected_metrics": {
+      "half_brier": 0.07408675405270641,
+      "accuracy": 0.8977681785457163,
+      "log_loss": 0.2726300128911305
+    },
+    "raw_metrics": {
+      "half_brier": 0.07939151465574576,
+      "accuracy": 0.8977681785457163,
+      "log_loss": 0.29763474670568824
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "trees": 400,
+      "nodes": 131694,
+      "leaves": 66047,
+      "max_depth": 22
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__random_forest.joblib",
+    "model_sha256": "2012de441b7df97419dbe64c9cf2ee94454d7ec859d0093b49bbe82bc54eb37d",
+    "model_bytes": 3331143,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed43__random_forest__development.npz"
+  },
+  {
+    "seed": 43,
+    "candidate": "extra_trees",
+    "family": "ET",
+    "parameters": {
+      "n_estimators": 400,
+      "min_samples_leaf": 2,
+      "n_jobs": 1,
+      "random_state": 43
+    },
+    "started_utc": "2026-10-02T05:25:17.629481+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        3,
+        21,
+        14,
+        30,
+        17,
+        28,
+        5,
+        22,
+        15,
+        11,
+        29,
+        19,
+        26,
+        27,
+        16,
+        23
+      ],
+      "development_subjects": [
+        7,
+        25,
+        1,
+        6
+      ],
+      "fit_rows": 5963,
+      "development_rows": 1389,
+      "fit_class_counts": [
+        943,
+        853,
+        784,
+        1071,
+        1137,
+        1175
+      ],
+      "development_class_counts": [
+        283,
+        220,
+        202,
+        215,
+        237,
+        232
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 5.907319199992344,
+    "development_probability_seconds": 0.10458529999596067,
+    "completed_utc": "2026-10-02T05:25:23.667001+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.07332765691720897,
+        "accuracy": 0.8992080633549316,
+        "log_loss": 0.26593772767619495
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.08005938017450345,
+        "accuracy": 0.8992080633549316,
+        "log_loss": 0.3051523744942622
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.09063213560891287,
+        "accuracy": 0.8992080633549316,
+        "log_loss": 0.3542266341789158
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.10285421284450169,
+        "accuracy": 0.8992080633549316,
+        "log_loss": 0.40475465683834183
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.12756444462333874,
+        "accuracy": 0.8992080633549316,
+        "log_loss": 0.49844402275100863
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.1683064975195538,
+        "accuracy": 0.8999280057595392,
+        "log_loss": 0.6426531239676254
+      }
+    ],
+    "chosen_temperature": 0.75,
+    "selected_metrics": {
+      "half_brier": 0.07332765691720897,
+      "accuracy": 0.8992080633549316,
+      "log_loss": 0.26593772767619495
+    },
+    "raw_metrics": {
+      "half_brier": 0.08005938017450338,
+      "accuracy": 0.8992080633549316,
+      "log_loss": 0.3051523744942598
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "trees": 400,
+      "nodes": 389604,
+      "leaves": 195002,
+      "max_depth": 32
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__extra_trees.joblib",
+    "model_sha256": "4f0c8babcab4312e0cf75d70d118bfcd28e631a58b3762c8f75e52b7d3120b0d",
+    "model_bytes": 8425682,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed43__extra_trees__development.npz"
+  },
+  {
+    "seed": 43,
+    "candidate": "logistic",
+    "family": "LR",
+    "parameters": {
+      "C": 1.0,
+      "max_iter": 1000,
+      "solver": "lbfgs",
+      "random_state": 43
+    },
+    "started_utc": "2026-10-02T05:25:24.415520+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        3,
+        21,
+        14,
+        30,
+        17,
+        28,
+        5,
+        22,
+        15,
+        11,
+        29,
+        19,
+        26,
+        27,
+        16,
+        23
+      ],
+      "development_subjects": [
+        7,
+        25,
+        1,
+        6
+      ],
+      "fit_rows": 5963,
+      "development_rows": 1389,
+      "fit_class_counts": [
+        943,
+        853,
+        784,
+        1071,
+        1137,
+        1175
+      ],
+      "development_class_counts": [
+        283,
+        220,
+        202,
+        215,
+        237,
+        232
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [],
+    "fit_seconds": 0.6207834999950137,
+    "development_probability_seconds": 0.0008282999915536493,
+    "completed_utc": "2026-10-02T05:25:25.069117+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.10675934111136412,
+        "accuracy": 0.871130309575234,
+        "log_loss": 0.7269737720489502
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.10196010855415726,
+        "accuracy": 0.871130309575234,
+        "log_loss": 0.5935065150260925
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.0984845786910153,
+        "accuracy": 0.871130309575234,
+        "log_loss": 0.5121761560440063
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.0962132557475751,
+        "accuracy": 0.871130309575234,
+        "log_loss": 0.4622606635093689
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.09478274474164684,
+        "accuracy": 0.871130309575234,
+        "log_loss": 0.4173692464828491
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.10094303328029676,
+        "accuracy": 0.871130309575234,
+        "log_loss": 0.4206523299217224
+      }
+    ],
+    "chosen_temperature": 2.0,
+    "selected_metrics": {
+      "half_brier": 0.09478274474164684,
+      "accuracy": 0.871130309575234,
+      "log_loss": 0.4173692464828491
+    },
+    "raw_metrics": {
+      "half_brier": 0.10196010867071899,
+      "accuracy": 0.871130309575234,
+      "log_loss": 0.5935065150260925
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "coefficient_shape": [
+        6,
+        153
+      ],
+      "iterations": [
+        128
+      ]
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__logistic.joblib",
+    "model_sha256": "37f3d7e9eb3e52e5e71af1c6f19a3d84dbb4c4bc447ff61da4f30c37c5abd11a",
+    "model_bytes": 17904,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed43__logistic__development.npz"
+  },
+  {
+    "seed": 43,
+    "candidate": "rbf_svc",
+    "family": "SVC",
+    "parameters": {
+      "C": 10.0,
+      "gamma": "scale",
+      "probability": true,
+      "random_state": 43
+    },
+    "started_utc": "2026-10-02T05:25:25.104158+00:00",
+    "status": "success",
+    "class_counts": {
+      "fit_subjects": [
+        8,
+        3,
+        21,
+        14,
+        30,
+        17,
+        28,
+        5,
+        22,
+        15,
+        11,
+        29,
+        19,
+        26,
+        27,
+        16,
+        23
+      ],
+      "development_subjects": [
+        7,
+        25,
+        1,
+        6
+      ],
+      "fit_rows": 5963,
+      "development_rows": 1389,
+      "fit_class_counts": [
+        943,
+        853,
+        784,
+        1071,
+        1137,
+        1175
+      ],
+      "development_class_counts": [
+        283,
+        220,
+        202,
+        215,
+        237,
+        232
+      ],
+      "saved_scaler_fit_only_verified": true
+    },
+    "warnings": [
+      {
+        "category": "FutureWarning",
+        "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+      }
+    ],
+    "fit_seconds": 4.574350599985337,
+    "development_probability_seconds": 0.3921919999993406,
+    "completed_utc": "2026-10-02T05:25:30.097256+00:00",
+    "temperature_trials": [
+      {
+        "temperature": 0.75,
+        "half_brier": 0.08525879665418187,
+        "accuracy": 0.8862491000719942,
+        "log_loss": 0.39880567577708953
+      },
+      {
+        "temperature": 1.0,
+        "half_brier": 0.08173906679728062,
+        "accuracy": 0.8862491000719942,
+        "log_loss": 0.3430146833761386
+      },
+      {
+        "temperature": 1.25,
+        "half_brier": 0.080011661385277,
+        "accuracy": 0.8862491000719942,
+        "log_loss": 0.3238082219407414
+      },
+      {
+        "temperature": 1.5,
+        "half_brier": 0.08004366367648756,
+        "accuracy": 0.8862491000719942,
+        "log_loss": 0.32589425186980114
+      },
+      {
+        "temperature": 2.0,
+        "half_brier": 0.08551363099778561,
+        "accuracy": 0.8862491000719942,
+        "log_loss": 0.3682654750255516
+      },
+      {
+        "temperature": 3.0,
+        "half_brier": 0.11448465681581108,
+        "accuracy": 0.8862491000719942,
+        "log_loss": 0.5180435488591197
+      }
+    ],
+    "chosen_temperature": 1.25,
+    "selected_metrics": {
+      "half_brier": 0.080011661385277,
+      "accuracy": 0.8862491000719942,
+      "log_loss": 0.3238082219407414
+    },
+    "raw_metrics": {
+      "half_brier": 0.08173906679728062,
+      "accuracy": 0.8862491000719942,
+      "log_loss": 0.34301468337613855
+    },
+    "model_shape": {
+      "n_features": 153,
+      "classes": 6,
+      "support_vectors": 1590,
+      "support_per_class": [
+        245,
+        340,
+        281,
+        303,
+        289,
+        132
+      ],
+      "internal_probability_calibration": "LIBSVM fitting-data-only five-fold CV, not subject-grouped"
+    },
+    "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__rbf_svc.joblib",
+    "model_sha256": "f3a158b8cfe3f373c2d746d51cc892be43a97a85d92d798801c6c8d763065063",
+    "model_bytes": 1130508,
+    "predictions_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\seed43__rbf_svc__development.npz"
+  }
+]

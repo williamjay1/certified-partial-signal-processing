@@ -1,0 +1,8 @@
+{
+  "created_epoch_seconds": 1790876471.2687225,
+  "scope": "Bank uncertainty only, after replay; cohort IDs, policies, predictions and times unchanged",
+  "reason": "Bank split_group encodes individual rows but existing full-test paired uncertainty uses 250-row chronological blocks; retain split IDs and derive separate bootstrap_unit consistently",
+  "source": "scripts/analyze_aligned.py: dataset_units",
+  "rule": "datasets/bank.npz original_row_index[cohort_indices] // 250",
+  "outcome_dependence": "rule selected from prior full-test analysis and temporal sampling structure, not to alter results"
+}

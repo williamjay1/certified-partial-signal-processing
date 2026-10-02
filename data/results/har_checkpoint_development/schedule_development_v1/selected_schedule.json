@@ -1,0 +1,18 @@
+{
+  "stage": "DEVELOPMENT_SELECTED_COMMON_CHECKPOINT_SCHEDULE",
+  "schedule": "C",
+  "checkpoints": [
+    12,
+    16,
+    18
+  ],
+  "primary_delta": 0.025,
+  "scores_equal_seed_mean_ms": {
+    "A": 1.258719074074074,
+    "B": 1.2193022592592593,
+    "C": 1.1932157037037037
+  },
+  "source_results_sha256": "3b111dc634add55b2d92852847a596c90e17e47c4f29cb0dadca15144bdc9ab9",
+  "script_sha256": "21b30cdc61ea834a3f6e2a1469e472a57d3400ad4204d2415adc117525d604e4",
+  "shared_pipeline_sha256": "b04be8facc8938d62e7c0330e9998f78aa620c5f2b9c5199dac0fc243cd67c3a"
+}

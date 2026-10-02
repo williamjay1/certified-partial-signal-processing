@@ -1,0 +1,49 @@
+{
+  "status": "PASS_FINITE_SYNTHETIC_MODEL_CONFORMANCE",
+  "models": [
+    {
+      "model": "HAR HGB 17",
+      "model_sha256": "50e9fbc2cf390d9fcd7ccf2aeca077859580cfc597b54d4921b69f6b74db5555",
+      "temperature": 2.0,
+      "synthetic_probes": 8,
+      "certificate_checks": 432,
+      "maximum_native_compiled_probability_difference": 0.0,
+      "maximum_score_interval_violation_nonnegative": 0.0,
+      "maximum_certificate_violation_nonnegative": 0.0
+    },
+    {
+      "model": "HAR HGB 29",
+      "model_sha256": "8f38a7b0fcd578c0c4d4a90973e3dbee279fddf831098f10c9a4ac80178ff064",
+      "temperature": 3.0,
+      "synthetic_probes": 8,
+      "certificate_checks": 432,
+      "maximum_native_compiled_probability_difference": 3.608224830031759e-16,
+      "maximum_score_interval_violation_nonnegative": 0.0,
+      "maximum_certificate_violation_nonnegative": 0.0
+    },
+    {
+      "model": "HAR HGB 43",
+      "model_sha256": "5c9d89634a45abd57122005e22bfb951b9e0f052d40390f9bc36c8e0feb04699",
+      "temperature": 2.0,
+      "synthetic_probes": 8,
+      "certificate_checks": 432,
+      "maximum_native_compiled_probability_difference": 0.0,
+      "maximum_score_interval_violation_nonnegative": 0.0,
+      "maximum_certificate_violation_nonnegative": 0.0
+    },
+    {
+      "model": "Hydraulic HGB 17",
+      "model_sha256": "3a1aadd8996eb131b1d6fc391925f3a15c99cbf4f77583046ee0b51f492b23fd",
+      "temperature": 1.0,
+      "synthetic_probes": 8,
+      "certificate_checks": 672,
+      "maximum_native_compiled_probability_difference": 0.0,
+      "maximum_score_interval_violation_nonnegative": 0.0,
+      "maximum_certificate_violation_nonnegative": 0.0
+    }
+  ],
+  "real_dataset_cases_evaluated": 0,
+  "models_fitted": 0,
+  "latencies_measured": 0,
+  "limitation": "Finite synthetic regression probes do not prove all-input floating-point soundness or reproduce empirical timing."
+}

@@ -1,0 +1,73 @@
+{
+  "status": "PASS_EXACT_SAVED_BOOTSTRAP_RECONSTRUCTION",
+  "analysis_JSON_deep_equal": true,
+  "arrays": [
+    {
+      "array": "time",
+      "shape": [
+        21,
+        10000
+      ],
+      "dtype": "float64",
+      "exact_elementwise_equal": true
+    },
+    {
+      "array": "timed_loss",
+      "shape": [
+        21,
+        10000
+      ],
+      "dtype": "float64",
+      "exact_elementwise_equal": true
+    },
+    {
+      "array": "timed_difference",
+      "shape": [
+        21,
+        10000
+      ],
+      "dtype": "float64",
+      "exact_elementwise_equal": true
+    },
+    {
+      "array": "full_loss",
+      "shape": [
+        21,
+        10000
+      ],
+      "dtype": "float64",
+      "exact_elementwise_equal": true
+    },
+    {
+      "array": "full_difference",
+      "shape": [
+        21,
+        10000
+      ],
+      "dtype": "float64",
+      "exact_elementwise_equal": true
+    },
+    {
+      "array": "full_time",
+      "shape": [
+        10000
+      ],
+      "dtype": "float64",
+      "exact_elementwise_equal": true
+    },
+    {
+      "array": "subject_ids",
+      "shape": [
+        9
+      ],
+      "dtype": "int64",
+      "exact_elementwise_equal": true
+    }
+  ],
+  "repetitions": 10000,
+  "seed": 7302026,
+  "new_predictions": 0,
+  "new_times": 0,
+  "original_analysis_sha256": "16f2a051e13d7e0e4673aa5be8f2126db29bc2214b408205418405fdc8540fba",
+  "recomputed_analysis_sha256": "16f2a051e13d7e0e4673aa5be8f2126db29bc2214b408205418405fdc8540fba"
+}

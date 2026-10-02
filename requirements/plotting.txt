@@ -1,0 +1,4 @@
+-r replay.txt
+matplotlib==3.11.2
+# PDF proofreading/QA only, outside the scientific training environment:
+PyMuPDF==1.28.2

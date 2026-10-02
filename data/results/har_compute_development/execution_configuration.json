@@ -1,0 +1,37 @@
+{
+  "phase": "OFFICIAL_TRAIN_ONLY_COMPUTE_DEVELOPMENT",
+  "test_accessed": false,
+  "new_fits": 0,
+  "cache_sha256": "a23c485d48a8eca5f2f37648abe0400eebf535837998892b2ab93ab252c1756c",
+  "selection_sha256": "cc6e4115a2acb7dde5e8a7136510cd1df827586569646b60530ed5f5b51689eb",
+  "selection_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\har_model_selection\\20261002T052208Z_75415f24\\selected_hgb.json",
+  "script_sha256": "6a9d3dd3f771d02444dd2e07ce5f5ec8b2fa34ed2a82d5a46c26fec4e07a8c14",
+  "leaf_helper_sha256": "f2303717eae8bb1a270e4feeb5f686389f26c12bfe20476356d3c0a3a7e3bb04",
+  "certificate_kernel_sha256": "88a3f49cb38121ebec596da40a64d2fcad701b4ba5193611f58b7ecc7fe80f0a",
+  "D_free_bytes": 132366233600,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "deltas": [
+    0.0,
+    0.01,
+    0.025,
+    0.05,
+    0.1
+  ],
+  "singlefactor_boundary": "Frozen full models; training-only compute pricing/order; fixedbatch4"
+}

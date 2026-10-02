@@ -1,0 +1,243 @@
+{
+  "verified_utc": "2026-10-02T05:26:23.594571+00:00",
+  "attempted_models": 24,
+  "successes": 24,
+  "failures": 0,
+  "plan_and_script_unchanged_since_registry": true,
+  "stored_metric_checks": [
+    {
+      "seed": 17,
+      "candidate": "hgb_i100_l15",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "candidate": "hgb_i100_l31",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "candidate": "hgb_i150_l15",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "candidate": "hgb_i150_l31",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "candidate": "random_forest",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "candidate": "extra_trees",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "candidate": "logistic",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 17,
+      "candidate": "rbf_svc",
+      "stored_probability_loss_verified": true,
+      "warnings": [
+        {
+          "category": "FutureWarning",
+          "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "candidate": "hgb_i100_l15",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "candidate": "hgb_i100_l31",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "candidate": "hgb_i150_l15",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "candidate": "hgb_i150_l31",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "candidate": "random_forest",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "candidate": "extra_trees",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "candidate": "logistic",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 29,
+      "candidate": "rbf_svc",
+      "stored_probability_loss_verified": true,
+      "warnings": [
+        {
+          "category": "FutureWarning",
+          "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "candidate": "hgb_i100_l15",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "candidate": "hgb_i100_l31",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "candidate": "hgb_i150_l15",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "candidate": "hgb_i150_l31",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "candidate": "random_forest",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "candidate": "extra_trees",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "candidate": "logistic",
+      "stored_probability_loss_verified": true,
+      "warnings": []
+    },
+    {
+      "seed": 43,
+      "candidate": "rbf_svc",
+      "stored_probability_loss_verified": true,
+      "warnings": [
+        {
+          "category": "FutureWarning",
+          "message": "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+        }
+      ]
+    }
+  ],
+  "selected_reload_checks": [
+    {
+      "seed": 17,
+      "temperature": 2.0,
+      "model": "hgb_i150_l15",
+      "reload_probability_max_abs_error": 0.0,
+      "shape": {
+        "n_features": 153,
+        "iterations": 150,
+        "classes": 6,
+        "trees": 900,
+        "nodes": 22304,
+        "leaves": 11602,
+        "max_depth": 11
+      }
+    },
+    {
+      "seed": 29,
+      "temperature": 3.0,
+      "model": "hgb_i150_l15",
+      "reload_probability_max_abs_error": 0.0,
+      "shape": {
+        "n_features": 153,
+        "iterations": 150,
+        "classes": 6,
+        "trees": 900,
+        "nodes": 22358,
+        "leaves": 11629,
+        "max_depth": 12
+      }
+    },
+    {
+      "seed": 43,
+      "temperature": 2.0,
+      "model": "hgb_i100_l15",
+      "reload_probability_max_abs_error": 0.0,
+      "shape": {
+        "n_features": 153,
+        "iterations": 100,
+        "classes": 6,
+        "trees": 600,
+        "nodes": 14990,
+        "leaves": 7795,
+        "max_depth": 11
+      }
+    }
+  ],
+  "descriptive_equal_seed_averages": {
+    "HGB": {
+      "half_brier": 0.07692588836854568,
+      "accuracy": 0.9015633338508241,
+      "log_loss": 0.3251257323786495
+    },
+    "RF": {
+      "half_brier": 0.08188536905572784,
+      "accuracy": 0.8980026393610264,
+      "log_loss": 0.37783665043246856
+    },
+    "ET": {
+      "half_brier": 0.08044992384926179,
+      "accuracy": 0.9035538457465851,
+      "log_loss": 0.31786541032655247
+    },
+    "LR": {
+      "half_brier": 0.09146513332239724,
+      "accuracy": 0.8815107017738772,
+      "log_loss": 0.3568684260050456
+    },
+    "SVC": {
+      "half_brier": 0.07568888013987725,
+      "accuracy": 0.9017202209036345,
+      "log_loss": 0.3192903579458739
+    }
+  },
+  "warning": "Splits overlap across seeds; averages are descriptive sensitivity summaries, not independent replications."
+}

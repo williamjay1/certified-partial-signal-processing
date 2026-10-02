@@ -1,0 +1,9 @@
+{
+  "fully_observed_native_max_probability_difference": 0.0,
+  "prefixes_checked": 168,
+  "random_prefix_cases": 12,
+  "maximum_probability_interval_violation_signed": -2.007358851623814e-13,
+  "maximum_logit_interval_violation_signed": -2.887416000740828e-12,
+  "maximum_every_label_certificate_violation_signed": 1.1102230246251565e-16,
+  "status": "PASS_NUMERICAL_CHECKS_NOT_FORMAL_FLOATING_POINT_PROOF"
+}

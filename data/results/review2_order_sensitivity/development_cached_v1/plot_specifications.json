@@ -1,0 +1,25 @@
+{
+  "figures": [
+    {
+      "name": "development_block_order_sensitivity",
+      "source": "executed_results.json",
+      "x": "order",
+      "y": [
+        "mean_blocks",
+        "fallback_fraction"
+      ],
+      "facet": "seed"
+    },
+    {
+      "name": "first_checkpoint_outer_uncertainty",
+      "source": "executed_results.json",
+      "x": "order",
+      "y": [
+        "mean_first_checkpoint_sum_probability_width",
+        "mean_first_checkpoint_diameter_upper_proxy"
+      ],
+      "facet": "seed",
+      "note": "Outer-set proxies; not exact tree correlation gap"
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "stage": "NATURE_STYLE_FROM_UNCHANGED_EXECUTED_OUTPUTS",
+  "style_inheritance": {
+    "SciencePlots_commit": "b9b16959570bd2fbc9ff5118bacc423c3bddd592",
+    "Baker_skill_commit": "ee5aaa47060ed116d7ae2d2429761ae6ab07f9e0",
+    "scope": "Style-only inheritance and geometry QA; no claim of Nature certification."
+  },
+  "raster_dpi": 1000,
+  "sources": [
+    {
+      "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\data\\results\\final_analysis\\har_locked_v1\\heldout_analysis.json",
+      "sha256": "16f2a051e13d7e0e4673aa5be8f2126db29bc2214b408205418405fdc8540fba"
+    },
+    {
+      "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\data\\results\\review2_latency_analysis\\saved_output_v1\\paired_call_data.csv",
+      "sha256": "161e8f47eb3c5aefa38f4fe655acc08ecc84360ebddad70406aef26b0eac0e8e"
+    },
+    {
+      "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\data\\results\\review2_latency_analysis\\component_profile_v1\\component_profile.json",
+      "sha256": "8470f6196f8f2d8f8d6c3ebfa85e3ba8ec561de53fcbb0e54b97938fc94c7539"
+    },
+    {
+      "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\data\\results\\hydraulic_external_confirmation\\20261002T061642Z_3208a13f\\executed_results.json",
+      "sha256": "73f863c425fc565fee2835db9e4f3ce29bc87d747b6b57b5a8d91667615e96ed"
+    }
+  ],
+  "figures": [
+    {
+      "name": "figure2_subject_variation",
+      "question": "How do cost savings and probability deterioration vary by unseen subject?",
+      "scope": "Nine people; three frozen systems averaged. Top: 100 timed windows/person. Bottom: all 2,947 released windows. Descriptive means, no false independent-system interval.",
+      "width_mm": 183,
+      "height_mm": 94.0,
+      "raster_dpi": 1000,
+      "editable_vector": true,
+      "data": [
+        {
+          "subject": 2,
+          "full_cases": 302,
+          "timed_cases": 100,
+          "mean_time_reduction": 0.09830868603422172,
+          "full_risk_excess": 0.0020304928703341585
+        },
+        {
+          "subject": 4,
+          "full_cases": 317,
+          "timed_cases": 100,
+          "mean_time_reduction": 0.0401291897659104,
+          "full_risk_excess": 0.004487513276011916
+        },
+        {
+          "subject": 9,
+          "full_cases": 288,
+          "timed_cases": 100,
+          "mean_time_reduction": 0.027991735253160233,
+          "full_risk_excess": 0.003566030397461612
+        },
+        {
+          "subject": 10,
+          "full_cases": 294,
+          "timed_cases": 100,
+          "mean_time_reduction": 0.08377413798947853,
+          "full_risk_excess": 0.001790186447619355
+        },
+        {
+          "subject": 12,
+          "full_cases": 320,
+          "timed_cases": 100,
+          "mean_time_reduction": 0.055418062054339856,
+          "full_risk_excess": 0.0032821346051539004
+        },
+        {
+          "subject": 13,
+          "full_cases": 327,
+          "timed_cases": 100,
+          "mean_time_reduction": 0.10162611434205626,
+          "full_risk_excess": 0.005643226365970741
+        },
+        {
+          "subject": 18,
+          "full_cases": 364,
+          "timed_cases": 100,
+          "mean_time_reduction": 0.09276834520221744,
+          "full_risk_excess": 0.004695457692060176
+        },
+        {
+          "subject": 20,
+          "full_cases": 354,
+          "timed_cases": 100,
+          "mean_time_reduction": 0.02750730106085153,
+          "full_risk_excess": 0.005063108745081031
+        },
+        {
+          "subject": 24,
+          "full_cases": 381,
+          "timed_cases": 100,
+          "mean_time_reduction": 0.1235814401683929,
+          "full_risk_excess": 0.006641522514006533
+        }
+      ],
+      "text_geometry": "PASS",
+      "panel_alignment": null
+    },
+    {
+      "name": "figure3_stopping_controls",
+      "question": "Does a lower mean cost also preserve the individual probability tolerance?",
+      "scope": "Left: same 900 windows; right: 2,947 windows \u00d7 three frozen systems = 8,841 outputs. Delta=0.025; all seven controls retained; fixed-prefix and entropy have identical outputs.",
+      "width_mm": 183,
+      "height_mm": 98.0,
+      "raster_dpi": 1000,
+      "editable_vector": true,
+      "data": {
+        "reference_ms": 1.0800109753086418,
+        "controls": [
+          {
+            "method": "Simplex minimax",
+            "complete_mean_ms": 1.0013223950617285,
+            "all_test_system_windows": 8841,
+            "every_label_tolerance_exceedances": 0,
+            "exceedance_pct": 0.0
+          },
+          {
+            "method": "Coordinate minimax",
+            "complete_mean_ms": 1.001969135802469,
+            "all_test_system_windows": 8841,
+            "every_label_tolerance_exceedances": 0,
+            "exceedance_pct": 0.0
+          },
+          {
+            "method": "Certified midpoint",
+            "complete_mean_ms": 1.1375133456790125,
+            "all_test_system_windows": 8841,
+            "every_label_tolerance_exceedances": 0,
+            "exceedance_pct": 0.0
+          },
+          {
+            "method": "Uniform checkpoints",
+            "complete_mean_ms": 1.1089921111111112,
+            "all_test_system_windows": 8841,
+            "every_label_tolerance_exceedances": 0,
+            "exceedance_pct": 0.0
+          },
+          {
+            "method": "Class preservation",
+            "complete_mean_ms": 0.8621447037037037,
+            "all_test_system_windows": 8841,
+            "every_label_tolerance_exceedances": 4271,
+            "exceedance_pct": 48.309014817328354
+          },
+          {
+            "method": "Fixed prefix",
+            "complete_mean_ms": 0.7755213580246912,
+            "all_test_system_windows": 8841,
+            "every_label_tolerance_exceedances": 1972,
+            "exceedance_pct": 22.305169098518267
+          },
+          {
+            "method": "Entropy",
+            "complete_mean_ms": 0.7682842592592593,
+            "all_test_system_windows": 8841,
+            "every_label_tolerance_exceedances": 1972,
+            "exceedance_pct": 22.305169098518267
+          }
+        ]
+      },
+      "text_geometry": "PASS",
+      "panel_alignment": null
+    },
+    {
+      "name": "figure4_fidelity_time",
+      "question": "What measured complete-time/fidelity trade-off follows from the requested tolerance?",
+      "scope": "All five tolerances, original contemporaneous full references. HAR intervals: marginal 95% shared-subject bootstrap, not a joint region. Hydraulic descriptive; no CI fabricated.",
+      "width_mm": 183,
+      "height_mm": 89.0,
+      "raster_dpi": 1000,
+      "editable_vector": true,
+      "data": [
+        {
+          "workload": "HAR",
+          "delta": 0,
+          "mean_half_brier_increase": 0.0,
+          "complete_mean_time_ratio": 1.1693561893272486,
+          "loss_increase_ci_low": 0.0,
+          "loss_increase_ci_high": 0.0,
+          "time_ratio_ci_low": 1.1498780839410914,
+          "time_ratio_ci_high": 1.1851799621561347
+        },
+        {
+          "workload": "HAR",
+          "delta": 0.01,
+          "mean_half_brier_increase": 0.0012264722155478332,
+          "complete_mean_time_ratio": 0.9869707656948937,
+          "loss_increase_ci_low": 0.0007578782156541548,
+          "loss_increase_ci_high": 0.0016061771087002921,
+          "time_ratio_ci_low": 0.9709020357210234,
+          "time_ratio_ci_high": 1.003020877561615
+        },
+        {
+          "workload": "HAR",
+          "delta": 0.025,
+          "mean_half_brier_increase": 0.0040717987558662495,
+          "complete_mean_time_ratio": 0.9271409438923286,
+          "loss_increase_ci_low": 0.003044352977027142,
+          "loss_increase_ci_high": 0.005049913823334668,
+          "time_ratio_ci_low": 0.90552375338538,
+          "time_ratio_ci_high": 0.9493046502752909
+        },
+        {
+          "workload": "HAR",
+          "delta": 0.05,
+          "mean_half_brier_increase": 0.008114926790894853,
+          "complete_mean_time_ratio": 0.8789332147733435,
+          "loss_increase_ci_low": 0.005515483417214215,
+          "loss_increase_ci_high": 0.010482963713266916,
+          "time_ratio_ci_low": 0.8592153167137135,
+          "time_ratio_ci_high": 0.9000975953828229
+        },
+        {
+          "workload": "HAR",
+          "delta": 0.1,
+          "mean_half_brier_increase": 0.016081957494598117,
+          "complete_mean_time_ratio": 0.8211214908892844,
+          "loss_increase_ci_low": 0.010605300681737762,
+          "loss_increase_ci_high": 0.02101040583944417,
+          "time_ratio_ci_low": 0.8055954136001875,
+          "time_ratio_ci_high": 0.8369865417098644
+        },
+        {
+          "workload": "Hydraulic",
+          "delta": 0,
+          "mean_half_brier_increase": 0.0,
+          "complete_mean_time_ratio": 1.086787636805194
+        },
+        {
+          "workload": "Hydraulic",
+          "delta": 0.01,
+          "mean_half_brier_increase": 0.0007129146518973375,
+          "complete_mean_time_ratio": 0.790663541088921
+        },
+        {
+          "workload": "Hydraulic",
+          "delta": 0.025,
+          "mean_half_brier_increase": 0.002957261266761531,
+          "complete_mean_time_ratio": 0.7479768540227392
+        },
+        {
+          "workload": "Hydraulic",
+          "delta": 0.05,
+          "mean_half_brier_increase": 0.0049592467578278045,
+          "complete_mean_time_ratio": 0.6901668011823088
+        },
+        {
+          "workload": "Hydraulic",
+          "delta": 0.1,
+          "mean_half_brier_increase": 0.013850973298198047,
+          "complete_mean_time_ratio": 0.6034693891546817
+        }
+      ],
+      "text_geometry": "PASS",
+      "panel_alignment": null
+    },
+    {
+      "name": "figure5_latency_tails",
+      "question": "Do lower mean costs coexist with adverse execution-time tails?",
+      "scope": "Original uninstrumented calls; 2,700 calls/method/system, all retained, including the 72.1447 ms full call. Upper row exact empirical survival, lower row raw-call quantiles.",
+      "width_mm": 183,
+      "height_mm": 132.0,
+      "raster_dpi": 1000,
+      "editable_vector": true,
+      "data": {
+        "quantiles": [
+          {
+            "system": 17,
+            "calls_per_method": 2700,
+            "quantile": 0.5,
+            "full_ms": 0.9822500000000001,
+            "partial_ms": 0.9142
+          },
+          {
+            "system": 17,
+            "calls_per_method": 2700,
+            "quantile": 0.95,
+            "full_ms": 1.9083299999999999,
+            "partial_ms": 1.8191199999999998
+          },
+          {
+            "system": 17,
+            "calls_per_method": 2700,
+            "quantile": 0.99,
+            "full_ms": 2.3202079999999996,
+            "partial_ms": 2.3418019999999973
+          },
+          {
+            "system": 29,
+            "calls_per_method": 2700,
+            "quantile": 0.5,
+            "full_ms": 0.9155,
+            "partial_ms": 0.9410499999999999
+          },
+          {
+            "system": 29,
+            "calls_per_method": 2700,
+            "quantile": 0.95,
+            "full_ms": 1.6004099999999999,
+            "partial_ms": 1.7063049999999993
+          },
+          {
+            "system": 29,
+            "calls_per_method": 2700,
+            "quantile": 0.99,
+            "full_ms": 2.0978169999999996,
+            "partial_ms": 2.187747999999997
+          },
+          {
+            "system": 43,
+            "calls_per_method": 2700,
+            "quantile": 0.5,
+            "full_ms": 0.9309499999999999,
+            "partial_ms": 0.86985
+          },
+          {
+            "system": 43,
+            "calls_per_method": 2700,
+            "quantile": 0.95,
+            "full_ms": 1.7704299999999993,
+            "partial_ms": 1.6877449999999998
+          },
+          {
+            "system": 43,
+            "calls_per_method": 2700,
+            "quantile": 0.99,
+            "full_ms": 2.225131999999999,
+            "partial_ms": 2.276309999999995
+          }
+        ],
+        "maximum_full_ms": 72.1447,
+        "maximum_partial_ms": 5.9052
+      },
+      "text_geometry": "PASS",
+      "panel_alignment": null
+    },
+    {
+      "name": "figure6_component_cost",
+      "question": "How much diagnostic time belongs to signal work and to the certification decision?",
+      "scope": "Separate instrumented 36-window diagnostic shared by three systems and three repeats: 324 calls/method. All eight nonoverlapping components and signed residual retained. Small-component panel magnifies the same records; no substitution for main timing.",
+      "width_mm": 183,
+      "height_mm": 123.0,
+      "raster_dpi": 1000,
+      "editable_vector": true,
+      "data": [
+        {
+          "system": 17,
+          "method": "instrumented_compiled_full",
+          "complete_ms": 0.8253351851851851,
+          "state_setup_ms": 0.001575925925925926,
+          "feature_ms": 0.7644240740740741,
+          "leaf_enclosure_ms": 0.0,
+          "probability_interval_ms": 0.0,
+          "output_certificate_ms": 0.0,
+          "control_ms": 0.0009083333333333333,
+          "exact_fallback_ms": 0.056621296296296295,
+          "unassigned_instrumentation_residual_ms": 0.0018055555555555602
+        },
+        {
+          "system": 17,
+          "method": "instrumented_tight_primary",
+          "complete_ms": 0.7684601851851851,
+          "state_setup_ms": 0.0031194444444444442,
+          "feature_ms": 0.6371064814814815,
+          "leaf_enclosure_ms": 0.09309074074074077,
+          "probability_interval_ms": 0.005577777777777778,
+          "output_certificate_ms": 0.011675000000000001,
+          "control_ms": 0.0017407407407407408,
+          "exact_fallback_ms": 0.011614814814814814,
+          "unassigned_instrumentation_residual_ms": 0.004535185185185187
+        },
+        {
+          "system": 29,
+          "method": "instrumented_compiled_full",
+          "complete_ms": 0.8086611111111113,
+          "state_setup_ms": 0.0014824074074074073,
+          "feature_ms": 0.7381592592592594,
+          "leaf_enclosure_ms": 0.0,
+          "probability_interval_ms": 0.0,
+          "output_certificate_ms": 0.0,
+          "control_ms": 0.0008490740740740742,
+          "exact_fallback_ms": 0.06645740740740741,
+          "unassigned_instrumentation_residual_ms": 0.0017129629629629665
+        },
+        {
+          "system": 29,
+          "method": "instrumented_tight_primary",
+          "complete_ms": 0.8907851851851852,
+          "state_setup_ms": 0.0028972222222222225,
+          "feature_ms": 0.6888175925925926,
+          "leaf_enclosure_ms": 0.1388,
+          "probability_interval_ms": 0.008049999999999998,
+          "output_certificate_ms": 0.014403703703703705,
+          "control_ms": 0.002030555555555556,
+          "exact_fallback_ms": 0.03041388888888889,
+          "unassigned_instrumentation_residual_ms": 0.005372222222222234
+        },
+        {
+          "system": 43,
+          "method": "instrumented_compiled_full",
+          "complete_ms": 0.8460907407407406,
+          "state_setup_ms": 0.0015694444444444445,
+          "feature_ms": 0.7971694444444446,
+          "leaf_enclosure_ms": 0.0,
+          "probability_interval_ms": 0.0,
+          "output_certificate_ms": 0.0,
+          "control_ms": 0.0009666666666666669,
+          "exact_fallback_ms": 0.04454722222222222,
+          "unassigned_instrumentation_residual_ms": 0.0018379629629629662
+        },
+        {
+          "system": 43,
+          "method": "instrumented_tight_primary",
+          "complete_ms": 0.7840935185185186,
+          "state_setup_ms": 0.0031722222222222225,
+          "feature_ms": 0.6773157407407407,
+          "leaf_enclosure_ms": 0.07047129629629628,
+          "probability_interval_ms": 0.006999074074074074,
+          "output_certificate_ms": 0.01350462962962963,
+          "control_ms": 0.001946296296296296,
+          "exact_fallback_ms": 0.005932407407407408,
+          "unassigned_instrumentation_residual_ms": 0.00475185185185186
+        }
+      ],
+      "text_geometry": "PASS",
+      "panel_alignment": null
+    }
+  ],
+  "model_fits": 0,
+  "model_predictions": 0,
+  "timing_calls": 0
+}

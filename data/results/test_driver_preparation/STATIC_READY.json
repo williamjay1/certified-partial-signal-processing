@@ -1,0 +1,113 @@
+{
+  "status": "AST_AND_SYNTHETIC_INTERFACE_PASS",
+  "test_cache_or_test_archive_read": false,
+  "fits": 0,
+  "synthetic_tests": [
+    "deterministic nine-subject balanced shared 900 cohort",
+    "canonical17 plus auxiliary1 plus controls3 count",
+    "certified versus uncertified excess API",
+    "frozen control state dependency/hash consistency"
+  ],
+  "fixed_models_and_orders": {
+    "17": {
+      "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed17__hgb_i150_l15.joblib",
+      "model_sha256": "50e9fbc2cf390d9fcd7ccf2aeca077859580cfc597b54d4921b69f6b74db5555",
+      "temperature": 2.0,
+      "order": [
+        0,
+        2,
+        6,
+        13,
+        12,
+        5,
+        7,
+        1,
+        17,
+        4,
+        16,
+        14,
+        10,
+        11,
+        9,
+        15,
+        8,
+        3
+      ],
+      "checkpoints": [
+        12,
+        16,
+        18
+      ],
+      "fixed_prefix_blocks": 12,
+      "entropy_threshold": 1.0,
+      "entropy_force_full": false
+    },
+    "29": {
+      "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed29__hgb_i150_l15.joblib",
+      "model_sha256": "8f38a7b0fcd578c0c4d4a90973e3dbee279fddf831098f10c9a4ac80178ff064",
+      "temperature": 3.0,
+      "order": [
+        0,
+        2,
+        6,
+        13,
+        12,
+        5,
+        17,
+        1,
+        7,
+        15,
+        8,
+        4,
+        11,
+        16,
+        9,
+        14,
+        10,
+        3
+      ],
+      "checkpoints": [
+        12,
+        16,
+        18
+      ],
+      "fixed_prefix_blocks": 12,
+      "entropy_threshold": 1.0,
+      "entropy_force_full": false
+    },
+    "43": {
+      "model_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\checkpoints\\har_models\\20261002T052208Z_75415f24\\seed43__hgb_i100_l15.joblib",
+      "model_sha256": "5c9d89634a45abd57122005e22bfb951b9e0f052d40390f9bc36c8e0feb04699",
+      "temperature": 2.0,
+      "order": [
+        0,
+        2,
+        6,
+        12,
+        5,
+        13,
+        17,
+        7,
+        4,
+        16,
+        15,
+        11,
+        1,
+        10,
+        14,
+        9,
+        3,
+        8
+      ],
+      "checkpoints": [
+        12,
+        16,
+        18
+      ],
+      "fixed_prefix_blocks": 12,
+      "entropy_threshold": 1.0,
+      "entropy_force_full": false
+    }
+  },
+  "required_lock_fields": "HAR_TEST_LOCK_REQUIRED_FIELDS.json"
+}

@@ -1,0 +1,154 @@
+{
+  "task": "spambase",
+  "seed": 17,
+  "cases": 32,
+  "unique_split_units": 31,
+  "repetitions": 1,
+  "indices": [
+    0,
+    3,
+    7,
+    17,
+    20,
+    22,
+    23,
+    25,
+    29,
+    43,
+    51,
+    52,
+    56,
+    62,
+    75,
+    78,
+    79,
+    82,
+    83,
+    87,
+    88,
+    90,
+    91,
+    97,
+    113,
+    114,
+    115,
+    117,
+    121,
+    126,
+    127,
+    128
+  ],
+  "profiled": false,
+  "original32": true,
+  "scenario": "support",
+  "nominal_budget_fraction": 0.3,
+  "requested_call_fraction": 0.25,
+  "per_case_rng": "20261002 + position within frozen full test indices",
+  "method_orders": [
+    [
+      "gain",
+      "always",
+      "static",
+      "entropy",
+      "distilled_once"
+    ]
+  ],
+  "warmup_index": 137,
+  "torch_threads": 1,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\ptenv\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\ptenv\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "sources_sha256": {
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\results\\aligned_diagnostics\\spambase\\seed_17\\serial_runtime.json": "172581520b5c8925da8bcd2c6f637b90fd7bb55272c6ac6d23905c882cc1c702",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\results\\aligned_v5\\spambase\\seed_17\\support_30_static.npz": "b87ab04391ed8c616afd81c4ce07ce34e188816073430a1c74c3558be3e4d0c3",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\results\\aligned_v5\\spambase\\seed_17\\gate_config.json": "2dc72252fdec3f812c7682c5d4264ea26a9c3cb66d78291155c8377e8a135c81",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\checkpoints\\aligned_v5\\spambase\\seed_17\\models.pt": "9691d3cd07fef162908a9c2dcc9d9a01b6baa9350dc0b48c3aade7ebaa3472ab",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\checkpoints\\aligned_v5\\spambase\\seed_17\\gain_model.joblib": "9409fdc4aa908fcc7e2c86d0e56608f4617d58c5652ed1409761a86b6008277f",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\checkpoints\\aligned_v5\\spambase\\seed_17\\split_indices.npz": "441fd734e0d5bf2622536d8fdf9207226de7681b29c1ff00e766cd0457f8418d",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\datasets\\spambase.npz": "67e9bce4b6fc5385d8bbaaf102859100064fa4c5c843dbe86db7f71dd2f2b7bd",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\scripts\\deployment_aligned.py": "75a683bc2e538e904b80d8547a62043574638812ba67aec3ef613183506f47a6",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\scripts\\methods.py": "14725feda12c6b211074946af8980b49c752b8e4c4be3c9ebf5de575ae3cc8f7"
+  },
+  "script_sha256": "08a607ad07e9d9f90c99da24d2111ddc334a7cc6a3e7383a394cb90cfe5d70e9",
+  "prediction_and_mask_equal_across_repetitions": true,
+  "original_work_and_search_replay_checks": [
+    {
+      "method": "static",
+      "prediction_rows_per_case": 1.0,
+      "search_rate": 0.0,
+      "all_original_repetitions_match": true
+    },
+    {
+      "method": "always",
+      "prediction_rows_per_case": 145.0,
+      "search_rate": 1.0,
+      "all_original_repetitions_match": true
+    },
+    {
+      "method": "gain",
+      "prediction_rows_per_case": 74.65625,
+      "search_rate": 0.40625,
+      "all_original_repetitions_match": true
+    },
+    {
+      "method": "entropy",
+      "prediction_rows_per_case": 59.25,
+      "search_rate": 0.3125,
+      "all_original_repetitions_match": true
+    },
+    {
+      "method": "distilled_once",
+      "prediction_rows_per_case": 2.0,
+      "search_rate": 0.0,
+      "all_original_repetitions_match": true
+    }
+  ],
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "wall_clock": "time.perf_counter",
+  "cpu_clock": "time.process_time",
+  "boundary": "Fixed diagnostic cohort, one fitted seed, host-specific CPU; no new fit, no population latency or hardware speedup claim. Labels enter only after execution."
+}

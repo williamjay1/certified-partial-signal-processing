@@ -1,0 +1,490 @@
+{
+  "stage": "EXECUTED_NATURE_STYLE_ARTWORK_QA",
+  "figures": 6,
+  "tables": 12,
+  "raster_dpi": 1000,
+  "qa": [
+    {
+      "asset": "figure1_workflow",
+      "width_mm": 183.0000055948893,
+      "height_mm": 98.00000440809461,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "BMWXJH+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 40072
+        },
+        {
+          "name": "LABUVA+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 24864
+        }
+      ],
+      "minimum_pdf_font_pt": 7.0,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "b01821f9bbe807d6881ff9b851ed0a361a12617ae6356c37908ec190c33bf0bb",
+      "svg_sha256": "0a09aaff7a233b6590151270b06567c3d38a10f109cb7190d825b47413890cd1"
+    },
+    {
+      "asset": "figure2_subject_variation",
+      "width_mm": 183.0000055948893,
+      "height_mm": 94.00000093248156,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "DIVKDO+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 41052
+        },
+        {
+          "name": "MWOAYY+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 15220
+        },
+        {
+          "name": "CYLBEN+DejaVuSans",
+          "type": "Type0",
+          "embedded_bytes": 3716
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "01427c2896a87dcc81e1a14bf0df76c74a63f1dcda0850fd5b50178e61d15d63",
+      "svg_sha256": "bda6809368cf01cb4969d573cf5a011565166b6c5bb3532be0cb79845404e1df"
+    },
+    {
+      "asset": "figure3_stopping_controls",
+      "width_mm": 183.0000055948893,
+      "height_mm": 98.00000440809461,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "CMGPJP+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 40864
+        },
+        {
+          "name": "MWOAYY+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 15220
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "32e00c50ebb38057f67251f0da59ac889dee6da514c38fbfc18dbc17bce73b3d",
+      "svg_sha256": "fb8e5734628a939b5a0248e88c20d82af6459050b707b3e8cd1c661d346e41f3"
+    },
+    {
+      "asset": "figure4_fidelity_time",
+      "width_mm": 183.0000055948893,
+      "height_mm": 88.99999927944606,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "HJBKUT+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 42572
+        },
+        {
+          "name": "MWOAYY+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 15220
+        },
+        {
+          "name": "CYLBEN+DejaVuSans",
+          "type": "Type0",
+          "embedded_bytes": 3716
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "6d0267d56a4089bf0f7edd4baf58441a3be815a5bd5898fe7899bb76f6539660",
+      "svg_sha256": "d5c3ecba197391c03fa22978d410e5f398674eb05419276f5236abe4f3bf75d8"
+    },
+    {
+      "asset": "figure5_latency_tails",
+      "width_mm": 183.0000055948893,
+      "height_mm": 131.99999627007378,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "DSNDAP+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 37376
+        },
+        {
+          "name": "HBYEQF+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 16704
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "a0a481ad6ed51be3313fb2071a3bfcaf34cab1b3540763ccd725d39f719cd2ad",
+      "svg_sha256": "bfe376b592cb54549050787cff5d2eff02809abb5af105c10e205c91e8a839a7"
+    },
+    {
+      "asset": "figure6_component_cost",
+      "width_mm": 183.0000055948893,
+      "height_mm": 122.99999652438693,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "BUDHES+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 43700
+        },
+        {
+          "name": "MWOAYY+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 15220
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "d15384306b770826f5f5e7e2d30c2e439cf3edbe0c7e4c9a9fac4b5141035f52",
+      "svg_sha256": "b7d19fb61f9d2e46ec8d6daf6ef2b6beeb2e9694bccd37bd9e77dc8844ba67e9"
+    },
+    {
+      "asset": "table01",
+      "width_mm": 183.0000055948893,
+      "height_mm": 86.42173826429578,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "DRQHUD+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 44972
+        },
+        {
+          "name": "DOHAZF+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 23484
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "7cfe1737dda954b9cada1af10b65cb5a0522b115cd06a5f06043c7cc8d6ed26a",
+      "svg_sha256": "70c924572269abab3ccf215057acf5cba288f995c78095ce3c39715a062f0e5e"
+    },
+    {
+      "asset": "table02",
+      "width_mm": 183.0000055948893,
+      "height_mm": 50.385485034518766,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "DQFOKY+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 44440
+        },
+        {
+          "name": "FAJHMP+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 25848
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "8045422713c33f216757d1f8335804e88fbaa7c6bf3b5cd2364f06664720116e",
+      "svg_sha256": "29a4702b57e685ce5518601467557550e8d8c5531afcc2d0bb9984c7bdda2cb7"
+    },
+    {
+      "asset": "table03",
+      "width_mm": 183.0000055948893,
+      "height_mm": 69.75298826429578,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "UYZBWL+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 48096
+        },
+        {
+          "name": "EHYIMY+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 29328
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "ff27ac01d0c4722c9352356aade3659a6ca30af7127ef9ef2193925ecfbcde7a",
+      "svg_sha256": "0729f46aa0230a455c3a26a480c54452b07fd4b797dd3427b9ca383e2ca78700"
+    },
+    {
+      "asset": "table04",
+      "width_mm": 183.0000055948893,
+      "height_mm": 80.4156933678521,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "FKZMXI+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 48824
+        },
+        {
+          "name": "CJPLNO+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 27300
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "19af869dd9376864d2b4aa9225c637172a0356d9aba8a2859e4a8256a0132ca9",
+      "svg_sha256": "c69216e59fbbf3fb21c7caa5bca4873aee0f85e52a72e26f6d29aaf2e5e864a2"
+    },
+    {
+      "asset": "table05",
+      "width_mm": 183.0000055948893,
+      "height_mm": 65.28152885437011,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "OVFTRH+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 44380
+        },
+        {
+          "name": "GABSDZ+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 33128
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "df48ddeaef847e03e026dfba9f7fba73de9fdf0b83a9b7b3f20dea4a324c711f",
+      "svg_sha256": "edfb814b472c8c6d4c880bbb0275038d9621b4a230603174a6a62c37118af496"
+    },
+    {
+      "asset": "table06",
+      "width_mm": 183.0000055948893,
+      "height_mm": 95.54986326429578,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "DBYHOT+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 45112
+        },
+        {
+          "name": "BZWNWG+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 28448
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "80efc3a235e3f2365a9a7e2f2bfa8b64712bd54c64bc04d6f42dc806ebb9ca49",
+      "svg_sha256": "0dc74943c1caab61c37d9c4f870d8e149c5bc34cadefe3a21eb0a1af8ce4314a"
+    },
+    {
+      "asset": "table07",
+      "width_mm": 183.0000055948893,
+      "height_mm": 79.1986111111111,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "IPZKMI+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 41200
+        },
+        {
+          "name": "DQWTNO+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 25804
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "05052ae143c963dc50d9fd44dd94678b3c5f7a0c03afcd6a8a0dab4c6af64686",
+      "svg_sha256": "219be6be977045ebf7327daf425e0203d151f4e043ba23266e7acb812037bd0c"
+    },
+    {
+      "asset": "table08",
+      "width_mm": 183.0000055948893,
+      "height_mm": 61.947779930962454,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "DXVDEI+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 40824
+        },
+        {
+          "name": "DMALQV+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 25988
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "c28e700a5a7e6fd207c43b403d251f76dee10074ea7e6d862ccafb81a05548ee",
+      "svg_sha256": "1d5e8df6270112b1399cc8f433c040356a9a94bf0b766a8208327eaee8c28bda"
+    },
+    {
+      "asset": "table09",
+      "width_mm": 183.0000055948893,
+      "height_mm": 54.38069229125976,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "DYQAQP+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 43824
+        },
+        {
+          "name": "GIBIJP+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 25908
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "8beb8260e269df999e111acf0d8eb13f2aae954e746469c3b7339a1f6449c112",
+      "svg_sha256": "bc93af1501ab77dd8abcd440a0530a8eae536e7536ed100cb747e137ebc84459"
+    },
+    {
+      "asset": "table10",
+      "width_mm": 183.0000055948893,
+      "height_mm": 62.18590062459309,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "DAJQRK+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 44336
+        },
+        {
+          "name": "CEFRNI+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 27608
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "d6ed45482d1207a59985440571b4216204398e85d951c47c4b0b81eb27f42632",
+      "svg_sha256": "b00810602bc621cdfe431337f86f1db27a30a93a6a706fc8d682fe6284fac59e"
+    },
+    {
+      "asset": "table11",
+      "width_mm": 183.0000055948893,
+      "height_mm": 65.28152885437011,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "BQJADO+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 45300
+        },
+        {
+          "name": "CSKSTO+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 27308
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "adc1f5c1014aaf366cb8624c2ff634380ba2f2c64b219abfe5497fd2df95d316",
+      "svg_sha256": "8a844d838db27e46f853acc53de1a2e96dd2a83aefa8e9eaec6d6a5cd95ec144"
+    },
+    {
+      "asset": "table12",
+      "width_mm": 183.0000055948893,
+      "height_mm": 89.75548718770344,
+      "pdf_no_raster": true,
+      "svg_no_raster": true,
+      "svg_editable_text": true,
+      "embedded_fonts": [
+        {
+          "name": "HEDWGO+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 46724
+        },
+        {
+          "name": "SFAPYJ+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 24920
+        }
+      ],
+      "minimum_pdf_font_pt": 6.5,
+      "collision_verdict": "PASS",
+      "collision_findings": 0,
+      "pdf_sha256": "7ab3d8089b5846d0ebbe0c7ca8cb3501d352980ac0a1600247578980e26c8179",
+      "svg_sha256": "7206133f5ba165ee6b14a969c8303379379e39e7e486b9dbe11c966f009c3dc5"
+    }
+  ],
+  "source_preflights": {
+    "nature_figures.py": {
+      "returncode": 0,
+      "stdout": "{\n  \"source\": \"D:\\\\MLWork\\\\ASC_CertifiedProcessing_20261002\\\\public_release\\\\scripts\\\\nature_figures.py\",\n  \"backend\": \"python\",\n  \"profile\": \"ipd-baker\",\n  \"summary\": {\n    \"ready\": true,\n    \"strict\": false,\n    \"counts\": {\n      \"PASS\": 22,\n      \"WARN\": 4,\n      \"FAIL\": 0\n    }\n  },\n  \"findings\": [\n    {\n      \"check_id\": \"SOURCE-SYNTAX\",\n      \"level\": \"PASS\",\n      \"message\": \"Python source parses successfully\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-FAMILY\",\n      \"level\": \"PASS\",\n      \"message\": \"A publication-safe sans-serif family is configured\",\n      \"evidence\": [\n        \"Arial\",\n        \"Helvetica\",\n        \"sans-serif\"\n      ]\n    },\n    {\n      \"check_id\": \"FONT-SIZE\",\n      \"level\": \"PASS\",\n      \"message\": \"All detected text sizes are at least 5 pt (minimum 6.5 pt)\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-GLYPH-FLOOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No mathtext superscript/subscript expression detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LEGEND-LABEL-CASE\",\n      \"level\": \"PASS\",\n      \"message\": \"No auditable literal legend labels detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"COLOR-MAP\",\n      \"level\": \"PASS\",\n      \"message\": \"No rainbow/jet/hsv color mapping detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EDITABLE-TEXT\",\n      \"level\": \"PASS\",\n      \"message\": \"SVG and PDF editable-text settings are configured\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-VECTOR\",\n      \"level\": \"PASS\",\n      \"message\": \"Both SVG and PDF exports are present\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-RASTER\",\n      \"level\": \"WARN\",\n      \"message\": \"PNG preview is present but no TIFF submission raster was found\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"RASTER-DPI\",\n      \"level\": \"PASS\",\n      \"message\": \"A raster export of at least 600 dpi is configured\",\n      \"evidence\": [\n        \"1000\"\n      ]\n    },\n    {\n      \"check_id\": \"FINAL-WIDTH\",\n      \"level\": \"PASS\",\n      \"message\": \"Detected width 183.0 mm matches a common journal column width\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-SAMPLING\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence row-sampling operation detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-EXCLUSION\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence missing-data exclusion detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DEMO-DATA\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious simulated-data generator detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LOG-GUARD\",\n      \"level\": \"WARN\",\n      \"message\": \"Logarithmic operation found without an obvious positivity/pseudocount guard\",\n      \"evidence\": [\n        \"set_xscale(\\\"log\"\n      ]\n    },\n    {\n      \"check_id\": \"INTERP-MONOTONIC\",\n      \"level\": \"PASS\",\n      \"message\": \"No NumPy interpolation requiring an increasing x-grid detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"UNCERTAINTY-ENCODING\",\n      \"level\": \"PASS\",\n      \"message\": \"A stochastic aggregate and uncertainty encoding are both present; still verify every comparable panel\",\n      \"evidence\": [\n        \"xerr=\",\n        \".errorbar(\"\n      ]\n    },\n    {\n      \"check_id\": \"ROTATION-ANCHOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No rotated Matplotlib text detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"ANNOTATION-WORKAROUND\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-risk hard-coded label height or opaque white text mask detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"PANEL-ALIGNMENT-GATE\",\n      \"level\": \"PASS\",\n      \"message\": \"Render-time panel-alignment gate is wired into the plotting source\",\n      \"evidence\": [\n        \"require_matplotlib_panel_alignment(\"\n      ]\n    },\n    {\n      \"check_id\": \"BACKEND-EXCLUSIVE\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious cross-backend plotting reference found for python\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-BACKEND\",\n      \"level\": \"PASS\",\n      \"message\": \"Python with an explicit Matplotlib import is configured for the IPD/Baker production profile\",\n      \"evidence\": [\n        \"line 20: import matplotlib\",\n        \"line 22: import matplotlib.pyplot\",\n        \"line 23: from matplotlib.lines import ...\",\n        \"line 24: from matplotlib.text import ...\"\n      ]\n    },\n    {\n      \"check_id\": \"IPD-NO-SEABORN\",\n      \"level\": \"PASS\",\n      \"message\": \"No Seaborn import detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-PHYSICAL-CANVAS\",\n      \"level\": \"PASS\",\n      \"message\": \"No bbox_inches='tight' export that would change the declared physical canvas was detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-PALETTE\",\n      \"level\": \"WARN\",\n      \"message\": \"Not all three IPD palette colors are explicitly present; confirm semantic color choices for this figure\",\n      \"evidence\": [\n        \"missing: #4b2e83, #4196b5, #b41f85\"\n      ]\n    },\n    {\n      \"check_id\": \"IPD-FONT-DEFAULT\",\n      \"level\": \"WARN\",\n      \"message\": \"No explicit 6 pt internal-text default was detected; confirm text sizing at final physical size\",\n      \"evidence\": []\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    "nature_workflow.py": {
+      "returncode": 0,
+      "stdout": "{\n  \"source\": \"D:\\\\MLWork\\\\ASC_CertifiedProcessing_20261002\\\\public_release\\\\scripts\\\\nature_workflow.py\",\n  \"backend\": \"python\",\n  \"profile\": \"ipd-baker\",\n  \"summary\": {\n    \"ready\": true,\n    \"strict\": false,\n    \"counts\": {\n      \"PASS\": 23,\n      \"WARN\": 3,\n      \"FAIL\": 0\n    }\n  },\n  \"findings\": [\n    {\n      \"check_id\": \"SOURCE-SYNTAX\",\n      \"level\": \"PASS\",\n      \"message\": \"Python source parses successfully\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-FAMILY\",\n      \"level\": \"PASS\",\n      \"message\": \"A publication-safe sans-serif family is configured\",\n      \"evidence\": [\n        \"Arial\",\n        \"Helvetica\",\n        \"sans-serif\"\n      ]\n    },\n    {\n      \"check_id\": \"FONT-SIZE\",\n      \"level\": \"PASS\",\n      \"message\": \"All detected text sizes are at least 5 pt (minimum 7 pt)\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-GLYPH-FLOOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No mathtext superscript/subscript expression detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LEGEND-LABEL-CASE\",\n      \"level\": \"PASS\",\n      \"message\": \"No auditable literal legend labels detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"COLOR-MAP\",\n      \"level\": \"PASS\",\n      \"message\": \"No rainbow/jet/hsv color mapping detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EDITABLE-TEXT\",\n      \"level\": \"PASS\",\n      \"message\": \"SVG and PDF editable-text settings are configured\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-VECTOR\",\n      \"level\": \"PASS\",\n      \"message\": \"Both SVG and PDF exports are present\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-RASTER\",\n      \"level\": \"PASS\",\n      \"message\": \"TIFF raster export is present\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"RASTER-DPI\",\n      \"level\": \"PASS\",\n      \"message\": \"A raster export of at least 600 dpi is configured\",\n      \"evidence\": [\n        \"1000\"\n      ]\n    },\n    {\n      \"check_id\": \"FINAL-WIDTH\",\n      \"level\": \"WARN\",\n      \"message\": \"No static final width detected; verify the target journal's current specification\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-SAMPLING\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence row-sampling operation detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-EXCLUSION\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence missing-data exclusion detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DEMO-DATA\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious simulated-data generator detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LOG-GUARD\",\n      \"level\": \"PASS\",\n      \"message\": \"No logarithmic transform or axis detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"INTERP-MONOTONIC\",\n      \"level\": \"PASS\",\n      \"message\": \"No NumPy interpolation requiring an increasing x-grid detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"UNCERTAINTY-ENCODING\",\n      \"level\": \"PASS\",\n      \"message\": \"No stochastic aggregate requiring a variability audit was inferred\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"ROTATION-ANCHOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No rotated Matplotlib text detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"ANNOTATION-WORKAROUND\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-risk hard-coded label height or opaque white text mask detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"PANEL-ALIGNMENT-GATE\",\n      \"level\": \"PASS\",\n      \"message\": \"Render-time panel-alignment gate is wired into the plotting source\",\n      \"evidence\": [\n        \"require_matplotlib_panel_alignment(\"\n      ]\n    },\n    {\n      \"check_id\": \"BACKEND-EXCLUSIVE\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious cross-backend plotting reference found for python\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-BACKEND\",\n      \"level\": \"PASS\",\n      \"message\": \"Python with an explicit Matplotlib import is configured for the IPD/Baker production profile\",\n      \"evidence\": [\n        \"line 23: import matplotlib\",\n        \"line 25: import matplotlib.pyplot\",\n        \"line 26: from matplotlib.patches import ...\",\n        \"line 27: from matplotlib.path import ...\",\n        \"line 28: from matplotlib import ...\"\n      ]\n    },\n    {\n      \"check_id\": \"IPD-NO-SEABORN\",\n      \"level\": \"PASS\",\n      \"message\": \"No Seaborn import detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-PHYSICAL-CANVAS\",\n      \"level\": \"PASS\",\n      \"message\": \"No bbox_inches='tight' export that would change the declared physical canvas was detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-PALETTE\",\n      \"level\": \"WARN\",\n      \"message\": \"Not all three IPD palette colors are explicitly present; confirm semantic color choices for this figure\",\n      \"evidence\": [\n        \"missing: #4b2e83, #4196b5, #b41f85\"\n      ]\n    },\n    {\n      \"check_id\": \"IPD-FONT-DEFAULT\",\n      \"level\": \"WARN\",\n      \"message\": \"No explicit 6 pt internal-text default was detected; confirm text sizing at final physical size\",\n      \"evidence\": []\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    "nature_tables.py": {
+      "returncode": 0,
+      "stdout": "{\n  \"source\": \"D:\\\\MLWork\\\\ASC_CertifiedProcessing_20261002\\\\public_release\\\\scripts\\\\nature_tables.py\",\n  \"backend\": \"python\",\n  \"profile\": \"ipd-baker\",\n  \"summary\": {\n    \"ready\": true,\n    \"strict\": false,\n    \"counts\": {\n      \"PASS\": 22,\n      \"WARN\": 4,\n      \"FAIL\": 0\n    }\n  },\n  \"findings\": [\n    {\n      \"check_id\": \"SOURCE-SYNTAX\",\n      \"level\": \"PASS\",\n      \"message\": \"Python source parses successfully\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-FAMILY\",\n      \"level\": \"PASS\",\n      \"message\": \"A publication-safe sans-serif family is configured\",\n      \"evidence\": [\n        \"Arial\"\n      ]\n    },\n    {\n      \"check_id\": \"FONT-SIZE\",\n      \"level\": \"WARN\",\n      \"message\": \"No explicit text sizes found; verify readability at final physical size\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"FONT-GLYPH-FLOOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No mathtext superscript/subscript expression detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LEGEND-LABEL-CASE\",\n      \"level\": \"PASS\",\n      \"message\": \"No auditable literal legend labels detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"COLOR-MAP\",\n      \"level\": \"PASS\",\n      \"message\": \"No rainbow/jet/hsv color mapping detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EDITABLE-TEXT\",\n      \"level\": \"PASS\",\n      \"message\": \"SVG and PDF editable-text settings are configured\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-VECTOR\",\n      \"level\": \"PASS\",\n      \"message\": \"Both SVG and PDF exports are present\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"EXPORT-RASTER\",\n      \"level\": \"WARN\",\n      \"message\": \"PNG preview is present but no TIFF submission raster was found\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"RASTER-DPI\",\n      \"level\": \"PASS\",\n      \"message\": \"A raster export of at least 600 dpi is configured\",\n      \"evidence\": [\n        \"1000\"\n      ]\n    },\n    {\n      \"check_id\": \"FINAL-WIDTH\",\n      \"level\": \"PASS\",\n      \"message\": \"Detected width 183.0 mm matches a common journal column width\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-SAMPLING\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence row-sampling operation detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DATA-EXCLUSION\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-confidence missing-data exclusion detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"DEMO-DATA\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious simulated-data generator detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"LOG-GUARD\",\n      \"level\": \"PASS\",\n      \"message\": \"No logarithmic transform or axis detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"INTERP-MONOTONIC\",\n      \"level\": \"PASS\",\n      \"message\": \"No NumPy interpolation requiring an increasing x-grid detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"UNCERTAINTY-ENCODING\",\n      \"level\": \"PASS\",\n      \"message\": \"No stochastic aggregate requiring a variability audit was inferred\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"ROTATION-ANCHOR\",\n      \"level\": \"PASS\",\n      \"message\": \"No rotated Matplotlib text detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"ANNOTATION-WORKAROUND\",\n      \"level\": \"PASS\",\n      \"message\": \"No high-risk hard-coded label height or opaque white text mask detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"PANEL-ALIGNMENT-GATE\",\n      \"level\": \"PASS\",\n      \"message\": \"No statically auditable multi-panel construct detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"BACKEND-EXCLUSIVE\",\n      \"level\": \"PASS\",\n      \"message\": \"No obvious cross-backend plotting reference found for python\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-BACKEND\",\n      \"level\": \"PASS\",\n      \"message\": \"Python with an explicit Matplotlib import is configured for the IPD/Baker production profile\",\n      \"evidence\": [\n        \"line 20: import matplotlib\",\n        \"line 22: import matplotlib.pyplot\",\n        \"line 23: from matplotlib.font_manager import ...\",\n        \"line 24: from matplotlib.backends.backend_agg import ...\"\n      ]\n    },\n    {\n      \"check_id\": \"IPD-NO-SEABORN\",\n      \"level\": \"PASS\",\n      \"message\": \"No Seaborn import detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-PHYSICAL-CANVAS\",\n      \"level\": \"PASS\",\n      \"message\": \"No bbox_inches='tight' export that would change the declared physical canvas was detected\",\n      \"evidence\": []\n    },\n    {\n      \"check_id\": \"IPD-PALETTE\",\n      \"level\": \"WARN\",\n      \"message\": \"Not all three IPD palette colors are explicitly present; confirm semantic color choices for this figure\",\n      \"evidence\": [\n        \"missing: #4b2e83, #4196b5, #b41f85\"\n      ]\n    },\n    {\n      \"check_id\": \"IPD-FONT-DEFAULT\",\n      \"level\": \"WARN\",\n      \"message\": \"No explicit 6 pt internal-text default was detected; confirm text sizing at final physical size\",\n      \"evidence\": []\n    }\n  ]\n}\n",
+      "stderr": ""
+    }
+  },
+  "scientific_settings_changed": false,
+  "all_primary_and_failure_outputs_preserved": true,
+  "pdf_proof": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\public_release\\artwork\\proof\\ASC_Nature_style_figures_tables.pdf",
+  "physical_printout_checked": false,
+  "note": "Vector artwork has no DPI limit; PNGs are original 1000-dpi renders. Final physical dimensions, embedded fonts, no raster images, editable SVG text, and zero rendered PDF text/stroke/fill collisions were checked."
+}

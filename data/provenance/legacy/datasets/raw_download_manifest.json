@@ -1,0 +1,150 @@
+{
+  "project": "ASC_SelectiveReplanning_20260930",
+  "entries": [
+    {
+      "url": "https://archive.ics.uci.edu/api/dataset?id=17",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\breast_cancer_uci_metadata__20260930T121900Z_b276c5e1.json",
+      "tag": "breast_cancer_uci_metadata",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:19:02.651364+00:00",
+      "bytes": 7371,
+      "sha256": "c129484733a4d262158c583e69afba393e0e5909b9e7dad228c438a7b62830f9",
+      "read_only": true,
+      "seconds": 2.254
+    },
+    {
+      "url": "https://archive.ics.uci.edu/static/public/17/data.csv",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\breast_cancer_source__20260930T121902Z_8b9fb5d1.csv",
+      "tag": "breast_cancer_source",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:19:06.004534+00:00",
+      "bytes": 125031,
+      "sha256": "3487b754ff02c93cdc8a18afafe223961d9cfbfdb932e57483e52581042767d7",
+      "read_only": true,
+      "seconds": 3.347
+    },
+    {
+      "url": "https://archive.ics.uci.edu/api/dataset?id=94",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\spambase_uci_metadata__20260930T121906Z_41d86004.json",
+      "tag": "spambase_uci_metadata",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:19:08.930618+00:00",
+      "bytes": 11691,
+      "sha256": "ed4b9c3f86284700629c350508f341a3690b4941768351956a41089d1ff793f2",
+      "read_only": true,
+      "seconds": 2.099
+    },
+    {
+      "url": "https://archive.ics.uci.edu/static/public/94/data.csv",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\spambase_source__20260930T121908Z_29518d3e.csv",
+      "tag": "spambase_source",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:20:32.944454+00:00",
+      "bytes": 703858,
+      "sha256": "d86711ceadadd177f09ca816fffa79d82edf5007b585a836c112462e2c217c0d",
+      "read_only": true,
+      "seconds": 84.003
+    },
+    {
+      "url": "https://archive.ics.uci.edu/api/dataset?id=890",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\actg175_uci_metadata__20260930T122040Z_cda4927f.json",
+      "tag": "actg175_uci_metadata",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:20:41.764724+00:00",
+      "bytes": 6714,
+      "sha256": "45dec83113d590e8a74415fee5e934b7d28ec81861bb20fa3717f70da952a6f5",
+      "read_only": true,
+      "seconds": 1.469
+    },
+    {
+      "url": "https://archive.ics.uci.edu/static/public/890/data.csv",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\actg175_source__20260930T122041Z_884920b3.csv",
+      "tag": "actg175_source",
+      "status": "failed_partial_preserved",
+      "downloaded_utc": "2026-09-30T12:20:46.809939+00:00",
+      "bytes": 0,
+      "sha256": null,
+      "read_only": true,
+      "seconds": 5.028,
+      "error": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n"
+    },
+    {
+      "url": "https://archive.ics.uci.edu/api/dataset?id=222",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\bank_uci_metadata__20260930T122046Z_9d1fb022.json",
+      "tag": "bank_uci_metadata",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:20:48.270101+00:00",
+      "bytes": 8098,
+      "sha256": "4bc4da9f854ad7b5e5de7b6b8a23c175679467b6b5229f6c5c678fb97bd19284",
+      "read_only": true,
+      "seconds": 1.458
+    },
+    {
+      "url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\bank_source__20260930T122048Z_e05c6ce5.zip",
+      "tag": "bank_source",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:20:51.654644+00:00",
+      "bytes": 1023843,
+      "sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+      "read_only": true,
+      "seconds": 3.371
+    },
+    {
+      "url": "https://archive.ics.uci.edu/api/dataset?id=447",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\hydraulic_uci_metadata__20260930T122051Z_2f16d5e3.json",
+      "tag": "hydraulic_uci_metadata",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:20:53.375761+00:00",
+      "bytes": 3895,
+      "sha256": "7c9ddaacebd5be9ad26cdecc49a4a1161408be213a1a25c0a61ca108f84f750e",
+      "read_only": true,
+      "seconds": 1.58
+    },
+    {
+      "url": "https://archive.ics.uci.edu/static/public/447/condition+monitoring+of+hydraulic+systems.zip",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\hydraulic_source__20260930T122053Z_b6069f27.zip",
+      "tag": "hydraulic_source",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:21:06.913677+00:00",
+      "bytes": 76601704,
+      "sha256": "24128aad2ee45eea7e6b63ebbd9992cdf25d0483a2cebefbfc13bc69079af1f2",
+      "read_only": true,
+      "seconds": 13.582
+    },
+    {
+      "url": "https://archive.ics.uci.edu/static/public/890/data.csv",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\actg175_source__20260930T122206Z_c518978a.csv",
+      "tag": "actg175_source",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:22:13.423000+00:00",
+      "bytes": 159675,
+      "sha256": "cf58638c7687764ccb32d037938142518293d505eec349ccec406d4d42ba9532",
+      "read_only": true,
+      "seconds": 6.481
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cran/speff2trial/master/DESCRIPTION",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\actg175_origin_package_description__20260930T122213Z_d6543e55.txt",
+      "tag": "actg175_origin_package_description",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:22:15.074515+00:00",
+      "bytes": 1216,
+      "sha256": "e90eaba6d7f830b452ecd68ecfc1cc0bbc82b821802f301a8baef3e62282ad33",
+      "read_only": true,
+      "seconds": 1.641
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cran/BART/master/man/ACTG175.Rd",
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\actg175_endpoint_documentation__20260930T122215Z_60198e23.Rd",
+      "tag": "actg175_endpoint_documentation",
+      "status": "complete",
+      "downloaded_utc": "2026-09-30T12:22:16.303460+00:00",
+      "bytes": 3130,
+      "sha256": "346c06bb3aa0dc082bc57f702db94ebc8ef7b1d83ff57401cf8c1310d37bcca9",
+      "read_only": true,
+      "seconds": 1.215
+    }
+  ],
+  "raw_policy": "Versioned new files, read-only after transfer; never overwrite or delete existing source bytes."
+}

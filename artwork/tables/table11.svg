@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="185.05pt" viewBox="0 0 518.740157 185.05" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-02T17:29:34.726109</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 185.05 
+L 518.740157 185.05 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 11.338583 30.8 
+L 507.401575 30.8 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 11.338583 61.7 
+L 507.401575 61.7 
+" style="fill: none; stroke: #181818; stroke-width: 0.5"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 11.338583 147.5 
+L 507.401575 147.5 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="11.338583" y="17.137773" transform="rotate(-0 11.338583 17.137773)">Table 11 | Development-only sensitivity to feature-block order</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="43.739536" transform="rotate(-0 14.838583 43.739536)">Order</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="217.602362" y="43.737896" transform="rotate(-0 217.602362 43.737896)">Mean blocks of 18</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="285.633858" y="43.741177" transform="rotate(-0 285.633858 43.741177)">Exact fallback</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(297.140685 43.741177)">First-12-block sum of interval</text>
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(372.603967 52.567124)">widths</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(405.4947 43.059224)">First-12-block diameter upper</text>
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(484.840794 51.222358)">proxy</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="73.945552" transform="rotate(-0 14.838583 73.945552)">Locked gain/time</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="217.602362" y="74.607271" transform="rotate(-0 217.602362 74.607271)">14.7179</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="285.633858" y="74.589771" transform="rotate(-0 285.633858 74.589771)">18.33%</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="394.767717" y="74.60563" transform="rotate(-0 394.767717 74.60563)">0.623226</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="74.60563" transform="rotate(-0 503.901575 74.60563)">0.340698</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="95.352896" transform="rotate(-0 14.838583 95.352896)">Descending gain only</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="217.602362" y="96.057271" transform="rotate(-0 217.602362 96.057271)">14.5794</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="285.633858" y="96.039771" transform="rotate(-0 285.633858 96.039771)">14.59%</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="394.767717" y="96.057271" transform="rotate(-0 394.767717 96.057271)">0.594592</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="96.05563" transform="rotate(-0 503.901575 96.05563)">0.326628</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="117.498521" transform="rotate(-0 14.838583 117.498521)">Reverse locked order</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="217.602362" y="117.507271" transform="rotate(-0 217.602362 117.507271)">18.0000</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="285.633858" y="117.489771" transform="rotate(-0 285.633858 117.489771)">100.00%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="394.767717" y="117.507271" transform="rotate(-0 394.767717 117.507271)">5.670742</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="117.549927" transform="rotate(-0 503.901575 117.549927)">1.414214</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="138.297739" transform="rotate(-0 14.838583 138.297739)">One fixed random order per system</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="217.602362" y="138.957271" transform="rotate(-0 217.602362 138.957271)">17.1791</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="285.633858" y="138.939771" transform="rotate(-0 285.633858 138.939771)">68.84%</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="394.767717" y="138.95563" transform="rotate(-0 394.767717 138.95563)">3.468061</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: end; fill: #181818" x="503.901575" y="138.957271" transform="rotate(-0 503.901575 138.957271)">1.246648</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.5px; font-family: 'Arial'; fill: #181818" transform="translate(11.338583 162.299441)">Equal-system means on the original development subjects; no new raw-signal timing or test-policy selection. Diameter upper proxy is computed per case before averaging</text>
+    <text style="font-size: 6.5px; font-family: 'Arial'; fill: #181818" transform="translate(11.338583 170.494963)">and does not measure the exact enclosure gap.</text>
+   </g>
+  </g>
+ </g>
+</svg>

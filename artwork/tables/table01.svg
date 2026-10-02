@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="244.975pt" viewBox="0 0 518.740157 244.975" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-02T17:29:17.689013</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 244.975 
+L 518.740157 244.975 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 11.338583 30.8 
+L 507.401575 30.8 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 11.338583 52.25 
+L 507.401575 52.25 
+" style="fill: none; stroke: #181818; stroke-width: 0.5"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 11.338583 216.2 
+L 507.401575 216.2 
+" style="fill: none; stroke: #181818; stroke-width: 0.8"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="11.338583" y="17.137773" transform="rotate(-0 11.338583 17.137773)">Table 1 | Related capabilities and the guarantee being evaluated</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="43.698521" transform="rotate(-0 14.838583 43.698521)">Research line</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="99.877953" y="43.002896" transform="rotate(-0 99.877953 43.002896)">Main object addressed</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="292.633858" y="43.048833" transform="rotate(-0 292.633858 43.048833)">Relation to the present method</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 64.536567)">Active feature acquisition</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 73.372905)">[12–16]</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(99.877953 64.452896)">Predictive utility and observation cost under subset</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(99.877953 74.017124)">observations</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(292.633858 64.495552)">May supply a feature schedule; does not substitute for checking the</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(292.633858 74.05978)">stated relative-loss certificate</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 95.352896)">Risk-controlled early exit</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 104.262515)">[5]</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(99.877953 95.436567)">Calibrated distributional risk or a final-model performance</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(99.877953 103.572358)">gap</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(292.633858 95.395552)">Establishes the relative Brier target; the quantifier here is individual</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(292.633858 104.221499)">input and every label</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 126.295552)">Certified lazy</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 135.85978)">boosted-tree inference</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 144.041509)">[6]</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="99.877953" y="126.295552" transform="rotate(-0 99.877953 126.295552)">Preservation of the complete winning class</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="292.633858" y="126.295552" transform="rotate(-0 292.633858 126.295552)">Supplies a distinct output criterion, tested by score separation</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 166.602896)">Adversarial uncertainty</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(14.838583 175.555171)">certification [7]</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="99.877953" y="166.643911" transform="rotate(-0 99.877953 166.643911)">Worst calibration quantities over a perturbation set</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="292.633858" y="166.645552" transform="rotate(-0 292.633858 166.645552)">Related certification tools with a different domain and loss object</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="14.838583" y="198.198521" transform="rotate(-0 14.838583 198.198521)">Present construction</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(99.877953 197.586567)">Worst relative multiclass half-Brier loss over complete</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(99.877953 206.412515)">outputs consistent with observed blocks</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(292.633858 197.545552)">Constructs and certifies a probability vector, while charging its full</text>
+    <text style="font-size: 7px; font-family: 'Arial'; fill: #181818" transform="translate(292.633858 206.371499)">processing cost</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.5px; font-family: 'Arial'; text-anchor: start; fill: #181818" x="11.338583" y="230.999441" transform="rotate(-0 11.338583 230.999441)">The present objective is pointwise relative multiclass half-Brier fidelity to the complete predictor.</text>
+   </g>
+  </g>
+ </g>
+</svg>

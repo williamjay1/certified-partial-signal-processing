@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "recovery_stage": "POSTLOCK_SECONDARY_METRIC_CONFORMANCE_REPAIR",
+  "frozen_root_lock_unchanged": true,
+  "original_reference_script_unchanged": true,
+  "new_model_fits": 0,
+  "models": 15,
+  "test_subjects": 9,
+  "principal_prediction_assignments_unchanged": true,
+  "prior12_half_brier_accuracy_identical": true,
+  "per_case_risk_accuracy_and_metric_logloss_recomputed": true,
+  "paired_subject_bootstrap_inputs_recomputed": true,
+  "hgb_formal21_conformance": [
+    {
+      "seed": 17,
+      "maximum_hgb_vs_formal21_reference_probability_difference": 0.0
+    },
+    {
+      "seed": 29,
+      "maximum_hgb_vs_formal21_reference_probability_difference": 7.771561172376096e-16
+    },
+    {
+      "seed": 43,
+      "maximum_hgb_vs_formal21_reference_probability_difference": 0.0
+    }
+  ],
+  "bootstrap_executed": false,
+  "maximum_metric_only_normalization_difference": 2.457831582702852e-07
+}

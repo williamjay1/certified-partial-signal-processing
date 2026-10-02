@@ -1,0 +1,21 @@
+test_all_windows_of_subject_keep_one_owner (test_features.FeatureTests.test_all_windows_of_subject_keep_one_owner) ... ok
+test_har_constant_and_frequency_units (test_features.FeatureTests.test_har_constant_and_frequency_units) ... ok
+test_hydraulic_frequency_is_per_60_second_cycle (test_features.FeatureTests.test_hydraulic_frequency_is_per_60_second_cycle) ... ok
+test_selected_block_scaling_and_duplicate_rejection (test_features.FeatureTests.test_selected_block_scaling_and_duplicate_rejection) ... ok
+test_conservative_bound_covers_feasible_probability_probes (test_kernels.CertificateTests.test_conservative_bound_covers_feasible_probability_probes) ... ok
+test_point_uncertainty_nearly_exact_and_every_label_bound (test_kernels.CertificateTests.test_point_uncertainty_nearly_exact_and_every_label_bound) ... ok
+test_simplex_projection_kkt_and_translation (test_kernels.CertificateTests.test_simplex_projection_kkt_and_translation) ... ok
+test_softmax_intervals_contain_completed_scores (test_kernels.CertificateTests.test_softmax_intervals_contain_completed_scores) ... ok
+test_uninformative_simplex_has_known_minimax_value (test_kernels.CertificateTests.test_uninformative_simplex_has_known_minimax_value) ... ok
+test_empty_mask_fails_closed (test_kernels.LeafMaskTests.test_empty_mask_fails_closed) ... ok
+test_missing_branch_and_observation_order (test_kernels.LeafMaskTests.test_missing_branch_and_observation_order) ... ok
+test_partial_masks_contain_only_feasible_leaf_values (test_kernels.LeafMaskTests.test_partial_masks_contain_only_feasible_leaf_values) ... ok
+test_duplicate_records_rejected (test_manifest.ManifestTests.test_duplicate_records_rejected) ... ok
+test_parent_and_absolute_paths_rejected (test_manifest.ManifestTests.test_parent_and_absolute_paths_rejected) ... ok
+test_tamper_rejected_even_same_size (test_manifest.ManifestTests.test_tamper_rejected_even_same_size) ... ok
+test_valid_manifest (test_manifest.ManifestTests.test_valid_manifest) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.557s
+
+OK

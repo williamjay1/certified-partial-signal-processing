@@ -1,0 +1,104 @@
+{
+  "phase": "HYDRAULIC_EXTERNAL_CONFIRMATION",
+  "test_lock_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\research\\FROZEN_TEST_LOCK_20261002.json",
+  "test_lock_sha256": "b5efeccb191b682c415e6395960213ecd586806df61517b30685565b7098f284",
+  "frozen": {
+    "kind": "HYDRAULIC_EXTERNAL_CONFIRMATION",
+    "seed": 17,
+    "batch_size": 4,
+    "primary_delta": 0.025,
+    "deltas": [
+      0.0,
+      0.01,
+      0.025,
+      0.05,
+      0.1
+    ],
+    "variants": {
+      "tight_minimax": 0,
+      "coordinate_minimax": 1,
+      "tight_midpoint": 2
+    },
+    "repetitions": 3,
+    "timing_seed": 20261011,
+    "order": [
+      3,
+      15,
+      2,
+      14,
+      1,
+      0,
+      20,
+      18,
+      13,
+      12,
+      24,
+      17,
+      26,
+      19,
+      21,
+      6,
+      5,
+      11,
+      16,
+      23,
+      4,
+      9,
+      10,
+      8,
+      7,
+      25,
+      27,
+      22
+    ],
+    "model": {
+      "path": "D:\\MLWork\\ASC_ComputeValue_20261002\\results\\redesign_diagnostic\\full_hgb_seed17.joblib",
+      "sha256": "3a1aadd8996eb131b1d6fc391925f3a15c99cbf4f77583046ee0b51f492b23fd"
+    },
+    "development_cache": {
+      "path": "D:\\MLWork\\ASC_ComputeValue_20261002\\cache\\hydraulic_development_raw_v1.npz",
+      "sha256": "32bf69c825243b6f99306237e14e11b0d54559eefc295970e4eb0c7c69d93d38"
+    },
+    "development_manifest": {
+      "path": "D:\\MLWork\\ASC_ComputeValue_20261002\\datasets\\hydraulic_development_manifest.json",
+      "sha256": "c54e88b76dac5ede0499cb6ee56bb10e1e1db12d51ce8ea3fb449f34ee9142e1"
+    },
+    "prepared_split": {
+      "path": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\datasets\\hydraulic_valve.npz",
+      "sha256": "5d3220cd76fd6ef35e4407b5884baa3d2ab8fb20ec5e1f8a520f48daad9378a7"
+    },
+    "raw_source": {
+      "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\hydraulic_source__20260930T122053Z_b6069f27.zip",
+      "sha256": "24128aad2ee45eea7e6b63ebbd9992cdf25d0483a2cebefbfc13bc69079af1f2"
+    },
+    "v4_configuration": {
+      "path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\results\\leaf_mask_backend_repair\\prototype_frozen_configuration_before_validation.json",
+      "sha256": "b8555b0f853c007ff3257c1df166ce1b6fea9162b836955a7e1bafe32fc64f15"
+    },
+    "scripts": {
+      "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\scripts\\hydraulic_certified_test.py": "02059b67b69fb80ea36c080da251d52f0d2f7718c4e414b95579c3224794d6db",
+      "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\scripts\\run_leaf_mask_pilot.py": "1a88b780da9a58fef0f92f498cca5fd73db9c3e81f5755b568aac205e392051b",
+      "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\scripts\\run_hydraulic_prototype.py": "6b2dbed297a9e6faeea9de8487eb2a950ec1fe578c82a06125b31d002b986ed0",
+      "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\scripts\\certificate_kernel.py": "88a3f49cb38121ebec596da40a64d2fcad701b4ba5193611f58b7ecc7fe80f0a",
+      "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\research\\leaf_mask_kernel.py": "f2303717eae8bb1a270e4feeb5f686389f26c12bfe20476356d3c0a3a7e3bb04",
+      "D:\\MLWork\\ASC_ComputeValue_20261002\\scripts\\raw_compute.py": "07077eeba181d779d639d26ae6f5ef56d8d71b4b6e4c6d04b0788e5c295b1478",
+      "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\scripts\\methods.py": "14725feda12c6b211074946af8980b49c752b8e4c4be3c9ebf5de575ae3cc8f7"
+    },
+    "controls": []
+  },
+  "D_free_bytes_before_compute": 132580110336,
+  "raw_window_access_note": "Only435 selected rows parsed; sequential ZIP line scan skips all other rows without numeric decoding",
+  "timing_inclusions": "Resident raw input to probability: feature operations, scaling, allocations, leaf masks, intervals, certificate, routing and exact fallback",
+  "timing_exclusions": [
+    "raw disk read/decompression",
+    "offline reference construction",
+    "training",
+    "JIT warmup",
+    "outside-timer label/reference checks"
+  ],
+  "prior_test_exposure_note": "Old prepared-feature test outcomes were evaluated in the earlier project; these raw windows were not used to tune the certified processing method",
+  "new_model_fits": 0,
+  "new_scaler_fits": 0,
+  "new_order_selection": 0,
+  "new_tolerance_selection": 0
+}

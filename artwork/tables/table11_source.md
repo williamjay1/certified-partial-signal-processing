@@ -1,0 +1,6 @@
+| Order | Mean blocks of 18 | Exact fallback | First-12-block sum of interval widths | First-12-block diameter upper proxy |
+|---|---:|---:|---:|---:|
+| Locked gain/time | 14.7179 | 18.33% | 0.623226 | 0.340698 |
+| Descending gain only | 14.5794 | 14.59% | 0.594592 | 0.326628 |
+| Reverse locked order | 18.0000 | 100.00% | 5.670742 | 1.414214 |
+| One fixed random order per system | 17.1791 | 68.84% | 3.468061 | 1.246648 |

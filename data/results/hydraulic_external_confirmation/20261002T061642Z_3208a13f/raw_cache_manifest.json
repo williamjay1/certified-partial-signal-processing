@@ -1,0 +1,120 @@
+{
+  "phase": "HYDRAULIC_EXTERNAL_CONFIRMATION",
+  "source": {
+    "path": "F:\\AcademicData\\ASC_SelectiveReplanning_20260930\\raw\\hydraulic_source__20260930T122053Z_b6069f27.zip",
+    "sha256": "24128aad2ee45eea7e6b63ebbd9992cdf25d0483a2cebefbfc13bc69079af1f2"
+  },
+  "test_lock_sha256": "b5efeccb191b682c415e6395960213ecd586806df61517b30685565b7098f284",
+  "cache_path": "D:\\MLWork\\ASC_CertifiedProcessing_20261002\\cache\\hydraulic_external_raw__20261002T061642Z_3208a13f.npz",
+  "cache_sha256": "f1fd0d91422b10200def91997b63f34cc74823d6fb8f7a228fbe11aac5197767",
+  "raw_shapes": {
+    "PS1": [
+      435,
+      6000
+    ],
+    "PS2": [
+      435,
+      6000
+    ],
+    "PS3": [
+      435,
+      6000
+    ],
+    "PS4": [
+      435,
+      6000
+    ],
+    "PS5": [
+      435,
+      6000
+    ],
+    "PS6": [
+      435,
+      6000
+    ],
+    "EPS1": [
+      435,
+      6000
+    ],
+    "FS1": [
+      435,
+      600
+    ],
+    "FS2": [
+      435,
+      600
+    ],
+    "TS1": [
+      435,
+      60
+    ],
+    "TS2": [
+      435,
+      60
+    ],
+    "TS3": [
+      435,
+      60
+    ],
+    "TS4": [
+      435,
+      60
+    ],
+    "VS1": [
+      435,
+      60
+    ]
+  },
+  "features_shape": [
+    435,
+    238
+  ],
+  "opened_physical_channel_members": [
+    "PS1.txt",
+    "PS2.txt",
+    "PS3.txt",
+    "PS4.txt",
+    "PS5.txt",
+    "PS6.txt",
+    "EPS1.txt",
+    "FS1.txt",
+    "FS2.txt",
+    "TS1.txt",
+    "TS2.txt",
+    "TS3.txt",
+    "TS4.txt",
+    "VS1.txt"
+  ],
+  "profile_or_virtual_channel_opened": false,
+  "selected_numeric_rows_per_channel": 435,
+  "unselected_rows_numeric_decoded": 0,
+  "source_unchanged": true,
+  "external_cases": 435,
+  "original_development_cases": 1770,
+  "predictor_fit_cases": 907,
+  "internal_validation_cases": 223,
+  "external_proxy_segments": 48,
+  "development_proxy_segments": 146,
+  "test_vs_all1770_row_overlap": 0,
+  "test_vs_all1770_proxy_overlap": 0,
+  "test_vs907_fit_proxy_overlap": 0,
+  "test_vs223_internal_proxy_overlap": 0,
+  "proxy_note": "Contiguous same-condition segments are proxy units, not independently certified experimental runs",
+  "scaler_source": "Frozen907-fit center/scale; no fit/re-estimation",
+  "decoded_development_cache_members": [
+    "original_rows",
+    "units",
+    "predictor_fit",
+    "predictor_val",
+    "center",
+    "scale"
+  ],
+  "decoded_prepared_split_members": [
+    "train_idx",
+    "val_idx",
+    "test_idx",
+    "split_group",
+    "y"
+  ],
+  "old_test_feature_matrix_decoded": false
+}

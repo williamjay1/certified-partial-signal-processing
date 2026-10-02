@@ -1,0 +1,300 @@
+{
+  "phase": "POSTHOC_DESCRIPTIVE_AFTER_LOCKED_STOP",
+  "new_fitting": false,
+  "new_model_selection": false,
+  "audit_selection_changed": false,
+  "outer_test_evaluated": false,
+  "checkpoint_sha256": "1c3e343e9ba451958a07b639fb59b56daf081c1f5984da8af36ddd49c468af18",
+  "selection_lock_sha256": "c038cfc0eadbd75477dd3c4c53666c14b458097b85a2691c63a8161f825563a0",
+  "model_fit_info": {
+    "epochs": 31,
+    "validation_ce": 1.2805999517440796,
+    "temperature": 1.25
+  },
+  "temperature": 1.25,
+  "seed": 17,
+  "partitions": {
+    "cal": {
+      "n": 100,
+      "n_proxy_units": 13,
+      "class_labels": [
+        "73 near total failure",
+        "80 severe lag",
+        "90 small lag",
+        "100 optimal"
+      ],
+      "class_counts": [
+        18,
+        12,
+        14,
+        56
+      ],
+      "anchors": {
+        "full_information": {
+          "mean_half_brier": 0.35227301716804504,
+          "accuracy": 0.39,
+          "class_risk": [
+            0.4042500853538513,
+            0.5862477421760559,
+            0.36749058961868286,
+            0.28162431716918945
+          ],
+          "class_prediction_counts": [
+            13,
+            0,
+            32,
+            55
+          ],
+          "not_budget_feasible_policy": true
+        },
+        "zero_observation": {
+          "mean_half_brier": 0.3628794848918915,
+          "accuracy": 0.56,
+          "class_risk": [
+            0.38016223907470703,
+            0.3950062692165375,
+            0.3817717134952545,
+            0.3457167446613312
+          ],
+          "class_prediction_counts": [
+            0,
+            0,
+            0,
+            100
+          ],
+          "not_budget_feasible_policy": false
+        }
+      },
+      "controls": {
+        "static": {
+          "mean_half_brier": 0.3369500622153282,
+          "class_counts": [
+            18,
+            12,
+            14,
+            56
+          ],
+          "class_proportions": [
+            0.18,
+            0.12,
+            0.14,
+            0.56
+          ],
+          "class_risk": [
+            0.41051626205444336,
+            0.47773750126361847,
+            0.3727860152721405,
+            0.2741760584924902
+          ]
+        },
+        "once": {
+          "mean_half_brier": 0.3579070374369621,
+          "class_counts": [
+            18,
+            12,
+            14,
+            56
+          ],
+          "class_proportions": [
+            0.18,
+            0.12,
+            0.14,
+            0.56
+          ],
+          "class_risk": [
+            0.38354149626361,
+            0.40739403416713077,
+            0.3827640392950603,
+            0.3328487830502646
+          ]
+        },
+        "risk_only": {
+          "mean_half_brier": 0.3579070374369621,
+          "class_counts": [
+            18,
+            12,
+            14,
+            56
+          ],
+          "class_proportions": [
+            0.18,
+            0.12,
+            0.14,
+            0.56
+          ],
+          "class_risk": [
+            0.38354149626361,
+            0.40739403416713077,
+            0.3827640392950603,
+            0.3328487830502646
+          ]
+        }
+      }
+    },
+    "audit": {
+      "n": 100,
+      "n_proxy_units": 13,
+      "class_labels": [
+        "73 near total failure",
+        "80 severe lag",
+        "90 small lag",
+        "100 optimal"
+      ],
+      "class_counts": [
+        15,
+        15,
+        17,
+        53
+      ],
+      "anchors": {
+        "full_information": {
+          "mean_half_brier": 0.36939796805381775,
+          "accuracy": 0.42,
+          "class_risk": [
+            0.32103827595710754,
+            0.45780715346336365,
+            0.5731946229934692,
+            0.2926943898200989
+          ],
+          "class_prediction_counts": [
+            14,
+            0,
+            20,
+            66
+          ],
+          "not_budget_feasible_policy": true
+        },
+        "zero_observation": {
+          "mean_half_brier": 0.36440643668174744,
+          "accuracy": 0.53,
+          "class_risk": [
+            0.38016223907470703,
+            0.3950062394142151,
+            0.3817717432975769,
+            0.3457167148590088
+          ],
+          "class_prediction_counts": [
+            0,
+            0,
+            0,
+            100
+          ],
+          "not_budget_feasible_policy": false
+        }
+      },
+      "controls": {
+        "static": {
+          "mean_half_brier": 0.35655648380517957,
+          "class_counts": [
+            15,
+            15,
+            17,
+            53
+          ],
+          "class_proportions": [
+            0.15,
+            0.15,
+            0.17,
+            0.53
+          ],
+          "class_risk": [
+            0.3469773610432943,
+            0.4605176309744517,
+            0.46670909488902373,
+            0.29451262051204463
+          ]
+        },
+        "once": {
+          "mean_half_brier": 0.3624303114414215,
+          "class_counts": [
+            15,
+            15,
+            17,
+            53
+          ],
+          "class_proportions": [
+            0.15,
+            0.15,
+            0.17,
+            0.53
+          ],
+          "class_risk": [
+            0.3710037410259247,
+            0.3992317239443461,
+            0.39073633621720705,
+            0.34050908403576546
+          ]
+        },
+        "risk_only": {
+          "mean_half_brier": 0.3624303114414215,
+          "class_counts": [
+            15,
+            15,
+            17,
+            53
+          ],
+          "class_proportions": [
+            0.15,
+            0.15,
+            0.17,
+            0.53
+          ],
+          "class_risk": [
+            0.3710037410259247,
+            0.3992317239443461,
+            0.39073633621720705,
+            0.34050908403576546
+          ]
+        }
+      }
+    }
+  },
+  "static_class_mix_decomposition": {
+    "observed_audit_minus_calibration_static_risk": 0.019606421589851375,
+    "class_mix_component": 0.004974935879664754,
+    "within_class_component": 0.014631485710186616,
+    "class_mix_terms": [
+      -0.012315487861633301,
+      0.014332125037908554,
+      0.011183580458164215,
+      -0.008225281754774714
+    ],
+    "within_class_terms": [
+      -0.009530835151672358,
+      -0.002582980543375016,
+      0.01596692353487015,
+      0.01077837787036384
+    ],
+    "reconstruction_error": -6.938893903907228e-18,
+    "formula": "sum_c(pA_c-pC_c)*RC_c + sum_c pA_c*(RA_c-RC_c)",
+    "interpretation": "Descriptive exact arithmetic decomposition, not causal attribution or removal of distribution shift"
+  },
+  "feature_block_definitions": {
+    "statistics": {
+      "mean": "arithmetic mean of all channel samples",
+      "std": "population standard deviation (ddof=0)",
+      "min": "minimum",
+      "max": "maximum",
+      "q25": "0.25 sample quantile, NumPy default linear interpolation",
+      "q50": "0.50 sample quantile",
+      "q75": "0.75 sample quantile",
+      "first": "first sample",
+      "last": "last sample",
+      "slope_per_cycle": "dot(x,t)/dot(t,t), t=linspace(-0.5,0.5,n); unit is change per 60-second normalized cycle",
+      "rms": "sqrt(mean(x*x))"
+    },
+    "frequency": {
+      "transform": "P_k=abs(rFFT(x-mean(x)))^2; q_k=P_k/max(sum(P),1e-30); f_k=rfftfreq(n,d=60/n) in Hz",
+      "log_power": "log1p(sum(P)/n^2)",
+      "centroid_hz": "sum(q_k*f_k)",
+      "spread_hz": "sqrt(sum(q_k*(f_k-centroid)^2))",
+      "spectral_entropy": "-sum(q_k*log(max(q_k,1e-30)))/log(max(number of bins,2))",
+      "dominant_hz": "f at first argmax(P), including DC bin",
+      "low_third_power_fraction": "sum(q_k over f_k <= largest rFFT frequency/3)",
+      "zero_power_convention": "When computed sum(P)==0, all q_k=0 and all spectral summaries=0. Floating-point centering can leave small residual power in a mathematically constant signal."
+    },
+    "groups": "Each physical sensor contributes one independent statistics block then one independent frequency block; 14*2=28 groups, 14*(11+6)=238 features.",
+    "scaling": "Training-only mean/std after deterministic feature extraction; zero-near standard deviations (<1e-8) replaced by 1; online selected-block computation uses these frozen centers/scales."
+  },
+  "limitations": "Anchors describe the same frozen fitted model on the already-opened 100 calibration and 100 audit development cases. Full-information anchor is not feasible under the partial feature budget. No new confirmation, unseen subjects, revised threshold or HAR experiment."
+}

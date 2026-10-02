@@ -1,0 +1,12 @@
+{
+  "native_compiled_all2947_max_difference": 7.771561172376096e-16,
+  "raw_cache": {
+    "status": "PASS_NUMERICAL_NOT_FORMAL_MACHINE_PROOF",
+    "cases": 24,
+    "prefix_checks": 766,
+    "max_interval_violation_signed": -2.3362041468022454e-13,
+    "max_every_label_violation_signed": 0.0,
+    "raw_vs_cache_probability_max_difference": 0.0
+  },
+  "all_possible_labels_checked": true
+}

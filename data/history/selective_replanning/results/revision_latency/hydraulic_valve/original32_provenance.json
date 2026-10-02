@@ -1,0 +1,154 @@
+{
+  "task": "hydraulic_valve",
+  "seed": 17,
+  "cases": 32,
+  "unique_split_units": 5,
+  "repetitions": 1,
+  "indices": [
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    282
+  ],
+  "profiled": false,
+  "original32": true,
+  "scenario": "support",
+  "nominal_budget_fraction": 0.3,
+  "requested_call_fraction": 0.25,
+  "per_case_rng": "20261002 + position within frozen full test indices",
+  "method_orders": [
+    [
+      "gain",
+      "always",
+      "static",
+      "entropy",
+      "distilled_once"
+    ]
+  ],
+  "warmup_index": 283,
+  "torch_threads": 1,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\ptenv\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\ptenv\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\env_core\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "sources_sha256": {
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\results\\aligned_diagnostics\\hydraulic_valve\\seed_17\\serial_runtime.json": "b6b340edabe35b58c4c8aeaed87533799009b72f9101400ef1ed7e5096f671a1",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\results\\aligned_v5\\hydraulic_valve\\seed_17\\support_30_static.npz": "d77a942a1c6a9531442dde235575f18d8df8a8ba958ea5fa936b821a9963d181",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\results\\aligned_v5\\hydraulic_valve\\seed_17\\gate_config.json": "7b43070dcd9795e4c6d00c5c5e79110cb6a99910495487b43bb979cc9fe4ef47",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\checkpoints\\aligned_v5\\hydraulic_valve\\seed_17\\models.pt": "72bac2aec8d7532c2102c63bf1aecde5cefdc5161bd8969337f00334c4b009e0",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\checkpoints\\aligned_v5\\hydraulic_valve\\seed_17\\gain_model.joblib": "c431b20cf00fd1eee71ae21503c1828ad3285c2643a865f06e2380f4af48a804",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\checkpoints\\aligned_v5\\hydraulic_valve\\seed_17\\split_indices.npz": "4ae431f75a59ec8fd6cd6e74c80a064c833956633c81b2478de4486a382207f5",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\datasets\\hydraulic_valve.npz": "5d3220cd76fd6ef35e4407b5884baa3d2ab8fb20ec5e1f8a520f48daad9378a7",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\scripts\\deployment_aligned.py": "75a683bc2e538e904b80d8547a62043574638812ba67aec3ef613183506f47a6",
+    "D:\\MLWork\\ASC_SelectiveReplanning_20260930\\scripts\\methods.py": "14725feda12c6b211074946af8980b49c752b8e4c4be3c9ebf5de575ae3cc8f7"
+  },
+  "script_sha256": "08a607ad07e9d9f90c99da24d2111ddc334a7cc6a3e7383a394cb90cfe5d70e9",
+  "prediction_and_mask_equal_across_repetitions": true,
+  "original_work_and_search_replay_checks": [
+    {
+      "method": "static",
+      "prediction_rows_per_case": 1.0,
+      "search_rate": 0.0,
+      "all_original_repetitions_match": true
+    },
+    {
+      "method": "always",
+      "prediction_rows_per_case": 145.0,
+      "search_rate": 1.0,
+      "all_original_repetitions_match": true
+    },
+    {
+      "method": "gain",
+      "prediction_rows_per_case": 34.40625,
+      "search_rate": 0.1875,
+      "all_original_repetitions_match": true
+    },
+    {
+      "method": "entropy",
+      "prediction_rows_per_case": 38.5625,
+      "search_rate": 0.21875,
+      "all_original_repetitions_match": true
+    },
+    {
+      "method": "distilled_once",
+      "prediction_rows_per_case": 2.0,
+      "search_rate": 0.0,
+      "all_original_repetitions_match": true
+    }
+  ],
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "wall_clock": "time.perf_counter",
+  "cpu_clock": "time.process_time",
+  "boundary": "Fixed diagnostic cohort, one fitted seed, host-specific CPU; no new fit, no population latency or hardware speedup claim. Labels enter only after execution."
+}

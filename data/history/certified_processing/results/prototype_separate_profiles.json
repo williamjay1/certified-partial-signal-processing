@@ -1,0 +1,578 @@
+[
+  {
+    "certificate": 0.02429203895745902,
+    "blocks": 21,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 5.934599999999999,
+      "bounds_ms": 1.7272999999999998,
+      "certificate_ms": 0.30989999999999995,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 8.1405,
+    "name": "tight_minimax",
+    "validation_position": 0
+  },
+  {
+    "certificate": 0.01460774190711528,
+    "blocks": 22,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 6.8984000000000005,
+      "bounds_ms": 2.0921000000000003,
+      "certificate_ms": 0.2675,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 9.425,
+    "name": "coordinate_minimax",
+    "validation_position": 0
+  },
+  {
+    "certificate": 0.01857561883327408,
+    "blocks": 26,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 7.2027,
+      "bounds_ms": 2.0984000000000003,
+      "certificate_ms": 0.20229999999999998,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 9.7304,
+    "name": "tight_midpoint",
+    "validation_position": 0
+  },
+  {
+    "certificate": 0.012708411138841358,
+    "blocks": 21,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 3.5962000000000005,
+      "bounds_ms": 1.1485999999999998,
+      "certificate_ms": 0.18430000000000002,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 5.0523,
+    "name": "tight_minimax",
+    "validation_position": 1
+  },
+  {
+    "certificate": 0.01299973944874272,
+    "blocks": 21,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 3.5374000000000008,
+      "bounds_ms": 0.9548000000000001,
+      "certificate_ms": 0.1166,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 4.692,
+    "name": "coordinate_minimax",
+    "validation_position": 1
+  },
+  {
+    "certificate": 0.01845260753366729,
+    "blocks": 26,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 8.626900000000003,
+      "bounds_ms": 1.9417999999999995,
+      "certificate_ms": 0.245,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 10.9732,
+    "name": "tight_midpoint",
+    "validation_position": 1
+  },
+  {
+    "certificate": 0.02274654769676721,
+    "blocks": 21,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 4.332000000000001,
+      "bounds_ms": 1.129,
+      "certificate_ms": 0.20080000000000003,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 5.7574,
+    "name": "tight_minimax",
+    "validation_position": 2
+  },
+  {
+    "certificate": 0.023532213257752625,
+    "blocks": 21,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 6.9495000000000005,
+      "bounds_ms": 2.3296,
+      "certificate_ms": 0.2725,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 9.6925,
+    "name": "coordinate_minimax",
+    "validation_position": 2
+  },
+  {
+    "certificate": 0.019460501878162454,
+    "blocks": 26,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 6.843400000000001,
+      "bounds_ms": 1.9065000000000003,
+      "certificate_ms": 0.22830000000000003,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 9.1583,
+    "name": "tight_midpoint",
+    "validation_position": 2
+  },
+  {
+    "certificate": 0.01628910097362524,
+    "blocks": 19,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 4.5308,
+      "bounds_ms": 1.1928,
+      "certificate_ms": 0.20679999999999998,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.0365,
+    "name": "tight_minimax",
+    "validation_position": 3
+  },
+  {
+    "certificate": 0.016628543153574152,
+    "blocks": 19,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 3.8284999999999996,
+      "bounds_ms": 1.0897000000000001,
+      "certificate_ms": 0.12240000000000001,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 5.1367,
+    "name": "coordinate_minimax",
+    "validation_position": 3
+  },
+  {
+    "certificate": 0.022753865197940263,
+    "blocks": 23,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 5.6713000000000005,
+      "bounds_ms": 1.7743999999999995,
+      "certificate_ms": 0.22490000000000002,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 7.796,
+    "name": "tight_midpoint",
+    "validation_position": 3
+  },
+  {
+    "certificate": 0.012663879494995645,
+    "blocks": 24,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 4.819100000000001,
+      "bounds_ms": 1.2545000000000002,
+      "certificate_ms": 0.21670000000000003,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.4031,
+    "name": "tight_minimax",
+    "validation_position": 4
+  },
+  {
+    "certificate": 0.01309716919839321,
+    "blocks": 24,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 4.998399999999999,
+      "bounds_ms": 1.2591999999999999,
+      "certificate_ms": 0.15420000000000003,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.5324,
+    "name": "coordinate_minimax",
+    "validation_position": 4
+  },
+  {
+    "certificate": 0.019526671737030602,
+    "blocks": 27,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 5.781199999999999,
+      "bounds_ms": 1.5617000000000003,
+      "certificate_ms": 0.20650000000000004,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 7.6643,
+    "name": "tight_midpoint",
+    "validation_position": 4
+  },
+  {
+    "certificate": 0.018229645577560797,
+    "blocks": 19,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 4.2876,
+      "bounds_ms": 1.3243,
+      "certificate_ms": 0.2011,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 5.9145,
+    "name": "tight_minimax",
+    "validation_position": 5
+  },
+  {
+    "certificate": 0.018705949948472415,
+    "blocks": 19,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 4.1722,
+      "bounds_ms": 1.1537000000000002,
+      "certificate_ms": 0.1551,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 5.5694,
+    "name": "coordinate_minimax",
+    "validation_position": 5
+  },
+  {
+    "certificate": 0.02279522061855677,
+    "blocks": 24,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 5.1942,
+      "bounds_ms": 1.7829999999999997,
+      "certificate_ms": 0.15549999999999997,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 7.2985,
+    "name": "tight_midpoint",
+    "validation_position": 5
+  },
+  {
+    "certificate": 0.02109077912123686,
+    "blocks": 22,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 4.686,
+      "bounds_ms": 1.3069999999999997,
+      "certificate_ms": 0.2067,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.2981,
+    "name": "tight_minimax",
+    "validation_position": 6
+  },
+  {
+    "certificate": 0.021865637020882015,
+    "blocks": 22,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 4.252299999999999,
+      "bounds_ms": 1.1789,
+      "certificate_ms": 0.14409999999999998,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 5.6918,
+    "name": "coordinate_minimax",
+    "validation_position": 6
+  },
+  {
+    "certificate": 0.02209663968474757,
+    "blocks": 27,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 5.3237000000000005,
+      "bounds_ms": 1.4856,
+      "certificate_ms": 0.16780000000000003,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 7.0813,
+    "name": "tight_midpoint",
+    "validation_position": 6
+  },
+  {
+    "certificate": 0.018250885352720184,
+    "blocks": 22,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 5.379200000000001,
+      "bounds_ms": 1.7121000000000006,
+      "certificate_ms": 0.26149999999999995,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 7.4724,
+    "name": "tight_minimax",
+    "validation_position": 7
+  },
+  {
+    "certificate": 0.018772196286684032,
+    "blocks": 22,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 4.789099999999999,
+      "bounds_ms": 1.4393,
+      "certificate_ms": 0.1669,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.5135,
+    "name": "coordinate_minimax",
+    "validation_position": 7
+  },
+  {
+    "certificate": 0.02394383536596373,
+    "blocks": 26,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 5.376499999999999,
+      "bounds_ms": 1.5436999999999999,
+      "certificate_ms": 0.17590000000000003,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 7.2161,
+    "name": "tight_midpoint",
+    "validation_position": 7
+  },
+  {
+    "certificate": 0.020996472463661046,
+    "blocks": 19,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 4.6892,
+      "bounds_ms": 1.5746,
+      "certificate_ms": 0.2223,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.638,
+    "name": "tight_minimax",
+    "validation_position": 8
+  },
+  {
+    "certificate": 0.021606831307571076,
+    "blocks": 19,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 3.3887000000000005,
+      "bounds_ms": 0.9743,
+      "certificate_ms": 0.11349999999999998,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 4.5605,
+    "name": "coordinate_minimax",
+    "validation_position": 8
+  },
+  {
+    "certificate": 0.018344070062216725,
+    "blocks": 24,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 4.880400000000001,
+      "bounds_ms": 1.3505,
+      "certificate_ms": 0.16560000000000002,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.514,
+    "name": "tight_midpoint",
+    "validation_position": 8
+  },
+  {
+    "certificate": 0.0117509802396919,
+    "blocks": 21,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 4.399,
+      "bounds_ms": 1.2780999999999998,
+      "certificate_ms": 0.20399999999999996,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.0208,
+    "name": "tight_minimax",
+    "validation_position": 9
+  },
+  {
+    "certificate": 0.012014183131570932,
+    "blocks": 21,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 5.161100000000001,
+      "bounds_ms": 1.5290999999999997,
+      "certificate_ms": 0.18309999999999998,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.9935,
+    "name": "coordinate_minimax",
+    "validation_position": 9
+  },
+  {
+    "certificate": 0.0243153602046588,
+    "blocks": 24,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 5.0432999999999995,
+      "bounds_ms": 1.2895,
+      "certificate_ms": 0.17300000000000001,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.6364,
+    "name": "tight_midpoint",
+    "validation_position": 9
+  },
+  {
+    "certificate": 0.015326965951558524,
+    "blocks": 17,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 3.5902999999999996,
+      "bounds_ms": 1.0445000000000002,
+      "certificate_ms": 0.1736,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 4.9053,
+    "name": "tight_minimax",
+    "validation_position": 10
+  },
+  {
+    "certificate": 0.01558896179675534,
+    "blocks": 17,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 4.0333000000000006,
+      "bounds_ms": 1.1805,
+      "certificate_ms": 0.15340000000000004,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 5.4764,
+    "name": "coordinate_minimax",
+    "validation_position": 10
+  },
+  {
+    "certificate": 0.011645508217110634,
+    "blocks": 21,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 5.6316,
+      "bounds_ms": 1.959899999999999,
+      "certificate_ms": 0.2248,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 7.9725,
+    "name": "tight_midpoint",
+    "validation_position": 10
+  },
+  {
+    "certificate": 0.024018219911573605,
+    "blocks": 16,
+    "fallback": false,
+    "collapsed": false,
+    "method": 0,
+    "profile": {
+      "feature_ms": 3.4595000000000002,
+      "bounds_ms": 1.1682000000000001,
+      "certificate_ms": 0.1595,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 4.8703,
+    "name": "tight_minimax",
+    "validation_position": 11
+  },
+  {
+    "certificate": 0.024561339320497703,
+    "blocks": 16,
+    "fallback": false,
+    "collapsed": false,
+    "method": 1,
+    "profile": {
+      "feature_ms": 2.5507000000000004,
+      "bounds_ms": 0.7215000000000003,
+      "certificate_ms": 0.0895,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 3.4234,
+    "name": "coordinate_minimax",
+    "validation_position": 11
+  },
+  {
+    "certificate": 0.015704232450639236,
+    "blocks": 22,
+    "fallback": false,
+    "collapsed": false,
+    "method": 2,
+    "profile": {
+      "feature_ms": 5.144,
+      "bounds_ms": 1.5075999999999998,
+      "certificate_ms": 0.1644,
+      "fallback_prediction_ms": 0.0
+    },
+    "complete_ms": 6.9328,
+    "name": "tight_midpoint",
+    "validation_position": 11
+  }
+]
